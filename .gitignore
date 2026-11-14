@@ -1,0 +1,34 @@
+# Read-only copy of the app (its own git repo)
+app/
+
+# Installed tools (OpenMontage etc.) — set up by 1C, not tracked
+tools/OpenMontage/
+
+# Big media: kept in the folder and backed up to Google Drive, not git
+videos/
+handover/
+music/*.mp3
+music/*.wav
+music/*.m4a
+voiceover/**/*.wav
+voiceover/**/*.mp3
+
+# Node / Playwright / HyperFrames
+node_modules/
+recorder/test-results/
+recorder/playwright-report/
+recorder/.cache/
+recorder/*.pid
+kit/renders/
+kit/.hyperframes/
+
+# Secrets
+.env
+.env.*
+
+# Obsidian's per-device window layout
+.obsidian/workspace*.json
+
+# System
+.DS_Store
+Thumbs.db

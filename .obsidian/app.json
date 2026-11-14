@@ -1,0 +1,9 @@
+{
+  "userIgnoreFilters": [
+    "app/",
+    "tools/OpenMontage/",
+    "node_modules/",
+    "videos/",
+    "handover/"
+  ]
+}
