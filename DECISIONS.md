@@ -11,9 +11,9 @@ tags: [decisions]
 - **One track, straight to final.** The redesign went live on 9 November, so guides and videos are made from the live app on `main`.
 - **Labels come from `messages\en.json`**, in bold. Words follow `design\COPY.md`.
 - **Admin console guides are written only** (no videos) and never published.
-- **Voiceover language for the first videos:** *to be decided in 1A.*
-- **Voice:** *to be picked in 1C from samples.*
-- **Music:** *to be picked in 1C from samples.*
+- **Voiceover language for the first videos: Hinglish** (owner, 1A). Hindi and English mixed, written in Roman letters, the way families talk. Button and screen names stay exactly in English as the app shows them ("**Add guest** pe tap karo"). Written guides, captions and everything else stay in English.
+- **Voice:** a **custom voice**, to be confirmed by the owner later. 1C made three free Piper samples in Hinglish (`voiceover\samples\`) so the voice pipeline is tested and there is a free fallback; none is picked yet.
+- **Music:** *to be picked from the three Pixabay tracks in `music\_candidates.md` (owner downloads them; see that note).*
 
 ## 2026-11-07 / 09
 
