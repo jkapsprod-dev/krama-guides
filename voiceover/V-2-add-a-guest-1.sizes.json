@@ -1,0 +1,7 @@
+{
+  "about": "Lines for one size only. On a computer there is no (+) button: the robot taps Add guest on Guests and the form opens (guides/2-guests/add-a-guest.md, 'On a computer ...'). Keys are the step numbers from the note's script table.",
+  "desktop": {
+    "1": { "voice": "Upar Add guest pe tap karo.", "caption": "Tap Add guest" },
+    "2": { "voice": "Add a guest ka form khul gaya.", "caption": "The form opens" }
+  }
+}

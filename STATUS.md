@@ -57,6 +57,8 @@ tags: [status]
 
 ## Log (newest first)
 
+- 2026-11-14 · **4A: video kit built** (commit "Video kit"). `kit\` turns a guide note into a finished video with one command: `npm run make -- --id <ID>` (or `--lane N`, `--all`) makes the voice (Piper `hi_IN-priyamvada-medium` through OpenMontage, Hinglish spelled in Devanagari from `kit\voice\hinglish-words.json`), records with the robot, builds the HyperFrames composition in the launch film's look (3 s title, screen card with gold ring and gentle zoom, captions, progress thread, 3 s end card), runs `hyperframes check` and renders phone and desktop at about 3.2 Mbps with `.srt` files. Music: Indian Flute, quiet and lower under each line. `npm run intro -- --lane N` makes the section intro. First video `V-2-add-a-guest-1` (44.6 s) and the lane 2 intro (7.0 s, its voice line is 6.2 s) are in `videos\final\2-guests\` (not in git). Voice: no custom voice yet, so the kit uses the Piper fallback; your own voice goes in `voiceover\my-voice\<ID>.wav` (see `kit\README.md`). Desktop-only lines live in `voiceover\<ID>.sizes.json`. Waiting on Jay to watch and approve.
+
 - 2026-11-14 · **3A done.** Guides tied together (commit "Guides written").
   - 103 notes (96 features + 7 admin). New: `5-business\planning-team.md`, the one feature the lanes found missing. Four new tasks Jay asked for: seating **Near the front**, a guest's own language, **Print the schedule**, **Destination wedding**.
   - Videos: tiny tasks merged (Jay), so **246 videos** (196 phone first, about 159 minutes). `guides\_video-list.md` is the making list for Wave 5, with logins, off-camera set-up and the old to new ID map.

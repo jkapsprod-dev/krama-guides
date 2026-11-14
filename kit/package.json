@@ -1,0 +1,14 @@
+{
+  "name": "krama-guides-kit",
+  "private": true,
+  "type": "module",
+  "description": "The Krama guide-video kit: voice, recording, HyperFrames look, captions, music and render, in one command.",
+  "scripts": {
+    "make": "node bin/make.mjs",
+    "intro": "node bin/intro.mjs",
+    "preview": "node bin/preview.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

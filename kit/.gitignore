@@ -1,0 +1,4 @@
+# Built HyperFrames projects (rebuilt by every make) and their renders
+build/
+renders/
+.hyperframes/

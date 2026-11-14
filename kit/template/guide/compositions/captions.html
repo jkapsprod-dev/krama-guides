@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Captions: one short line per step</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+        }
+        .cap {
+          position: absolute;
+          left: 0;
+          right: 0;
+          display: flex;
+          justify-content: center;
+          transform: translateY(-50%);
+          overflow: visible;
+        }
+        .cap-in {
+          display: flex;
+          align-items: center;
+          gap: 0.55em;
+          max-width: var(--cap-max);
+          opacity: 0;
+        }
+        .cap-text {
+          font-family: var(--k-sans);
+          font-weight: 600;
+          line-height: 1.18;
+          color: var(--k-ivory);
+          text-align: center;
+          text-wrap: balance;
+        }
+        .cap-num {
+          flex: none;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 1.5em;
+          height: 1.5em;
+          border-radius: 50%;
+          background: var(--k-gold);
+          color: var(--k-ink);
+          font-family: var(--k-sans);
+          font-weight: 800;
+          font-size: 0.8em;
+          font-variant-numeric: lining-nums tabular-nums;
+        }
+        /* The problem line (step 0) and the result (end) are set in the heading face. */
+        .cap-problem .cap-text,
+        .cap-result .cap-text {
+          font-family: var(--k-heading);
+          font-weight: 600;
+          font-size: 1.3em;
+          line-height: 1.05;
+          letter-spacing: -0.01em;
+        }
+        .cap-problem .cap-text {
+          font-style: italic;
+          font-weight: 500;
+        }
+        .cap-result .cap-text {
+          color: var(--k-gold);
+        }
+      </style>
+
+      <div id="root" data-composition-id="captions">
+%%GROUPS%%
+
+        <script>
+          (function () {
+            const D = %%DATA%%;
+            const tl = gsap.timeline({ paused: true });
+            const root = document.querySelector('[data-composition-id="captions"]');
+            root.style.setProperty("--cap-max", D.maxWidth + "px");
+            root.style.fontSize = D.size + "px";
+
+            D.groups.forEach(function (g) {
+              const el = document.getElementById(g.id);
+              el.style.top = D.y + "px";
+              el.querySelector(".cap-text").textContent = g.text;
+              const inner = el.querySelector(".cap-in");
+              // Blur in, hold dead still, fade out just before the next step's line.
+              tl.fromTo(inner, { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.25, ease: "power3.out" }, g.start);
+              tl.to(inner, { opacity: 0, duration: 0.14, ease: "power2.in" }, g.end - 0.14);
+              tl.set(inner, { opacity: 0 }, g.end);
+            });
+
+            window.__timelines = window.__timelines || {};
+            window.__timelines["captions"] = tl;
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

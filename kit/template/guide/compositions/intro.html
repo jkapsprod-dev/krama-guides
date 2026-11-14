@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Intro title (3 s): feature name and How to</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+        }
+        .intro-stage {
+          position: absolute;
+          inset: 0;
+          font-family: var(--k-sans);
+          color: var(--k-ivory);
+        }
+        /* Mark, feature name and title stand in one column on the gold thread and grow upward,
+           so a title on two lines never runs into the thread. */
+        .intro-stack {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .intro-mark {
+          flex: none;
+          width: 72px;
+          height: 72px;
+        }
+        .intro-mark .k-mark {
+          width: 72px;
+          height: 72px;
+        }
+        .intro-mark .k-mark-stroke {
+          stroke-width: 1.4;
+        }
+        .intro-eyebrow {
+          margin: 0;
+          text-align: center;
+          font-weight: 700;
+          letter-spacing: 0.22em;
+          text-transform: uppercase;
+          color: var(--k-gold);
+        }
+        .intro-title {
+          margin: 0;
+          width: 100%;
+          text-align: center;
+          font-family: var(--k-heading);
+          font-weight: 600;
+          line-height: 1.04;
+          letter-spacing: -0.018em;
+          color: var(--k-ivory);
+          text-wrap: balance;
+        }
+        .intro-title .k-w {
+          display: inline-block;
+        }
+        .intro-thread {
+          position: absolute;
+          left: 0;
+          top: 0;
+          overflow: visible;
+        }
+      </style>
+
+      <div id="root" data-composition-id="intro">
+        <div class="intro-stage" id="intro-stage">
+          <svg class="intro-thread" id="intro-thread" aria-hidden="true"></svg>
+          <div class="intro-stack" id="intro-stack">
+            <div class="intro-mark" id="intro-mark"></div>
+            <p class="intro-eyebrow" id="intro-eyebrow"></p>
+            <h1 class="intro-title" id="intro-title"></h1>
+          </div>
+        </div>
+
+        <script>
+          (function () {
+            const B = window.KramaBrand;
+            const V = B.vars();
+            const P = B.portrait();
+            const W = P ? 1080 : 1920;
+            const H = P ? 1920 : 1080;
+            const tl = gsap.timeline({ paused: true });
+
+            // The thread sits at a fixed height; everything else stands on it.
+            const threadY = P ? 1000 : 600;
+            const stack = document.getElementById("intro-stack");
+            stack.style.left = W * 0.08 + "px";
+            stack.style.width = W * 0.84 + "px";
+            stack.style.bottom = H - threadY + (P ? 70 : 56) + "px";
+
+            const mark = document.getElementById("intro-mark");
+            mark.style.marginBottom = (P ? 44 : 30) + "px";
+            const m = B.mark();
+            mark.appendChild(m);
+            const strokes = m.querySelectorAll(".k-mark-stroke");
+
+            const eyebrow = document.getElementById("intro-eyebrow");
+            eyebrow.textContent = V.featureName;
+            eyebrow.style.fontSize = (P ? 30 : 26) + "px";
+            eyebrow.style.marginBottom = (P ? 30 : 22) + "px";
+
+            // The title is about 9% of the frame height on desktop, a little less on phone.
+            const title = document.getElementById("intro-title");
+            title.style.fontSize = (P ? 104 : 100) + "px";
+            const words = B.words(title, V.howTo);
+
+            const svg = document.getElementById("intro-thread");
+            svg.setAttribute("width", W);
+            svg.setAttribute("height", H);
+            svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+            const thread = B.thread(svg, -40, W + 40, threadY, P ? 14 : 18);
+
+            tl.fromTo(strokes, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.7, ease: "power2.out", stagger: 0.06 }, 0.1);
+            tl.fromTo(eyebrow, { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.35, ease: "power2.out" }, 0.3);
+            words.forEach(function (w, i) {
+              tl.fromTo(w, { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out" }, 0.5 + i * 0.075);
+            });
+            // The gold thread draws left to right under the title, then a glint travels it.
+            thread.draw(tl, 0.35, 1.1, "power2.inOut");
+            thread.sweep(tl, 1.35, 1.1);
+
+            // Leave cleanly before the screen arrives.
+            tl.to([stack, svg], { opacity: 0, filter: "blur(6px)", duration: 0.25, ease: "power2.in" }, 2.6);
+
+            window.__timelines = window.__timelines || {};
+            window.__timelines["intro"] = tl;
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>
