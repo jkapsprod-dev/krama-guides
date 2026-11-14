@@ -1,0 +1,18 @@
+{
+  "name": "krama-guides-recorder",
+  "private": true,
+  "type": "module",
+  "description": "The recording robot: starts the app in recording mode and records the guide videos with Playwright.",
+  "scripts": {
+    "app:start": "node bin/app-start.mjs",
+    "app:stop": "node bin/app-stop.mjs",
+    "record": "node bin/record.mjs",
+    "list": "node bin/record.mjs --list"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}
