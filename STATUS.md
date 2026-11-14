@@ -23,6 +23,10 @@ tags: [status]
 
 ## Log (newest first)
 
+- 2026-11-14 · 1A follow-up: Jay answered "no" to all three questions.
+  - Google sign-in, vendor ID requests, and the enquiry form with its first reply are left out.
+  - The inventory now has 90 live and 5 planned.
+
 - 2026-11-14 · **1A done.**
   - `app\` cloned (main @ `173c54bd`).
   - First commit made.

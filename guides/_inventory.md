@@ -24,8 +24,8 @@ Every feature a person can use in Krama Events, from the live code in `app\` (br
 
 **Counts:** 95 features.
 
-- **Live:** 92, of which 4 are BETA and 5 are opt-in.
-- **Planned:** 3. **Plan & add-ons** is live for viewing, but buying is planned.
+- **Live:** 90, of which 4 are BETA and 3 are opt-in.
+- **Planned:** 5. **Plan & add-ons** is live for viewing, but buying is planned.
 - **By lane:** Lane 1: 20 · Lane 2: 19 · Lane 3: 18 · Lane 4: 16 · Lane 5: 22, plus 7 admin console notes in `_internal`.
 
 ## Things every lane should know
@@ -58,7 +58,7 @@ Every feature a person can use in Krama Events, from the live code in `app\` (br
 
 | Feature | Who | Tasks | Live? | Help article | Code files |
 |---|---|---|---|---|---|
-| Create an account | couple/family, helper, planner, vendor | How to create an account (**Create an account**, **Create account**, then **Check your email**)<br>How to set a password after you confirm (**Set a password (optional)**) | Live. **Continue with Google** shows only if Google sign-in is switched on; check before writing | — | `app/(auth)/signup/signup-form.tsx`, `app/onboarding/password-offer.tsx` |
+| Create an account | couple/family, helper, planner, vendor | How to create an account (**Create an account**, **Create account**, then **Check your email**)<br>How to set a password after you confirm (**Set a password (optional)**) | Live. Google sign-in is **off** on the live site (Jay, 14 Nov): leave **Continue with Google** out | — | `app/(auth)/signup/signup-form.tsx`, `app/onboarding/password-offer.tsx` |
 | Sign in and passwords | everyone with an account | How to sign in with a password (**Sign in**)<br>How to sign in without a password (**Email me a sign-in link instead**)<br>How to reset a forgotten password (**Forgot password?**, **Send reset link**, **Save password**)<br>How to get the confirm email again (**Send it again**) | Live | — | `app/(auth)/login/login-form.tsx`, `app/(auth)/login/forgot/forgot-form.tsx`, `app/(auth)/login/new-password/new-password-form.tsx` |
 | Your account | everyone with an account | How to set, change or remove your password (**Set password**, **Change password**, **Remove password**)<br>How to see your signed-in devices (**Signed-in devices**)<br>How to sign out other devices (**Sign out everywhere else**) | Live | — | `app/account/page.tsx`, `app/account/password-panel.tsx` |
 | Join the wedding (accept an invite) | couple/family, helper, planner | How to accept an email invite<br>How to accept a WhatsApp invite (**Join the wedding**, type your **WhatsApp number**, **Join**) | Live | give-family-access (step 5) | `app/join/[token]/page.tsx`, `app/join/[token]/join-form.tsx` |
@@ -153,12 +153,12 @@ Every feature a person can use in Krama Events, from the live code in `app\` (br
 | Set up your business | planner, vendor | How to set up a planner or vendor business (**Set up your business**, **What kind of business?**, **Set up business**)<br>How to find and share your Business ID (**Business ID**, **Copy**)<br>How to switch between your wedding and your business (**Switch account**) | Live. Free during the pilot | set-up-your-business (marked Coming soon on the website; the screen is live) | `app/business/page.tsx`, `app/business/forms.tsx`, `B/settings/page.tsx` |
 | Getting around the portal | planner, vendor | How to use the (+) (**Add a lead**, **Start a proposal**, **Raise an invoice**, **Make a challan**)<br>How to search pages and actions<br>How to read your inbox (**Inbox**, **Mark all read**) | Live | — | `B/layout.tsx`, `lib/nav/business.ts`, `B/notifications/page.tsx` |
 | Home (dashboard) | planner, vendor | How to work through **Needs you**<br>How to read **Your weddings** (planner) or **Today's jobs** (vendor)<br>How to open a wedding (**Open wedding**) | Live | — | `B/page.tsx`, `B/widgets.tsx`, `lib/business/needs-you.ts` |
-| Weddings (link a wedding by its ID) | planner, vendor | How to ask to join a wedding (**Ask for a wedding**, **Wedding ID**, **Send request**)<br>How to cancel a request (**Cancel request**)<br>How to leave a wedding (**Leave wedding**) | Live for planners (the host approves in **Codes & planner**). A vendor's request has **no approval screen** in the wedding app yet; vendors are linked when a family approves their quote | join-a-wedding (Coming soon on the website) | `B/weddings/page.tsx`, `app/business/actions.ts` |
+| Weddings (link a wedding by its ID) | planner, vendor | How to ask to join a wedding (**Ask for a wedding**, **Wedding ID**, **Send request**)<br>How to cancel a request (**Cancel request**)<br>How to leave a wedding (**Leave wedding**) | Live for planners (the host approves in **Codes & planner**). **Vendors: leave it out** (Jay, 14 Nov). The wedding app has no screen to approve a vendor's request; vendors are linked when the family approves their quote (see Quote requests) | join-a-wedding (Coming soon on the website) | `B/weddings/page.tsx`, `app/business/actions.ts` |
 | Planner code (family links a planner) | planner, couple/family | How to choose your planner code (**Planner code**, **Save code**, **Copy code**)<br>Family side: how to link a planner (**Have a planner code?**, **Find**, **Link planner**)<br>Host side: how to approve or remove a planner (**Approve**, **Refuse**, **Remove planner**) | Live | work-with-a-planner, approve-a-business (Coming soon; its "Partners" screen doesn't exist; the real screen is **Codes & planner**) | `B/settings/code-actions.ts`, `W/settings/codes/page.tsx`, `lib/db/codes.ts` |
 | Vendor's wedding page and tools | vendor | How to read the brief (**I have read this**)<br>How to mark the day (**Arrived**, **Set up done**, **Finished**)<br>How to use your tools (**Checklist**, **Shot list**, **Menu**, **Song list**, …; **Add a starter checklist**)<br>How to add crew and deliverables (**Add crew**, **Add deliverable**) | Live. Vendor staff don't see money | — | `B/weddings/[assignmentId]/page.tsx`, `B/weddings/[assignmentId]/tools-section.tsx`, `packs/business/content.ts` |
-| Leads | planner, vendor | How to add a lead (**Add lead**)<br>How to move a lead through the stages (**New**, **Contacted**, … **Won**, **Mark as lost**)<br>How to note a call or meeting (**Add note**)<br>How to turn a lead into a client (**Make a client**) | Live | share-your-enquiry-form (step 5) | `B/leads/page.tsx`, `B/leads/[leadId]/page.tsx`, `B/crm-actions.ts` |
-| Enquiry form | planner, vendor, guest (public) | How to switch on your enquiry form (**Enquiry form**, **Accept enquiries through the form**, **Copy link**)<br>What the person filling it in sees (**Send enquiry**) | Live, opt-in. Off until an owner or admin switches it on; check the form submits on the live site (it needs the anti-spam keys) | share-your-enquiry-form (Coming soon on the website) | `B/settings/page.tsx`, `app/enquire/[publicId]/enquiry-form.tsx`, `lib/security/turnstile.ts` |
-| First reply | planner, vendor | How to send an automatic first reply (**First reply**, **Send an automatic first reply**, **Upload a new brochure**, **Preview**, **Save**) | Live, opt-in. Off by default; needs the enquiry form on | — | `B/settings/first-reply-card.tsx`, `app/enquire/[publicId]/wedding/[token]/page.tsx` |
+| Leads | planner, vendor | How to add a lead (**Add lead**)<br>How to move a lead through the stages (**New**, **Contacted**, … **Won**, **Mark as lost**)<br>How to note a call or meeting (**Add note**)<br>How to turn a lead into a client (**Make a client**) | Live (adding leads by hand; form enquiries wait for the enquiry form) | share-your-enquiry-form (step 5) | `B/leads/page.tsx`, `B/leads/[leadId]/page.tsx`, `B/crm-actions.ts` |
+| Enquiry form | planner, vendor, guest (public) | How to switch on your enquiry form (**Enquiry form**, **Accept enquiries through the form**, **Copy link**)<br>What the person filling it in sees (**Send enquiry**) | **Planned.** The anti-spam keys aren't set on the live site, so the form can't be sent (Jay, 14 Nov) | share-your-enquiry-form (Coming soon on the website) | `B/settings/page.tsx`, `app/enquire/[publicId]/enquiry-form.tsx`, `lib/security/turnstile.ts` |
+| First reply | planner, vendor | How to send an automatic first reply (**First reply**, **Send an automatic first reply**, **Upload a new brochure**, **Preview**, **Save**) | **Planned.** It only answers enquiries from the form, which can't be sent yet | — | `B/settings/first-reply-card.tsx`, `app/enquire/[publicId]/wedding/[token]/page.tsx` |
 | Clients | planner, vendor | How to add a client (**Add client**)<br>How to add the people who decide and pay (**Add person**, **Decides**, **Pays**, **Day-of contact**) | Live | — | `B/clients/page.tsx`, `B/clients/[clientId]/page.tsx`, `B/crm-forms.tsx` |
 | Proposals | planner, vendor | How to build a proposal (**New proposal**, **Add section**, **Add line**, **Save and send**)<br>How to share it (**Copy link**, **Email it**)<br>What your client sees (**Accept proposal**, **Decline**) | Live. Owners and admins only | — | `B/proposals/page.tsx`, `B/proposals/[proposalId]/page.tsx`, `app/proposal/[token]/decide-panel.tsx` |
 | Bookings | planner, vendor | How to track a booking (**Hold**, **Confirmed**, **In production**, **Delivered**)<br>How to link a booking to a wedding (**Link to a wedding by its ID**, **Ask to link**)<br>How to set a payment schedule (**Payment schedule**, **Add to schedule**, **Raise invoice**) | Live. Staff see bookings without amounts | — | `B/proposals/bookings/page.tsx`, `B/proposals/bookings/[bookingId]/page.tsx`, `B/proposals/actions.ts` |
@@ -205,11 +205,15 @@ Every feature a person can use in Krama Events, from the live code in `app\` (br
 | download-before-deletion | Live | Data & privacy (L1) |
 | extend-your-workspace | Live | Data & privacy (L1) |
 | guest-removes-details | Live | Remove my details (L2) |
-| join-a-wedding | Coming soon | Weddings (L5) |
+| join-a-wedding | Coming soon | Weddings (L5), planner half only |
 | set-up-your-business | Coming soon | Set up your business (L5) |
-| share-your-enquiry-form | Coming soon | Enquiry form, Leads (L5) |
+| share-your-enquiry-form | Coming soon | Enquiry form (L5), still planned |
 
-The four "Coming soon" articles were written before business sign-up opened. The portal is live now (`status.md`: M21 built, free during the pilot), so lane 5 writes those as live guides and checks every name on screen.
+The four "Coming soon" articles were written before business sign-up opened. The portal is live now (`status.md`: M21 built, free during the pilot).
+
+- **Write as live, and check every name on screen:** **set-up-your-business**, and the planner half of **join-a-wedding**.
+- **Stays planned:** **share-your-enquiry-form**, because the form can't be sent yet.
+- **approve-a-business:** use only its planner part, which lives in **Codes & planner**.
 
 ## Left out on purpose
 
@@ -219,8 +223,10 @@ The four "Coming soon" articles were written before business sign-up opened. The
 - WhatsApp Business API, own-number WhatsApp, other-language reviews (L10–L11), M12 premium motion: on hold, not in the app.
 - Business **Team** invites: not built ("coming next").
 
-## Questions for Jay (found while making this list)
+## Answered by Jay (14 Nov 2026): all three are "no" for now
 
-1. **Google sign-in:** **Continue with Google** shows only when a switch is on. Is it on at app.krama.events? (If not, lane 1 leaves it out.)
-2. **Vendor joins a wedding by ID:** the vendor can send a request, but the wedding app has no screen to approve it. Should lane 5 leave the vendor half of "Ask for a wedding" out, and say vendors get linked when the family approves their quote?
-3. **Enquiry form on the live site:** the website's help text says it waits for the anti-spam (Turnstile) keys. Are they set on app.krama.events, so the form works?
+1. **Google sign-in is off** on app.krama.events. Lane 1 leaves **Continue with Google** out.
+2. **A vendor can't be approved by Wedding ID.** Lane 5 writes **Ask for a wedding** for planners only. Vendors get linked when the family approves their quote.
+3. **The enquiry form's anti-spam keys aren't set,** so the form can't be sent. **Enquiry form** and **First reply** are `planned`. Leads guides cover adding leads by hand only.
+
+When any of these changes, flip the row to live and write the guide.
