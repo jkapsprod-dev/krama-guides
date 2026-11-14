@@ -29,6 +29,8 @@ code: []                       # main code files in app\ for this feature
 
 ## Video scripts
 
+One video per task. Tiny tasks (3 steps or fewer) share a video with the next task in the same note when the login and flow allow it, at most 8 steps (Jay, 3A). Words follow [[_glossary]].
+
 ### V-1-feature-1 · How to <task 1> · about 60 s · phone first
 Demo login: lane 1, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 

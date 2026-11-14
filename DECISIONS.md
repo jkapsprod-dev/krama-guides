@@ -5,6 +5,18 @@ tags: [decisions]
 
 ## 2026-11-14
 
+- **3A: Jay's answers to the writing lanes' questions** (full list in [[STATUS]]):
+  - **Hinglish lines:** recorded as written. Jay spot-checks the first finished videos in Wave 5 and flags lines to change.
+  - **Automations:** the guides say plainly that **Reply-by date passed**, **Payment due in 3 days** and **Function time changed** email families by themselves once switched on. WhatsApp is always "you press send".
+  - **Snap a bill fallback:** Jay isn't sure the OCR.Space key is set, so **Send this photo for reading** is only a Stuck? line, not a task.
+  - **Fewer videos:** tiny tasks are merged. A video with 3 or fewer steps joins its neighbour in the same note when the login, the screen size and the flow allow it (at most 8 steps, 90 s). The written guide keeps one "How to" per task. The short-link couple video was dropped (it repeated Wedding ID). Result: 246 videos. Old to new IDs are in `guides\_video-list.md`.
+  - **Four tasks added** with videos: seating **Near the front**, a guest choosing their RSVP page's language, **Print the schedule** on a function, the **Destination wedding** switch.
+  - **Demo data:** the robot sets up anything the demo data lacks **off camera, before each video**, through the app. No seed change (this replaces the earlier yes to more lane 5 seed data). The made-up names the notes use (Mehta family, Meena Bua, Mama ji, Mausi Patel, Hotel Riverfront Residency, Meera Shah, Mahesh Parmar and others) count as demo data.
+  - **App fixes** go to an app session, not 6B: the old brand "Krama Celebrations", four wording fixes, hiding what can't work yet, a lasting recap link, and two bugs (helpers can't open **Vendors**; no **Notifications** menu item for hosts and planners). All in `guides\_app-fixes.md`. The guides follow the app as it is until those land.
+  - **The code is right** that viewers may react, report and add photos, and that the Money page is titled **Budget**.
+- **3A: one word for one thing.** `guides\_glossary.md` is the word list for every note, caption and video, matching `app\design\COPY.md`. App labels always win, in bold.
+- **3A: Planning team** (the panel on a wedding's **Members** page) is a feature of its own, in lane 5 (`planning-team`). The inventory now has 96 features.
+
 - **Not in the guides for now** (owner, after 1A). If any of these changes, flip its row in `guides\_inventory.md` to live.
   - **Continue with Google:** Google sign-in is off.
   - **A vendor asking to join a wedding by Wedding ID:** there's no approval screen. Vendors are linked when the family approves their quote.

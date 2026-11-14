@@ -1,74 +1,194 @@
 ---
 tags: [guides, index]
-status: first version (1A, 2026-11-14); 3A turns this into the full index
+status: full index (3A, 2026-11-14)
 ---
 # Krama guides · index
 
-Simple guides for every part of Krama Events, one note per feature, each with short video scripts. The full feature list, with who uses each feature, its tasks, whether it's live, and its code files, is in [[_inventory]].
+Simple guides for every part of Krama Events: one note per feature, each with short video scripts. Find a guide by **section**, by **person**, or by **task**.
 
-**Rules:**
-- Every note follows [[_template]].
-- Writing follows PROMPTS.md Appendix C, and videos follow Appendix D.
-- Every note must read at grade 8 or lower: `node tools\reading-level.mjs guides`.
+- Every feature, who uses it and its code files: [[_inventory]]
+- One word for one thing: [[_glossary]]
+- Every video to make in Wave 5: [[_video-list]]
+- App fixes waiting for an app session: [[_app-fixes]]
 
-## Sections
+**Rules:** every note follows [[_template]], writing follows PROMPTS.md Appendix C, videos follow Appendix D, and every note reads at grade 8 or lower (`node tools\reading-level.mjs guides`).
+
+**Status of a note:** `draft` = written from the live code, not yet checked on the real app · `final` = checked, with screenshots and finished videos · `planned` = switched off or off sale, never published · `removed` = gone from the app, kept for history.
+
+## By section
 
 | # | Section | Folder | For | What it covers |
 |---|---|---|---|---|
-| 1 | Getting started | `1-start` | couple, family, helpers | Accounts, setting up a wedding, Home, functions, tasks, run sheets, members, Personalise, data and privacy |
+| 1 | Getting started | `1-start` | couple, family, helpers | Accounts, setting up a wedding, Home, functions, tasks, run sheets, Plan, members, Personalise, data and privacy |
 | 2 | Guests & invitations | `2-guests` | couple, family, guests | Guest list, RSVP links, reminders, messages, stays and travel, pickups, and the guest's own pages |
 | 3 | Money & family | `3-money-family` | couple, family | Budget, expenses, vendors, shagun, family feed, photos, smart helpers, notifications, outfits, files |
 | 4 | Event day, AI & voice | `4-event-day-ai` | couple, family, helpers | Event day, check-in, seating, food, counts, wrap-up, the assistant, voice, add-ons, referrals |
-| 5 | For planners and vendors | `5-business` | planners, vendors | Setting up a business, weddings, leads, proposals, quotes, calendar and crew, invoices |
+| 5 | For planners and vendors | `5-business` | planners, vendors | Setting up a business, weddings, planning team, leads, proposals, quotes, calendar and crew, invoices |
 | — | Admin console | `_internal` | Krama staff | Never published, no videos |
 
-## Notes by section
+**1 · Getting started** (20): [[create-an-account|Create an account]] · [[data-and-privacy|Data and privacy]] · [[functions|Functions]] · [[getting-around|Getting around]] · [[home|Home]] · [[join-the-wedding|Join the wedding]] · [[journey|Journey]] · [[language|Language]] · [[leave-or-delete-account|Leave a wedding or delete my account]] · [[members|Members]] · [[personalise|Personalise]] · [[plan|Plan]] · [[run-sheets|Run sheets]] · [[set-up-your-wedding|Set up your wedding]] · [[sign-in-and-passwords|Sign in and passwords]] · [[tasks|Tasks]] · [[wedding-id-and-code|Wedding ID and wedding code]] · [[wedding-sheet|Wedding Sheet]] · [[your-account|Your account]] · [[your-weddings-and-switching|Your weddings and switching]]
 
-Suggested note names. Lanes may adjust them, and 3A fixes the final names.
+**2 · Guests & invitations** (19): [[add-a-guest|Add a guest]] · [[arrivals-and-departures|Arrivals & departures]] · [[automations-and-to-send|Automations and To send]] · [[guest-easier-to-read|Easier-to-read RSVP (guest side)]] · [[guest-invite-card|Invite card (guest side)]] · [[guest-list|Guest list]] · [[guest-pass-and-contacts|Pass and contacts (guest side)]] · [[guest-remove-my-details|Remove my details (guest side)]] · [[guest-rsvp-page|RSVP page (guest side)]] · [[guest-short-link|Short link (guest side)]] · [[headcounts-and-reports|Headcounts and reports]] · [[import-guests|Import guests]] · [[invitations-and-reminders|Invitations & reminders]] · [[invite-qr|Invite QR]] · [[personal-messages|Personal messages]] · [[pickups|Pickups]] · [[send-rsvp-links|Send RSVP links]] · [[stays-and-rooms|Stays & rooms]] · [[tickets-from-guests|Tickets from guests]]
 
-**1 · Getting started:**
-- [[create-an-account]], [[sign-in-and-passwords]], [[your-account]], [[join-the-wedding]]
-- [[set-up-your-wedding]], [[your-weddings-and-switching]], [[getting-around]]
-- [[home]], [[journey]], [[wedding-sheet]]
-- [[functions]], [[tasks]], [[run-sheets]], [[plan]], [[members]]
-- [[personalise]], [[language]], [[wedding-id-and-code]], [[data-and-privacy]], [[leave-or-delete-account]]
+**3 · Money & family** (18): [[budget|Budget]] · [[expenses-and-payments|Expenses and payments]] · [[family-feed|Family feed]] · [[files|Files]] · [[find-my-photos|Find my photos]] *(planned)* · [[gold-today|Gold today]] · [[heads-up|Heads-up]] · [[money-by-side|Money by side]] · [[money-due|Money (Due)]] · [[notifications|Notifications and reminders]] · [[outfits|Outfits]] · [[photos|Photos]] · [[quotes-to-approve|Quotes to approve]] · [[shagun|Shagun]] · [[smart-helpers|Smart helpers]] · [[snap-a-bill|Snap a bill]] · [[upload-qr|Upload QR (guests add photos)]] · [[vendors|Vendors]]
 
-**2 · Guests & invitations:**
-- [[guest-list]], [[add-a-guest]], [[import-guests]], [[send-rsvp-links]], [[invitations-and-reminders]]
-- [[personal-messages]], [[automations-and-to-send]], [[invite-qr]], [[headcounts-and-reports]]
-- [[stays-and-rooms]], [[arrivals-and-departures]], [[tickets-from-guests]], [[pickups]]
-- Guest side: [[guest-rsvp-page]], [[guest-easier-to-read]], [[guest-invite-card]], [[guest-remove-my-details]], [[guest-short-link]], [[guest-pass-and-contacts]]
+**4 · Event day, AI & voice** (16): [[assistant|Assistant]] · [[check-in|Check-in]] · [[counts|Counts]] · [[emergency-card|Emergency card]] · [[event-day|Event day]] · [[family-passes|Family passes]] · [[food|Food (menu and counts)]] · [[function-recap|Function recap]] · [[live-run-sheet|Live run sheet on the day]] · [[moments|Moments]] · [[notes-from-a-meeting|Notes from a meeting]] · [[plan-and-add-ons|Plan & add-ons]] · [[referral-code|Referral code]] · [[seating|Seating]] · [[voice|Voice (speak instead of typing)]] · [[wrap-up|Wrap-up]]
 
-**3 · Money & family:**
-- [[money-due]], [[budget]], [[expenses-and-payments]], [[snap-a-bill]], [[vendors]], [[quotes-to-approve]], [[money-by-side]], [[gold-today]]
-- [[shagun]], [[family-feed]], [[photos]], [[upload-qr]], [[find-my-photos]]
-- [[heads-up]], [[smart-helpers]], [[notifications]], [[outfits]], [[files]]
+**5 · For planners and vendors** (23): [[bookings|Bookings]] · [[business-home|Business Home]] · [[calendar|Calendar]] · [[challans-and-purchases|Challans and purchases]] · [[clients|Clients]] · [[commission-earnings|Commission earnings]] *(planned)* · [[crew-and-shifts|Crew and shifts]] · [[documents|Documents]] · [[enquiry-form|Enquiry form]] *(planned)* · [[family-feedback|Family feedback]] · [[first-reply|First reply]] *(planned)* · [[getting-around-the-portal|Getting around the portal]] · [[invoices-and-payments-due|Invoices and payments due]] · [[leads|Leads]] · [[planner-code|Planner code]] · [[planning-team|Planning team]] · [[proposals|Proposals]] · [[quote-requests|Quote requests]] · [[set-up-your-business|Set up your business]] · [[subscription|Subscription]] *(planned)* · [[team|Team]] · [[vendor-wedding-page|Your wedding page (vendors)]] · [[weddings|Weddings]]
 
-**4 · Event day, AI & voice:**
-- [[event-day]], [[live-run-sheet]], [[check-in]], [[family-passes]], [[seating]], [[counts]], [[food]], [[emergency-card]]
-- [[function-recap]], [[wrap-up]]
-- [[assistant]], [[voice]], [[notes-from-a-meeting]]
-- [[plan-and-add-ons]], [[referral-code]], [[moments]]
+**Admin console** (`_internal`, never published): [[admin-accounts|Accounts]] · [[admin-billing|Billing]] · [[admin-growth-usage-revenue|Growth, usage and revenue]] · [[admin-operations|Operations and kill switches]] · [[admin-overview|Overview]] · [[admin-sign-in|Admin sign-in]] · [[admin-support-access|Support access]]
 
-**5 · For planners and vendors:**
-- [[set-up-your-business]], [[getting-around-the-portal]], [[business-home]], [[weddings]], [[planner-code]], [[vendor-wedding-page]]
-- [[leads]], [[enquiry-form]], [[first-reply]], [[clients]], [[proposals]], [[bookings]], [[quote-requests]]
-- [[calendar]], [[crew-and-shifts]], [[documents]], [[invoices-and-payments-due]], [[challans-and-purchases]]
-- [[team]], [[family-feedback]], [[commission-earnings]], [[subscription]]
+## By person
 
-**Admin console (`_internal`):** [[admin-sign-in]], [[admin-overview]], [[admin-operations]], [[admin-growth-usage-revenue]], [[admin-accounts]], [[admin-support-access]], [[admin-billing]]
+Who a guide is for comes from each note's `who` line. Planned notes are marked and are never published.
 
-## Status of a note
+### Couple and family
+The hosts and the family members who plan the wedding. Start with [[set-up-your-wedding]], [[members]] and [[guest-list]].
 
-| status | meaning |
-|---|---|
-| `draft` | Written from the live code, not yet checked on the real app |
-| `final` | Checked on the real app, with screenshots and finished videos |
-| `planned` | Switched off or off sale; never published |
-| `removed` | No longer in the app; kept for history |
+- **Getting started:** [[create-an-account|Create an account]] · [[data-and-privacy|Data and privacy]] · [[functions|Functions]] · [[getting-around|Getting around]] · [[home|Home]] · [[join-the-wedding|Join the wedding]] · [[journey|Journey]] · [[language|Language]] · [[leave-or-delete-account|Leave a wedding or delete my account]] · [[members|Members]] · [[personalise|Personalise]] · [[plan|Plan]] · [[run-sheets|Run sheets]] · [[set-up-your-wedding|Set up your wedding]] · [[sign-in-and-passwords|Sign in and passwords]] · [[tasks|Tasks]] · [[wedding-id-and-code|Wedding ID and wedding code]] · [[wedding-sheet|Wedding Sheet]] · [[your-account|Your account]] · [[your-weddings-and-switching|Your weddings and switching]]
+- **Guests & invitations:** [[add-a-guest|Add a guest]] · [[arrivals-and-departures|Arrivals & departures]] · [[automations-and-to-send|Automations and To send]] · [[guest-list|Guest list]] · [[guest-pass-and-contacts|Pass and contacts (guest side)]] · [[guest-remove-my-details|Remove my details (guest side)]] · [[guest-short-link|Short link (guest side)]] · [[headcounts-and-reports|Headcounts and reports]] · [[import-guests|Import guests]] · [[invitations-and-reminders|Invitations & reminders]] · [[invite-qr|Invite QR]] · [[personal-messages|Personal messages]] · [[pickups|Pickups]] · [[send-rsvp-links|Send RSVP links]] · [[stays-and-rooms|Stays & rooms]] · [[tickets-from-guests|Tickets from guests]]
+- **Money & family:** [[budget|Budget]] · [[expenses-and-payments|Expenses and payments]] · [[family-feed|Family feed]] · [[files|Files]] · [[find-my-photos|Find my photos]] *(planned)* · [[gold-today|Gold today]] · [[heads-up|Heads-up]] · [[money-by-side|Money by side]] · [[money-due|Money (Due)]] · [[notifications|Notifications and reminders]] · [[outfits|Outfits]] · [[photos|Photos]] · [[quotes-to-approve|Quotes to approve]] · [[shagun|Shagun]] · [[smart-helpers|Smart helpers]] · [[snap-a-bill|Snap a bill]] · [[upload-qr|Upload QR (guests add photos)]] · [[vendors|Vendors]]
+- **Event day, AI & voice:** [[assistant|Assistant]] · [[check-in|Check-in]] · [[counts|Counts]] · [[emergency-card|Emergency card]] · [[event-day|Event day]] · [[family-passes|Family passes]] · [[food|Food (menu and counts)]] · [[function-recap|Function recap]] · [[live-run-sheet|Live run sheet on the day]] · [[moments|Moments]] · [[notes-from-a-meeting|Notes from a meeting]] · [[plan-and-add-ons|Plan & add-ons]] · [[referral-code|Referral code]] · [[seating|Seating]] · [[voice|Voice (speak instead of typing)]] · [[wrap-up|Wrap-up]]
+- **For planners and vendors:** [[planner-code|Planner code]] · [[planning-team|Planning team]] · [[proposals|Proposals]]
 
-## Coming in 3A
+### Helpers
+Cousins and friends given a job. They see only their tasks, the guests they're given and the door. Start with [[join-the-wedding]] and [[event-day]].
 
-- Guides by person: couple and family, helper, guest, planner, vendor.
-- Guides by task ("How to …").
-- [[_glossary]] and [[_video-list]].
+- **Getting started:** [[create-an-account|Create an account]] · [[getting-around|Getting around]] · [[home|Home]] · [[join-the-wedding|Join the wedding]] · [[language|Language]] · [[leave-or-delete-account|Leave a wedding or delete my account]] · [[personalise|Personalise]] · [[run-sheets|Run sheets]] · [[sign-in-and-passwords|Sign in and passwords]] · [[tasks|Tasks]] · [[your-account|Your account]]
+- **Guests & invitations:** [[arrivals-and-departures|Arrivals & departures]] · [[guest-list|Guest list]] · [[pickups|Pickups]]
+- **Money & family:** [[family-feed|Family feed]] · [[files|Files]] · [[heads-up|Heads-up]] · [[notifications|Notifications and reminders]] · [[photos|Photos]]
+- **Event day, AI & voice:** [[assistant|Assistant]] · [[check-in|Check-in]] · [[emergency-card|Emergency card]] · [[event-day|Event day]] · [[food|Food (menu and counts)]] · [[live-run-sheet|Live run sheet on the day]] · [[voice|Voice (speak instead of typing)]]
+
+### Guests
+Short guides the couple can forward. Guests need no app and no account.
+
+- **Getting started:** [[language|Language]]
+- **Guests & invitations:** [[guest-easier-to-read|Easier-to-read RSVP (guest side)]] · [[guest-invite-card|Invite card (guest side)]] · [[guest-pass-and-contacts|Pass and contacts (guest side)]] · [[guest-remove-my-details|Remove my details (guest side)]] · [[guest-rsvp-page|RSVP page (guest side)]] · [[guest-short-link|Short link (guest side)]] · [[invite-qr|Invite QR]] · [[tickets-from-guests|Tickets from guests]]
+- **Money & family:** [[find-my-photos|Find my photos]] *(planned)* · [[upload-qr|Upload QR (guests add photos)]]
+
+### Planners
+Planning businesses. Start with [[set-up-your-business]] and [[weddings]]. Inside a wedding, planners use the same guides as the family.
+
+- **For planners and vendors:** [[bookings|Bookings]] · [[business-home|Business Home]] · [[calendar|Calendar]] · [[challans-and-purchases|Challans and purchases]] · [[clients|Clients]] · [[commission-earnings|Commission earnings]] *(planned)* · [[crew-and-shifts|Crew and shifts]] · [[documents|Documents]] · [[enquiry-form|Enquiry form]] *(planned)* · [[family-feedback|Family feedback]] · [[first-reply|First reply]] *(planned)* · [[getting-around-the-portal|Getting around the portal]] · [[invoices-and-payments-due|Invoices and payments due]] · [[leads|Leads]] · [[planner-code|Planner code]] · [[planning-team|Planning team]] · [[proposals|Proposals]] · [[quote-requests|Quote requests]] · [[set-up-your-business|Set up your business]] · [[subscription|Subscription]] *(planned)* · [[team|Team]] · [[weddings|Weddings]]
+- **Inside a wedding:** [[create-an-account|Create an account]] · [[data-and-privacy|Data and privacy]] · [[functions|Functions]] · [[getting-around|Getting around]] · [[home|Home]] · [[join-the-wedding|Join the wedding]] · [[journey|Journey]] · [[language|Language]] · [[leave-or-delete-account|Leave a wedding or delete my account]] · [[members|Members]] · [[personalise|Personalise]] · [[plan|Plan]] · [[run-sheets|Run sheets]] · [[set-up-your-wedding|Set up your wedding]] · [[sign-in-and-passwords|Sign in and passwords]] · [[tasks|Tasks]] · [[wedding-id-and-code|Wedding ID and wedding code]] · [[wedding-sheet|Wedding Sheet]] · [[your-account|Your account]] · [[your-weddings-and-switching|Your weddings and switching]] · [[add-a-guest|Add a guest]] · [[arrivals-and-departures|Arrivals & departures]] · [[automations-and-to-send|Automations and To send]] · [[guest-list|Guest list]] · [[headcounts-and-reports|Headcounts and reports]] · [[import-guests|Import guests]] · [[invitations-and-reminders|Invitations & reminders]] · [[invite-qr|Invite QR]] · [[personal-messages|Personal messages]] · [[pickups|Pickups]] · [[send-rsvp-links|Send RSVP links]] · [[stays-and-rooms|Stays & rooms]] · [[tickets-from-guests|Tickets from guests]] · [[budget|Budget]] · [[expenses-and-payments|Expenses and payments]] · [[family-feed|Family feed]] · [[files|Files]] · [[find-my-photos|Find my photos]] *(planned)* · [[gold-today|Gold today]] · [[heads-up|Heads-up]] · [[money-by-side|Money by side]] · [[money-due|Money (Due)]] · [[notifications|Notifications and reminders]] · [[outfits|Outfits]] · [[photos|Photos]] · [[quotes-to-approve|Quotes to approve]] · [[shagun|Shagun]] · [[smart-helpers|Smart helpers]] · [[snap-a-bill|Snap a bill]] · [[upload-qr|Upload QR (guests add photos)]] · [[vendors|Vendors]] · [[assistant|Assistant]] · [[check-in|Check-in]] · [[counts|Counts]] · [[emergency-card|Emergency card]] · [[event-day|Event day]] · [[family-passes|Family passes]] · [[food|Food (menu and counts)]] · [[function-recap|Function recap]] · [[live-run-sheet|Live run sheet on the day]] · [[moments|Moments]] · [[notes-from-a-meeting|Notes from a meeting]] · [[referral-code|Referral code]] · [[seating|Seating]] · [[voice|Voice (speak instead of typing)]] · [[wrap-up|Wrap-up]]
+
+### Vendors
+Decorators, caterers, photographers and other businesses. Start with [[set-up-your-business]] and [[vendor-wedding-page]].
+
+- **Getting started:** [[create-an-account|Create an account]] · [[leave-or-delete-account|Leave a wedding or delete my account]] · [[sign-in-and-passwords|Sign in and passwords]] · [[your-account|Your account]]
+- **For planners and vendors:** [[bookings|Bookings]] · [[business-home|Business Home]] · [[calendar|Calendar]] · [[challans-and-purchases|Challans and purchases]] · [[clients|Clients]] · [[crew-and-shifts|Crew and shifts]] · [[documents|Documents]] · [[enquiry-form|Enquiry form]] *(planned)* · [[first-reply|First reply]] *(planned)* · [[getting-around-the-portal|Getting around the portal]] · [[invoices-and-payments-due|Invoices and payments due]] · [[leads|Leads]] · [[proposals|Proposals]] · [[quote-requests|Quote requests]] · [[set-up-your-business|Set up your business]] · [[subscription|Subscription]] *(planned)* · [[team|Team]] · [[vendor-wedding-page|Your wedding page (vendors)]]
+
+## By task: How to…
+
+Every task in every published guide. Each opens the right part of its note.
+
+### 1 · Getting started
+
+- **Create an account:** [[create-an-account#How to create an account|How to create an account]] · [[create-an-account#How to set a password after you confirm|How to set a password after you confirm]]
+- **Data and privacy:** [[data-and-privacy#How to see how long your data is kept|How to see how long your data is kept]] · [[data-and-privacy#How to keep everything longer|How to keep everything longer]] · [[data-and-privacy#How to download everything|How to download everything]] · [[data-and-privacy#How to delete the wedding now|How to delete the wedding now]] · [[data-and-privacy#How to answer a Krama support request|How to answer a Krama support request]] · [[data-and-privacy#How to see who did what|How to see who did what]]
+- **Functions:** [[functions#How to add a function|How to add a function]] · [[functions#How to set or change a date|How to set or change a date]] · [[functions#How to plan rituals|How to plan rituals]] · [[functions#How to start from an outline|How to start from an outline]] · [[functions#How to add a function to your calendar|How to add a function to your calendar]] · [[functions#How to print a function's schedule|How to print a function's schedule]]
+- **Getting around:** [[getting-around#How to add anything from the (+)|How to add anything from the (+)]] · [[getting-around#How to find a guest, function or task fast|How to find a guest, function or task fast]] · [[getting-around#How to find a section on your phone|How to find a section on your phone]] · [[getting-around#How to collapse the sidebar on a computer|How to collapse the sidebar on a computer]]
+- **Home:** [[home#How to read your Home|How to read your Home]] · [[home#How to arrange your Home|How to arrange your Home]] · [[home#How to add a widget|How to add a widget]]
+- **Join the wedding:** [[join-the-wedding#How to accept an email invite|How to accept an email invite]] · [[join-the-wedding#How to accept a WhatsApp invite|How to accept a WhatsApp invite]]
+- **Journey:** [[journey#How to see the wedding week by week|How to see the wedding week by week]] · [[journey#How to move something to another week|How to move something to another week]]
+- **Language:** [[language#How to change the app's language|How to change the app's language]]
+- **Leave a wedding or delete my account:** [[leave-or-delete-account#How to leave a wedding|How to leave a wedding]] · [[leave-or-delete-account#How to delete my account|How to delete my account]] · [[leave-or-delete-account#How to hand things over first|How to hand things over first]]
+- **Members:** [[members#How to invite family|How to invite family]] · [[members#How to change someone's role or remove them|How to change someone's role or remove them]] · [[members#How to let a helper see some guests|How to let a helper see some guests]] · [[members#How to resend an expired invite|How to resend an expired invite]]
+- **Personalise:** [[personalise#How to switch to light or dark|How to switch to light or dark]] · [[personalise#How to pick a look|How to pick a look]] · [[personalise#How to change the wedding theme|How to change the wedding theme]] · [[personalise#How to make text bigger or use easy reading|How to make text bigger or use easy reading]] · [[personalise#How to choose what is on your Home|How to choose what is on your Home]] · [[personalise#How to set the bottom bar, sidebar and start screen|How to set the bottom bar, sidebar and start screen]]
+- **Plan:** [[plan#How to ask the family to approve something|How to ask the family to approve something]] · [[plan#How to note a decision|How to note a decision]] · [[plan#How to fill in the brief|How to fill in the brief]] · [[plan#How to book a trial or tasting|How to book a trial or tasting]] · [[plan#How to freeze the guest list or menu|How to freeze the guest list or menu]] · [[plan#How to send a change for approval|How to send a change for approval]]
+- **Run sheets:** [[run-sheets#How to build a run sheet|How to build a run sheet]] · [[run-sheets#How to set the muhurat and see clashes|How to set the muhurat and see clashes]] · [[run-sheets#How to print or share a run sheet|How to print or share a run sheet]]
+- **Set up your wedding:** [[set-up-your-wedding#How to start a new wedding|How to start a new wedding]] · [[set-up-your-wedding#How to choose traditions and functions|How to choose traditions and functions]] · [[set-up-your-wedding#How to add the date, guests and budget|How to add the date, guests and budget]] · [[set-up-your-wedding#How to add helpers, choose how long to keep your data, and create your wedding|How to add helpers, choose how long to keep your data, and create your wedding]]
+- **Sign in and passwords:** [[sign-in-and-passwords#How to sign in with a password|How to sign in with a password]] · [[sign-in-and-passwords#How to sign in without a password|How to sign in without a password]] · [[sign-in-and-passwords#How to reset a forgotten password|How to reset a forgotten password]] · [[sign-in-and-passwords#How to get the confirm email again|How to get the confirm email again]]
+- **Tasks:** [[tasks#How to add a task and give it to someone|How to add a task and give it to someone]] · [[tasks#How to tick a task done|How to tick a task done]] · [[tasks#How to use the board|How to use the board]] · [[tasks#How to see only your tasks|How to see only your tasks]]
+- **Wedding ID and wedding code:** [[wedding-id-and-code#How to find and copy your Wedding ID|How to find and copy your Wedding ID]] · [[wedding-id-and-code#How to choose a wedding code|How to choose a wedding code]] · [[wedding-id-and-code#How to choose what the short link shows|How to choose what the short link shows]]
+- **Wedding Sheet:** [[wedding-sheet#How to see the whole wedding on one page|How to see the whole wedding on one page]] · [[wedding-sheet#How to print it|How to print it]] · [[wedding-sheet#How to share a read-only link|How to share a read-only link]]
+- **Your account:** [[your-account#How to set, change or remove your password|How to set, change or remove your password]] · [[your-account#How to see your signed-in devices|How to see your signed-in devices]] · [[your-account#How to sign out other devices|How to sign out other devices]]
+- **Your weddings and switching:** [[your-weddings-and-switching#How to open another wedding|How to open another wedding]] · [[your-weddings-and-switching#How to switch between a wedding and a business|How to switch between a wedding and a business]] · [[your-weddings-and-switching#How to find a wedding with the filters|How to find a wedding with the filters]]
+
+### 2 · Guests & invitations
+
+- **Add a guest:** [[add-a-guest#How to add one guest|How to add one guest]] · [[add-a-guest#How to put guests in one family|How to put guests in one family]] · [[add-a-guest#How to add children's counts|How to add children's counts]] · [[add-a-guest#How to handle a possible duplicate|How to handle a possible duplicate]] · [[add-a-guest#How to change a guest's details|How to change a guest's details]]
+- **Arrivals & departures:** [[arrivals-and-departures#How to add a train or a flight|How to add a train or a flight]] · [[arrivals-and-departures#How to give someone a pickup|How to give someone a pickup]] · [[arrivals-and-departures#How to mark a guest arrived|How to mark a guest arrived]] · [[arrivals-and-departures#How to see only your pickups|How to see only your pickups]]
+- **Automations and To send:** [[automations-and-to-send#How to switch on an automation|How to switch on an automation]] · [[automations-and-to-send#How to send what's waiting|How to send what's waiting]] · [[automations-and-to-send#How to pause all of them|How to pause all of them]]
+- **Easier-to-read RSVP (guest side):** [[guest-easier-to-read#How to turn on easier reading|How to turn on easier reading]] · [[guest-easier-to-read#How to answer one question at a time|How to answer one question at a time]] · [[guest-easier-to-read#How to hear it read aloud|How to hear it read aloud]]
+- **Invite card (guest side):** [[guest-invite-card#How to save your invite card|How to save your invite card]] · [[guest-invite-card#How to reply from the card|How to reply from the card]]
+- **Guest list:** [[guest-list#How to find a guest|How to find a guest]] · [[guest-list#How to filter by side or reply|How to filter by side or reply]] · [[guest-list#How to invite many guests at once|How to invite many guests at once]] · [[guest-list#How to tag many guests|How to tag many guests]] · [[guest-list#How to delete many guests|How to delete many guests]]
+- **Pass and contacts (guest side):** [[guest-pass-and-contacts#How to show your family pass at the door|How to show your family pass at the door]] · [[guest-pass-and-contacts#How to find who to call on the day|How to find who to call on the day]]
+- **Remove my details (guest side):** [[guest-remove-my-details#How to remove your details|How to remove your details]] · [[guest-remove-my-details#How to stop emails|How to stop emails]]
+- **RSVP page (guest side):** [[guest-rsvp-page#How to reply for your family|How to reply for your family]] · [[guest-rsvp-page#How to see the schedule and add it to your calendar|How to see the schedule and add it to your calendar]] · [[guest-rsvp-page#How to fix your details|How to fix your details]] · [[guest-rsvp-page#How to read the page in your language|How to read the page in your language]]
+- **Short link (guest side):** [[guest-short-link#How to see the wedding on the short link|How to see the wedding on the short link]]
+- **Headcounts and reports:** [[headcounts-and-reports#How to see who's coming to each function|How to see who's coming to each function]] · [[headcounts-and-reports#How to send the caterer a sheet|How to send the caterer a sheet]] · [[headcounts-and-reports#How to download the transport manifest or RSVP by side|How to download the transport manifest or RSVP by side]]
+- **Import guests:** [[import-guests#How to import guests from a CSV file|How to import guests from a CSV file]] · [[import-guests#How to check duplicates and finish the import|How to check duplicates and finish the import]] · [[import-guests#How to import from your phone's contacts|How to import from your phone's contacts]]
+- **Invitations & reminders:** [[invitations-and-reminders#How to remind families who haven't replied|How to remind families who haven't replied]] · [[invitations-and-reminders#How to set a reply-by date|How to set a reply-by date]] · [[invitations-and-reminders#How to choose who guests can call|How to choose who guests can call]]
+- **Invite QR:** [[invite-qr#How to make an invite QR|How to make an invite QR]] · [[invite-qr#How to add the people who scanned it|How to add the people who scanned it]] · [[invite-qr#How to send your details|How to send your details]]
+- **Personal messages:** [[personal-messages#How to send a save the date, invitation or thank-you|How to send a save the date, invitation or thank-you]] · [[personal-messages#How to schedule an email|How to schedule an email]] · [[personal-messages#How to turn on the easier RSVP page for some families|How to turn on the easier RSVP page for some families]]
+- **Pickups:** [[pickups#How to plan pickup runs|How to plan pickup runs]] · [[pickups#How to add a run by hand|How to add a run by hand]] · [[pickups#How to move a run that's late|How to move a run that's late]] · [[pickups#How to send a driver their link|How to send a driver their link]] · [[pickups#How to see your pickups|How to see your pickups]]
+- **Send RSVP links:** [[send-rsvp-links#How to invite a guest to functions|How to invite a guest to functions]] · [[send-rsvp-links#How to send a family their link|How to send a family their link]] · [[send-rsvp-links#How to stop a link shared by mistake|How to stop a link shared by mistake]] · [[send-rsvp-links#How to record a reply for a guest|How to record a reply for a guest]]
+- **Stays & rooms:** [[stays-and-rooms#How to add a hotel or a home|How to add a hotel or a home]] · [[stays-and-rooms#How to add rooms|How to add rooms]] · [[stays-and-rooms#How to mark a family that needs a room|How to mark a family that needs a room]] · [[stays-and-rooms#How to put a family in a room|How to put a family in a room]] · [[stays-and-rooms#How to print the rooming list for the hotel|How to print the rooming list for the hotel]] · [[stays-and-rooms#How to mark a destination wedding|How to mark a destination wedding]]
+- **Tickets from guests:** [[tickets-from-guests#How to let guests send their tickets|How to let guests send their tickets]] · [[tickets-from-guests#How to check a ticket and add it to travel|How to check a ticket and add it to travel]] · [[tickets-from-guests#How to send your ticket to the hosts|How to send your ticket to the hosts]]
+
+### 3 · Money & family
+
+- **Budget:** [[budget#How to set your budget|How to set your budget]] · [[budget#How to start from a typical split|How to start from a typical split]] · [[budget#How to add or rename a category|How to add or rename a category]] · [[budget#How to split shared costs between the families|How to split shared costs between the families]]
+- **Expenses and payments:** [[expenses-and-payments#How to add an expense|How to add an expense]] · [[expenses-and-payments#How to schedule instalments|How to schedule instalments]] · [[expenses-and-payments#How to record a payment and who paid|How to record a payment and who paid]] · [[expenses-and-payments#How to attach a receipt|How to attach a receipt]]
+- **Family feed:** [[family-feed#How to post an update or photos|How to post an update or photos]] · [[family-feed#How to react to a post|How to react to a post]] · [[family-feed#How to report or remove a post|How to report or remove a post]]
+- **Files:** [[files#How to upload a contract or list|How to upload a contract or list]] · [[files#How to link a file to a function, task, vendor or guest|How to link a file to a function, task, vendor or guest]] · [[files#How to hide money files from helpers and viewers|How to hide money files from helpers and viewers]]
+- [[find-my-photos|Find my photos]] *(planned)*: not published yet
+- **Gold today:** [[gold-today#How to see today's gold price on your jewellery budget|How to see today's gold price on your jewellery budget]] · [[gold-today#How to switch the gold price off|How to switch the gold price off]]
+- **Heads-up:** [[heads-up#How to get weather alerts for an open-air function|How to get weather alerts for an open-air function]] · [[heads-up#How to read a festival or long-weekend warning|How to read a festival or long-weekend warning]]
+- **Money by side:** [[money-by-side#How to see one family's share|How to see one family's share]] · [[money-by-side#How to print or download it|How to print or download it]]
+- **Money (Due):** [[money-due#How to see what is due|How to see what is due]] · [[money-due#How to mark a payment paid|How to mark a payment paid]] · [[money-due#How to filter by function or side|How to filter by function or side]] · [[money-due#How to export|How to export]]
+- **Notifications and reminders:** [[notifications#How to read and clear your notices|How to read and clear your notices]] · [[notifications#How to set a reminder for yourself|How to set a reminder for yourself]] · [[notifications#How to choose what you're told about|How to choose what you're told about]] · [[notifications#How to get the morning email|How to get the morning email]] · [[notifications#How to stop the morning email|How to stop the morning email]]
+- **Outfits:** [[outfits#How to add an outfit|How to add an outfit]] · [[outfits#How to track fittings and pick-ups|How to track fittings and pick-ups]] · [[outfits#How to spot two people in the same colour|How to spot two people in the same colour]]
+- **Photos:** [[photos#How to add photos to a function's album|How to add photos to a function's album]] · [[photos#How to move or delete a photo|How to move or delete a photo]] · [[photos#How to download everything|How to download everything]]
+- **Quotes to approve:** [[quotes-to-approve#How to approve a quote your planner sent|How to approve a quote your planner sent]]
+- **Shagun:** [[shagun#How to note an envelope or a gift|How to note an envelope or a gift]] · [[shagun#How to see shagun by function or family|How to see shagun by function or family]] · [[shagun#How to thank someone|How to thank someone]] · [[shagun#How to export your shagun list|How to export your shagun list]]
+- **Smart helpers:** [[smart-helpers#How to switch a smart helper on or off|How to switch a smart helper on or off]]
+- **Snap a bill:** [[snap-a-bill#How to switch Snap a bill on|How to switch Snap a bill on]] · [[snap-a-bill#How to add an expense from a bill photo|How to add an expense from a bill photo]]
+- **Upload QR (guests add photos):** [[upload-qr#How to make a photo QR for guests|How to make a photo QR for guests]] · [[upload-qr#How to switch it off or replace it|How to switch it off or replace it]] · [[upload-qr#How a guest adds photos with the QR|How a guest adds photos with the QR]]
+- **Vendors:** [[vendors#How to add a vendor|How to add a vendor]] · [[vendors#How to find a vendor, call them and see what you owe|How to find a vendor, call them and see what you owe]] · [[vendors#How to show a vendor to guests as a contact|How to show a vendor to guests as a contact]]
+
+### 4 · Event day, AI & voice
+
+- **Assistant:** [[assistant#How to ask a quick question|How to ask a quick question]] · [[assistant#How to type your own question|How to type your own question]] · [[assistant#How to choose the answer language|How to choose the answer language]]
+- **Check-in:** [[check-in#How to put a helper on the door|How to put a helper on the door]] · [[check-in#How to check a family in|How to check a family in]] · [[check-in#How to fix a mistake|How to fix a mistake]]
+- **Counts:** [[counts#How to see the counts for a function or the whole wedding|How to see the counts for a function or the whole wedding]] · [[counts#How to change the ratios|How to change the ratios]] · [[counts#How to print or download the counts|How to print or download the counts]]
+- **Emergency card:** [[emergency-card#How to fill in the emergency card|How to fill in the emergency card]] · [[emergency-card#How to add the people to call|How to add the people to call]] · [[emergency-card#How to print the card|How to print the card]]
+- **Event day:** [[event-day#How to open event-day mode|How to open event-day mode]] · [[event-day#How to move between the tabs|How to move between the tabs]] · [[event-day#How to keep working without signal|How to keep working without signal]] · [[event-day#How to end event-day mode|How to end event-day mode]]
+- **Family passes:** [[family-passes#How to print family passes|How to print family passes]] · [[family-passes#How to cancel a lost pass|How to cancel a lost pass]]
+- **Food (menu and counts):** [[food#How to write the menu|How to write the menu]] · [[food#How to set the plates guaranteed|How to set the plates guaranteed]] · [[food#How to send it to the caterer|How to send it to the caterer]]
+- **Function recap:** [[function-recap#How to see how a function went|How to see how a function went]]
+- **Live run sheet on the day:** [[live-run-sheet#How to tick items as they happen|How to tick items as they happen]] · [[live-run-sheet#How to mark the key moment|How to mark the key moment]] · [[live-run-sheet#How to tell everyone you are running late|How to tell everyone you are running late]]
+- **Moments:** [[moments#What the moment cards mean|What the moment cards mean]]
+- **Notes from a meeting:** [[notes-from-a-meeting#How to turn meeting notes into minutes and tasks|How to turn meeting notes into minutes and tasks]]
+- **Plan & add-ons:** [[plan-and-add-ons#How to see your plan and what is included|How to see your plan and what is included]]
+- **Referral code:** [[referral-code#How to share your referral code|How to share your referral code]] · [[referral-code#How to use a friend's code|How to use a friend's code]]
+- **Seating:** [[seating#How to add tables|How to add tables]] · [[seating#How to seat a family|How to seat a family]] · [[seating#How to seat elders near the front|How to seat elders near the front]] · [[seating#How to let Krama suggest seats|How to let Krama suggest seats]] · [[seating#How to print seating|How to print seating]]
+- **Voice (speak instead of typing):** [[voice#How to speak instead of typing|How to speak instead of typing]] · [[voice#How to say a command to the assistant|How to say a command to the assistant]] · [[voice#How to turn a voice note into tasks or arrivals|How to turn a voice note into tasks or arrivals]]
+- **Wrap-up:** [[wrap-up#How to settle every vendor|How to settle every vendor]] · [[wrap-up#How to track deliverables|How to track deliverables]] · [[wrap-up#How to see the thank-yous still to send|How to see the thank-yous still to send]] · [[wrap-up#How to rate your planner|How to rate your planner]] · [[wrap-up#How to share the wedding in numbers|How to share the wedding in numbers]] · [[wrap-up#How to download, then delete|How to download, then delete]]
+
+### 5 · For planners and vendors
+
+- **Bookings:** [[bookings#How to track a booking|How to track a booking]] · [[bookings#How to set a payment schedule|How to set a payment schedule]] · [[bookings#How to raise an invoice from the schedule|How to raise an invoice from the schedule]]
+- **Business Home:** [[business-home#How to work through Needs you|How to work through Needs you]] · [[business-home#How to read Your weddings or Today's jobs|How to read Your weddings or Today's jobs]] · [[business-home#How to open a wedding|How to open a wedding]]
+- **Calendar:** [[calendar#How to block time on your calendar|How to block time on your calendar]] · [[calendar#How to spot double bookings|How to spot double bookings]] · [[calendar#How to set the most jobs you take in a day|How to set the most jobs you take in a day]]
+- **Challans and purchases:** [[challans-and-purchases#How to make a delivery challan|How to make a delivery challan]] · [[challans-and-purchases#How to add a purchase bill|How to add a purchase bill]]
+- **Clients:** [[clients#How to add a client|How to add a client]] · [[clients#How to add the people who decide and pay|How to add the people who decide and pay]]
+- [[commission-earnings|Commission earnings]] *(planned)*: not published yet
+- **Crew and shifts:** [[crew-and-shifts#How to add crew|How to add crew]] · [[crew-and-shifts#How to give someone a shift|How to give someone a shift]] · [[crew-and-shifts#How to send the call sheet|How to send the call sheet]] · [[crew-and-shifts#How to give crew a private shift link|How to give crew a private shift link]] · [[crew-and-shifts#How to see your own shifts (crew)|How to see your own shifts (crew)]]
+- **Documents:** [[documents#How to upload a document|How to upload a document]] · [[documents#How to get reminded before a document expires|How to get reminded before a document expires]] · [[documents#How to open or delete a document|How to open or delete a document]]
+- [[enquiry-form|Enquiry form]] *(planned)*: not published yet
+- **Family feedback:** [[family-feedback#How to read families' ratings|How to read families' ratings]]
+- [[first-reply|First reply]] *(planned)*: not published yet
+- **Getting around the portal:** [[getting-around-the-portal#How to use the (+)|How to use the (+)]] · [[getting-around-the-portal#How to search pages and actions|How to search pages and actions]] · [[getting-around-the-portal#How to read your inbox|How to read your inbox]]
+- **Invoices and payments due:** [[invoices-and-payments-due#How to raise an invoice|How to raise an invoice]] · [[invoices-and-payments-due#How to log a payment|How to log a payment]] · [[invoices-and-payments-due#How to remind a client who owes you|How to remind a client who owes you]] · [[invoices-and-payments-due#How to add your GST and bank details|How to add your GST and bank details]]
+- **Leads:** [[leads#How to add a lead|How to add a lead]] · [[leads#How to move a lead through the stages|How to move a lead through the stages]] · [[leads#How to note a call or a meeting|How to note a call or a meeting]] · [[leads#How to turn a lead into a client|How to turn a lead into a client]]
+- **Planner code:** [[planner-code#How to choose your planner code|How to choose your planner code]] · [[planner-code#How to link a planner (family side)|How to link a planner (family side)]] · [[planner-code#How to approve or remove a planner (host side)|How to approve or remove a planner (host side)]]
+- **Planning team:** [[planning-team#How to make someone a coordinator or a planner|How to make someone a coordinator or a planner]] · [[planning-team#How to choose who leads|How to choose who leads]]
+- **Proposals:** [[proposals#How to build a proposal|How to build a proposal]] · [[proposals#How to send a proposal to your client|How to send a proposal to your client]] · [[proposals#How your client accepts or declines|How your client accepts or declines]]
+- **Quote requests:** [[quote-requests#How to add a vendor to your vendor book|How to add a vendor to your vendor book]] · [[quote-requests#How to ask vendors for quotes|How to ask vendors for quotes]] · [[quote-requests#How to send quotes to the client|How to send quotes to the client]] · [[quote-requests#How to write a brief for a vendor|How to write a brief for a vendor]] · [[quote-requests#How to send your quote (vendors)|How to send your quote (vendors)]]
+- **Set up your business:** [[set-up-your-business#How to set up a planner or vendor business|How to set up a planner or vendor business]] · [[set-up-your-business#How to find and share your Business ID|How to find and share your Business ID]] · [[set-up-your-business#How to switch between your wedding and your business|How to switch between your wedding and your business]]
+- [[subscription|Subscription]] *(planned)*: not published yet
+- **Team:** [[team#How to see your team and roles|How to see your team and roles]] · [[team#How to remove someone|How to remove someone]] · [[team#How to leave the business|How to leave the business]]
+- **Your wedding page (vendors):** [[vendor-wedding-page#How to read the brief|How to read the brief]] · [[vendor-wedding-page#How to mark the day|How to mark the day]] · [[vendor-wedding-page#How to use your tools|How to use your tools]] · [[vendor-wedding-page#How to add crew and deliverables|How to add crew and deliverables]]
+- **Weddings:** [[weddings#How to ask to join a wedding|How to ask to join a wedding]] · [[weddings#How to cancel a request|How to cancel a request]] · [[weddings#How to leave a wedding|How to leave a wedding]]
