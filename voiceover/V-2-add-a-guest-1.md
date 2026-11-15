@@ -11,16 +11,16 @@ From [[add-a-guest]]. Made by `npm run make` in `kit\`; don't edit by hand, it i
 
 | # | phone start | phone end | desktop start | desktop end | Voice says | Caption | AI reads |
 |---|---|---|---|---|---|---|---|
-| 0 | 3.3 | 5.1 | 3.3 | 5.1 | Ek naya mehmaan jodna hai? | Need to add a guest? | एक नया मेहमान जोड़ना है? |
-| 1 | 7.3 | 8.9 |  |  | Neeche plus button dabao. | Tap the (+) button | नीचे प्लस बटन दबाओ। |
-| 1 (desktop only) |  |  | 7.3 | 9.2 | Upar Add guest pe tap karo. | Tap Add guest | ऊपर ऐड गेस्ट पे टैप करो। |
-| 2 | 12.3 | 13.8 |  |  | Add a guest pe tap karo. | Tap Add a guest | ऐड अ गेस्ट पे टैप करो। |
-| 2 (desktop only) |  |  | 12.3 | 14.0 | Add a guest ka form khul gaya. | The form opens | ऐड अ गेस्ट का फ़ॉर्म खुल गया। |
-| 3 | 17.3 | 18.4 | 17.3 | 18.4 | Pura naam likho. | Type the full name | पूरा नाम लिखो। |
-| 4 | 23.3 | 24.4 | 23.3 | 24.4 | Phone number likho. | Type the phone | फ़ोन नंबर लिखो। |
-| 5 | 28.4 | 31.3 | 28.3 | 31.3 | Jis function mein nahi bulana, uska tick hatao. | Untick a function | जिस फ़ंक्शन में नहीं बुलाना, उसका टिक हटाओ। |
-| 6 | 33.4 | 34.9 | 33.4 | 34.9 | Save guest pe tap karo. | Tap Save guest | सेव गेस्ट पे टैप करो। |
-| end | 37.4 | 40.5 | 37.4 | 40.5 | Mehmaan list mein hai. Ab link bhej sakte ho. | Guest added | मेहमान लिस्ट में है। अब लिंक भेज सकते हो। |
+| 0 | 3.3 | 5.0 | 3.3 | 5.0 | Ek naya mehmaan jodna hai? | Need to add a guest? | एक नया मेहमान जोड़ना है? |
+| 1 | 6.3 | 7.7 |  |  | Neeche plus button dabao. | Tap the (+) button | नीचे प्लस बटन दबाओ। |
+| 1 (desktop only) |  |  | 6.3 | 7.9 | Upar Add guest pe tap karo. | Tap Add guest | ऊपर ऐड गेस्ट पे टैप करो। |
+| 2 | 10.3 | 11.7 |  |  | Add a guest pe tap karo. | Tap Add a guest | ऐड अ गेस्ट पे टैप करो। |
+| 2 (desktop only) |  |  | 10.3 | 11.9 | Add a guest ka form khul gaya. | The form opens | ऐड अ गेस्ट का फ़ॉर्म खुल गया। |
+| 3 | 14.3 | 15.4 | 14.3 | 15.4 | Pura naam likho. | Type the full name | पूरा नाम लिखो। |
+| 4 | 19.3 | 20.3 | 19.3 | 20.4 | Phone number likho. | Type the phone | फ़ोन नंबर लिखो। |
+| 5 | 23.3 | 26.1 | 23.4 | 26.1 | Jis function mein nahi bulana, uska tick hatao. | Untick a function | जिस फ़ंक्शन में नहीं बुलाना, उसका टिक हटाओ। |
+| 6 | 27.3 | 28.8 | 27.4 | 28.8 | Save guest pe tap karo. | Tap Save guest | सेव गेस्ट पे टैप करो। |
+| end | 30.3 | 33.5 | 30.4 | 33.6 | Mehmaan list mein hai. Ab link bhej sakte ho. | Guest added | मेहमान लिस्ट में है। अब लिंक भेज सकते हो। |
 
 Times are seconds from the start of each finished video (the 3 s intro title included).
 

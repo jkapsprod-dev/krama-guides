@@ -11,7 +11,7 @@ From [[_section-intro]]. Made by `npm run make` in `kit\`; don't edit by hand, i
 
 | # | phone start | phone end | desktop start | desktop end | Voice says | Caption | AI reads |
 |---|---|---|---|---|---|---|---|
-| 1 | 0.5 | 5.9 | 0.5 | 5.9 | Guests aur invitations. Aapke saare mehmaan aur unke jawab, ek hi jagah. | Everyone you invite, and every reply, in one place. | गेस्ट्स और इनविटेशंस। आपके सारे मेहमान और उनके जवाब, एक ही जगह। |
+| 1 | 0.5 | 5.5 | 0.5 | 5.5 | Guests aur invitations. Aapke saare mehmaan aur unke jawab, ek hi jagah. | Everyone you invite, and every reply, in one place. | गेस्ट्स और इनविटेशंस। आपके सारे मेहमान और उनके जवाब, एक ही जगह। |
 
 Times are seconds from the start of each finished video (the 3 s intro title included).
 

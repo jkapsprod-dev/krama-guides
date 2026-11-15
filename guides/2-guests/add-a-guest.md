@@ -77,19 +77,19 @@ Adding a new family? The same two boxes are on the **Add a guest** form, below *
 
 ## Video scripts
 
-### V-2-add-a-guest-1 · How to add one guest · about 38 s · phone first
+### V-2-add-a-guest-1 · How to add one guest · about 30 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Guests** list | 4 | Ek naya mehmaan jodna hai? | Need to add a guest? |
-| 1 | Tap the (+) button in the bottom bar | 5 | Neeche plus button dabao. | Tap the (+) button |
-| 2 | Tap **Add a guest** | 5 | Add a guest pe tap karo. | Tap Add a guest |
-| 3 | Type Rekha Mausi in **Full name** | 6 | Pura naam likho. | Type the full name |
-| 4 | Type 98765 43210 in **Phone** | 5 | Phone number likho. | Type the phone |
-| 5 | Untick **Reception** under **Invite to** | 5 | Jis function mein nahi bulana, uska tick hatao. | Untick a function |
-| 6 | Tap **Save guest** | 4 | Save guest pe tap karo. | Tap Save guest |
-| end | Show the card with **Message on WhatsApp** | 4 | Mehmaan list mein hai. Ab link bhej sakte ho. | Guest added |
+| 0 | Show the **Guests** list | 3 | Ek naya mehmaan jodna hai? | Need to add a guest? |
+| 1 | Tap the (+) button in the bottom bar | 4 | Neeche plus button dabao. | Tap the (+) button |
+| 2 | Tap **Add a guest** | 4 | Add a guest pe tap karo. | Tap Add a guest |
+| 3 | Type Rekha Mausi in **Full name** | 5 | Pura naam likho. | Type the full name |
+| 4 | Type 98765 43210 in **Phone** | 4 | Phone number likho. | Type the phone |
+| 5 | Untick **Reception** under **Invite to** | 4 | Jis function mein nahi bulana, uska tick hatao. | Untick a function |
+| 6 | Tap **Save guest** | 3 | Save guest pe tap karo. | Tap Save guest |
+| end | Show the card with **Message on WhatsApp** | 3 | Mehmaan list mein hai. Ab link bhej sakte ho. | Guest added |
 
 ### V-2-add-a-guest-2 · How to put guests in one family · about 38 s · phone first
 Demo login: lane 2, couple (Appendix E). Off camera, the demo list has a family called Sharma family, Pune. "Voice says" is in Hinglish.

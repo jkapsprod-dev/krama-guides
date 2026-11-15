@@ -163,7 +163,7 @@ export function buildGuide(script, rec, voice, size) {
     const inAt = Math.max(st.start + 0.1, st.at - 0.12);
     // A tap usually changes the screen, so its ring leaves soon after; a typed box keeps it.
     const typing = /^type\b/i.test(st.what || "");
-    const outAt = Math.max(inAt + 0.6, typing ? st.end - 0.3 : Math.min(st.end - 0.3, st.at + 1.1));
+    const outAt = Math.max(inAt + 0.6, typing ? st.end - 0.3 : Math.min(st.end - 0.3, st.at + 0.55));
     rings.push({ id: ringId, in: r3(inAt), out: r3(Math.min(outAt, footEnd - 0.5)) });
   }
 

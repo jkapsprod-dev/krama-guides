@@ -3,7 +3,7 @@
     "roman": "Guests aur invitations. Aapke saare mehmaan aur unke jawab, ek hi jagah.",
     "dev": "गेस्ट्स और इनविटेशंस। आपके सारे मेहमान और उनके जवाब, एक ही जगह।",
     "model": "hi_IN-pratham-medium",
-    "speed": 0.92,
+    "speed": 0.83,
     "pause": 0.3,
     "loudness": -16
   }
