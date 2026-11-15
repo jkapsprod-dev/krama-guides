@@ -106,7 +106,11 @@ function makeOne(id) {
     }
   }
 
-  // Voiceover note with the real timings (keeps the other size's times if only one was made).
+  // Voiceover note with the real timings. With --size, the other size's times come from its last
+  // recording (built again, not checked or rendered), so the note keeps both columns.
+  for (const size of SIZES) {
+    if (!timelines[size] && rec[size]) timelines[size] = buildGuide(scriptFor(size), rec[size], voice, size).timeline;
+  }
   const md = writeVoiceNote({ id, title: script.howTo, note: script.note, first: script.first, voice, timelines, unknown, outputs });
   outputs.push(path.relative(ROOT, md));
   return outputs;

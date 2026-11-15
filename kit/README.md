@@ -100,7 +100,7 @@ Change the setting, then run make again. Add `--no-record` unless the recording 
 | A step longer or shorter | **Hold (s)** in the note's script table and `hold` in the robot spec. Then make again, recording included |
 | Different caption words | The **Caption** column in the note (8 words at most) |
 | Bigger or smaller captions | `captions` in `kit.config.json` |
-| More or less zoom | `zoom` in `kit.config.json`. `max` is for small buttons, `min` for wide boxes. `1` means no zoom |
+| More or less zoom | `zoom` in `kit.config.json`. `max` is for small buttons, `min` for wide boxes. `1` means no zoom. Phone is set to `1`, so the whole phone screen always shows |
 | Music louder or quieter | `music.level` (when nobody speaks) and `music.underVoice` (under a line) in `kit.config.json` |
 | A different track | Put it in `music\`, then set `music.file` |
 | Another AI voice, or slower speech | `voice.model` (`hi_IN-priyamvada-medium`, `hi_IN-pratham-medium`, `hi_IN-rohan-medium`) and `voice.speed` (higher is slower) in `kit.config.json`, then make again with the recording |

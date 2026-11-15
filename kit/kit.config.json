@@ -26,8 +26,8 @@
     "endCard": 3
   },
   "zoom": {
-    "about": "Gentle zoom on each tapped element: small targets get up to max, big ones get min. 1 = no zoom.",
-    "phone": { "min": 1.2, "max": 1.45 },
+    "about": "Gentle zoom on each tapped element: small targets get up to max, big ones get min. 1 = no zoom. Phone is 1 (owner, 2026-11-15) so the whole phone screen, edges included, is always seen; the gold ring shows the tap.",
+    "phone": { "min": 1, "max": 1 },
     "desktop": { "min": 1.25, "max": 1.75 }
   },
   "captions": {
