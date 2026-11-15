@@ -23,11 +23,16 @@ export function writeVoiceNote({ id, title, note, first, voice, timelines, unkno
   const rows = timelines[sizes[0]].map((row) => row.n);
   const cell = (s, n, k) => t(timelines[s]?.find((r) => r.n === n)?.[k]);
   const lines = [];
-  lines.push("---", "tags: [voiceover]", `video: ${id}`, `voice: ${voice.source === "ai" ? CONFIG.voice.model : "my-voice"}`, "---");
+  const tag = { ai: CONFIG.voice.model, cloned: "cloned" }[voice.source] || "my-voice";
+  const says = {
+    ai: `AI voice \`${CONFIG.voice.model}\` (OpenMontage Piper), files in \`voiceover\\ai\\${id}\\\``,
+    cloned: `your cloned voice (ElevenLabs \`${CONFIG.voice.cloned?.model}\`), files in \`voiceover\\cloned\\${id}\\\``,
+  }[voice.source] || `your own recording, from \`voiceover\\my-voice\\\``;
+  lines.push("---", "tags: [voiceover]", `video: ${id}`, `voice: ${tag}`, "---");
   lines.push(`# ${id} · ${title}`, "");
   lines.push(`From [[${note}]]. Made by \`npm run make\` in \`kit\\\`; don't edit by hand, it is written again on every make.`, "");
   lines.push(
-    `**Voice:** ${voice.source === "ai" ? `AI voice \`${CONFIG.voice.model}\` (OpenMontage Piper), files in \`voiceover\\ai\\${id}\\\`` : `your own voice, from \`voiceover\\my-voice\\\``}. Each line starts at its step (after ${0.3} s of quiet).`,
+    `**Voice:** ${says}. Each line starts at its step (after ${0.3} s of quiet).`,
     "",
   );
   const head = ["#", ...sizes.flatMap((s) => [`${s} start`, `${s} end`]), "Voice says", "Caption", "AI reads"];

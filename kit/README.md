@@ -135,9 +135,54 @@ so the desktop take taps **Add guest** instead. Make warns when this happens. To
 The keys are the step numbers from the note's script table. Leave out `voice` or `caption` to keep
 the note's one.
 
-## 6. Use your own voice for a video
+## 6. Use your own voice
 
-Your recording replaces the AI voice for that video, in both sizes.
+There are two ways. Both work for every video, and the robot records again, so each step fits your
+voice.
+
+| | Your cloned voice | Your own recording |
+|---|---|---|
+| You record | One sample, once (1 to 3 minutes) | Every line of every video |
+| New or changed lines | Made for you | You record them again |
+| Sounds like | A very close copy of you | Exactly you |
+| Cost | ElevenLabs, about $0.10 a video | Free |
+
+If a video has your own recording, that wins. If not, your cloned voice is used when it's switched on.
+Otherwise the video gets the free Piper voice.
+
+### Your cloned voice
+
+1. Record 1 to 3 minutes of yourself talking calmly in Hinglish, the way you'd explain the app to a
+   family. Use a quiet room with your phone about a hand away from your mouth, and keep it to one
+   person only. Reading a few guide lines out loud works well.
+2. Save it as `voiceover\my-voice\sample.wav`. MP3 and M4A work too. Several files work as
+   `sample-1.wav`, `sample-2.wav` and so on.
+3. Run `npm run clone-voice`. It cleans the sample a little and makes your voice on ElevenLabs, using
+   the key in `tools\OpenMontage\.env`. It saves the voice's id in `voiceover\my-voice\voice.json` and
+   switches the kit to it (`voice.engine` becomes `"cloned"`). This needs an ElevenLabs plan with
+   voice cloning (Starter or above). Only clone your own voice, or a voice you have written permission
+   to use.
+4. Run `npm run make -- --id <ID>` (and `npm run intro -- --lane <n>`) to make videos in your voice.
+
+Each line is made knowing the line before it and the line after it, so the voice carries on from line
+to line like one person talking, not like separate clips. The lines are saved in
+`voiceover\cloned\<ID>\`. Only new or changed lines are made again, because each one costs a little.
+Make prints the cost before it starts, and it stops if one video would cost more than
+`voice.cloned.maxCostPerVideo` in `kit.config.json` ($1).
+
+To tune how it sounds, change `voice.cloned` in `kit.config.json`, then run make again:
+
+| You want | Change |
+|---|---|
+| Livelier, more natural ups and downs | `stability` lower (0.35) and `style` higher (0.35) |
+| Steadier, calmer | `stability` higher (0.6) and `style` lower (0.1) |
+| Faster or slower | `speed` (1 is your sample's pace; 0.7 to 1.2) |
+| Read from the Hinglish as written | `text` to `"roman"` (`"devanagari"` usually sounds more natural) |
+
+To go back to the Piper voice, run `npm run clone-voice -- --off`. `--on` switches back to your cloned
+voice. A new sample needs `npm run clone-voice -- --again`.
+
+### Your own recording for one video
 
 1. Open `voiceover\<ID>.md`. Read the **Voice says** lines in order, calmly. Leave about **one second
    of quiet** between lines. Include any line marked for one size only (`desktop-1` and so on), right
@@ -145,15 +190,15 @@ Your recording replaces the AI voice for that video, in both sizes.
 2. Save it as `voiceover\my-voice\<ID>.wav`. MP3 and M4A work too.
 3. Run `npm run make -- --id <ID>`.
 
-The kit cuts your recording into lines at the pauses and evens out the volume. The robot then records
-again, so every step fits your voice, and both videos are made again. If the kit can't find the right
-number of lines, it says so. Then leave longer pauses, or save one file per line as
-`voiceover\my-voice\<ID>\<step>.wav`.
+The kit cuts your recording into lines at the pauses. It also cleans each line lightly: it cuts rumble,
+lowers steady background noise and evens out loud and soft words. Then it evens out the volume, so you
+sound clear but still like yourself. If the kit can't find the right number of lines, it says so. Then
+leave longer pauses, or save one file per line as `voiceover\my-voice\<ID>\<step>.wav`.
 
 To go back to the AI voice, delete or move your file and run make again.
 
-While the robot records with your voice, your lines stand in `voiceover\ai\<ID>\` for a moment,
-because that is where the robot looks. The AI files are put back afterwards.
+While the robot records, the voice it uses stands in `voiceover\ai\<ID>\` for a moment, because that
+is where the robot looks. The Piper files are put back afterwards.
 
 ## 7. If something goes wrong
 
@@ -171,11 +216,12 @@ because that is where the robot looks. The AI files are put back afterwards.
 
 | Path | What it is |
 |---|---|
-| `bin\make.mjs`, `bin\intro.mjs`, `bin\preview.mjs` | The commands |
+| `bin\make.mjs`, `bin\intro.mjs`, `bin\preview.mjs`, `bin\clone-voice.mjs` | The commands |
 | `lib\` | Reading notes, voice, music, building, check and render, timings |
 | `template\guide\` | The guide video: `index.html` (screen, rings, zoom, thread, sound) and `compositions\` (intro title, captions, end card) |
 | `template\section\` | The section intro |
 | `brand\` | Fonts (SIL OFL), grain, mark and thread, copied from `app\promo\launch-60s`. Nothing here links into `app\` |
 | `voice\hinglish-words.json` | How the AI voice says each word |
+| `voice\cloud.py` | Makes your cloned voice and its lines (ElevenLabs, through OpenMontage) |
 | `kit.config.json` | Voice, music levels, zoom, caption size, bitrate |
 | `build\` | The projects make last built (not in git, rebuilt every time) |

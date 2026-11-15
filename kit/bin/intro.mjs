@@ -96,7 +96,7 @@ function makeIntro(lane) {
       outputs.push(path.relative(ROOT, out));
     }
   }
-  const timelines = Object.fromEntries(sizes.map((z) => [z, timeline]));
+  const timelines = Object.fromEntries(SIZES.map((z) => [z, timeline])); // the same in both sizes
   writeVoiceNote({ id, title: `Section intro · ${s.name}`, note: "_section-intro", first: sizes[0], voice, timelines, unknown: line.unknown || [], outputs });
   outputs.push(path.relative(ROOT, P.voiceMd(id)));
   return outputs;

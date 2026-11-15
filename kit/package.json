@@ -6,7 +6,8 @@
   "scripts": {
     "make": "node bin/make.mjs",
     "intro": "node bin/intro.mjs",
-    "preview": "node bin/preview.mjs"
+    "preview": "node bin/preview.mjs",
+    "clone-voice": "node bin/clone-voice.mjs"
   },
   "engines": {
     "node": ">=24"

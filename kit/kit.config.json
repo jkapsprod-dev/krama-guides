@@ -7,7 +7,22 @@
     "speed": 0.83,
     "pause": 0.4,
     "loudness": -16,
-    "intro": { "speed": 0.83, "pause": 0.3 }
+    "intro": { "speed": 0.83, "pause": 0.3 },
+    "engine": "piper",
+    "cloned": {
+      "about": "Your cloned voice (npm run clone-voice), used when engine is \"cloned\". ElevenLabs via OpenMontage; costs money per line. text: devanagari (Hindi spelling, as for Piper) or roman (the note's Hinglish as written). flow: each line hears the lines around it, so they join up naturally. stability: lower is livelier, higher is steadier. style: how much feeling. speed: 1 is the sample's own pace (0.7 to 1.2).",
+      "provider": "elevenlabs",
+      "model": "eleven_multilingual_v2",
+      "text": "devanagari",
+      "flow": true,
+      "stability": 0.45,
+      "similarity": 0.85,
+      "style": 0.25,
+      "speed": 1.0,
+      "seed": 4242,
+      "costPerChar": 0.0003,
+      "maxCostPerVideo": 1.0
+    }
   },
   "music": {
     "about": "One track under every video (owner picked Indian Wedding on 2026-11-15, after the first renders). level: when nobody speaks. underVoice: while a line plays. startAt: seconds into the track to begin.",

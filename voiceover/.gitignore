@@ -1,0 +1,5 @@
+# Your voice recordings and samples stay out of git, like all audio (see the root .gitignore).
+*.m4a
+*.aac
+*.flac
+*.ogg
