@@ -2,80 +2,80 @@
   "0": {
     "roman": "Ek naya mehmaan jodna hai?",
     "dev": "एक नया मेहमान जोड़ना है?",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   },
   "1": {
     "roman": "Neeche plus button dabao.",
     "dev": "नीचे प्लस बटन दबाओ।",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   },
   "2": {
     "roman": "Add a guest pe tap karo.",
     "dev": "ऐड अ गेस्ट पे टैप करो।",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   },
   "3": {
     "roman": "Pura naam likho.",
     "dev": "पूरा नाम लिखो।",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   },
   "4": {
     "roman": "Phone number likho.",
     "dev": "फ़ोन नंबर लिखो।",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   },
   "5": {
     "roman": "Jis function mein nahi bulana, uska tick hatao.",
     "dev": "जिस फ़ंक्शन में नहीं बुलाना, उसका टिक हटाओ।",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   },
   "6": {
     "roman": "Save guest pe tap karo.",
     "dev": "सेव गेस्ट पे टैप करो।",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   },
   "end": {
     "roman": "Mehmaan list mein hai. Ab link bhej sakte ho.",
     "dev": "मेहमान लिस्ट में है। अब लिंक भेज सकते हो।",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   },
   "desktop-1": {
     "roman": "Upar Add guest pe tap karo.",
     "dev": "ऊपर ऐड गेस्ट पे टैप करो।",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   },
   "desktop-2": {
     "roman": "Add a guest ka form khul gaya.",
     "dev": "ऐड अ गेस्ट का फ़ॉर्म खुल गया।",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16
   }

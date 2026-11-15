@@ -3,15 +3,15 @@
   "hyperframes": "0.8.146",
   "voice": {
     "about": "The AI voice: OpenMontage's Piper tool (free, offline) through tools/voice-line.py. Swap model for hi_IN-pratham-medium or hi_IN-rohan-medium (male). speed: higher is slower.",
-    "model": "hi_IN-priyamvada-medium",
-    "speed": 1.05,
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.92,
     "pause": 0.4,
     "loudness": -16,
-    "intro": { "speed": 1.0, "pause": 0.3 }
+    "intro": { "speed": 0.92, "pause": 0.3 }
   },
   "music": {
-    "about": "One track under every video (DECISIONS.md). level: when nobody speaks. underVoice: while a line plays. startAt: seconds into the track to begin.",
-    "file": "music/1-indian-flute.mp3",
+    "about": "One track under every video (owner picked Indian Wedding on 2026-11-15, after the first renders). level: when nobody speaks. underVoice: while a line plays. startAt: seconds into the track to begin.",
+    "file": "music/3-indian-wedding.mp3",
     "startAt": 0,
     "level": 0.3,
     "underVoice": 0.12,
@@ -32,8 +32,8 @@
   },
   "captions": {
     "about": "Caption size in pixels for each size of video.",
-    "phone": 48,
-    "desktop": 36
+    "phone": 42,
+    "desktop": 32
   },
   "help": {
     "brandName": "Krama Events",

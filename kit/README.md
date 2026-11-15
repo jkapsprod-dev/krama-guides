@@ -85,7 +85,7 @@ npm run intro -- --all
 ```
 
 Each intro is 6 seconds, unless its voice line is longer: then it runs just long enough for the
-line (lane 2's line is 6.2 s, so its intro is 7 s; a shorter **Voice says** line brings it back to 6). It shows the section name and its one line from
+line (lane 2's line is 5.7 s, so its intro is 6.5 s; a shorter **Voice says** line brings it back to 6). It shows the section name and its one line from
 `guides\<lane folder>\_section-intro.md`, with the gold mark, the thread, the voice line and the
 music. It runs a little longer only if the voice needs it. The files are
 `videos\final\<lane folder>\V-<lane>-section-intro-phone.mp4` and `-desktop.mp4`, each with an

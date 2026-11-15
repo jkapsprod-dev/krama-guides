@@ -30,4 +30,6 @@ Loudness (EBU R128): flute −9.6 LUFS, sitar −10.2 LUFS, wedding −15.5 LUFS
 
 **Track 1, Indian Flute (JonasBlakewood),** picked by the owner on 2026-11-14 and written in `DECISIONS.md`. It's copied to `tools\OpenMontage\music_library\` so OpenMontage's music tools find it. Tracks 2 and 3 stay here as spares.
 
+**Changed 2026-11-15 (4A):** after watching the first renders, the owner switched the guide videos to **track 3, Indian Wedding (MondaMusic)**. It's set in `kit\kit.config.json` (`music.file`). `DECISIONS.md` still names track 1 until it's updated.
+
 Music files are not committed (`.gitignore`); this note is.
