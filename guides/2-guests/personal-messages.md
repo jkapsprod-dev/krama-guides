@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 2
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-15
+video: made
 internal: false
 code:
   - "app/w/[workspaceId]/guests/messages/page.tsx"
@@ -71,42 +71,42 @@ It turns on for the families you see on this page. To turn it off, tap **Turn of
 
 ## Video scripts
 
-### V-2-personal-messages-1 · How to send a save the date, invitation or thank-you · about 55 s · phone first
+### V-2-personal-messages-1 · How to send a save the date, invitation or thank-you · about 43 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Guests list | 5 | Har family ko apna personal message bhejna hai. | One message for each family |
-| 1 | Open **Guests** | 4 | Guests kholo. | Open Guests |
-| 2 | Tap **More**, then **Personal messages** | 5 | More pe tap karo, phir Personal messages. | Open Personal messages |
-| 3 | Under **Message**, tap **Save the date** | 5 | Message mein Save the date chuno. | Pick Save the date |
-| 4 | Under **Send to**, tap **Everyone** | 4 | Send to mein Everyone chuno. | Pick Everyone |
-| 5 | Tap **Preview message** on the first family | 5 | Preview message dabake padh lo. | Read the message |
-| 6 | Tap **Send on WhatsApp** | 5 | Send on WhatsApp dabao. Phir aap khud send dabao. | You press send |
-| end | Show WhatsApp with the message ready | 4 | Message ready hai. | Ready to send |
+| 0 | Show the Guests list | 6 | Har family ko apna personal message bhejna hai. | One message for each family |
+| 1 | Open **Guests** | 5 | Guests kholo. | Open Guests |
+| 2 | Tap **More**, then **Personal messages** | 7 | More pe tap karo, phir Personal messages. | Open Personal messages |
+| 3 | Under **Message**, tap **Save the date** | 9 | Message mein Save the date chuno. | Pick Save the date |
+| 4 | Under **Send to**, tap **Everyone** | 5 | Send to mein Everyone chuno. | Pick Everyone |
+| 5 | Tap **Preview message** on the first family | 6 | Preview message dabake padh lo. | Read the message |
+| 6 | Tap **Send on WhatsApp** | 6 | Send on WhatsApp dabao. Phir aap khud send dabao. | You press send |
+| end | Show WhatsApp with the message ready | 5 | Message ready hai. | Ready to send |
 
-### V-2-personal-messages-2 · How to schedule an email · about 50 s · phone first
+### V-2-personal-messages-2 · How to schedule an email · about 42 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Personal messages page | 5 | Email abhi nahi, subah bhejna hai. | Send an email later |
-| 1 | Open **Personal messages** from **Guests**, **More** | 5 | Personal messages kholo. | Open Personal messages |
-| 2 | Tap **Invitation** under **Message** | 4 | Message mein Invitation chuno. | Pick Invitation |
-| 3 | Scroll to **Schedule email** and pick a **Date** | 5 | Schedule email mein tareekh chuno. | Pick the date |
-| 4 | Set the **Time (their local time)** | 5 | Time chuno. Yeh unka apna local time hai. | Pick their local time |
-| 5 | Tap **Schedule email** | 5 | Schedule email dabao. | Tap Schedule email |
-| end | Show the line "emails scheduled" | 4 | Email apne aap chala jayega. | Krama sends it for you |
+| 0 | Show the Personal messages page | 6 | Email abhi nahi, subah bhejna hai. | Send an email later |
+| 1 | Open **Personal messages** from **Guests**, **More** | 9 | Personal messages kholo. | Open Personal messages |
+| 2 | Tap **Invitation** under **Message** | 5 | Message mein Invitation chuno. | Pick Invitation |
+| 3 | Scroll to **Schedule email** and pick a **Date** | 6 | Schedule email mein tareekh chuno. | Pick the date |
+| 4 | Set the **Time (their local time)** | 6 | Time chuno. Yeh unka apna local time hai. | Pick their local time |
+| 5 | Tap **Schedule email** | 6 | Schedule email dabao. | Tap Schedule email |
+| end | Show the line "emails scheduled" | 5 | Email apne aap chala jayega. | Krama sends it for you |
 
-### V-2-personal-messages-3 · How to turn on the easier RSVP page for some families · about 45 s · phone first
+### V-2-personal-messages-3 · How to turn on the easier RSVP page for some families · about 39 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a small-text RSVP page | 5 | Bade logon ko chhota text padhna mushkil hai. | Small text is hard to read |
-| 1 | Open **Guests** | 4 | Guests kholo. | Open Guests |
-| 2 | Tap **More**, then **Personal messages** | 5 | More pe tap karo, phir Personal messages. | Open Personal messages |
-| 3 | Scroll to **Easier-to-read RSVP page** | 4 | Easier-to-read RSVP page dhundo. | Find the easier page |
-| 4 | Tap **Turn on for these families** | 5 | Turn on for these families dabao. | Tap Turn on |
-| 5 | Scroll down to show the ticked boxes on the family rows | 5 | Har family ke saamne tick lag gaya. | Boxes are ticked |
-| end | Show one family row with its box ticked | 5 | Ab unko bada text aur Call button milega. | Big text, Call button |
+| 0 | Show a small-text RSVP page | 6 | Bade logon ko chhota text padhna mushkil hai. | Small text is hard to read |
+| 1 | Open **Guests** | 5 | Guests kholo. | Open Guests |
+| 2 | Tap **More**, then **Personal messages** | 6 | More pe tap karo, phir Personal messages. | Open Personal messages |
+| 3 | Scroll to **Easier-to-read RSVP page** | 6 | Easier-to-read RSVP page dhundo. | Find the easier page |
+| 4 | Tap **Turn on for these families** | 6 | Turn on for these families dabao. | Tap Turn on |
+| 5 | Scroll down to show the ticked boxes on the family rows | 6 | Har family ke saamne tick lag gaya. | Boxes are ticked |
+| end | Show one family row with its box ticked | 6 | Ab unko bada text aur Call button milega. | Big text, Call button |

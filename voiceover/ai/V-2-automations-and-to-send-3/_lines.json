@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Kabhi kabhi sab kuch ek saath rokna padta hai.",
+    "dev": "कभी कभी सब कुछ एक साथ रोक्ना पद्ता है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "More pe tap karo.",
+    "dev": "मोर पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Settings kholo.",
+    "dev": "सेटिंग्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Automations pe tap karo.",
+    "dev": "औतोमतिओंस पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Stop all automations dabao.",
+    "dev": "स्टॉप ऑल औतोमतिओंस दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Sab ruk gaya. Resume automations se phir chalu karo.",
+    "dev": "सब रुक गया। रेसुमे औतोमतिओंस से फिर चलु करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

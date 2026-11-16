@@ -1,0 +1,82 @@
+{
+  "0": {
+    "roman": "Naam ki spelling galat hai? Theek kar lo.",
+    "dev": "नाम की स्पेल्लिंग ग़लत है? ठीक कर लो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Apna link kholo.",
+    "dev": "अपना लिंक खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "My details pe tap karo.",
+    "dev": "माय डीटेल्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Naam theek karo.",
+    "dev": "नाम ठीक करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Save my details pe tap karo.",
+    "dev": "सेव माय डीटेल्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Ho gaya. Badlav save ho gaya.",
+    "dev": "हो गया। बद्लव सेव हो गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "Page ke neeche jao.",
+    "dev": "पेज के नीचे जाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "7": {
+    "roman": "Language pe tap karo.",
+    "dev": "लंगुअगे पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "8": {
+    "roman": "Apni bhasha chuno.",
+    "dev": "अपनी भाषा चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Page ab aapki bhasha mein hai.",
+    "dev": "हो गया। पेज अब आपकी भाषा में है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

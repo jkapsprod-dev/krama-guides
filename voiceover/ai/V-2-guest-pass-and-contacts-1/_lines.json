@@ -1,0 +1,74 @@
+{
+  "0": {
+    "roman": "Gate pe line lambi hai. Pass ready rakho.",
+    "dev": "गते पे लाइन लम्बी है। पास रेडी रखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Apna link kholo.",
+    "dev": "अपना लिंक खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Pass pe tap karo.",
+    "dev": "पास पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Entrance pe ye code dikhao.",
+    "dev": "एंत्रंके पे ये कोड दिखओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Ho gaya. Poora parivar andar jaa sakta hai.",
+    "dev": "हो गया। पूरा परिवर अंदर जा सकता है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Apna link kholo.",
+    "dev": "अपना लिंक खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "Contacts pe tap karo.",
+    "dev": "कॉन्टैक्ट्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "7": {
+    "roman": "Number pe tap karke call karo.",
+    "dev": "नंबर पे टैप करके कॉल करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Seedha call lag gaya.",
+    "dev": "हो गया। सीधा कॉल लग गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

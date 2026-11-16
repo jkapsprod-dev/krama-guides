@@ -1,0 +1,66 @@
+{
+  "0": {
+    "roman": "Teen flight subah chhe baje ke aas paas aa rahi hain. Ek hi gaadi kaafi hai.",
+    "dev": "तीन फ़्लिघ्त सुबह छे बजे के आस पास आ रही हैं। एक ही गाड़ी काफ़ी है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Stays and Travel kholo.",
+    "dev": "स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Pickups tab pe tap karo.",
+    "dev": "पिकअप्स टैब पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Time window mein minutes likho.",
+    "dev": "टाइम विंदोव में मिनुतेस लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Suggest runs pe tap karo.",
+    "dev": "सुग्गेस्त रुंस पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Yeh sujhaaye hue runs hain. Abhi kuch save nahi hua.",
+    "dev": "यह सुझाये हुए रुंस हैं। अभी कुछ सेव नहीं हुआ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "Make these runs pe tap karo.",
+    "dev": "मेक थेसे रुंस पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Ab run mein driver aur gaadi jodo.",
+    "dev": "हो गया। अब रन में ड्राइवर और गाड़ी जोड़ो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

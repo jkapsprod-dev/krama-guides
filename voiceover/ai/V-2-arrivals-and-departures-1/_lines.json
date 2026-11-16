@@ -1,0 +1,66 @@
+{
+  "0": {
+    "roman": "Chacha ki train kab aayegi, yeh kahin likha nahi hai.",
+    "dev": "चचा की ट्रेन कब आयेगी, यह कहीं लिखा नहीं है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Stays and Travel kholo.",
+    "dev": "स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Arrivals and departures tab pe tap karo.",
+    "dev": "अराइवल्स ऐंड डिपार्चर्स टैब पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Add travel pe tap karo.",
+    "dev": "ऐड ट्रैवल पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Guest chuno.",
+    "dev": "गेस्ट चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Aana hai ya jaana, train ya flight, number, date aur time bharo.",
+    "dev": "आना है या जाना, ट्रेन या फ़्लिघ्त, नंबर, डेट और टाइम भरो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "Save pe tap karo.",
+    "dev": "सेव पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Train list mein aa gayi.",
+    "dev": "हो गया। ट्रेन लिस्ट में आ गई।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

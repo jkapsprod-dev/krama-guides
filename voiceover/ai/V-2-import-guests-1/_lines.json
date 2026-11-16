@@ -1,0 +1,66 @@
+{
+  "0": {
+    "roman": "Excel mein poori list hai? Ek baar mein jodo.",
+    "dev": "एक्स्केल में पूरी लिस्ट है? एक बार में जोड़ो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "More pe tap karo.",
+    "dev": "मोर पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Import contacts pe tap karo.",
+    "dev": "इम्पोर्त कॉन्टैक्ट्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Apni CSV file chuno.",
+    "dev": "अपनी सीएसवी फ़ाइल चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Columns theek se milaao.",
+    "dev": "कोलुम्न्स ठीक से मिलाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "Review pe tap karo.",
+    "dev": "रेविएव पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab list jaanch lo.",
+    "dev": "अब लिस्ट जाँच लो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Family ne link bheja hai. Ab jawab dena hai.",
+    "dev": "फ़ैमिली ने लिंक भेजा है। अब जवाब देना है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Apna link kholo.",
+    "dev": "अपना लिंक खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Haldi ke neeche Going pe tap karo.",
+    "dev": "हल्दी के नीचे गोइंग पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Guests coming mein kitne log aayenge, woh set karo.",
+    "dev": "गेस्ट्स कोमिंग में कितने लोग आएँगे, वो सेट करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Meal preference chuno.",
+    "dev": "मेअल प्रेफ़ेरेंके चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Send our reply pe tap karo.",
+    "dev": "सेंड और रिप्लाई पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Ab aap list mein ho.",
+    "dev": "हो गया। अब आप लिस्ट में हो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

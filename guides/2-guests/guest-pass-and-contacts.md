@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 2
 who: [guest, couple, family]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-15
+video: made
 internal: false
 code:
   - "app/rsvp/[token]/page.tsx"
@@ -64,17 +64,17 @@ Guests then see that name and phone on their **Contacts** tab. Pass needs nothin
 
 ## Video scripts
 
-### V-2-guest-pass-and-contacts-1 · How to show your family pass at the door, then find who to call on the day · about 40 s · phone first
+### V-2-guest-pass-and-contacts-1 · How to show your family pass at the door, then find who to call on the day · about 38 s · phone first
 Demo login: lane 2, demo guest link (Appendix E). "Voice says" is Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a busy wedding gate | 4 | Gate pe line lambi hai. Pass ready rakho. | Have your pass ready |
-| 1 | Open the link | 3 | Apna link kholo. | Open your link |
-| 2 | Tap **Pass** | 3 | Pass pe tap karo. | Tap Pass |
-| 3 | Show the code to the entrance | 3 | Entrance pe ye code dikhao. | Show it at the door |
-| 4 | Show the pass with the family name | 5 | Ho gaya. Poora parivar andar jaa sakta hai. | Whole family in |
-| 5 | Open the link | 3 | Apna link kholo. | Open your link |
-| 6 | Tap **Contacts** | 3 | Contacts pe tap karo. | Tap Contacts |
-| 7 | Tap the phone number | 4 | Number pe tap karke call karo. | Tap to call |
-| end | Show the call screen | 4 | Ho gaya. Seedha call lag gaya. | Call connected |
+| 0 | Show a busy wedding gate | 5 | Gate pe line lambi hai. Pass ready rakho. | Have your pass ready |
+| 1 | Open the link | 4 | Apna link kholo. | Open your link |
+| 2 | Tap **Pass** | 4 | Pass pe tap karo. | Tap Pass |
+| 3 | Show the code to the entrance | 4 | Entrance pe ye code dikhao. | Show it at the door |
+| 4 | Show the pass with the family name | 6 | Ho gaya. Poora parivar andar jaa sakta hai. | Whole family in |
+| 5 | Open the link | 4 | Apna link kholo. | Open your link |
+| 6 | Tap **Contacts** | 4 | Contacts pe tap karo. | Tap Contacts |
+| 7 | Tap the phone number | 5 | Number pe tap karke call karo. | Tap to call |
+| end | Show the call screen | 5 | Ho gaya. Seedha call lag gaya. | Call connected |

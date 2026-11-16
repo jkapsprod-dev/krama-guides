@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Driver ko list kaise bhejein. Sab kuch phone pe likhna lamba hai.",
+    "dev": "ड्राइवर को लिस्ट कैसे भेजें। सब कुछ फ़ोन पे लिखना लम्बा है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Pickups tab kholo.",
+    "dev": "पिकअप्स टैब खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Drivers' links tak scroll karo.",
+    "dev": "द्रिवेर्स लिंक्स तक स्क्रॉल करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Make a link pe tap karo.",
+    "dev": "मेक अ लिंक पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Send on WhatsApp pe tap karo.",
+    "dev": "सेंड ऑन व्हाट्सऐप पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "WhatsApp khulega. Message taiyaar hai. Bhejna aapko hai.",
+    "dev": "व्हाट्सऐप खुलेगा। मैसेज तैयार है। भेजना आपको है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Driver ke paas apna link hai.",
+    "dev": "हो गया। ड्राइवर के पास अपना लिंक है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Wahi phone number pehle se list mein hai?",
+    "dev": "वही फ़ोन नंबर पहले से लिस्ट में है?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Save guest pe tap karo.",
+    "dev": "सेव गेस्ट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Ye box batata hai kaun milta hai.",
+    "dev": "ये बॉक्स बताता है कौन मिल्ता है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Dekh lo, wahi insaan hai ya nahi.",
+    "dev": "देख लो, वही इंसान है या नहीं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Alag insaan hai to Add anyway dabao.",
+    "dev": "अलग इंसान है तो ऐड अंय्वय दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Dono mehmaan list mein hain.",
+    "dev": "दोनों मेहमान लिस्ट में हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

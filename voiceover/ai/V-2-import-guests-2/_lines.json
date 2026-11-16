@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Kya koi naam do baar aa gaya?",
+    "dev": "क्या कोई नाम दो बार आ गया?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Possible duplicates ko dhyan se dekho.",
+    "dev": "पोस्सिब्ले दुप्लिकतेस को ध्यन से देखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Ek parivaar ho to unhe saath tick karo.",
+    "dev": "एक परिवार हो तो उन्हें साथ टिक करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Function chuno.",
+    "dev": "फ़ंक्शन चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Import pe tap karo.",
+    "dev": "इम्पोर्त पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "View guests pe tap karo.",
+    "dev": "विएव गेस्ट्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Poori list jud gayi.",
+    "dev": "पूरी लिस्ट जुद गई।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

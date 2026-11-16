@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Ek hi parivaar ko ek link chahiye?",
+    "dev": "एक ही परिवार को एक लिंक चाहिए?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Pehle naam likho.",
+    "dev": "पहले नाम लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Family wale box pe tap karo.",
+    "dev": "फ़ैमिली वाले बॉक्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Parivaar chuno.",
+    "dev": "परिवार चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Save guest pe tap karo.",
+    "dev": "सेव गेस्ट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab ek link poore parivaar ke liye hai.",
+    "dev": "अब एक लिंक पूरे परिवार के लिए है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

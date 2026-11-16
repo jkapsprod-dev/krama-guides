@@ -1,0 +1,82 @@
+{
+  "0": {
+    "roman": "Hotel ko batana hai ki kaun kis room mein hai.",
+    "dev": "होटल को बतना है की कौन किस रूम में है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Stays and Travel kholo.",
+    "dev": "स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Rooming list pe tap karo.",
+    "dev": "रूमिंग लिस्ट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Print karo, ya Download CSV se file lo.",
+    "dev": "प्रिंट करो, या डाउनलोड सीएसवी से फ़ाइल लो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Yeh list aap khud hotel ko bhejo.",
+    "dev": "यह लिस्ट आप ख़ुद होटल को भेजो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Bas, hotel ke paas poori list hai.",
+    "dev": "बस, होटल के पास पूरी लिस्ट है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "More mein se Stays and Travel kholo.",
+    "dev": "मोर में से स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "7": {
+    "roman": "Destination wedding ka switch on karo.",
+    "dev": "देस्तिनतिओं वेडिंग का स्विच ऑन करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "8": {
+    "roman": "Tasks mein nayi checklist aa gayi.",
+    "dev": "टास्क्स में नई चेक्क्लिस्त आ गई।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Room block, pickups, welcome kits, sab yaad rahega.",
+    "dev": "रूम ब्लोक्क, पिकअप्स, वेल्कोमे कित्स, सब याद रहेगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 2
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-15
+video: made
 internal: false
 code: ["app/w/[workspaceId]/guests/guest-panel.tsx", "app/w/[workspaceId]/guests/guest-actions.tsx", "app/w/[workspaceId]/guests/invitation-controls.tsx", "app/w/[workspaceId]/guests/load-guest.ts", "app/w/[workspaceId]/guests/actions.ts", "lib/rsvp/links.ts"]
 ---
@@ -64,51 +64,51 @@ Prefer email? Tap **Send by email**. Your email app opens, and you press send. W
 
 ## Video scripts
 
-### V-2-send-rsvp-links-1 · How to invite a guest to functions · about 38 s · phone first
+### V-2-send-rsvp-links-1 · How to invite a guest to functions · about 45 s · phone first
 Demo login: lane 2, couple (Appendix E). Use a guest who is not yet invited to Haldi. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a guest with no function marks | 4 | Mehmaan ko Haldi mein bulana hai? | Invite a guest to a function |
-| 1 | Tap **Guests** in the bottom bar | 7 | Guests kholo. | Open Guests |
-| 2 | Tap the guest's name | 8 | Mehmaan ke naam pe tap karo. | Tap the guest's name |
-| 3 | Scroll to **Functions** and show **Haldi** | 8 | Functions mein Haldi dhundo. | Find Haldi |
-| 4 | Tap **Invite** | 7 | Invite pe tap karo. | Tap Invite |
-| end | Show **Haldi** marked as invited | 4 | Ab ye Haldi ke mehmaan hain. | Now invited to Haldi |
+| 0 | Show a guest with no function marks | 5 | Mehmaan ko Haldi mein bulana hai? | Invite a guest to a function |
+| 1 | Tap **Guests** in the bottom bar | 8 | Guests kholo. | Open Guests |
+| 2 | Tap the guest's name | 9 | Mehmaan ke naam pe tap karo. | Tap the guest's name |
+| 3 | Scroll to **Functions** and show **Haldi** | 9 | Functions mein Haldi dhundo. | Find Haldi |
+| 4 | Tap **Invite** | 12 | Invite pe tap karo. | Tap Invite |
+| end | Show **Haldi** marked as invited | 11 | Ab ye Haldi ke mehmaan hain. | Now invited to Haldi |
 
-### V-2-send-rsvp-links-2 · How to send a family their link · about 38 s · phone first
+### V-2-send-rsvp-links-2 · How to send a family their link · about 44 s · phone first
 Demo login: lane 2, couple (Appendix E). Use a guest with a made-up phone number. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a family waiting for an invite | 4 | Parivaar ko unka link bhejna hai? | Send a family their link |
-| 1 | Tap **Guests** in the bottom bar | 5 | Guests kholo. | Open Guests |
-| 2 | Tap the guest's name | 6 | Mehmaan ke naam pe tap karo. | Tap the guest's name |
-| 3 | Tap **Message on WhatsApp** | 6 | Message on WhatsApp pe tap karo. | Tap Message on WhatsApp |
-| 4 | Show WhatsApp open with the ready message | 7 | WhatsApp mein message taiyaar hai. | The message is ready |
-| 5 | Tap the send arrow in WhatsApp | 6 | Send aap khud dabate ho. Krama kuch nahi bhejta. | You press send |
-| end | Show the sent message | 4 | Link chala gaya. | The link is sent |
+| 0 | Show a family waiting for an invite | 5 | Parivaar ko unka link bhejna hai? | Send a family their link |
+| 1 | Tap **Guests** in the bottom bar | 6 | Guests kholo. | Open Guests |
+| 2 | Tap the guest's name | 7 | Mehmaan ke naam pe tap karo. | Tap the guest's name |
+| 3 | Tap **Message on WhatsApp** | 7 | Message on WhatsApp pe tap karo. | Tap Message on WhatsApp |
+| 4 | Show WhatsApp open with the ready message | 8 | WhatsApp mein message taiyaar hai. | The message is ready |
+| 5 | Tap the send arrow in WhatsApp | 7 | Send aap khud dabate ho. Krama kuch nahi bhejta. | You press send |
+| end | Show the sent message | 5 | Link chala gaya. | The link is sent |
 
-### V-2-send-rsvp-links-3 · How to stop a link shared by mistake · about 38 s · phone first
+### V-2-send-rsvp-links-3 · How to stop a link shared by mistake · about 44 s · phone first
 Demo login: lane 2, couple (Appendix E). Use a guest who is in a family. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a guest's details | 4 | Link galat vyakti ko chala gaya? | Link sent to the wrong person? |
-| 1 | Tap **Guests** in the bottom bar and tap the guest | 8 | Mehmaan ko kholo. | Open the guest |
-| 2 | Scroll down to **Reset link** | 8 | Neeche Reset link dhundo. | Find Reset link |
-| 3 | Tap **Reset link** | 7 | Reset link pe tap karo. | Tap Reset link |
-| 4 | Show the buttons again | 7 | Purana link band ho gaya. | The old link stops |
-| end | Tap **Message on WhatsApp** to start the new message | 4 | Ab naya link bhej do. | Send the new link |
+| 0 | Show a guest's details | 5 | Link galat vyakti ko chala gaya? | Link sent to the wrong person? |
+| 1 | Tap **Guests** in the bottom bar and tap the guest | 9 | Mehmaan ko kholo. | Open the guest |
+| 2 | Scroll down to **Reset link** | 9 | Neeche Reset link dhundo. | Find Reset link |
+| 3 | Tap **Reset link** | 8 | Reset link pe tap karo. | Tap Reset link |
+| 4 | Show the buttons again | 8 | Purana link band ho gaya. | The old link stops |
+| end | Tap **Message on WhatsApp** to start the new message | 5 | Ab naya link bhej do. | Send the new link |
 
-### V-2-send-rsvp-links-4 · How to record a reply for a guest · about 38 s · phone first
+### V-2-send-rsvp-links-4 · How to record a reply for a guest · about 44 s · phone first
 Demo login: lane 2, couple (Appendix E). Use a guest invited to Haldi. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a guest who is still waiting | 4 | Mausi ne phone pe bata diya, ab list mein likho. | Reply came by phone call |
-| 1 | Tap **Guests** in the bottom bar and tap the guest | 8 | Mehmaan ko kholo. | Open the guest |
-| 2 | Scroll to **Functions** and tap the reply box under **Haldi** | 8 | Haldi ke neeche reply wala box dabao. | Tap the reply box |
-| 3 | Pick **Attending** | 7 | Attending chuno. | Pick Attending |
-| 4 | Type 3 in the number box | 7 | Kitne log aayenge, wo likho. | Type how many are coming |
-| end | Show the guest as coming | 4 | Jawab likh liya gaya. | The reply is saved |
+| 0 | Show a guest who is still waiting | 5 | Mausi ne phone pe bata diya, ab list mein likho. | Reply came by phone call |
+| 1 | Tap **Guests** in the bottom bar and tap the guest | 9 | Mehmaan ko kholo. | Open the guest |
+| 2 | Scroll to **Functions** and tap the reply box under **Haldi** | 9 | Haldi ke neeche reply wala box dabao. | Tap the reply box |
+| 3 | Pick **Attending** | 8 | Attending chuno. | Pick Attending |
+| 4 | Type 3 in the number box | 8 | Kitne log aayenge, wo likho. | Type how many are coming |
+| end | Show the guest as coming | 5 | Jawab likh liya gaya. | The reply is saved |

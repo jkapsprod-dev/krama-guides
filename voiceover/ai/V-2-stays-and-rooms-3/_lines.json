@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Mehta family ko kamra chahiye, par list mein yeh likha nahi hai.",
+    "dev": "मेह्ता फ़ैमिली को कम्रा चाहिए, पर लिस्ट में यह लिखा नहीं है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Us family ke kisi guest pe tap karo.",
+    "dev": "उस फ़ैमिली के किसी गेस्ट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Stay and travel dhundo.",
+    "dev": "स्तय ऐंड ट्रैवल ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Needs a room ka switch on karo.",
+    "dev": "नीड्स अ रूम का स्विच ऑन करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Ab family Waiting for a room mein dikhegi.",
+    "dev": "अब फ़ैमिली वैतिंग फ़ॉर अ रूम में दिखेगी।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Done. Ab room dena aasaan hai.",
+    "dev": "डन। अब रूम देना आसां है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

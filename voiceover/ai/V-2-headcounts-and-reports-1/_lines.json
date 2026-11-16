@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Caterer poochta hai, kitne log aayenge.",
+    "dev": "कैटरर पूच्ता है, कितने लोग आएँगे।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "More pe tap karo, phir Headcounts.",
+    "dev": "मोर पे टैप करो, फिर हेअद्कौंत्स।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Yeh Headcount hai. Itne log aa rahe hain.",
+    "dev": "यह हेअद्कौंत है। इत्ने लोग आ रहे हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Neeche dekho, kaun aa raha hai, kaun nahi, kaun baaki.",
+    "dev": "नीचे देखो, कौन आ रहा है, कौन नहीं, कौन बाकी।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Meals mein khane ka hisaab hai.",
+    "dev": "मेअल्स में खने का हिसाब है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab number aapke paas hai.",
+    "dev": "अब नंबर आपके पास है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

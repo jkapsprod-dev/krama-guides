@@ -1,0 +1,66 @@
+{
+  "0": {
+    "roman": "Har family ko apna personal message bhejna hai.",
+    "dev": "हर फ़ैमिली को अपना पर्सनल मैसेज भेजना है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "More pe tap karo, phir Personal messages.",
+    "dev": "मोर पे टैप करो, फिर पर्सनल मेस्सगेस।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Message mein Save the date chuno.",
+    "dev": "मैसेज में सेव द डेट चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Send to mein Everyone chuno.",
+    "dev": "सेंड तो में एवेर्योने चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Preview message dabake padh lo.",
+    "dev": "प्रेविएव मैसेज दबाके पध लो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "Send on WhatsApp dabao. Phir aap khud send dabao.",
+    "dev": "सेंड ऑन व्हाट्सऐप दबाओ। फिर आप ख़ुद सेंड दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Message ready hai.",
+    "dev": "मैसेज रेडी है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

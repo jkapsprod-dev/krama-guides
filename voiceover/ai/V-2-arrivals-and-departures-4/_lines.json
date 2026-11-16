@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Bahut saari lines hain. Aapko sirf apni dekhni hain.",
+    "dev": "बहुत सारी लिनेस हैं। आपको सिर्फ़ अपनी देख्नी हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Stays and Travel kholo.",
+    "dev": "स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Arrivals and departures tab pe tap karo.",
+    "dev": "अराइवल्स ऐंड डिपार्चर्स टैब पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Show dhundo.",
+    "dev": "शोव ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "My pickups pe tap karo.",
+    "dev": "माय पिकअप्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab sirf aapke pickups dikh rahe hain.",
+    "dev": "अब सिर्फ़ आपके पिकअप्स दिख रहे हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

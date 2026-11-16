@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Sirf ek side ke mehmaan dekhne hain?",
+    "dev": "सिर्फ़ एक साइड के मेहमान देखने हैं?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Bride's side pe tap karo.",
+    "dev": "ब्रिदे स साइड पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Ab Awaiting pe tap karo. Sirf wahi dikhenge jinhone jawab nahi diya.",
+    "dev": "अब अवैतिंग पे टैप करो। सिर्फ़ वही दिखेंगे जिंहोने जवाब नहीं दिया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "More filters kholo.",
+    "dev": "मोर फ़िल्तेर्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Function chuno, phir Apply pe tap karo.",
+    "dev": "फ़ंक्शन चुनो, फिर अप्प्ल्य पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Bas, list chhoti ho gayi.",
+    "dev": "बस, लिस्ट छोती हो गई।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

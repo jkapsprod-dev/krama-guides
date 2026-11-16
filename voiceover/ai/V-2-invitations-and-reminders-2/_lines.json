@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Guests ko batana hai ki kab tak reply karna hai.",
+    "dev": "गेस्ट्स को बतना है की कब तक रिप्लाई करना है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Set a reply-by date pe tap karo.",
+    "dev": "सेट अ रिप्लाई बाय डेट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Neeche Please reply by dhundo.",
+    "dev": "नीचे प्लेअसे रिप्लाई बाय ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Dabake apni tareekh chuno.",
+    "dev": "दबाके अपनी तारीख़ चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Save dabao.",
+    "dev": "सेव दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab har family ko yeh tareekh dikhegi.",
+    "dev": "अब हर फ़ैमिली को यह तारीख़ दिखेगी।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

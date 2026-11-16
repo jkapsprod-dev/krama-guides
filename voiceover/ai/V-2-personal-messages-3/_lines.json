@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Bade logon ko chhota text padhna mushkil hai.",
+    "dev": "बदे लोगों को छोटा टेक्स्ट पध्ना मुश्किल है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "More pe tap karo, phir Personal messages.",
+    "dev": "मोर पे टैप करो, फिर पर्सनल मेस्सगेस।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Easier-to-read RSVP page dhundo.",
+    "dev": "एअसिएर तो रीड आरएसवीपी पेज ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Turn on for these families dabao.",
+    "dev": "तुर्न ऑन फ़ॉर थेसे फ़ैमिलीज़ दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Har family ke saamne tick lag gaya.",
+    "dev": "हर फ़ैमिली के सामने टिक लग गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab unko bada text aur Call button milega.",
+    "dev": "अब उंको बदा टेक्स्ट और कॉल बटन मिलेगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

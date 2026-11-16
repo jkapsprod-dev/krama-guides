@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Hosts ko aapka ticket chahiye, par type karna lamba hai.",
+    "dev": "होस्त्स को आपका टिकट चाहिए, पर टाइप करना लम्बा है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Stay and travel tab pe tap karo.",
+    "dev": "स्तय ऐंड ट्रैवल टैब पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Choose ticket pe tap karo aur apna ticket chuno.",
+    "dev": "चूज़ टिकट पे टैप करो और अपना टिकट चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Jo details mili hain, unhe ek baar dekh lo.",
+    "dev": "जो डीटेल्स मिली हैं, उन्हें एक बार देख लो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Jo log is ticket pe jaa rahe hain, unko tick karo.",
+    "dev": "जो लोग इस टिकट पे जा रहे हैं, उंको टिक करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Send to the hosts pe tap karo.",
+    "dev": "सेंड तो द होस्त्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Hosts ab aapka pickup confirm karenge.",
+    "dev": "हो गया। होस्त्स अब आपका पिकअप कन्फ़र्म करेंगे।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

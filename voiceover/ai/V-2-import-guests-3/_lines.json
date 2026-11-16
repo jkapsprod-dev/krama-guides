@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Mehmaan aapke phone mein hi hain?",
+    "dev": "मेहमान आपके फ़ोन में ही हैं?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "More kholo, phir Import contacts.",
+    "dev": "मोर खोलो, फिर इम्पोर्त कॉन्टैक्ट्स।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "From your phone's contacts pe tap karo.",
+    "dev": "फ़्रोम योर फ़ोन स कॉन्टैक्ट्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Jin logon ko jodna hai unhe chuno.",
+    "dev": "जिन लोगों को जोड़ना है उन्हें चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Review pe tap karo.",
+    "dev": "रेविएव पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab list jaanch lo.",
+    "dev": "अब लिस्ट जाँच लो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

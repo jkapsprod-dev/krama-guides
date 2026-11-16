@@ -1,0 +1,42 @@
+{
+  "0": {
+    "roman": "Shaadi ka chhota link mila hai.",
+    "dev": "शादी का छोटा लिंक मिला है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Short link kholo.",
+    "dev": "शोर्त लिंक खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Upar naam, mahina aur sheher dikhega.",
+    "dev": "ऊपर नाम, महिना और शेहेर दिखेगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Functions ke neeche har function ka din dikhega.",
+    "dev": "फ़ंक्शंस के नीचे हर फ़ंक्शन का दिन दिखेगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Poori jaankari personal link mein hai.",
+    "dev": "हो गया। पूरी जांकरी पर्सनल लिंक में है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

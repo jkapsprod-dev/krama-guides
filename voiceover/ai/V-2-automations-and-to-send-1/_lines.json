@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Roz roz yaad dilana thaka deta hai.",
+    "dev": "रोज़ रोज़ याद दिलना थका देता है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "More pe tap karo.",
+    "dev": "मोर पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Settings kholo.",
+    "dev": "सेटिंग्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Automations pe tap karo.",
+    "dev": "औतोमतिओंस पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Reply-by date passed wala rule dhundo.",
+    "dev": "रिप्लाई बाय डेट पस्सेद वाला रुले ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Switch on dabao.",
+    "dev": "स्विच ऑन दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab yeh rule chalu hai.",
+    "dev": "अब यह रुले चलु है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

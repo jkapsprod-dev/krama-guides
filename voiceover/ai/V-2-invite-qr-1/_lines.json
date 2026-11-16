@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Door ke rishtedaron ke number kisi ke paas nahi.",
+    "dev": "दूर के रिश्तेदरों के नंबर किसी के पास नहीं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "More pe tap karo, phir Invite QR.",
+    "dev": "मोर पे टैप करो, फिर इनवाइट क्यूआर।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Create the QR dabao.",
+    "dev": "क्रिएट द क्यूआर दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Print dabake apne patrika par lagao.",
+    "dev": "प्रिंट दबाके अपने पत्रिका पर लगओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Ya Copy link dabake link khud bhejo.",
+    "dev": "या कॉपी लिंक दबाके लिंक ख़ुद भेजो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "QR ready hai.",
+    "dev": "क्यूआर रेडी है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

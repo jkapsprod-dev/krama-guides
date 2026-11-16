@@ -1,0 +1,66 @@
+{
+  "0": {
+    "roman": "Station se haveli tak gaadi kaun legi, yeh tay karna hai.",
+    "dev": "स्ततिओं से हवेली तक गाड़ी कौन लेगी, यह तय करना है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Pickups tab kholo.",
+    "dev": "पिकअप्स टैब खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Add a run pe tap karo.",
+    "dev": "ऐड अ रन पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Kahan se, kis din aur kis time nikalna hai, woh bharo.",
+    "dev": "कहाँ से, किस दिन और किस टाइम निकल्ना है, वो भरो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Gaadi aur seats likho.",
+    "dev": "गाड़ी और सेअत्स लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Driver chuno.",
+    "dev": "ड्राइवर चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "Save run pe tap karo.",
+    "dev": "सेव रन पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Run list mein aa gaya.",
+    "dev": "हो गया। रन लिस्ट में आ गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

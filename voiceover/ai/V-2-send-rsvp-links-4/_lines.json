@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Mausi ne phone pe bata diya, ab list mein likho.",
+    "dev": "मौसी ने फ़ोन पे बता दिया, अब लिस्ट में लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Mehmaan ko kholo.",
+    "dev": "मेहमान को खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Haldi ke neeche reply wala box dabao.",
+    "dev": "हल्दी के नीचे रिप्लाई वाला बॉक्स दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Attending chuno.",
+    "dev": "अत्तेंदिंग चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Kitne log aayenge, wo likho.",
+    "dev": "कितने लोग आएँगे, वो लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Jawab likh liya gaya.",
+    "dev": "जवाब लिख लिया गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

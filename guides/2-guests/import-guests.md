@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 2
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-15
+video: made
 internal: false
 code: ["app/w/[workspaceId]/guests/import/page.tsx", "app/w/[workspaceId]/guests/import/import-flow.tsx", "app/w/[workspaceId]/guests/import/actions.ts", "app/w/[workspaceId]/guests/guests-more.tsx", "lib/guests/csv.ts", "lib/guests/import.ts"]
 ---
@@ -52,41 +52,41 @@ code: ["app/w/[workspaceId]/guests/import/page.tsx", "app/w/[workspaceId]/guests
 
 ## Video scripts
 
-### V-2-import-guests-1 · How to import guests from a CSV file · about 38 s · phone first
+### V-2-import-guests-1 · How to import guests from a CSV file · about 44 s · phone first
 Demo login: lane 2, couple (Appendix E). Off camera, put a small made-up file called sharma-list.csv on the phone, with columns Name, Phone and City. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show an Excel list of guest names | 4 | Excel mein poori list hai? Ek baar mein jodo. | Got a list in Excel? |
-| 1 | Tap **Guests** in the bottom bar | 5 | Guests kholo. | Open Guests |
-| 2 | Tap **More** | 4 | More pe tap karo. | Tap More |
-| 3 | Tap **Import contacts** | 4 | Import contacts pe tap karo. | Tap Import contacts |
-| 4 | Choose the file under **CSV file** | 6 | Apni CSV file chuno. | Choose your file |
-| 5 | Show **Match your columns** | 6 | Columns theek se milaao. | Check the columns |
-| 6 | Tap **Review** | 5 | Review pe tap karo. | Tap Review |
-| end | Show the review list | 4 | Ab list jaanch lo. | Time to check the list |
+| 0 | Show **Home** | 5 | Excel mein poori list hai? Ek baar mein jodo. | Got a list in Excel? |
+| 1 | Tap **Guests** in the bottom bar | 6 | Guests kholo. | Open Guests |
+| 2 | Tap **More** | 5 | More pe tap karo. | Tap More |
+| 3 | Tap **Import contacts** | 5 | Import contacts pe tap karo. | Tap Import contacts |
+| 4 | Choose the file under **CSV file** | 7 | Apni CSV file chuno. | Choose your file |
+| 5 | Show **Match your columns** | 7 | Columns theek se milaao. | Check the columns |
+| 6 | Tap **Review** | 6 | Review pe tap karo. | Tap Review |
+| end | Show the review list | 5 | Ab list jaanch lo. | Time to check the list |
 
-### V-2-import-guests-2 · How to check duplicates and finish the import · about 38 s · phone first
+### V-2-import-guests-2 · How to check duplicates and finish the import · about 44 s · phone first
 Demo login: lane 2, couple (Appendix E). Continue from the review screen of the file in video 1, which has one repeated guest and two guests who share a surname and a city. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the review screen | 4 | Kya koi naam do baar aa gaya? | Any repeated names? |
-| 1 | Show **Possible duplicates** | 7 | Possible duplicates ko dhyan se dekho. | Check Possible duplicates |
-| 2 | Tick the two guests in **Put these together?** | 7 | Ek parivaar ho to unhe saath tick karo. | Tick families |
-| 3 | Pick **Haldi** under **Invite everyone to** | 6 | Function chuno. | Pick a function |
-| 4 | Tap the button Import 119 guests | 5 | Import pe tap karo. | Tap Import |
-| 5 | Tap **View guests** | 5 | View guests pe tap karo. | Tap View guests |
-| end | Show the full list | 4 | Poori list jud gayi. | Your list is in |
+| 0 | Show the review screen | 5 | Kya koi naam do baar aa gaya? | Any repeated names? |
+| 1 | Show **Possible duplicates** | 8 | Possible duplicates ko dhyan se dekho. | Check Possible duplicates |
+| 2 | Tick the family in **Put these together?** | 8 | Ek parivaar ho to unhe saath tick karo. | Tick families |
+| 3 | Pick **Haldi** under **Invite everyone to** | 7 | Function chuno. | Pick a function |
+| 4 | Tap the button Import 4 guests | 6 | Import pe tap karo. | Tap Import |
+| 5 | Tap **View guests** | 7 | View guests pe tap karo. | Tap View guests |
+| end | Show the full list | 5 | Poori list jud gayi. | Your list is in |
 
-### V-2-import-guests-3 · How to import from your phone's contacts · about 38 s · phone first
+### V-2-import-guests-3 · How to import from your phone's contacts · about 48 s · phone first
 Demo login: lane 2, couple (Appendix E). Use an Android phone with three made-up contacts. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the phone's contacts app | 4 | Mehmaan aapke phone mein hi hain? | Guests are in your phone |
-| 1 | Tap **More**, then **Import contacts** on **Guests** | 8 | More kholo, phir Import contacts. | Open Import contacts |
-| 2 | Tap **From your phone's contacts** | 7 | From your phone's contacts pe tap karo. | Tap From your phone's contacts |
-| 3 | Tick three contacts and confirm | 8 | Jin logon ko jodna hai unhe chuno. | Pick the contacts |
-| 4 | Tap **Review** | 7 | Review pe tap karo. | Tap Review |
-| end | Show the review list | 4 | Ab list jaanch lo. | Time to check the list |
+| 0 | Show **Home** | 5 | Mehmaan aapke phone mein hi hain? | Guests are in your phone |
+| 1 | Tap **More**, then **Import contacts** on **Guests** | 12 | More kholo, phir Import contacts. | Open Import contacts |
+| 2 | Tap **From your phone's contacts** | 8 | From your phone's contacts pe tap karo. | Tap From your phone's contacts |
+| 3 | Pick three contacts on the phone | 9 | Jin logon ko jodna hai unhe chuno. | Pick the contacts |
+| 4 | Show the review list | 8 | Review pe tap karo. | Tap Review |
+| end | Show the review list | 5 | Ab list jaanch lo. | Time to check the list |

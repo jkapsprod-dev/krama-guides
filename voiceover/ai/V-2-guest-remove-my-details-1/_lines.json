@@ -1,0 +1,42 @@
+{
+  "0": {
+    "roman": "Apni details hatani hain? Ye aasan hai.",
+    "dev": "अपनी डीटेल्स हतनी हैं? ये आसन है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Link kholo aur neeche Remove my details tak jao.",
+    "dev": "लिंक खोलो और नीचे रिमूव माय डीटेल्स तक जाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Apne naam wale button pe tap karo.",
+    "dev": "अपने नाम वाले बटन पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Yes, remove pe tap karo.",
+    "dev": "यस, रिमूव पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Aapki details hat gayi.",
+    "dev": "हो गया। आपकी डीटेल्स हट गई।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

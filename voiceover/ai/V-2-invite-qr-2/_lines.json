@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Kuch rishtedaron ne apni details bheji hain.",
+    "dev": "कुछ रिश्तेदरों ने अपनी डीटेल्स भेजी हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "More pe tap karo, phir Invite QR.",
+    "dev": "मोर पे टैप करो, फिर इनवाइट क्यूआर।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Naam aur phone dekh lo.",
+    "dev": "नाम और फ़ोन देख लो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Add to guest list dabao.",
+    "dev": "ऐड तो गेस्ट लिस्ट दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Agar jaante nahi, to Reject dabao.",
+    "dev": "अगर जांते नहीं, तो रेजेक्त दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Naya guest list mein aa gaya.",
+    "dev": "नया गेस्ट लिस्ट में आ गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

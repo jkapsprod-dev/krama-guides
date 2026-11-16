@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Hotel to hai, par abhi koi room nahi hai.",
+    "dev": "होटल तो है, पर अभी कोई रूम नहीं है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Stays and Travel kholo.",
+    "dev": "स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Room map ke neeche Add rooms pe tap karo.",
+    "dev": "रूम मप के नीचे ऐड रूम्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Pehla aur aakhri room number likho.",
+    "dev": "पहला और आख्री रूम नंबर लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Floor, type aur kitne log sote hain, woh bharo.",
+    "dev": "फ़्लूर, टाइप और कितने लोग सोते हैं, वो भरो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Phir Add rooms pe tap karo.",
+    "dev": "फिर ऐड रूम्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Saare room map pe dikh rahe hain.",
+    "dev": "हो गया। सारे रूम मप पे दिख रहे हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

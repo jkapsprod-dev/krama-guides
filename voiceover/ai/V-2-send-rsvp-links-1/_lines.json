@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Mehmaan ko Haldi mein bulana hai?",
+    "dev": "मेहमान को हल्दी में बुलाना है?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Mehmaan ke naam pe tap karo.",
+    "dev": "मेहमान के नाम पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Functions mein Haldi dhundo.",
+    "dev": "फ़ंक्शंस में हल्दी ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Invite pe tap karo.",
+    "dev": "इनवाइट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab ye Haldi ke mehmaan hain.",
+    "dev": "अब ये हल्दी के मेहमान हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

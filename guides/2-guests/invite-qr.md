@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 2
 who: [couple, family, planner, guest]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-15
+video: made
 internal: false
 code:
   - "app/w/[workspaceId]/guests/patrika/page.tsx"
@@ -74,41 +74,41 @@ This part is for you, the guest. You scanned a QR on a wedding card. The family 
 
 ## Video scripts
 
-### V-2-invite-qr-1 · How to make an invite QR · about 45 s · phone first
+### V-2-invite-qr-1 · How to make an invite QR · about 40 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a wedding card with no QR | 5 | Door ke rishtedaron ke number kisi ke paas nahi. | Nobody has every number |
-| 1 | Open **Guests** | 4 | Guests kholo. | Open Guests |
-| 2 | Tap **More**, then **Invite QR** | 5 | More pe tap karo, phir Invite QR. | Open Invite QR |
-| 3 | Tap **Create the QR** | 5 | Create the QR dabao. | Tap Create the QR |
-| 4 | Show the QR, then tap **Print** | 5 | Print dabake apne patrika par lagao. | Print it on your patrika |
-| 5 | Point at **Copy link** | 5 | Ya Copy link dabake link khud bhejo. | Or copy the link |
-| end | Show the printed QR page | 5 | QR ready hai. | The QR is ready |
+| 0 | Show a wedding card with no QR | 6 | Door ke rishtedaron ke number kisi ke paas nahi. | Nobody has every number |
+| 1 | Open **Guests** | 5 | Guests kholo. | Open Guests |
+| 2 | Tap **More**, then **Invite QR** | 6 | More pe tap karo, phir Invite QR. | Open Invite QR |
+| 3 | Tap **Create the QR** | 6 | Create the QR dabao. | Tap Create the QR |
+| 4 | Show the QR, then tap **Print** | 6 | Print dabake apne patrika par lagao. | Print it on your patrika |
+| 5 | Point at **Copy link** | 6 | Ya Copy link dabake link khud bhejo. | Or copy the link |
+| end | Show the printed QR page | 6 | QR ready hai. | The QR is ready |
 
-### V-2-invite-qr-2 · How to add the people who scanned it · about 50 s · phone first
+### V-2-invite-qr-2 · How to add the people who scanned it · about 51 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Invite QR page with requests waiting | 5 | Kuch rishtedaron ne apni details bheji hain. | Relatives sent their details |
-| 1 | Open **Guests** | 4 | Guests kholo. | Open Guests |
-| 2 | Tap **More**, then **Invite QR** | 5 | More pe tap karo, phir Invite QR. | Open Invite QR |
-| 3 | Scroll to the first request and read it | 5 | Naam aur phone dekh lo. | Read the details |
-| 4 | Tap **Add to guest list** | 5 | Add to guest list dabao. | Tap Add to guest list |
-| 5 | Show the next request and point at **Reject** | 5 | Agar jaante nahi, to Reject dabao. | Reject if unsure |
-| end | Show the guest list with the new guest | 5 | Naya guest list mein aa gaya. | The guest is on your list |
+| 0 | Show the Invite QR page with requests waiting | 6 | Kuch rishtedaron ne apni details bheji hain. | Relatives sent their details |
+| 1 | Open **Guests** | 5 | Guests kholo. | Open Guests |
+| 2 | Tap **More**, then **Invite QR** | 11 | More pe tap karo, phir Invite QR. | Open Invite QR |
+| 3 | Scroll to the first request and read it | 10 | Naam aur phone dekh lo. | Read the details |
+| 4 | Tap **Add to guest list** | 6 | Add to guest list dabao. | Tap Add to guest list |
+| 5 | Show the next request and point at **Reject** | 6 | Agar jaante nahi, to Reject dabao. | Reject if unsure |
+| end | Show the guest list with the new guest | 6 | Naya guest list mein aa gaya. | The guest is on your list |
 
-### V-2-invite-qr-3 · How to send your details · about 45 s · phone first
+### V-2-invite-qr-3 · How to send your details · about 39 s · phone first
 Demo login: lane 2, demo guest link (Appendix E).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the wedding card with the QR | 5 | Aapko shaadi ke card par QR dikha. | You saw a QR on the card |
-| 1 | Open the sign-up page from the QR link | 4 | Phone camera se QR scan karo. | Scan the QR |
-| 2 | Type a made-up name in **Your name** | 5 | Your name mein apna naam likho. | Type your name |
-| 3 | Type a made-up number in **Phone number** | 5 | Phone number likho. | Type your phone number |
-| 4 | Pick **Which side are you from?** | 4 | Apni side chuno. | Pick your side |
-| 5 | Tap **Send my details** | 5 | Send my details dabao. | Tap Send my details |
-| end | Show **Thank you** | 5 | Ho gaya. Family aapko list mein jodegi. | Thank you |
+| 0 | Show the wedding card with the QR | 6 | Aapko shaadi ke card par QR dikha. | You saw a QR on the card |
+| 1 | Open the sign-up page from the QR link | 5 | Phone camera se QR scan karo. | Scan the QR |
+| 2 | Type a made-up name in **Your name** | 6 | Your name mein apna naam likho. | Type your name |
+| 3 | Type a made-up number in **Phone number** | 6 | Phone number likho. | Type your phone number |
+| 4 | Pick **Which side are you from?** | 5 | Apni side chuno. | Pick your side |
+| 5 | Tap **Send my details** | 6 | Send my details dabao. | Tap Send my details |
+| end | Show **Thank you** | 6 | Ho gaya. Family aapko list mein jodegi. | Thank you |

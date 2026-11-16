@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Bacche aa rahe hain, naam likhna zaroori nahi.",
+    "dev": "बच्चे आ रहे हैं, नाम लिखना ज़रूरी नहीं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Parivaar ke kisi mehmaan pe tap karo.",
+    "dev": "परिवार के किसी मेहमान पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Children ke saamne Edit dabao.",
+    "dev": "चिल्द्रें के सामने एडिट दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Bacchon ki ginti likho.",
+    "dev": "बच्चों की गिनती लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Save pe tap karo.",
+    "dev": "सेव पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ginti ho gayi.",
+    "dev": "गिनती हो गई।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Bade log poochte hain, kisko phone karein.",
+    "dev": "बदे लोग पूच्ते हैं, किस्को फ़ोन करें।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Remind the 33 waiting pe tap karo.",
+    "dev": "रिमाइंड द 33 वैतिंग पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Neeche Who guests can call dhundo.",
+    "dev": "नीचे हू गेस्ट्स कन कॉल ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "List mein se ek naam chuno.",
+    "dev": "लिस्ट में से एक नाम चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Save dabao.",
+    "dev": "सेव दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab guests ko Call button dikhega.",
+    "dev": "अब गेस्ट्स को कॉल बटन दिखेगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

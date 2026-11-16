@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Parivaar ne aapko ek link bheja hai.",
+    "dev": "परिवार ने आपको एक लिंक भेजा है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Link kholo. Aapke pickups dikhenge.",
+    "dev": "लिंक खोलो। आपके पिकअप्स दिखेंगे।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Din aur time dekho.",
+    "dev": "दिन और टाइम देखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Jagah aur milne ki jagah dekho.",
+    "dev": "जगह और मिल्ने की जगह देखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Guest ka naam aur flight ya train dekho.",
+    "dev": "गेस्ट का नाम और फ़्लिघ्त या ट्रेन देखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Bas, aapke saare pickups ek jagah hain.",
+    "dev": "बस, आपके सारे पिकअप्स एक जगह हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

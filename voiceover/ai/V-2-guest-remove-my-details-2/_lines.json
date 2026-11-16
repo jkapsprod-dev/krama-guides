@@ -1,0 +1,34 @@
+{
+  "0": {
+    "roman": "Shaadi mein aana hai, par email nahi chahiye?",
+    "dev": "शादी में आना है, पर ईमेल नहीं चाहिए?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Email ke end mein stop wala link dabao.",
+    "dev": "ईमेल के एंद में स्टॉप वाला लिंक दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Stop emails pe tap karo.",
+    "dev": "स्टॉप एमैल्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Ab email nahi aayenge.",
+    "dev": "हो गया। अब ईमेल नहीं आएँगे।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

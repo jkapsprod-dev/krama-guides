@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Aapko shaadi ke card par QR dikha.",
+    "dev": "आपको शादी के कार्ड पर क्यूआर दिखा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Phone camera se QR scan karo.",
+    "dev": "फ़ोन कमेरा से क्यूआर स्कन करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Your name mein apna naam likho.",
+    "dev": "योर नमे में अपना नाम लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Phone number likho.",
+    "dev": "फ़ोन नंबर लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Apni side chuno.",
+    "dev": "अपनी साइड चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Send my details dabao.",
+    "dev": "सेंड माय डीटेल्स दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Family aapko list mein jodegi.",
+    "dev": "हो गया। फ़ैमिली आपको लिस्ट में जोदेगी।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

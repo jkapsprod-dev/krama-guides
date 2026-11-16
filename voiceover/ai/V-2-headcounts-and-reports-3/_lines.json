@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Drivers ko list chahiye, kaun kab aayega.",
+    "dev": "द्रिवेर्स को लिस्ट चाहिए, कौन कब आएगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "More pe tap karo, phir Reports.",
+    "dev": "मोर पे टैप करो, फिर रेपोर्त्स।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Transport manifest dhundo.",
+    "dev": "त्रंस्पोर्त मनिफ़ेस्त ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Excel pe tap karo.",
+    "dev": "एक्स्केल पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "RSVP by side bhi yahin hai.",
+    "dev": "आरएसवीपी बाय साइड भी यहीं है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Download ho gaya.",
+    "dev": "डाउनलोड हो गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

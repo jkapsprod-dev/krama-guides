@@ -1,0 +1,74 @@
+{
+  "0": {
+    "roman": "Card phone mein save karna hai.",
+    "dev": "कार्ड फ़ोन में सेव करना है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Card ka link kholo.",
+    "dev": "कार्ड का लिंक खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Save as image pe tap karo.",
+    "dev": "सेव अस इमगे पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Card ab aapki gallery mein hai.",
+    "dev": "कार्ड अब आपकी गल्लेर्य में है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Ho gaya. Ab kabhi bhi dikha sakte ho.",
+    "dev": "हो गया। अब कभी भी दिखा सकते हो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Reply to this invitation pe tap karo.",
+    "dev": "रिप्लाई तो दिस इंविततिओं पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "Going pe tap karo.",
+    "dev": "गोइंग पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "7": {
+    "roman": "Send our reply pe tap karo.",
+    "dev": "सेंड और रिप्लाई पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Jawab pahunch gaya.",
+    "dev": "हो गया। जवाब पहुँच गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

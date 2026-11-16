@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Haldi kab hai, yaad nahi rehta.",
+    "dev": "हल्दी कब है, याद नहीं रहता।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Apna link kholo.",
+    "dev": "अपना लिंक खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Schedule pe tap karo.",
+    "dev": "शेड्यूल पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Add all my functions pe tap karo.",
+    "dev": "ऐड ऑल माय फ़ंक्शंस पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Jagah dekhni ho to Open in Maps dabao.",
+    "dev": "जगह देख्नी हो तो ओपन इन मप्स दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Ab sab calendar mein hai.",
+    "dev": "हो गया। अब सब कैलेंडर में है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Haldi ke liye bahut saare mehmaan chunne hain?",
+    "dev": "हल्दी के लिए बहुत सारे मेहमान चुंने हैं?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Har mehmaan ke saamne box tick karo.",
+    "dev": "हर मेहमान के सामने बॉक्स टिक करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Choose a function pe tap karo.",
+    "dev": "चूज़ अ फ़ंक्शन पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Haldi chuno.",
+    "dev": "हल्दी चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Invite pe tap karo.",
+    "dev": "इनवाइट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Teeno Haldi mein bulaye gaye.",
+    "dev": "तीनो हल्दी में बुलये गए।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

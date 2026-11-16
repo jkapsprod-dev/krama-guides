@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Mehta family aa rahi hai, par unke rehne ki jagah abhi list mein nahi hai.",
+    "dev": "मेह्ता फ़ैमिली आ रही है, पर उनके रेह्ने की जगह अभी लिस्ट में नहीं है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "More mein se Stays and Travel kholo.",
+    "dev": "मोर में से स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Add a stay pe tap karo.",
+    "dev": "ऐड अ स्तय पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Hotel ya ghar ka naam likho.",
+    "dev": "होटल या घर का नाम लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Address aur check-in, check-out ki dates bharo.",
+    "dev": "अद्द्रेस्स और चेक इन, चेक आउट की दतेस भरो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Save stay pe tap karo.",
+    "dev": "सेव स्तय पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Ab hotel list mein hai.",
+    "dev": "हो गया। अब होटल लिस्ट में है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Galti se kuch mehmaan list mein aa gaye?",
+    "dev": "गल्ती से कुछ मेहमान लिस्ट में आ गए?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Jinhe hataana hai unhe tick karo.",
+    "dev": "जिंहे हताना है उन्हें टिक करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Delete pe tap karo.",
+    "dev": "डिलीट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Dhyan se padho. Ye wapas nahi aayega.",
+    "dev": "ध्यन से पढ़ो। ये वापस नहीं आएगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Yes, delete pe tap karo.",
+    "dev": "यस, डिलीट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Mehmaan hat gaye.",
+    "dev": "मेहमान हट गए।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

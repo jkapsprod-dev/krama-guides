@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Chalis guest train se aa rahe hain. Sabke number kaun likhega.",
+    "dev": "चलिस गेस्ट ट्रेन से आ रहे हैं। सबके नंबर कौन लिखेगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Stays and Travel kholo.",
+    "dev": "स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Arrivals and departures tab pe tap karo.",
+    "dev": "अराइवल्स ऐंड डिपार्चर्स टैब पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Let guests send their tickets pe tap karo.",
+    "dev": "लेत गेस्ट्स सेंड थेर तिक्केत्स पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Ab yeh switch on kar do.",
+    "dev": "अब यह स्विच ऑन कर दो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Guests ab apna ticket bhej sakte hain.",
+    "dev": "हो गया। गेस्ट्स अब अपना टिकट भेज सकते हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

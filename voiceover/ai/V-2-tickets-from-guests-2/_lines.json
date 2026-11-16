@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Mehta family ne apna ticket bhej diya hai.",
+    "dev": "मेह्ता फ़ैमिली ने अपना टिकट भेज दिया है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Arrivals and departures kholo.",
+    "dev": "अराइवल्स ऐंड डिपार्चर्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Tickets waali line pe tap karo.",
+    "dev": "तिक्केत्स वाली लाइन पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Train ka number, jagah aur time dekh lo.",
+    "dev": "ट्रेन का नंबर, जगह और टाइम देख लो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Pickup chahiye to Picked up by mein naam chuno.",
+    "dev": "पिकअप चाहिए तो पिक्केद अप बाय में नाम चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Confirm into Travel pe tap karo.",
+    "dev": "कन्फ़र्म इंतो ट्रैवल पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Arrival aur pickup list mein hain.",
+    "dev": "हो गया। अर्रिवल और पिकअप लिस्ट में हैं।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

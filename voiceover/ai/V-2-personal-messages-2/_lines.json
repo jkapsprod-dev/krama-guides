@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Email abhi nahi, subah bhejna hai.",
+    "dev": "ईमेल अभी नहीं, सुबह भेजना है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Personal messages kholo.",
+    "dev": "पर्सनल मेस्सगेस खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Message mein Invitation chuno.",
+    "dev": "मैसेज में इंविततिओं चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Schedule email mein tareekh chuno.",
+    "dev": "शेड्यूल ईमेल में तारीख़ चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Time chuno. Yeh unka apna local time hai.",
+    "dev": "टाइम चुनो। यह उंका अपना लोकल टाइम है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Schedule email dabao.",
+    "dev": "शेड्यूल ईमेल दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Email apne aap chala jayega.",
+    "dev": "ईमेल अपने आप चला जाएगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

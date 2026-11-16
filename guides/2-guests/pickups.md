@@ -4,7 +4,7 @@ lane: 2
 who: [couple, family, helper, planner]
 status: draft
 checked: no
-video: script
+video: partly made
 internal: false
 code: ["app/w/[workspaceId]/stays/pickups/page.tsx", "app/w/[workspaceId]/stays/pickups/run-form.tsx", "app/w/[workspaceId]/stays/pickups/pickup-controls.tsx", "app/w/[workspaceId]/stays/pickups/actions.ts", "app/w/[workspaceId]/stays/pickups/waiting.ts", "lib/pickups/plan.ts", "app/pickup/[token]/page.tsx"]
 ---
@@ -86,67 +86,67 @@ The page is called **Your pickups**. You see the guest's name and the last digit
 
 ## Video scripts
 
-### V-2-pickups-1 · How to plan pickup runs · about 40 s · phone first
+### V-2-pickups-1 · How to plan pickup runs · about 47 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Pickups tab with the text "3 arrivals aren't in a run yet." | 5 | Teen flight subah chhe baje ke aas paas aa rahi hain. Ek hi gaadi kaafi hai. | Three flights, one car |
-| 1 | Open **Stays & Travel** from **More** | 5 | Stays and Travel kholo. | Open Stays & Travel |
-| 2 | Tap the **Pickups** tab | 5 | Pickups tab pe tap karo. | Open Pickups |
-| 3 | Set **Time window (minutes)** | 5 | Time window mein minutes likho. | Set the time window |
-| 4 | Tap **Suggest runs** | 5 | Suggest runs pe tap karo. | Tap Suggest runs |
-| 5 | Show the **Suggested runs** | 6 | Yeh sujhaaye hue runs hain. Abhi kuch save nahi hua. | Nothing is saved yet |
-| 6 | Tap **Make these runs** | 5 | Make these runs pe tap karo. | Tap Make these runs |
-| end | Show the new run with its guests | 5 | Ho gaya. Ab run mein driver aur gaadi jodo. | The run is ready |
+| 0 | Show the Pickups tab with the text "3 arrivals aren't in a run yet." | 6 | Teen flight subah chhe baje ke aas paas aa rahi hain. Ek hi gaadi kaafi hai. | Three flights, one car |
+| 1 | Open **Stays & Travel** from **More** | 6 | Stays and Travel kholo. | Open Stays & Travel |
+| 2 | Tap the **Pickups** tab | 6 | Pickups tab pe tap karo. | Open Pickups |
+| 3 | Set **Time window (minutes)** | 6 | Time window mein minutes likho. | Set the time window |
+| 4 | Tap **Suggest runs** | 6 | Suggest runs pe tap karo. | Tap Suggest runs |
+| 5 | Show the **Suggested runs** | 7 | Yeh sujhaaye hue runs hain. Abhi kuch save nahi hua. | Nothing is saved yet |
+| 6 | Tap **Make these runs** | 6 | Make these runs pe tap karo. | Tap Make these runs |
+| end | Show the new run with its guests | 6 | Ho gaya. Ab run mein driver aur gaadi jodo. | The run is ready |
 
-### V-2-pickups-2 · How to add a run by hand · about 40 s · phone first
+### V-2-pickups-2 · How to add a run by hand · about 48 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Pickups tab with "No runs yet." | 5 | Station se haveli tak gaadi kaun legi, yeh tay karna hai. | Who drives to the station? |
-| 1 | Open the **Pickups** tab | 5 | Pickups tab kholo. | Open Pickups |
-| 2 | Tap **Add a run** | 5 | Add a run pe tap karo. | Tap Add a run |
-| 3 | Fill **Arrival place**, **Date** and **Leaves at** | 7 | Kahan se, kis din aur kis time nikalna hai, woh bharo. | Place, date and time |
-| 4 | Fill **Vehicle** and **Seats for guests** | 5 | Gaadi aur seats likho. | Vehicle and seats |
-| 5 | Choose the **Driver** | 5 | Driver chuno. | Choose the driver |
-| 6 | Tap **Save run** | 5 | Save run pe tap karo. | Tap Save run |
-| end | Show the new run on its day | 5 | Ho gaya. Run list mein aa gaya. | The run is on the list |
-
-### V-2-pickups-3 · How to move a run that's late · about 35 s · phone first
-Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
-
-| # | Robot does | Hold (s) | Voice says | Caption |
-|---|---|---|---|---|
-| 0 | Show a run for a flight that is delayed | 5 | Flight chalis minute late hai. Driver ko naya time chahiye. | The flight is late |
+| 0 | Show the Pickups tab with "No runs yet." | 6 | Station se haveli tak gaadi kaun legi, yeh tay karna hai. | Who drives to the station? |
 | 1 | Open the **Pickups** tab | 6 | Pickups tab kholo. | Open Pickups |
-| 2 | Tap **Running late?** on the run | 6 | Running late pe tap karo. | Tap Running late |
-| 3 | Type 40 min in **How late** | 6 | How late mein 40 min likho. | Type 40 min |
-| 4 | Tap **Move the run** | 6 | Move the run pe tap karo. | Tap Move the run |
-| end | Show "Moved. The driver's page shows the new time." | 5 | Ho gaya. Driver ke page pe naya time dikhega. | The new time is saved |
+| 2 | Tap **Add a run** | 6 | Add a run pe tap karo. | Tap Add a run |
+| 3 | Fill **Arrival place**, **Date** and **Leaves at** | 8 | Kahan se, kis din aur kis time nikalna hai, woh bharo. | Place, date and time |
+| 4 | Fill **Vehicle** and **Seats for guests** | 6 | Gaadi aur seats likho. | Vehicle and seats |
+| 5 | Choose the **Driver** | 6 | Driver chuno. | Choose the driver |
+| 6 | Tap **Save run** | 6 | Save run pe tap karo. | Tap Save run |
+| end | Show the new run on its day | 6 | Ho gaya. Run list mein aa gaya. | The run is on the list |
 
-### V-2-pickups-4 · How to send a driver their link · about 35 s · phone first
+### V-2-pickups-3 · How to move a run that's late · about 40 s · phone first
+Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+
+| # | Robot does | Hold (s) | Voice says | Caption |
+|---|---|---|---|---|
+| 0 | Show a run for a flight that is delayed | 6 | Flight chalis minute late hai. Driver ko naya time chahiye. | The flight is late |
+| 1 | Open the **Pickups** tab | 7 | Pickups tab kholo. | Open Pickups |
+| 2 | Tap **Running late?** on the run | 7 | Running late pe tap karo. | Tap Running late |
+| 3 | Type 40 min in **How late** | 7 | How late mein 40 min likho. | Type 40 min |
+| 4 | Tap **Move the run** | 7 | Move the run pe tap karo. | Tap Move the run |
+| end | Show "Moved. The driver's page shows the new time." | 6 | Ho gaya. Driver ke page pe naya time dikhega. | The new time is saved |
+
+### V-2-pickups-4 · How to send a driver their link · about 45 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md. The robot stops at WhatsApp opening and never presses send.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a run whose driver has no link yet | 5 | Driver ko list kaise bhejein. Sab kuch phone pe likhna lamba hai. | The driver needs the list |
-| 1 | Open the **Pickups** tab | 5 | Pickups tab kholo. | Open Pickups |
-| 2 | Scroll to **Drivers' links** | 5 | Drivers' links tak scroll karo. | Find Drivers' links |
-| 3 | Tap **Make a link** | 5 | Make a link pe tap karo. | Tap Make a link |
-| 4 | Tap **Send on WhatsApp** | 5 | Send on WhatsApp pe tap karo. | Tap Send on WhatsApp |
-| 5 | Show WhatsApp open with the ready message | 6 | WhatsApp khulega. Message taiyaar hai. Bhejna aapko hai. | You press send |
-| end | Show the driver's link row with Copy link | 5 | Ho gaya. Driver ke paas apna link hai. | The driver has a link |
+| 0 | Show a run whose driver has no link yet | 6 | Driver ko list kaise bhejein. Sab kuch phone pe likhna lamba hai. | The driver needs the list |
+| 1 | Open the **Pickups** tab | 6 | Pickups tab kholo. | Open Pickups |
+| 2 | Scroll to **Drivers' links** | 6 | Drivers' links tak scroll karo. | Find Drivers' links |
+| 3 | Tap **Make a link** | 6 | Make a link pe tap karo. | Tap Make a link |
+| 4 | Tap **Send on WhatsApp** | 9 | Send on WhatsApp pe tap karo. | Tap Send on WhatsApp |
+| 5 | Show WhatsApp open with the ready message | 7 | WhatsApp khulega. Message taiyaar hai. Bhejna aapko hai. | You press send |
+| end | Show the driver's link row with Copy link | 6 | Ho gaya. Driver ke paas apna link hai. | The driver has a link |
 
 ### V-2-pickups-5 · How to see your pickups · about 35 s · phone first
 Demo login: lane 2, demo driver link made in V-2-pickups-4 (Appendix E). No sign-in is needed.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a message with the driver link | 5 | Parivaar ne aapko ek link bheja hai. | You got a link |
-| 1 | Open the link and show **Your pickups** | 6 | Link kholo. Aapke pickups dikhenge. | Open the link |
-| 2 | Point to the day and the run time | 6 | Din aur time dekho. | See the day and time |
-| 3 | Point to the place and Meet at | 6 | Jagah aur milne ki jagah dekho. | See where to meet |
-| 4 | Point to the guest names and flight | 7 | Guest ka naam aur flight ya train dekho. | See who you pick up |
-| end | Show the full page | 5 | Bas, aapke saare pickups ek jagah hain. | All your pickups in one place |
+| 0 | Show a message with the driver link | 6 | Parivaar ne aapko ek link bheja hai. | You got a link |
+| 1 | Open the link and show **Your pickups** | 7 | Link kholo. Aapke pickups dikhenge. | Open the link |
+| 2 | Point to the day and the run time | 7 | Din aur time dekho. | See the day and time |
+| 3 | Point to the place and Meet at | 7 | Jagah aur milne ki jagah dekho. | See where to meet |
+| 4 | Point to the guest names and flight | 8 | Guest ka naam aur flight ya train dekho. | See who you pick up |
+| end | Show the full page | 6 | Bas, aapke saare pickups ek jagah hain. | All your pickups in one place |

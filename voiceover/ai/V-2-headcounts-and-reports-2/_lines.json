@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Caterer ko sheet chahiye.",
+    "dev": "कैटरर को शीट चाहिए।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "More pe tap karo, phir Reports.",
+    "dev": "मोर पे टैप करो, फिर रेपोर्त्स।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Caterer sheet dhundo.",
+    "dev": "कैटरर शीट ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Excel pe tap karo.",
+    "dev": "एक्स्केल पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "File ban gayi. Ab aap khud WhatsApp pe bhejo.",
+    "dev": "फ़ाइल बन गई। अब आप ख़ुद व्हाट्सऐप पे भेजो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Sheet ready hai.",
+    "dev": "शीट रेडी है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

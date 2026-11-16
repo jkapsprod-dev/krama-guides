@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 2
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-15
+video: made
 internal: false
 code:
   - "app/w/[workspaceId]/guests/summary/page.tsx"
@@ -33,7 +33,7 @@ Reports are for hosts, planners and family. Nothing about money is in any sheet.
 
 Each family is counted once. The numbers move as families reply.
 
-**Tip:** Tap **Remind the 31 waiting** on the Guests page to bring the **Awaiting** number down before you call the caterer.
+**Tip:** Tap **Remind the 33 waiting** on the Guests page to bring the **Awaiting** number down before you call the caterer.
 **Stuck?** If it says **No invitations yet.**, you have not invited anyone to a function. Invite guests first. See [[send-rsvp-links]].
 
 ## How to send the caterer a sheet
@@ -73,41 +73,41 @@ The sheet has the headcount and the meal split for every function.
 
 ## Video scripts
 
-### V-2-headcounts-and-reports-1 · How to see who's coming to each function · about 45 s · phone first
+### V-2-headcounts-and-reports-1 · How to see who's coming to each function · about 39 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Guests page | 5 | Caterer poochta hai, kitne log aayenge. | How many are coming |
-| 1 | Open **Guests** | 4 | Guests kholo. | Open Guests |
-| 2 | Tap **More**, then **Headcounts** | 5 | More pe tap karo, phir Headcounts. | Open Headcounts |
-| 3 | Point at the **Headcount** number on the sangeet card | 5 | Yeh Headcount hai. Itne log aa rahe hain. | This many are coming |
-| 4 | Point at **Guests attending**, **Declined** and **Awaiting** | 5 | Neeche dekho, kaun aa raha hai, kaun nahi, kaun baaki. | Coming, not coming, waiting |
-| 5 | Point at **Meals** | 5 | Meals mein khane ka hisaab hai. | Meals are counted too |
-| end | Show the whole function card | 4 | Ab number aapke paas hai. | You have the numbers |
+| 0 | Show the Guests page | 6 | Caterer poochta hai, kitne log aayenge. | How many are coming |
+| 1 | Open **Guests** | 5 | Guests kholo. | Open Guests |
+| 2 | Tap **More**, then **Headcounts** | 6 | More pe tap karo, phir Headcounts. | Open Headcounts |
+| 3 | Point at the **Headcount** number on the sangeet card | 6 | Yeh Headcount hai. Itne log aa rahe hain. | This many are coming |
+| 4 | Point at **Guests attending**, **Declined** and **Awaiting** | 6 | Neeche dekho, kaun aa raha hai, kaun nahi, kaun baaki. | Coming, not coming, waiting |
+| 5 | Point at **Meals** | 6 | Meals mein khane ka hisaab hai. | Meals are counted too |
+| end | Show the whole function card | 5 | Ab number aapke paas hai. | You have the numbers |
 
-### V-2-headcounts-and-reports-2 · How to send the caterer a sheet · about 45 s · phone first
+### V-2-headcounts-and-reports-2 · How to send the caterer a sheet · about 41 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Headcounts page | 5 | Caterer ko sheet chahiye. | The caterer wants a sheet |
-| 1 | Open **Guests** | 4 | Guests kholo. | Open Guests |
-| 2 | Tap **More**, then **Reports** | 5 | More pe tap karo, phir Reports. | Open Reports |
-| 3 | Find **Caterer sheet** | 4 | Caterer sheet dhundo. | Find Caterer sheet |
-| 4 | Tap **Excel** | 5 | Excel pe tap karo. | Tap Excel |
-| 5 | Show the downloaded file; point at the share option on the phone | 5 | File ban gayi. Ab aap khud WhatsApp pe bhejo. | You send it yourself |
-| end | Show the sheet opened | 4 | Sheet ready hai. | The sheet is ready |
+| 0 | Show the Headcounts page | 6 | Caterer ko sheet chahiye. | The caterer wants a sheet |
+| 1 | Open **Guests** | 5 | Guests kholo. | Open Guests |
+| 2 | Tap **More**, then **Reports** | 6 | More pe tap karo, phir Reports. | Open Reports |
+| 3 | Find **Caterer sheet** | 5 | Caterer sheet dhundo. | Find Caterer sheet |
+| 4 | Tap **Excel** | 8 | Excel pe tap karo. | Tap Excel |
+| 5 | Show the downloaded file; point at the share option on the phone | 6 | File ban gayi. Ab aap khud WhatsApp pe bhejo. | You send it yourself |
+| end | Show the sheet opened | 5 | Sheet ready hai. | The sheet is ready |
 
-### V-2-headcounts-and-reports-3 · How to download the transport manifest or RSVP by side · about 45 s · phone first
+### V-2-headcounts-and-reports-3 · How to download the transport manifest or RSVP by side · about 38 s · phone first
 Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Reports page | 5 | Drivers ko list chahiye, kaun kab aayega. | Drivers need a list |
-| 1 | Open **Guests** | 4 | Guests kholo. | Open Guests |
-| 2 | Tap **More**, then **Reports** | 5 | More pe tap karo, phir Reports. | Open Reports |
-| 3 | Find **Transport manifest** | 4 | Transport manifest dhundo. | Find Transport manifest |
-| 4 | Tap **Excel** | 5 | Excel pe tap karo. | Tap Excel |
-| 5 | Scroll to **RSVP by side** and point at **CSV** | 5 | RSVP by side bhi yahin hai. | RSVP by side is here too |
-| end | Show the downloaded file | 4 | Download ho gaya. | Downloaded |
+| 0 | Show the Reports page | 6 | Drivers ko list chahiye, kaun kab aayega. | Drivers need a list |
+| 1 | Open **Guests** | 5 | Guests kholo. | Open Guests |
+| 2 | Tap **More**, then **Reports** | 6 | More pe tap karo, phir Reports. | Open Reports |
+| 3 | Find **Transport manifest** | 5 | Transport manifest dhundo. | Find Transport manifest |
+| 4 | Tap **Excel** | 6 | Excel pe tap karo. | Tap Excel |
+| 5 | Scroll to **RSVP by side** and point at **CSV** | 6 | RSVP by side bhi yahin hai. | RSVP by side is here too |
+| end | Show the downloaded file | 5 | Download ho gaya. | Downloaded |

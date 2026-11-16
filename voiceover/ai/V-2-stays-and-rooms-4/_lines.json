@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Mausi puch rahi hain, mera kamra kaunsa hai.",
+    "dev": "मौसी पुच रही हैं, मेरा कम्रा कौंसा है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Stays and Travel kholo.",
+    "dev": "स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Family ke saath Assign pe tap karo.",
+    "dev": "फ़ैमिली के साथ असाइन पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Room map pe ek khaali room chuno.",
+    "dev": "रूम मप पे एक खाली रूम चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Kaun rukega aur kin dinon ke liye, yeh dekh lo.",
+    "dev": "कौन रुकेगा और किन दिनों के लिए, यह देख लो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Assign pe tap karo.",
+    "dev": "असाइन पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Room family ko mil gaya.",
+    "dev": "हो गया। रूम फ़ैमिली को मिल गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

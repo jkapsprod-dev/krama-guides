@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Parivaar ko unka link bhejna hai?",
+    "dev": "परिवार को उंका लिंक भेजना है?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Mehmaan ke naam pe tap karo.",
+    "dev": "मेहमान के नाम पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Message on WhatsApp pe tap karo.",
+    "dev": "मैसेज ऑन व्हाट्सऐप पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "WhatsApp mein message taiyaar hai.",
+    "dev": "व्हाट्सऐप में मैसेज तैयार है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Send aap khud dabate ho. Krama kuch nahi bhejta.",
+    "dev": "सेंड आप ख़ुद दबते हो। क्रमा कुछ नहीं भेज्ता।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Link chala gaya.",
+    "dev": "लिंक चला गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

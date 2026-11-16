@@ -1,0 +1,42 @@
+{
+  "0": {
+    "roman": "Padhne mein dikkat ho to phone se sunlo.",
+    "dev": "पध्ने में दिक्कत हो तो फ़ोन से सुंलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Easier to read page kholo.",
+    "dev": "एअसिएर तो रीड पेज खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Read aloud pe tap karo.",
+    "dev": "रीड अलौद पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Rukna ho to Stop reading dabao.",
+    "dev": "रुक्ना हो तो स्टॉप रेअदिंग दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Ab aap sun sakte ho.",
+    "dev": "हो गया। अब आप सुन सकते हो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

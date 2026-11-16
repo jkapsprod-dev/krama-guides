@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Flight chalis minute late hai. Driver ko naya time chahiye.",
+    "dev": "फ़्लिघ्त चलिस मिनुते लेट है। ड्राइवर को नया टाइम चाहिए।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Pickups tab kholo.",
+    "dev": "पिकअप्स टैब खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Running late pe tap karo.",
+    "dev": "रुंनिंग लेट पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "How late mein 40 min likho.",
+    "dev": "हाउ लेट में 40 मिन लिखो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Move the run pe tap karo.",
+    "dev": "मूव द रन पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Driver ke page pe naya time dikhega.",
+    "dev": "हो गया। ड्राइवर के पेज पे नया टाइम दिखेगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Link galat vyakti ko chala gaya?",
+    "dev": "लिंक ग़लत व्यक्ती को चला गया?",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Mehmaan ko kholo.",
+    "dev": "मेहमान को खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Neeche Reset link dhundo.",
+    "dev": "नीचे रेसेत लिंक ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Reset link pe tap karo.",
+    "dev": "रेसेत लिंक पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Purana link band ho gaya.",
+    "dev": "पुराना लिंक बंद हो गया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab naya link bhej do.",
+    "dev": "अब नया लिंक भेज दो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

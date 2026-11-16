@@ -1,0 +1,58 @@
+{
+  "0": {
+    "roman": "Station pe lene kaun jayega, yeh abhi tay nahi hai.",
+    "dev": "स्ततिओं पे लेने कौन जाएगा, यह अभी तय नहीं है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Arrivals and departures kholo.",
+    "dev": "अराइवल्स ऐंड डिपार्चर्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Guest ki line pe Edit karo.",
+    "dev": "गेस्ट की लाइन पे एडिट करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Needs a pickup on karo.",
+    "dev": "नीड्स अ पिकअप ऑन करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Picked up by mein naam chuno.",
+    "dev": "पिक्केद अप बाय में नाम चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Save pe tap karo.",
+    "dev": "सेव पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ho gaya. Ab sab ko pata hai kaun lene jayega.",
+    "dev": "हो गया। अब सब को पता है कौन लेने जाएगा।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

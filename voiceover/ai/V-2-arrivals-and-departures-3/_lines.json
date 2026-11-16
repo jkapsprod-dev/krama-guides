@@ -1,0 +1,50 @@
+{
+  "0": {
+    "roman": "Chacha station pe pahunch gaye. Ab list mein likhna hai.",
+    "dev": "चचा स्ततिओं पे पहुँच गए। अब लिस्ट में लिखना है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Stays and Travel kholo.",
+    "dev": "स्टेज़ ऐंड ट्रैवल खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Arrivals and departures tab pe tap karo.",
+    "dev": "अराइवल्स ऐंड डिपार्चर्स टैब पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Sahi din ke neeche guest ki line dhundo.",
+    "dev": "सही दिन के नीचे गेस्ट की लाइन ढूंढो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Naam ke saath Expected pe tap karo.",
+    "dev": "नाम के साथ एक्स्पेक्तेद पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Ab yeh Arrived dikhata hai.",
+    "dev": "अब यह अर्रिवेद दिखता है।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

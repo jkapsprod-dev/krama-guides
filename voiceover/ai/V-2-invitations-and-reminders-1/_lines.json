@@ -1,0 +1,66 @@
+{
+  "0": {
+    "roman": "Kuch families ne abhi tak reply nahi diya.",
+    "dev": "कुछ फ़ैमिलीज़ ने अभी तक रिप्लाई नहीं दिया।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "1": {
+    "roman": "Guests kholo.",
+    "dev": "गेस्ट्स खोलो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "2": {
+    "roman": "Remind the 33 waiting pe tap karo.",
+    "dev": "रिमाइंड द 33 वैतिंग पे टैप करो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "3": {
+    "roman": "Send by mein WhatsApp chuno.",
+    "dev": "सेंड बाय में व्हाट्सऐप चुनो।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "4": {
+    "roman": "Pehli family ke saamne Remind on WhatsApp dabao.",
+    "dev": "पेह्ली फ़ैमिली के सामने रिमाइंड ऑन व्हाट्सऐप दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "5": {
+    "roman": "Message ready hai. Aap khud send dabao.",
+    "dev": "मैसेज रेडी है। आप ख़ुद सेंड दबाओ।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "6": {
+    "roman": "Ab agli family ki baari.",
+    "dev": "अब अग्ली फ़ैमिली की बारी।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  },
+  "end": {
+    "roman": "Bas, itna hi.",
+    "dev": "बस, इत्ना ही।",
+    "model": "hi_IN-pratham-medium",
+    "speed": 0.83,
+    "pause": 0.4,
+    "loudness": -16
+  }
+}

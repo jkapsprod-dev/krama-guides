@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 2
 who: [guest]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-15
+video: made
 internal: false
 code:
   - "app/rsvp/[token]/elder/elder-rsvp.tsx"
@@ -62,29 +62,29 @@ You can switch this page on for a family. Open [[personal-messages]] and tap **T
 
 ## Video scripts
 
-### V-2-guest-easier-to-read-1 · How to turn on easier reading, then answer one question at a time · about 45 s · phone first
+### V-2-guest-easier-to-read-1 · How to turn on easier reading, then answer one question at a time · about 44 s · phone first
 Demo login: lane 2, demo guest link (Appendix E). "Voice says" is Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the normal RSVP page with small text | 4 | Chhote akshar padhna mushkil hai. | Small words are hard |
-| 1 | Open the link | 3 | Apna link kholo. | Open your link |
-| 2 | Scroll to the bottom of the **RSVP** tab | 3 | Neeche tak scroll karo. | Scroll to the bottom |
-| 3 | Tap **Easier to read** | 4 | Easier to read pe tap karo. | Tap Easier to read |
-| 4 | Tap **Yes, we will come** | 4 | Yes, we will come pe tap karo. | Tap Yes |
-| 5 | Tap **Next** after setting how many | 5 | Kitne log aayenge, woh set karke Next dabao. | Set how many, tap Next |
-| 6 | Tap one food choice | 3 | Khana chuno. | Pick the food |
-| 7 | Show **Check your answers** | 4 | Apne jawab ek baar dekh lo. | Check your answers |
-| 8 | Tap **Send my answer** | 4 | Send my answer pe tap karo. | Tap Send my answer |
-| end | Show the thank-you screen | 4 | Ho gaya. Aapka jawab pahunch gaya. | Answer sent |
+| 0 | Show the normal RSVP page with small text | 5 | Chhote akshar padhna mushkil hai. | Small words are hard |
+| 1 | Open the link | 4 | Apna link kholo. | Open your link |
+| 2 | Scroll to the bottom of the **RSVP** tab | 4 | Neeche tak scroll karo. | Scroll to the bottom |
+| 3 | Tap **Easier to read** | 5 | Easier to read pe tap karo. | Tap Easier to read |
+| 4 | Tap **Yes, we will come** | 5 | Yes, we will come pe tap karo. | Tap Yes |
+| 5 | Tap **Next** after setting how many | 6 | Kitne log aayenge, woh set karke Next dabao. | Set how many, tap Next |
+| 6 | Tap one food choice | 4 | Khana chuno. | Pick the food |
+| 7 | Show **Check your answers** | 5 | Apne jawab ek baar dekh lo. | Check your answers |
+| 8 | Tap **Send my answer** | 5 | Send my answer pe tap karo. | Tap Send my answer |
+| end | Show the thank-you screen | 5 | Ho gaya. Aapka jawab pahunch gaya. | Answer sent |
 
-### V-2-guest-easier-to-read-2 · How to hear it read aloud · about 30 s · phone first
+### V-2-guest-easier-to-read-2 · How to hear it read aloud · about 38 s · phone first
 Demo login: lane 2, demo guest link (Appendix E). "Voice says" is Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a big question screen | 4 | Padhne mein dikkat ho to phone se sunlo. | Let the phone read it |
-| 1 | Open the easier-to-read page | 7 | Easier to read page kholo. | Open the easy page |
-| 2 | Tap **Read aloud** | 8 | Read aloud pe tap karo. | Tap Read aloud |
-| 3 | Tap **Stop reading** | 8 | Rukna ho to Stop reading dabao. | Tap Stop reading |
-| end | Show the question again | 5 | Ho gaya. Ab aap sun sakte ho. | Listen any time |
+| 0 | Show a big question screen | 5 | Padhne mein dikkat ho to phone se sunlo. | Let the phone read it |
+| 1 | Open the easier-to-read page | 8 | Easier to read page kholo. | Open the easy page |
+| 2 | Tap **Read aloud** | 9 | Read aloud pe tap karo. | Tap Read aloud |
+| 3 | Tap **Stop reading** | 9 | Rukna ho to Stop reading dabao. | Tap Stop reading |
+| end | Show the question again | 6 | Ho gaya. Ab aap sun sakte ho. | Listen any time |

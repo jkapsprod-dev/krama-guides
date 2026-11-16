@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 2
 who: [guest, couple, family]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-15
+video: made
 internal: false
 code:
   - "app/[code]/page.tsx"
@@ -50,13 +50,13 @@ Whatever you leave unticked stays hidden. If nothing is ticked, the short link s
 
 ## Video scripts
 
-### V-2-guest-short-link-1 · How to see the wedding on the short link · about 30 s · phone first
+### V-2-guest-short-link-1 · How to see the wedding on the short link · about 36 s · phone first
 Demo login: lane 2, demo guest link (Appendix E). "Voice says" is Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a WhatsApp message with the short link | 4 | Shaadi ka chhota link mila hai. | A short link arrived |
-| 1 | Open the short link | 6 | Short link kholo. | Open the short link |
-| 2 | Show the names, month and city | 6 | Upar naam, mahina aur sheher dikhega. | Names, month, city |
-| 3 | Scroll to **Functions** | 7 | Functions ke neeche har function ka din dikhega. | See the functions |
-| end | Show the full page | 7 | Ho gaya. Poori jaankari personal link mein hai. | Full details in your link |
+| 0 | Show a WhatsApp message with the short link | 5 | Shaadi ka chhota link mila hai. | A short link arrived |
+| 1 | Open the short link | 7 | Short link kholo. | Open the short link |
+| 2 | Show the names, month and city | 7 | Upar naam, mahina aur sheher dikhega. | Names, month, city |
+| 3 | Scroll to **Functions** | 8 | Functions ke neeche har function ka din dikhega. | See the functions |
+| end | Show the full page | 8 | Ho gaya. Poori jaankari personal link mein hai. | Full details in your link |
