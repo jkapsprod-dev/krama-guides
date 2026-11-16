@@ -100,7 +100,7 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show **Quote requests** with an empty vendor book | 5 | "Apne vendors ki list kahan rakhein? Ek hi jagah." | Your own vendors, one place |
+| 0 | Show business Home | 5 | "Apne vendors ki list kahan rakhein? Ek hi jagah." | Your own vendors, one place |
 | 1 | Click **Quote requests** in the sidebar | 4 | "Quote requests kholo." | Open Quote requests |
 | 2 | Point to the card **Your vendor book** | 4 | "Yeh hai aapki apni vendor book." | Your vendor book |
 | 3 | Click **Vendor ID** and paste Rangoli Decor's ID | 4 | "Vendor ka ID yahan paste karo." | Paste the vendor ID |
@@ -122,7 +122,7 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 | 6 | Click **Send request** | 4 | "Send request pe click karo." | Click Send request |
 | end | Show the request marked **Collecting quotes** | 4 | "Ho gaya. Vendor ko request mil gayi." | Request sent |
 
-### V-5-quote-requests-3 · How to send quotes to the client, then write a brief for a vendor · about 45 s · desktop first
+### V-5-quote-requests-3 · How to send quotes to the client, then write a brief for a vendor · 62 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Start after V-5-quote-requests-4, so Rangoli Decor's quote shows as **Quoted**.
 From the part on "How to write a brief for a vendor": Rangoli Decor is already linked to the Sharma-Patel wedding, so its brief shows.
 
@@ -131,23 +131,23 @@ From the part on "How to write a brief for a vendor": Rangoli Decor is already l
 | 0 | Show the request with a **Quoted** price | 5 | "Vendor ka price aa gaya. Ab family ko kaise dikhayein?" | Price is in. Now what? |
 | 1 | Open **Quote requests** and point to the price | 5 | "Quote requests mein saare prices ek saath dikhte hain." | Prices side by side |
 | 2 | Tick Rangoli Decor's quote | 5 | "Jo quote family ko dikhana hai, usko tick karo." | Tick the quotes to share |
-| 3 | Click **Send to client** | 4 | "Send to client pe click karo." | Click Send to client |
-| 4 | Show the request marked **With the client** | 4 | "Ho gaya. Ab family ke host approve karenge." | Sent to the family |
-| 5 | Scroll to **Briefs for your vendors** | 4 | "Briefs for your vendors tak scroll karo." | Find Briefs for your vendors |
-| 6 | Type "Haldi setup ready by 7 am. Marigold and mango leaf." in **Brief** | 3 | "Brief mein kaam likho." | Write the brief |
-| 7 | Type a name and number in **Who to call on the day** | 4 | "Din ke liye kisko call karna hai, woh likho." | Add the day-of contact |
-| 8 | Click **Save brief** | 3 | "Save brief pe click karo." | Click Save brief |
-| end | Show "Brief saved." and the read status | 4 | "Ho gaya. Ab dikhega ki vendor ne padha ya nahi." | Brief saved |
+| 3 | Click **Send to client** | 5 | "Send to client pe click karo." | Click Send to client |
+| 4 | Show the request marked **With the client** | 5 | "Ho gaya. Ab family ke host approve karenge." | Sent to the family |
+| 5 | Scroll to **Briefs for your vendors** | 5 | "Briefs for your vendors tak scroll karo." | Find Briefs for your vendors |
+| 6 | Type "Haldi setup ready by 7 am. Marigold and mango leaf." in **Brief** | 9 | "Brief mein kaam likho." | Write the brief |
+| 7 | Type a name and number in **Who to call on the day** | 7 | "Din ke liye kisko call karna hai, woh likho." | Add the day-of contact |
+| 8 | Click **Save brief** | 5 | "Save brief pe click karo." | Click Save brief |
+| end | Show "Brief saved." and the read status | 5 | "Ho gaya. Ab dikhega ki vendor ne padha ya nahi." | Brief saved |
 
-### V-5-quote-requests-4 · How to send your quote (vendors) · about 35 s · desktop first
+### V-5-quote-requests-4 · How to send your quote (vendors) · 49 s · desktop first
 Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hinglish (DECISIONS.md). Start after V-5-quote-requests-2, so a request is waiting for Rangoli Decor.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show **Home** with **Needs your attention** | 5 | "Planner ne quote maanga hai. Kahan dekhein?" | A quote was asked |
-| 1 | Click the row marked **Quote requested** | 4 | "Needs your attention mein Quote requested pe click karo." | Click Quote requested |
-| 2 | Point to the brief and the reply-by date | 4 | "Brief padho aur reply ki date dekho." | Read the brief |
-| 3 | Type 52,000 in **Your price (₹)** | 4 | "Apna price Your price mein likho." | Type your price |
-| 4 | Type "Mandap, stage, 200 chairs, lights" in **What is included** and pick a date in **Price holds until** | 4 | "Kya included hai aur price kab tak chalega, woh likho." | Add what is included |
-| 5 | Click **Send quote** | 4 | "Send quote pe click karo." | Click Send quote |
-| end | Show "Quote sent." | 4 | "Ho gaya. Planner ko quote mil gaya." | Quote sent |
+| 0 | Show **Home** with **Needs your attention** | 5.1 | "Planner ne quote maanga hai. Kahan dekhein?" | A quote was asked |
+| 1 | Click the row marked **Quote requested** | 5 | "Needs your attention mein Quote requested pe click karo." | Click Quote requested |
+| 2 | Point to the brief and the reply-by date | 5.1 | "Brief padho aur reply ki date dekho." | Read the brief |
+| 3 | Type 52,000 in **Your price (₹)** | 6 | "Apna price Your price mein likho." | Type your price |
+| 4 | Type "Mandap, stage, 200 chairs, lights" in **What is included** and pick a date in **Price holds until** | 12 | "Kya included hai aur price kab tak chalega, woh likho." | Add what is included |
+| 5 | Click **Send quote** | 5 | "Send quote pe click karo." | Click Send quote |
+| end | Show "Quote sent." | 5 | "Ho gaya. Planner ko quote mil gaya." | Quote sent |

@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: ["app/business/[orgId]/page.tsx", "app/business/[orgId]/widgets.tsx", "lib/business/needs-you.ts", "components/business/needs-you.tsx", "packs/business/content.ts"]
 ---
@@ -53,28 +53,28 @@ Planners only. Vendors have **Needs your attention** instead (see the next task)
 
 ## Video scripts
 
-### V-5-business-home-1 · How to work through Needs you, then read Your weddings or Today's jobs · about 45 s · desktop first
+### V-5-business-home-1 · How to work through Needs you, then read Your weddings or Today's jobs · 50 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show business Home, **Needs you** at the top | 5 | Subah ka sawaal: aaj sabse pehle kya dekhna hai. |  |
+| 0 | Show business Home, **Needs you** at the top | 5.1 | Subah ka sawaal: aaj sabse pehle kya dekhna hai. |  |
 | 1 | Highlight the **Needs you** list | 5 | **Needs you** mein sabse zaroori kaam pehle aate hain. | Worst first |
-| 2 | Highlight the red number on line 1 | 3 | Laal number matlab late. | Red means late |
-| 3 | Click line 1 | 3 | Pehli line pe click karo. | Click the first line |
+| 2 | Highlight the red number on line 1 | 4 | Laal number matlab late. | Red means late |
+| 3 | Click line 1 | 4 | Pehli line pe click karo. | Click the first line |
 | 4 | Show the page that opened | 4 | Ho gaya. Seedha wahin pahunch gaye. | Straight to the problem |
-| 5 | Scroll to **Your weddings** | 3 | Neeche **Your weddings** hai. | Find Your weddings |
+| 5 | Go back to Home and scroll to **Your weddings** | 5 | Neeche **Your weddings** hai. | Find Your weddings |
 | 6 | Highlight the Sharma-Patel row | 4 | Har wedding ki ek row hai. | One row per wedding |
 | 7 | Highlight the Tasks and RSVPs columns | 4 | Yahan overdue tasks aur RSVPs dikhte hain. | Tasks and RSVPs |
 | 8 | Scroll to **Coming up** | 4 | **Coming up** mein agle functions hain. | Next functions |
 | end | Show the full Home | 4 | Ho gaya. Ek nazar mein sab pata hai. | One look is enough |
 
-### V-5-business-home-2 · How to open a wedding · about 30 s · desktop first
+### V-5-business-home-2 · How to open a wedding · 31 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show **Your weddings** on business Home | 5 | Wedding ke andar jaana hai. |  |
-| 1 | Hover the Sharma-Patel row | 8 | Wedding ki row pe jao. | Find the wedding |
-| 2 | Click the Sharma-Patel row | 8 | Row pe click karo. | Click the row |
-| end | Show the Sharma-Patel wedding Home | 4 | Ho gaya. Wedding khul gayi. | The wedding opens |
+| 0 | Show **Your weddings** on business Home | 5.1 | Wedding ke andar jaana hai. |  |
+| 1 | Hover the Sharma-Patel row | 6.1 | Wedding ki row pe jao. | Find the wedding |
+| 2 | Click the Sharma-Patel row | 6.1 | Row pe click karo. | Click the row |
+| end | Show the Sharma-Patel wedding Home | 7.9 | Ho gaya. Wedding khul gayi. | The wedding opens |

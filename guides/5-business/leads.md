@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/business/[orgId]/leads/page.tsx, app/business/[orgId]/leads/[leadId]/page.tsx, app/business/[orgId]/leads/[leadId]/lead-thread.tsx, app/business/[orgId]/crm-forms.tsx, app/business/[orgId]/crm-actions.ts, lib/validation/crm.ts]
 ---
@@ -64,20 +64,20 @@ code: [app/business/[orgId]/leads/page.tsx, app/business/[orgId]/leads/[leadId]/
 
 ## Video scripts
 
-### V-5-leads-1 · How to add a lead · about 35 s · desktop first
+### V-5-leads-1 · How to add a lead · 40 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Leads** page with its three leads | 5 | "Kisi ka number WhatsApp mein kho gaya? Chalo, ek jagah rakhte hain." |  |
-| 1 | Click **Leads** in the sidebar | 4 | "**Leads** kholo." | Open Leads |
+| 0 | Show business Home | 5.1 | "Kisi ka number WhatsApp mein kho gaya? Chalo, ek jagah rakhte hain." |  |
+| 1 | Click **Leads** in the sidebar | 5 | "**Leads** kholo." | Open Leads |
 | 2 | Click **Add lead** | 4 | "**Add lead** pe click karo." | Click Add lead |
-| 3 | Type "Riddhi Trivedi" in **Name**. Type "98250 40123" in **Phone** | 4 | "Naam aur phone number daalo." | Type name and phone |
+| 3 | Type "Riddhi Trivedi" in **Name**. Type "98250 40123" in **Phone** | 8 | "Naam aur phone number daalo." | Type name and phone |
 | 4 | Pick **Instagram** in **Where did they come from?** | 4 | "Batao ki lead kahan se aayi." | Pick the source |
 | 5 | Click **Add lead** | 4 | "Phir **Add lead** dabao." | Click Add lead |
 | end | Show the new lead in the list with the **New** tag | 4 | "Ho gaya. Ab lead list mein hai." | Done |
 
-### V-5-leads-2 · How to move a lead through the stages · about 30 s · desktop first
+### V-5-leads-2 · How to move a lead through the stages · 34 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
@@ -87,20 +87,20 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 | 2 | Point at the **Stage** row | 4 | "Yahan **Stage** dikhta hai." | See the Stage row |
 | 3 | Click **Meeting / visit** | 4 | "**Meeting / visit** pe click karo." | Click Meeting / visit |
 | 4 | Scroll to **Lead history** on the right | 4 | "Side mein **Lead history** badal gayi." | Check Lead history |
-| end | Click **← All leads** and show Vivek's new stage | 4 | "Ho gaya. Stage update ho gaya." | Done |
+| end | Click **← All leads** and show Vivek's new stage | 5 | "Ho gaya. Stage update ho gaya." | Done |
 
-### V-5-leads-3 · How to note a call or a meeting, then turn a lead into a client · about 45 s · desktop first
+### V-5-leads-3 · How to note a call or a meeting, then turn a lead into a client · 52 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show Vivek Joshi's lead page | 5 | "Call pe kya baat hui, yaad nahi rehta." |  |
 | 1 | Scroll to **Notes and calls** | 4 | "**Notes and calls** tak scroll karo." | Find Notes and calls |
-| 2 | Type "Wants haldi in a garden, 150 guests" in **Add a note** | 3 | "Baat ka note likho." | Type the note |
-| 3 | Pick **Call** in **Type** | 3 | "**Type** mein **Call** chuno." | Pick Call |
-| 4 | Click **Add note** | 3 | "**Add note** dabao." | Click Add note |
-| 5 | Show the note at the top of the list with the date | 4 | "Ho gaya. Note date ke saath save hai." | Done |
-| 6 | Click **Make a client** | 4 | "**Make a client** pe click karo." | Click Make a client |
+| 2 | Type "Wants haldi in a garden, 150 guests" in **Add a note** | 6 | "Baat ka note likho." | Type the note |
+| 3 | Pick **Call** in **Type** | 4 | "**Type** mein **Call** chuno." | Pick Call |
+| 4 | Click **Add note** | 4 | "**Add note** dabao." | Click Add note |
+| 5 | Show the note at the top of the list with the date | 5.1 | "Ho gaya. Note date ke saath save hai." | Done |
+| 6 | Click **Make a client** | 5 | "**Make a client** pe click karo." | Click Make a client |
 | 7 | Show the client page with the **People** section | 5 | "Client page khul gaya. Lead wala insaan **People** mein hai." | See the People section |
 | 8 | Point at the **Decides** tag | 4 | "Unpe **Decides** ka tag laga hai." | Decides tag added |
 | end | Show the client page | 4 | "Ho gaya. Ab woh client hain." | Done |

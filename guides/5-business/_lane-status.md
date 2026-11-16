@@ -3,86 +3,58 @@ tags: [guides, lane-status]
 lane: 5
 folder: 5-business
 written: 2026-11-14
+updated: 2026-11-16 (Wave 5, lane 5)
 ---
 # Lane 5 status · 5-business
 
-Written from the live code in `app\` (branch `main`, already up to date when pulled). Nothing is committed. Nothing was checked on the running app yet, so every note is `status: draft`, `checked: no`.
+**Wave 5 stopped part way, on Jay's say-so (16 Nov).** 29 of the 48 videos are finished in both sizes. Nothing is committed. The app is still running.
 
-## Notes written
+## What is done
 
-**22 notes in `guides\5-business\`** (plus `_section-intro.md`, English and Hinglish):
+- **5 notes are `status: final`, `checked: 2026-11-16`, `video: made`**, with real timings in their script tables: `leads` (3 videos), `clients` (2), `calendar` (2), `business-home` (2) and `getting-around-the-portal` (3). Each step was followed on the running app, as Neha Desai (planner) or Imran Shaikh (vendor) in lane 5.
+- **29 videos have both a phone and a desktop file** in `videos\final\5-business\`, with `.srt` files and `voiceover\<ID>.md`:
+  - leads 1 to 3, clients 1 to 2, calendar 1 to 2, business-home 1 to 2, getting-around-the-portal 1 to 3
+  - set-up-your-business 2, weddings 2, planner-code 1 and 3, documents 1
+  - invoices-and-payments-due 1 and 4, challans-and-purchases 1
+  - crew-and-shifts 1, 3, 4 and 5, proposals 2, quote-requests 3 and 4
+  - vendor-wedding-page 1 and 3
+  - I looked at frames from the first few: highlights, captions and voice timing were right.
+- **Specs written for 44 videos** in `recorder\specs\5-business\` (`_lib.mjs` holds the shared helpers). They use role and label selectors only. The voice lines are in `voiceover\ai\`.
+- The reading-level check passes: every note is grade 2 to 5 (limit 8).
 
-| Group | Notes | Videos |
+## What is not done
+
+| State | Videos | What is left |
 |---|---|---|
-| Set up and portal | set-up-your-business, getting-around-the-portal, business-home, weddings, planner-code, vendor-wedding-page | 3 + 3 + 3 + 3 + 3 + 4 |
-| Sales | leads, clients, proposals, bookings | 4 + 2 + 3 + 3 |
-| Work | quote-requests, calendar, crew-and-shifts, documents, team, family-feedback | 5 + 3 + 5 + 3 + 3 + 1 |
-| Money | invoices-and-payments-due, challans-and-purchases | 4 + 2 |
-| **Planned** (no videos) | enquiry-form, first-reply, commission-earnings, subscription | none |
+| **Recorded in both sizes, not rendered yet** | challans-and-purchases-2 (phone is rendered), crew-and-shifts-2, proposals-1, quote-requests-1, quote-requests-2, vendor-wedding-page-2, invoices-and-payments-due-2 | `npm run make -- --id <ID> --no-record` in `kit\`. invoices-2 was recorded again after I changed its last voice line (see below), and its old files were deleted |
+| **Specs fixed, take not yet clean** | set-up-your-business-1, weddings-1, planner-code-2, documents-2, invoices-and-payments-due-3, proposals-3, bookings-1, bookings-2 | `npm run make -- --id <ID> --no-render`, look at the take, then render. The last tries failed on a seed or page time-out (the PC and database were busy with other lanes), not on a missing label |
+| **Blocked: no way to make the data** | team-1, team-2, planning-team-1, family-feedback-1 | See [[_needs-app-changes]] |
+| **Section intro** | `npm run intro -- --lane 5` | Not made. First reformat `_section-intro.md` like lane 2's (rows **Section name (on screen)**, **One short line (on screen)**, **Voice says**), because the kit reads those labels |
 
-**7 notes in `guides\_internal\`** (`internal: true`, no videos): admin-sign-in, admin-overview, admin-operations, admin-growth-usage-revenue, admin-accounts, admin-support-access, admin-billing.
+The notes with videos still to make (`bookings`, `challans-and-purchases`, `crew-and-shifts`, `documents`, `family-feedback`, `invoices-and-payments-due`, `planner-code`, `planning-team`, `proposals`, `quote-requests`, `set-up-your-business`, `team`, `vendor-wedding-page`, `weddings`) stay `status: draft`, `video: script`. Their finished videos already have real timings in the tables. Once the last video of a note is made, set its status to final and `checked` to that day.
 
-**57 video scripts** (V-5-<note>-<n>), 30 to 45 seconds each, desktop first. Two are marked phone first (see below).
+## Changes I made to the guides after following them in the app
 
-Checks run on every note: reading level (all grade 2 to 5, limit 8, for both folders); every bold name matched against `messages\en.json`; no em or en dashes; no marketplace or vendor-discovery words; every task has a Tip, a **Stuck?** line and a video script.
+- **set-up-your-business:** video 1 uses the host login (Riya Sharma, who has a wedding and no business). A planner or vendor who already has a business is taken straight to it, so Neha can't show the form. The guide now says a host with one wedding clicks **Your weddings** at the top of the sidebar to see the list. The **Set up another business** tip now says it only shows with two or more businesses.
+- **calendar:** **From** starts on today, not on the day you clicked. Step 4 now says so.
+- **invoices-and-payments-due:** an invoice with a ₹1,25,000 rate has GST added, so ₹50,000 paid leaves ₹97,500, not ₹75,000. The last voice line of video 2 no longer says an amount. Video 3 ends on the **Open in WhatsApp** button (the robot never opens WhatsApp), and **Prepare a reminder** is a closed panel, not a button.
+- **planner-code:** a used planner code is kept for good (the old one still works for 30 days), so each take of the videos uses a new code. The video shows a code like UTSAV-K4Z9Q, not UTSAV-WEDDINGS. After a host removes a planner, the **Planner** card shows the **Have a planner code?** box, not "No planner linked."
+- **Robot does rows:** where the video starts on business Home (leads, clients, crew, documents, challans, purchases, invoices, proposals, quote requests, bookings), row 0 now says "Show business Home". Several rows were reworded to match what the robot does.
 
-## Choices I made
+## Things you should know
 
-- **Where I worked.** The session's folder (`C:\Users\jayka\code\Guides`) was empty, so I used `C:\Users\jayka\code\krama-guides`. I wrote only in `guides\5-business\` and `guides\_internal\`.
-- **"Time it saves" line.** Each note has one extra line under the title, before **What it is**, so a busy planner reads the time saved first. The rest follows the template exactly. Remove the line if you want the template untouched.
-- **Video length.** Many tasks have only 2 to 4 steps. To meet 30 seconds, I stretched step holds to 4 to 8 seconds. Merging tiny tasks (for example **Cancel request** and **Leave wedding**) into one video is an option.
-- **Bookings.** I left out "Link to a wedding by its ID" and **Ask to link**. A planner's booking links by itself when the client accepts. The form only shows for vendor bookings, and vendors can't join by Wedding ID.
-- **Labels not in `en.json`:** only "(+)" (used in leads and the portal note, as the inventory does).
+1. **Working folder.** The session's folder was empty, so I used `C:\Users\jayka\code\krama-guides`. I wrote only to the guides, images, specs, raw and final videos and voice files for lane 5.
+2. **Off-camera data.** Everything is set up through the app's own screens (the robot signs in as the planner, vendor or host in a private window, or signs a made-up client up through the sign-up page and the local mail catcher). The only exceptions are the four blocked videos. I tried to add a second team member and a family rating directly to the local database, and the system declined, so I left them for an app session.
+3. **Hinglish voice.** The voice spells some English words oddly in Devanagari, for example "Stage" is read as "स्तगे", "Leads" as "लेअद्स", "Lead history" as "लीड हिस्तोर्य". Fixing it means adding words to `kit\voice\hinglish-words.json`, which is not a lane 5 file. Each video's `voiceover\<ID>.md` lists its words under **Check these words**.
+4. **Speed.** Each video took 15 to 30 minutes, because other lanes were recording and rendering on the same PC. Seeds sometimes failed with a rate limit ("retry after a moment") and then worked on the next try.
+5. **Screens.** Screenshots for each step are in `guides\img\<note name>\`, refreshed by each recording. The inbox page is titled **Notifications** (the bell is named **Inbox**). The business (+) sheet is still titled "Add to your wedding" (in `_app-fixes`).
+6. **Commit.** Nothing is committed. 6A should leave out the video, audio and `.srt` files.
 
-## Where the code differs from the inventory or NAVIGATION.md
+## Possible app problems (unchanged from the first pass)
 
-- **(+) is phone only.** The bottom bar is hidden on desktop (`components\app-nav.tsx`). The portal note points desktop users to search, which lists the same actions. `V-5-getting-around-the-portal-1` is phone first. So is `V-5-crew-and-shifts-5` (crew open their own shift page on a phone).
-- **Search** finds pages and actions only, not leads or clients (`B/finder-actions.ts`).
-- **Needs you** is planner only. Vendors see **Needs your attention**.
-- **Open wedding** is not a button. It ends a **Needs you** line after a client accepts a proposal. Planners open a wedding by clicking its row.
-- **Family feedback** is a button on the planner's Home, not a sidebar item. NAVIGATION.md (Team group) is stale.
-- **Staff can change a booking's status.** The inventory doesn't say so.
-- **Accepting a planner's proposal** also creates the client's wedding with the planner already linked. **Approving a quote** creates the vendor link, a vendor contact, a budget amount and a confirmed booking (`supabase\migrations\20261022084000_sourcing.sql`).
-- **Planner code:** a host's link is active at once, a family member's waits for a host, one planner per wedding.
-- **Reminders** open WhatsApp with the message ready but no phone number (`wa.me/?text=`), so you pick the client's chat. **Open in email** shows only on an invoice's own page, and only when the client's email is saved. **Prepare a reminder** shows only on late rows.
-- **Payment received** and **Raise an invoice** in the (+) both just open the Invoices tab.
-- **Subscription** is reachable only by owners and admins (through Settings), though the page allows any member.
-- **A vendor can't edit a sent quote.** The row leaves **Needs your attention** and there's no way back.
-
-## Features the inventory missed (admin console)
-
-- **AI kill switch** on Operations (one line added to admin-operations).
-- Billing also has **Planner commission**, payment alerts, reconciliation and Krama's invoice details (a short "resolve a payment alert" task added).
-- Accounts has a code-change control (**Allow one more change**), added as a task.
-- Overview has six tiles, including Paying weddings, Revenue this month and Support access.
-- Role access: Growth, Usage and Revenue for superadmin and analyst; Accounts and Support for superadmin and support; Overview, Operations and Billing for superadmin only.
-- Passkey set-up needs a one-time link from a superadmin (15-minute window, 12-hour and 30-minute session limits). These numbers come from SPEC 7.19, not from page code. Please confirm them.
-
-## Possible app problems to look at (I changed nothing)
-
-1. **Vendors can see Ask for a wedding** on the Weddings page, but the host's **Codes & planner** lists planners only. A vendor's request would sit pending with nobody able to approve it. This is the same gap you decided to leave out of the guides.
-2. **Commission page** says "Krama pays it out" (`Codes.earnings.note`). Our rule says Krama never moves money. I left that sentence out of the planned note.
-3. **Proposal.donePlanner** in `en.json` still says "workspace".
-4. **Leads empty state** mentions the enquiry form (`Crm.list.emptyBody`). The Leads guide tells people to ignore it.
-5. **The business (+) sheet title** reads "Add to your wedding" (`Nav.quickAddTitle`).
-
-## Demo data the robot will need
-
-The lane 5 seed (`scripts\guides\seed.ts`) has none of these, so the videos assume them:
-
-- **Invoices:** one issued invoice, and one with a past due date (for the reminder video). Billing details are empty. No bookings, challans or purchases.
-- **Bookings and proposals:** one booking. V-5-proposals-3 would create it, but it assumes a signed-in client (the demo client is made up: meera.shah@example.test, with no login yet).
-- **Weddings and planner code:** Utsav Planners starts unlinked from the Sharma-Patel wedding, with a pending request for one video, and no planner code yet.
-- **Vendor page:** Rangoli Decor needs an unread brief, an unread inbox note and an empty checklist. Planner **Needs you** needs at least one line.
-- **Work side:** a vendor book with quote requests, crew, calendar items (one Blocked date on the Sangeet day), documents (plus a sample PDF), one family rating, and a second (Staff) team member for the Team videos.
-- **Business ID:** the quote-request videos copy Rangoli Decor's Business ID.
-
-## Questions for you
-
-1. Can the lane 5 seed add the items above? Or may the robot do them as off-camera setup before each video?
-2. The invoice reminder opens WhatsApp Web with the message. Should the video end on that page, or on the **Open in WhatsApp** button?
-3. Invoice video 4 uses a made-up GSTIN (24ABCDE1234F1Z6) that passes the app's check-digit test. OK?
-4. Should the **Ask for a wedding** form be hidden from vendors in the app? (Problem 1 above.)
-5. Should the commission page text and "workspace" string be fixed in the app?
-6. The planned notes describe the Settings cards that exist today and tell people not to share the link. Is that enough, or should they say less?
-7. Do you want the "Time it saves" line kept?
+1. **Vendors can see Ask for a wedding**, but a host's **Codes & planner** lists planners only. A vendor's request would wait with nobody able to approve it.
+2. **Commission page** says "Krama pays it out". Our rule says Krama never moves money.
+3. **Proposal.donePlanner** still says "workspace".
+4. **Leads empty state** mentions the enquiry form, which is not live.
+5. **The business (+) sheet title** reads "Add to your wedding".
+6. **New:** the Team page says invites come later, so a business can't add a second person yet. Four videos wait for that.

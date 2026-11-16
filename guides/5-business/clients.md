@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/business/[orgId]/clients/page.tsx, app/business/[orgId]/clients/[clientId]/page.tsx, app/business/[orgId]/crm-forms.tsx, app/business/[orgId]/crm-actions.ts, lib/db/clients.ts]
 ---
@@ -43,28 +43,28 @@ code: [app/business/[orgId]/clients/page.tsx, app/business/[orgId]/clients/[clie
 
 ## Video scripts
 
-### V-5-clients-1 · How to add a client · about 35 s · desktop first
+### V-5-clients-1 · How to add a client · 39 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the empty **Clients** page | 5 | "Family ki saari details alag alag jagah hain." | |
-| 1 | Click **Clients** in the sidebar | 4 | "**Clients** kholo." | Open Clients |
+| 0 | Show business Home | 5.1 | "Family ki saari details alag alag jagah hain." | |
+| 1 | Click **Clients** in the sidebar | 7 | "**Clients** kholo." | Open Clients |
 | 2 | Click **Add client** | 4 | "**Add client** pe click karo." | Click Add client |
-| 3 | Type "Shah family" in **Family or company name** | 4 | "Family ka naam likho." | Type the name |
-| 4 | Pick **Family** in **Type** | 4 | "**Type** mein **Family** chuno." | Pick Family |
+| 3 | Type "Shah family" in **Family or company name** | 5 | "Family ka naam likho." | Type the name |
+| 4 | Pick **Family** in **Type** | 4.1 | "**Type** mein **Family** chuno." | Pick Family |
 | 5 | Click **Add client** | 4 | "Phir **Add client** dabao." | Click Add client |
-| end | Show the Shah family's page | 4 | "Ho gaya. Client ka page ready hai." | Done |
+| end | Show the Shah family's page | 4.1 | "Ho gaya. Client ka page ready hai." | Done |
 
-### V-5-clients-2 · How to add the people who decide and pay · about 35 s · desktop first
+### V-5-clients-2 · How to add the people who decide and pay · 45 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Starts on the Shah family's page, made in the first video.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show the Shah family's page with an empty **People** section | 5 | "Kaun decide karta hai, kaun paisa deta hai? Yahan likh do." | |
-| 1 | Type "Meera Shah" in **Name** and "98250 30003" in **Phone** | 4 | "Pehle us insaan ka naam aur phone." | Type name and phone |
+| 1 | Type "Meera Shah" in **Name** and "98250 30003" in **Phone** | 8.1 | "Pehle us insaan ka naam aur phone." | Type name and phone |
 | 2 | Tick **Decides** | 4 | "Jo decide karta hai, uspe **Decides** tick karo." | Tick Decides |
-| 3 | Tick **Day-of contact** | 4 | "Shaadi ke din jo milega, uspe **Day-of contact**." | Tick Day-of contact |
+| 3 | Tick **Day-of contact** | 4.1 | "Shaadi ke din jo milega, uspe **Day-of contact**." | Tick Day-of contact |
 | 4 | Click **Add person** | 4 | "**Add person** dabao." | Click Add person |
-| 5 | Type "Hitesh Shah" in **Name**, tick **Pays**, click **Add person** | 4 | "Paisa dene wale ko **Pays** ke saath add karo." | Add the payer |
-| end | Show both people with their tags | 4 | "Ho gaya. Ab sabko pata hai kisse baat karni hai." | Done |
+| 5 | Type "Hitesh Shah" in **Name**, tick **Pays**, click **Add person** | 9 | "Paisa dene wale ko **Pays** ke saath add karo." | Add the payer |
+| end | Show both people with their tags | 4.4 | "Ho gaya. Ab sabko pata hai kisse baat karni hai." | Done |

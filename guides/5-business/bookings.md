@@ -60,7 +60,7 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Bookings** tab with one booking | 5 | "Kaun si job kahan tak pahunchi, yaad rakhna mushkil hai." |  |
+| 0 | Show business Home | 5 | "Kaun si job kahan tak pahunchi, yaad rakhna mushkil hai." |  |
 | 1 | Click **Proposals & bookings**, then click the **Bookings** tab | 5 | "**Bookings** tab kholo." | Open Bookings |
 | 2 | Point at the booking and its **Confirmed** status | 4 | "Yahan job ka status dikhta hai." | See the status |
 | 3 | Open the **Booking status** list | 4 | "**Booking status** list kholo." | Open Booking status |

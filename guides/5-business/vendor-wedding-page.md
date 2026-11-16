@@ -63,21 +63,21 @@ You reach this page from **Weddings** in the sidebar, or from **Today's jobs** o
 
 ## Video scripts
 
-### V-5-vendor-wedding-page-1 · How to read the brief, then mark the day · about 40 s · desktop first
+### V-5-vendor-wedding-page-1 · How to read the brief, then mark the day · 57 s · desktop first
 Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hinglish (DECISIONS.md). The planner must have written a brief for Rangoli Decor that is not yet read.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show **Needs your attention** with a **Brief to read** line | 5 | Planner ne brief likha hai, par aapne padha nahi. |  |
-| 1 | Click the Sharma-Patel line | 3 | Wedding pe click karo. | Open the wedding |
-| 2 | Highlight the banner and the **Brief** section | 4 | Upar banner aur neeche **Brief** dikhta hai. | Read the brief |
-| 3 | Click **I have read this** | 4 | Padh kar **I have read this** dabao. | Click I have read this |
-| 4 | Show "You have read version" | 3 | Ho gaya. Brief padh liya. | Brief read |
-| 5 | Highlight the Haldi function | 3 | Apne function ko dekho. | Find your function |
-| 6 | Click **Arrived** | 3 | Pahunch kar **Arrived** dabao. | Click Arrived |
-| 7 | Click **Set up done** | 4 | Setup ready ho to **Set up done**. | Click Set up done |
-| 8 | Click **Finished** | 3 | Kaam khatam ho to **Finished**. | Click Finished |
-| end | Show three lit buttons with times | 4 | Ho gaya. Har button pe time likha hai. | Times are saved |
+| 1 | Click the Sharma-Patel line | 5 | Wedding pe click karo. | Open the wedding |
+| 2 | Highlight the banner and the **Brief** section | 6 | Upar banner aur neeche **Brief** dikhta hai. | Read the brief |
+| 3 | Click **I have read this** | 5 | Padh kar **I have read this** dabao. | Click I have read this |
+| 4 | Show "You have read version" | 5 | Ho gaya. Brief padh liya. | Brief read |
+| 5 | Highlight the Haldi function | 5 | Apne function ko dekho. | Find your function |
+| 6 | Click **Arrived** | 5 | Pahunch kar **Arrived** dabao. | Click Arrived |
+| 7 | Click **Set up done** | 5 | Setup ready ho to **Set up done**. | Click Set up done |
+| 8 | Click **Finished** | 5 | Kaam khatam ho to **Finished**. | Click Finished |
+| end | Show three lit buttons with times | 5 | Ho gaya. Har button pe time likha hai. | Times are saved |
 
 ### V-5-vendor-wedding-page-2 · How to use your tools · about 30 s · desktop first
 Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hinglish (DECISIONS.md). Reset the lane first, so the checklist is empty.
@@ -91,14 +91,14 @@ Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hin
 | 4 | Tick **Done** on the first line | 4 | Kaam hone par **Done** tick karo. | Tick Done |
 | end | Show the checklist with one line done | 4 | Ho gaya. Family ko yeh list nahi dikhti. | Only you see this |
 
-### V-5-vendor-wedding-page-3 · How to add crew and deliverables · about 30 s · desktop first
+### V-5-vendor-wedding-page-3 · How to add crew and deliverables · 43 s · desktop first
 Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show the wedding page, scrolled to **Your crew** | 5 | Kaun si team kahan jayegi, yeh yaad rakhna hai. |  |
-| 1 | Type "Sanjay" in **Crew member** and "Lead decorator" in **Role** | 5 | Crew ka naam aur role likho. | Type name and role |
-| 2 | Click **Add crew** | 4 | **Add crew** dabao. | Click Add crew |
-| 3 | Type "Stage photos for the family" in **What will you deliver?** | 4 | Ab **Deliverables** mein likho, kya dena hai. | Type the deliverable |
-| 4 | Click **Add deliverable** | 4 | **Add deliverable** dabao. | Click Add deliverable |
-| end | Show the crew and the deliverable on the page | 4 | Ho gaya. Sab ek page par hai. | All on one page |
+| 1 | Type "Sanjay" in **Crew member** and "Lead decorator" in **Role** | 9 | Crew ka naam aur role likho. | Type name and role |
+| 2 | Click **Add crew** | 5 | **Add crew** dabao. | Click Add crew |
+| 3 | Type "Stage photos for the family" in **What will you deliver?** | 8 | Ab **Deliverables** mein likho, kya dena hai. | Type the deliverable |
+| 4 | Click **Add deliverable** | 5 | **Add deliverable** dabao. | Click Add deliverable |
+| end | Show the crew and the deliverable on the page | 5 | Ho gaya. Sab ek page par hai. | All on one page |

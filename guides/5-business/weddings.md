@@ -70,7 +70,7 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 | 6 | Click the confirm button in the box | 3 | Box mein confirm kar do. | Confirm |
 | end | Show **Waiting for approval** empty | 4 | Ho gaya. Request hat gayi. | Request cancelled |
 
-### V-5-weddings-2 · How to leave a wedding · about 30 s · desktop first
+### V-5-weddings-2 · How to leave a wedding · 32 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Reset the lane first, so the wedding is linked.
 
 | # | Robot does | Hold (s) | Voice says | Caption |

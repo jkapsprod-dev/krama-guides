@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: ["app/business/[orgId]/layout.tsx", "lib/nav/business.ts", "app/business/[orgId]/finder-actions.ts", "app/business/[orgId]/notifications/page.tsx", "components/app-nav.tsx", "components/notification-bell.tsx"]
 ---
@@ -49,30 +49,30 @@ The (+) is on phones and narrow windows. On a wide screen, use search instead (n
 
 ## Video scripts
 
-### V-5-getting-around-the-portal-1 · How to use the (+) · about 30 s · phone first
+### V-5-getting-around-the-portal-1 · How to use the (+) · 32 s · phone first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Record this one at phone size, because the (+) shows only below 1024 px wide.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show business Home on a phone | 5 | Client ne invoice maanga, aur aap venue pe ho. | |
 | 1 | Tap the (+) named **Add** | 6 | Neeche ka (+) dabao. | Tap the (+) |
-| 2 | Highlight the rows in the sheet | 6 | Yahan **Add a lead**, **Start a proposal** aur **Raise an invoice** jaise options hain. | Pick what to start |
+| 2 | Highlight the rows in the sheet | 6.1 | Yahan **Add a lead**, **Start a proposal** aur **Raise an invoice** jaise options hain. | Pick what to start |
 | 3 | Tap **Add a lead** | 5 | **Add a lead** chuno. | Tap Add a lead |
 | end | Show the new lead form | 4 | Ho gaya. Form seedha khul gaya. | The form opens |
 
-### V-5-getting-around-the-portal-2 · How to search pages and actions · about 30 s · desktop first
+### V-5-getting-around-the-portal-2 · How to search pages and actions · 33 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show business Home | 5 | Menu mein page dhoondhna time leta hai. | |
 | 1 | Click **Search pages and actions** | 5 | Upar **Search pages and actions** pe click karo. | Click search |
-| 2 | Type "cal" | 4 | Page ka thoda sa naam likho. | Type part of a name |
-| 3 | Highlight **Calendar** under **Jump to** | 4 | **Jump to** mein page dikh jata hai. | Find the page |
+| 2 | Type "cal" | 4.1 | Page ka thoda sa naam likho. | Type part of a name |
+| 3 | Highlight **Calendar** under **Jump to** | 4.1 | **Jump to** mein page dikh jata hai. | Find the page |
 | 4 | Click **Calendar** | 4 | Click karo. | Click Calendar |
-| end | Show the Calendar page | 4 | Ho gaya. Seedha calendar khul gaya. | Calendar opens |
+| end | Show the Calendar page | 4.1 | Ho gaya. Seedha calendar khul gaya. | Calendar opens |
 
-### V-5-getting-around-the-portal-3 · How to read your inbox · about 30 s · desktop first
+### V-5-getting-around-the-portal-3 · How to read your inbox · 33 s · desktop first
 Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
@@ -81,5 +81,5 @@ Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hin
 | 1 | Click the bell named **Inbox** | 5 | Upar ki bell, yaani **Inbox**, kholo. | Open the Inbox |
 | 2 | Highlight the new note | 4 | Naye notes bold mein dikhte hain. | New notes are bold |
 | 3 | Click the note | 4 | Note pe click karo, wahi page khulega. | Click a note |
-| 4 | Go back, click **Mark all read** | 4 | Phir **Mark all read** dabao. | Click Mark all read |
+| 4 | Go back, click **Mark all read** | 5 | Phir **Mark all read** dabao. | Click Mark all read |
 | end | Show the inbox with no new marks | 4 | Ho gaya. Sab padha hua hai. | All read |

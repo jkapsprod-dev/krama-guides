@@ -85,18 +85,18 @@ If you have an account, sign in and follow these steps.
 
 ## Video scripts
 
-### V-5-crew-and-shifts-1 · How to add crew · about 35 s · desktop first
+### V-5-crew-and-shifts-1 · How to add crew · 54 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show **Crew** with no crew yet | 5 | "Crew ke naam aur number kahan likhein? Ek jagah." | Keep your crew in one list |
-| 1 | Click **Calendar**, then the **Crew** tab | 4 | "Calendar kholo, phir Crew tab." | Open Calendar, then Crew |
-| 2 | Click **Add crew** | 4 | "Add crew pe click karo." | Click Add crew |
-| 3 | Type "Mahesh Parmar" in **Name** and a made-up number in **Phone** | 4 | "Naam aur phone number likho." | Type name and phone |
-| 4 | Pick **Freelancer** in **Type** and type "Tent and lights" in **Skills** | 4 | "Type chuno aur skills likho." | Pick type and skills |
+| 0 | Show business Home | 5 | "Crew ke naam aur number kahan likhein? Ek jagah." | Keep your crew in one list |
+| 1 | Click **Calendar**, then the **Crew** tab | 8.1 | "Calendar kholo, phir Crew tab." | Open Calendar, then Crew |
+| 2 | Click **Add crew** | 5.6 | "Add crew pe click karo." | Click Add crew |
+| 3 | Type "Mahesh Parmar" in **Name** and a made-up number in **Phone** | 9 | "Naam aur phone number likho." | Type name and phone |
+| 4 | Pick **Freelancer** in **Type** and type "Tent and lights" in **Skills** | 9 | "Type chuno aur skills likho." | Pick type and skills |
 | 5 | Click **Save** | 4 | "Save pe click karo." | Click Save |
-| end | Show Mahesh Parmar on the crew list | 4 | "Ho gaya. Crew list mein naam aa gaya." | Done |
+| end | Show Mahesh Parmar on the crew list | 5.8 | "Ho gaya. Crew list mein naam aa gaya." | Done |
 
 ### V-5-crew-and-shifts-2 · How to give someone a shift · about 30 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Start with Mahesh Parmar on the crew list (end of V-5-crew-and-shifts-1).
@@ -110,38 +110,38 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 | 4 | Click **Assign** | 4 | "Assign pe click karo." | Click Assign |
 | end | Show "Assigned." and the shift under **Coming up** | 4 | "Ho gaya. Shift list mein hai." | Done |
 
-### V-5-crew-and-shifts-3 · How to send the call sheet · about 30 s · desktop first
+### V-5-crew-and-shifts-3 · How to send the call sheet · 37 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Start with the shift from V-5-crew-and-shifts-2. The robot does not follow the WhatsApp link.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show **Coming up** with one shift | 5 | "Sabko call time alag alag likhna padta hai?" | Typing call times one by one |
-| 1 | Click the date next to "Call sheets:" | 5 | "Call sheets ke neeche date pe click karo." | Click the date |
-| 2 | Point to the function, venue and times on the sheet | 4 | "Yahan function, venue aur time dikhta hai." | See the whole day |
-| 3 | Hover over **Open in WhatsApp** | 4 | "Open in WhatsApp pe click karo. Aapka apna WhatsApp khulega." | Opens your own WhatsApp |
-| 4 | Point to **Copy message** and **Print or save as PDF** | 4 | "Chaho toh message copy karo ya print karo." | Copy or print instead |
-| end | Hold on the call sheet | 4 | "Ho gaya. Message ready hai. Bhejna aapke haath mein hai." | You press send |
+| 1 | Click the date next to "Call sheets:" | 5.1 | "Call sheets ke neeche date pe click karo." | Click the date |
+| 2 | Point to the function, venue and times on the sheet | 5 | "Yahan function, venue aur time dikhta hai." | See the whole day |
+| 3 | Hover over **Open in WhatsApp** | 5 | "Open in WhatsApp pe click karo. Aapka apna WhatsApp khulega." | Opens your own WhatsApp |
+| 4 | Point to **Copy message** and **Print or save as PDF** | 5 | "Chaho toh message copy karo ya print karo." | Copy or print instead |
+| end | Hold on the call sheet | 5.2 | "Ho gaya. Message ready hai. Bhejna aapke haath mein hai." | You press send |
 
-### V-5-crew-and-shifts-4 · How to give crew a private shift link · about 30 s · desktop first
+### V-5-crew-and-shifts-4 · How to give crew a private shift link · 38 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Start with Mahesh Parmar on the crew list.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show the **Crew** tab | 5 | "Crew ko login banane ki zaroorat nahi. Bas ek link do." | No account needed |
-| 1 | Click **Phone access** next to Mahesh Parmar | 5 | "Phone access pe click karo." | Click Phone access |
-| 2 | Point to **Private shift link** and click **Make link** | 4 | "Private shift link ke neeche Make link dabao." | Click Make link |
-| 3 | Click **Copy link** | 4 | "Copy link pe click karo." | Click Copy link |
-| 4 | Point to **New link** and **Turn off** | 4 | "Galat jagah chala jaye toh New link ya Turn off." | Replace or turn off |
-| end | Show the link in the box | 4 | "Ho gaya. Yeh link aap WhatsApp pe bhej do." | Send it yourself |
+| 1 | Click **Phone access** next to Mahesh Parmar | 5.1 | "Phone access pe click karo." | Click Phone access |
+| 2 | Point to **Private shift link** and click **Make link** | 6.1 | "Private shift link ke neeche Make link dabao." | Click Make link |
+| 3 | Click **Copy link** | 5.1 | "Copy link pe click karo." | Click Copy link |
+| 4 | Point to **New link** and **Turn off** | 5.1 | "Galat jagah chala jaye toh New link ya Turn off." | Replace or turn off |
+| end | Show the link in the box | 5 | "Ho gaya. Yeh link aap WhatsApp pe bhej do." | Send it yourself |
 
-### V-5-crew-and-shifts-5 · How to see your own shifts (crew) · about 30 s · phone first
+### V-5-crew-and-shifts-5 · How to see your own shifts (crew) · 36 s · phone first
 Demo login: no login. The robot opens the private shift link made in V-5-crew-and-shifts-4 in a new tab. "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a WhatsApp-style message with the link | 5 | "Mere shifts kahan dikhenge? Link kholo." | Where are my shifts? |
+| 0 | Show a WhatsApp-style message with the link | 5.1 | "Mere shifts kahan dikhenge? Link kholo." | Where are my shifts? |
 | 1 | Open the private shift link | 5 | "Link kholo. Login nahi chahiye." | No account needed |
-| 2 | Point to **Your shifts** and the Haldi shift | 4 | "Yahan aapke shifts dikhte hain." | Your shifts, by day |
-| 3 | Point to the role, the note and the venue name | 4 | "Role, note aur venue bhi hai." | Role, note and venue |
-| 4 | Tap the venue name | 4 | "Venue pe tap karo, Maps khulega." | Tap the venue for Maps |
-| end | Show the Maps page or the shifts page | 4 | "Ho gaya. Sab kuch ek page pe." | Done |
+| 2 | Point to **Your shifts** and the Haldi shift | 5 | "Yahan aapke shifts dikhte hain." | Your shifts, by day |
+| 3 | Point to the role, the note and the venue name | 5 | "Role, note aur venue bhi hai." | Role, note and venue |
+| 4 | Tap the venue name | 5.1 | "Venue pe tap karo, Maps khulega." | Tap the venue for Maps |
+| end | Show the Maps page or the shifts page | 5 | "Ho gaya. Sab kuch ek page pe." | Done |

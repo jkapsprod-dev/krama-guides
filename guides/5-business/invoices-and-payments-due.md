@@ -72,23 +72,23 @@ Owners and admins only.
 
 ## Video scripts
 
-### V-5-invoices-and-payments-due-1 · How to raise an invoice · about 40 s · desktop first
+### V-5-invoices-and-payments-due-1 · How to raise an invoice · 58 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Money** page with an empty **Invoices** list | 5 | "Client ko invoice bhejna hai, aur number bhi yaad rakhna hai." | |
-| 1 | Click **Money** in the sidebar | 4 | "Pehle Money kholo." | Open Money |
-| 2 | Click the **Invoices** tab | 4 | "Phir Invoices tab pe jao." | Click Invoices |
-| 3 | Click **New invoice** | 4 | "New invoice pe click karo." | Click New invoice |
-| 4 | Type "Sharma family" in **Name**. Pick "24 Gujarat" in **State (place of supply)** | 4 | "Client ka Name likho, aur State chuno." | Add name and state |
-| 5 | Type "Planning fee, advance" in **Description**. Type "125000" in **Rate (₹)** | 4 | "Description aur Rate likho." | Add what you bill |
-| 6 | Click **Issue invoice** | 4 | "Ab Issue invoice pe click karo." | Click Issue invoice |
+| 0 | Show business Home | 5.1 | "Client ko invoice bhejna hai, aur number bhi yaad rakhna hai." | |
+| 1 | Click **Money** in the sidebar | 8.2 | "Pehle Money kholo." | Open Money |
+| 2 | Click the **Invoices** tab | 4.9 | "Phir Invoices tab pe jao." | Click Invoices |
+| 3 | Click **New invoice** | 5 | "New invoice pe click karo." | Click New invoice |
+| 4 | Type "Sharma family" in **Name**. Pick "24 Gujarat" in **State (place of supply)** | 9 | "Client ka Name likho, aur State chuno." | Add name and state |
+| 5 | Type "Planning fee, advance" in **Description**. Type "125000" in **Rate (₹)** | 10 | "Description aur Rate likho." | Add what you bill |
+| 6 | Click **Issue invoice** | 5.1 | "Ab Issue invoice pe click karo." | Click Issue invoice |
 | end | Show the issued invoice with its number | 4 | "Ho gaya. Invoice ka number lag gaya." | Invoice issued |
 
 ### V-5-invoices-and-payments-due-2 · How to log a payment · about 35 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
-Setup, off camera: one issued invoice to "Sharma family" for ₹1,25,000, so the robot has something to log against.
+Setup, off camera: one issued invoice to "Sharma family" with a rate of ₹1,25,000 (GST is added, so the total is ₹1,47,500), so the robot has something to log against.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
@@ -98,31 +98,31 @@ Setup, off camera: one issued invoice to "Sharma family" for ₹1,25,000, so the
 | 3 | Scroll to **Payments** | 4 | "Neeche Payments mein jao." | Scroll to Payments |
 | 4 | Type "50000" in **Amount received (₹)** | 4 | "Jitna paisa aaya, Amount received mein likho." | Type the amount |
 | 5 | Click **Log payment** | 4 | "Log payment pe click karo." | Click Log payment |
-| end | Show **Still to pay** at ₹75,000 | 4 | "Ho gaya. Baaki ₹75,000 dikh raha hai." | Balance updated |
+| end | Show **Still to pay** with the smaller amount | 4 | "Ho gaya. Baaki rakam neeche dikh rahi hai." | Balance updated |
 
 ### V-5-invoices-and-payments-due-3 · How to remind a client who owes you · about 35 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
-Setup, off camera: one issued invoice to "Sharma family" for ₹1,25,000 with a due date 10 days ago.
+Setup, off camera: one issued invoice to "Sharma family" with a rate of ₹1,25,000 and a due date 10 days ago.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Due** tab with one row under **Overdue** | 5 | "Paisa abhi tak nahi aaya. Yaad kaise dilayein?" | |
+| 0 | Show business Home | 5 | "Paisa abhi tak nahi aaya. Yaad kaise dilayein?" | |
 | 1 | Click **Money** in the sidebar. **Due** opens | 4 | "Money kholo. Due tab pehle khulta hai." | Open Money |
 | 2 | Point at the row under **Overdue** | 4 | "Yahan late payment dikhta hai." | See what is late |
 | 3 | Click **Prepare a reminder** | 4 | "Prepare a reminder pe click karo." | Click Prepare a reminder |
 | 4 | Show the message | 4 | "Message ready hai. Naam, amount, date sab hai." | Message is ready |
-| 5 | Click **Open in WhatsApp** | 4 | "Open in WhatsApp pe click karo." | Click Open in WhatsApp |
-| end | Show the new WhatsApp tab with the message | 4 | "Ab client chuno aur send tum dabao. Krama khud nahi bhejta." | You press send |
+| 5 | Point to **Open in WhatsApp** | 4 | "Open in WhatsApp pe click karo." | Click Open in WhatsApp |
+| end | Hold on the message and **Open in WhatsApp** | 4 | "Ab client chuno aur send tum dabao. Krama khud nahi bhejta." | You press send |
 
-### V-5-invoices-and-payments-due-4 · How to add your GST and bank details · about 35 s · desktop first
+### V-5-invoices-and-payments-due-4 · How to add your GST and bank details · 48 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show an invoice with no payment details | 5 | "Client poochta hai, paisa kahan bhejein?" | |
-| 1 | Click **Settings** in the sidebar | 4 | "Settings kholo." | Open Settings |
-| 2 | Scroll to **Billing details** | 4 | "Billing details tak neeche jao." | Find Billing details |
-| 3 | Type "24ABCDE1234F1Z6" in **GSTIN**. Pick "24 Gujarat" in **State** | 4 | "GSTIN likho aur State chuno." | Add GSTIN and state |
-| 4 | Type "utsavplanners@okbank" in **UPI ID** | 4 | "Phir apna UPI ID likho." | Add your UPI ID |
-| 5 | Click **Save billing details** | 4 | "Save billing details pe click karo." | Click Save billing details |
-| end | Show **Saved.** | 4 | "Ho gaya. Ab har invoice pe yeh details chhapengi." | Details saved |
+| 0 | Show business Home | 5 | "Client poochta hai, paisa kahan bhejein?" | |
+| 1 | Click **Settings** in the sidebar | 5.2 | "Settings kholo." | Open Settings |
+| 2 | Scroll to **Billing details** | 5 | "Billing details tak neeche jao." | Find Billing details |
+| 3 | Type "24ABCDE1234F1Z6" in **GSTIN**. Pick "24 Gujarat" in **State** | 10 | "GSTIN likho aur State chuno." | Add GSTIN and state |
+| 4 | Type "utsavplanners@okbank" in **UPI ID** | 7 | "Phir apna UPI ID likho." | Add your UPI ID |
+| 5 | Click **Save billing details** | 5 | "Save billing details pe click karo." | Click Save billing details |
+| end | Show **Saved.** | 5 | "Ho gaya. Ab har invoice pe yeh details chhapengi." | Details saved |

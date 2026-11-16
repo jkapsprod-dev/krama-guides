@@ -56,17 +56,17 @@ Hosts only.
 
 ## Video scripts
 
-### V-5-planner-code-1 · How to choose your planner code · about 35 s · desktop first
+### V-5-planner-code-1 · How to choose your planner code · 39 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Utsav Planners must have no planner code yet.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show business Home | 5 | Family ko lamba ID bolna mushkil hai. | |
-| 1 | Click **Settings** in the sidebar | 4 | **Settings** kholo. | Open Settings |
+| 1 | Click **Settings** in the sidebar | 6.1 | **Settings** kholo. | Open Settings |
 | 2 | Highlight the **Planner code** box | 4 | Yahan **Planner code** hai. | Find Planner code |
-| 3 | Type "UTSAV-WEDDINGS" in **Choose a code** | 4 | Chhota sa code likho. | Type your code |
+| 3 | Type "UTSAV-WEDDINGS" in **Choose a code** | 5 | Chhota sa code likho. | Type your code |
 | 4 | Click **Save code** | 4 | **Save code** dabao. | Click Save code |
-| 5 | Click **Copy code** | 4 | Phir **Copy code**, aur family ko bhej do. | Copy and share |
+| 5 | Click **Copy code** | 4.6 | Phir **Copy code**, aur family ko bhej do. | Copy and share |
 | end | Show the saved code | 4 | Ho gaya. Ab ek code se kaam chalega. | Your code is ready |
 
 ### V-5-planner-code-2 · How to link a planner (family side) · about 30 s · desktop first
@@ -81,14 +81,14 @@ Demo login: lane 5, host of the Sharma-Patel wedding. "Voice says" is in Hinglis
 | 4 | Click **Link planner** | 4 | Naam dekho, phir **Link planner** dabao. | Click Link planner |
 | end | Show "Planner linked." | 4 | Ho gaya. Planner wedding se jud gaye. | Planner linked |
 
-### V-5-planner-code-3 · How to approve or remove a planner (host side) · about 30 s · desktop first
+### V-5-planner-code-3 · How to approve or remove a planner (host side) · 41 s · desktop first
 Demo login: lane 5, host of the Sharma-Patel wedding. "Voice says" is in Hinglish (DECISIONS.md). Before recording, have a request from Utsav Planners waiting.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show **Codes & planner** with a **Waiting** request | 5 | Ek planner ne request bheji hai. | |
+| 0 | Show **Codes & planner** with a **Waiting** request | 5.1 | Ek planner ne request bheji hai. | |
 | 1 | Highlight the name and ID of Utsav Planners | 5 | Pehle naam aur ID check karo. | Check the name and ID |
 | 2 | Click **Approve** | 4 | Sahi hai to **Approve** dabao. | Click Approve |
-| 3 | Click **Remove planner** | 4 | Hatana ho to **Remove planner** dabao. | Click Remove planner |
+| 3 | Click **Remove planner** | 8.2 | Hatana ho to **Remove planner** dabao. | Click Remove planner |
 | 4 | Click **Yes, remove** | 4 | **Yes, remove** se confirm karo. | Confirm |
-| end | Show **Planner** with "No planner linked." | 4 | Ho gaya. Planner ka access band. | Access ended |
+| end | Show **Planner** with the **Have a planner code?** box again | 9.4 | Ho gaya. Planner ka access band. | Access ended |

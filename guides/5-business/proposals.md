@@ -63,7 +63,7 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Proposals** page with one draft | 5 | "Quote bhejne mein itna time kyun lagta hai?" | |
+| 0 | Show business Home | 5 | "Quote bhejne mein itna time kyun lagta hai?" | |
 | 1 | Click **Proposals & bookings**, then click **New proposal** | 4 | "**New proposal** pe click karo." | Click New proposal |
 | 2 | Type "Haldi and mehndi planning" in **Proposal title**. Type "Shah family" in **Client (family or company)**. Type "hitesh.shah@example.test" in **Client's email** | 5 | "Title, client ka naam aur email daalo." | Fill the proposal details |
 | 3 | Type "Haldi decor" in **Section** | 4 | "Section ka naam likho." | Name the section |
@@ -73,18 +73,18 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 | 7 | Click **Save draft** | 4 | "Phir **Save draft** dabao." | Click Save draft |
 | end | Show the message **Saved.** | 4 | "Ho gaya. Proposal draft mein save hai." | Done |
 
-### V-5-proposals-2 · How to send a proposal to your client · about 35 s · desktop first
+### V-5-proposals-2 · How to send a proposal to your client · 45 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Uses the draft "Proposal for Meera Shah" that the demo already has.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Proposals** page with the draft for Meera Shah | 5 | "Proposal ready hai. Ab client tak kaise pahunchaye?" | |
-| 1 | Click "Proposal for Meera Shah" | 4 | "Proposal kholo." | Open the proposal |
-| 2 | Point at **Client's email** | 4 | "Client ka email bhara hona chahiye." | Check the email |
-| 3 | Click **Save and send** | 4 | "**Save and send** dabao." | Click Save and send |
-| 4 | Point at the box **Share with your client** | 4 | "Yahan link aa gaya." | The link appears |
-| 5 | Click **Copy link** | 4 | "**Copy link** karo aur WhatsApp mein paste karo. Send aap dabate ho." | Click Copy link |
-| end | Show the status **Sent** | 4 | "Ho gaya. Proposal bhej diya." | Done |
+| 0 | Show the **Proposals** page with the draft for Meera Shah | 5.1 | "Proposal ready hai. Ab client tak kaise pahunchaye?" | |
+| 1 | Click "Proposal for Meera Shah" | 5.1 | "Proposal kholo." | Open the proposal |
+| 2 | Point at **Client's email** | 5 | "Client ka email bhara hona chahiye." | Check the email |
+| 3 | Click **Save and send** | 5 | "**Save and send** dabao." | Click Save and send |
+| 4 | Point at the box **Share with your client** | 8.5 | "Yahan link aa gaya." | The link appears |
+| 5 | Click **Copy link** | 5 | "**Copy link** karo aur WhatsApp mein paste karo. Send aap dabate ho." | Click Copy link |
+| end | Show the status **Sent** | 5 | "Ho gaya. Proposal bhej diya." | Done |
 
 ### V-5-proposals-3 · How your client accepts or declines · about 35 s · desktop first
 Demo login: lane 5, client (Meera Shah, made up), already signed in with the email the proposal was sent to. Uses the link from the previous video. "Voice says" is in Hinglish (DECISIONS.md).

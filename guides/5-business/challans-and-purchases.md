@@ -47,26 +47,26 @@ Owners and admins only.
 
 ## Video scripts
 
-### V-5-challans-and-purchases-1 · How to make a delivery challan · about 40 s · desktop first
+### V-5-challans-and-purchases-1 · How to make a delivery challan · 59 s · desktop first
 Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Challans** tab with an empty list | 5 | "Decor ka saaman kal subah venue jayega. Driver ke paas paper chahiye." | |
-| 1 | Click **Money** in the sidebar, then the **Challans** tab | 4 | "Money kholo, phir Challans tab." | Open Challans |
+| 0 | Show business Home | 5.7 | "Decor ka saaman kal subah venue jayega. Driver ke paas paper chahiye." | |
+| 1 | Click **Money** in the sidebar, then the **Challans** tab | 7 | "Money kholo, phir Challans tab." | Open Challans |
 | 2 | Click **New challan** | 4 | "New challan pe click karo." | Click New challan |
-| 3 | Type "Hotel Riverfront Residency" in **Going to**. Pick "24 Gujarat" in **State** | 4 | "Going to mein jagah likho, aur State chuno." | Add where it is going |
-| 4 | Type "Mandap frames" in **Description**. Type "6" in **Qty** | 4 | "Kya ja raha hai, woh likho." | Add what is moving |
-| 5 | Type "GJ 01 AB 1234" in **Vehicle number** | 4 | "Gaadi ka number likho." | Add vehicle number |
-| 6 | Click **Issue challan** | 4 | "Issue challan pe click karo." | Click Issue challan |
-| end | Show the issued challan with its number | 4 | "Ho gaya. Challan ready hai, print karke gaadi mein rakho." | Challan issued |
+| 3 | Type "Hotel Riverfront Residency" in **Going to**. Pick "24 Gujarat" in **State** | 11.1 | "Going to mein jagah likho, aur State chuno." | Add where it is going |
+| 4 | Type "Mandap frames" in **Description**. Type "6" in **Qty** | 9.1 | "Kya ja raha hai, woh likho." | Add what is moving |
+| 5 | Type "GJ 01 AB 1234" in **Vehicle number** | 6.1 | "Gaadi ka number likho." | Add vehicle number |
+| 6 | Click **Issue challan** | 5 | "Issue challan pe click karo." | Click Issue challan |
+| end | Show the issued challan with its number | 4.4 | "Ho gaya. Challan ready hai, print karke gaadi mein rakho." | Challan issued |
 
 ### V-5-challans-and-purchases-2 · How to add a purchase bill · about 40 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Purchases** tab with no bills | 5 | "Supplier ke bills idhar-udhar pade hain. Ek jagah rakhne hain." | |
+| 0 | Show business Home | 5 | "Supplier ke bills idhar-udhar pade hain. Ek jagah rakhne hain." | |
 | 1 | Click **Money** in the sidebar, then the **Purchases** tab | 4 | "Money kholo, phir Purchases tab." | Open Purchases |
 | 2 | Type "Gulab Flower Mart" in **Supplier** | 4 | "Supplier ka naam likho." | Type the supplier |
 | 3 | Type "GF-2217" in **Bill number** | 4 | "Bill number likho." | Type the bill number |

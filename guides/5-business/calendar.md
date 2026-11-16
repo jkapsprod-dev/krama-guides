@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: ["app/business/[orgId]/calendar/page.tsx", "app/business/[orgId]/calendar/calendar-forms.tsx", "app/business/[orgId]/calendar/actions.ts", "lib/nav/business.ts"]
 ---
@@ -20,7 +20,7 @@ Anyone on the team can do this.
 1. Open **Calendar**. Click the day you want in the month grid.
 2. Click **Add to calendar**.
 3. Pick **What is it?**: **Site visit**, **Trial or tasting**, **Meeting**, **Leave**, **Blocked date** or **Other**. Type a **Title**.
-4. Check **From**. For more than one day, fill **To (optional)**. Untick **All day** to set a start and end time.
+4. Check **From**. It starts on today, so change it to the day you want. For more than one day, fill **To (optional)**. Untick **All day** to set a start and end time.
 5. Click **Save**. The entry shows on that day.
 
 To take something off, click **Remove** next to it on the day. Click **Remove** again to confirm.
@@ -64,31 +64,31 @@ Owners and admins only.
 
 ## Video scripts
 
-### V-5-calendar-1 · How to block time on your calendar · about 35 s · desktop first
+### V-5-calendar-1 · How to block time on your calendar · 46 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show **Calendar** with the month grid | 5 | "Site visit ya chutti ki date yaad kaise rakhein?" | Keep visits and leave in one place |
-| 1 | Click **Calendar** in the sidebar, then click a day | 4 | "Calendar kholo aur ek din chuno." | Open Calendar, pick a day |
+| 0 | Show business Home | 5 | "Site visit ya chutti ki date yaad kaise rakhein?" | Keep visits and leave in one place |
+| 1 | Click **Calendar** in the sidebar, then click a day | 7 | "Calendar kholo aur ek din chuno." | Open Calendar, pick a day |
 | 2 | Click **Add to calendar** | 4 | "Add to calendar pe click karo." | Click Add to calendar |
-| 3 | Pick **Site visit** in **What is it?** and type "Venue visit, Ahmedabad" in **Title** | 4 | "Kya hai woh chuno aur title likho." | Pick the type, add a title |
-| 4 | Untick **All day** and set the start and end time | 4 | "Time chahiye toh All day hata do aur time daalo." | Set the time |
+| 3 | Pick **Site visit** in **What is it?** and type "Venue visit, Ahmedabad" in **Title** | 8 | "Kya hai woh chuno aur title likho." | Pick the type, add a title |
+| 4 | Untick **All day** and set the start and end time | 8 | "Time chahiye toh All day hata do aur time daalo." | Set the time |
 | 5 | Click **Save** | 4 | "Save pe click karo." | Click Save |
 | end | Show the entry on that day | 4 | "Ho gaya. Ab woh din calendar mein hai." | Done |
 
-### V-5-calendar-2 · How to spot double bookings, then set the most jobs you take in a day · about 45 s · desktop first
+### V-5-calendar-2 · How to spot double bookings, then set the most jobs you take in a day · 51 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Start with a **Blocked date** saved on the Sangeet day of the Sharma-Patel wedding.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show **Calendar** with a red dot on one day | 5 | "Kya koi din double book ho gaya?" | Is any day double booked? |
 | 1 | Point to the red dot on the Sangeet day | 4 | "Laal dot ka matlab hai warning." | Red dot means a warning |
-| 2 | Click that day | 3 | "Us din pe click karo." | Click the day |
-| 3 | Point to the red line in the day panel | 4 | "Yahan likha hai kya clash hua." | Read the warning |
-| 4 | Point to the dots and **Wedding function** in the list | 4 | "Neeche din ka poora schedule dikhta hai." | See what is on the day |
-| 5 | Hold on the day panel | 4 | "Ho gaya. Ab aap decide kar sakte ho kya hilana hai." | Now you can fix it |
+| 2 | Click that day | 4 | "Us din pe click karo." | Click the day |
+| 3 | Point to the red line in the day panel | 5 | "Yahan likha hai kya clash hua." | Read the warning |
+| 4 | Point to the dots and **Wedding function** in the list | 5 | "Neeche din ka poora schedule dikhta hai." | See what is on the day |
+| 5 | Hold on the day panel | 4.2 | "Ho gaya. Ab aap decide kar sakte ho kya hilana hai." | Now you can fix it |
 | 6 | Scroll to **Most jobs you take on one day** | 5 | "Most jobs you take on one day tak scroll karo." | Find the limit box |
-| 7 | Type 2 in the box | 3 | "Apni limit likho, jaise do." | Type your limit |
-| 8 | Click **Save** | 3 | "Save pe click karo." | Click Save |
-| end | Show "Saved." and the jobs shown on the day squares | 4 | "Ho gaya. Limit se zyada job aayi toh warning milegi." | Done |
+| 7 | Type 2 in the box | 4 | "Apni limit likho, jaise do." | Type your limit |
+| 8 | Click **Save** | 4 | "Save pe click karo." | Click Save |
+| end | Show "Saved." and the jobs shown on the day squares | 5 | "Ho gaya. Limit se zyada job aayi toh warning milegi." | Done |

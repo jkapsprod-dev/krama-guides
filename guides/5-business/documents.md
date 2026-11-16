@@ -55,17 +55,17 @@ The reminder is this box, so it shows when you open **Documents**.
 
 ## Video scripts
 
-### V-5-documents-1 · How to upload a document · about 30 s · desktop first
+### V-5-documents-1 · How to upload a document · 45 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). The robot uses a made-up PDF called "FSSAI licence (sample).pdf".
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show **Documents** with no files | 5 | "Licence ka PDF ab phir se dhoondhna padega?" | Hunting for a PDF again |
-| 1 | Click **Documents** in the sidebar | 5 | "Documents kholo." | Open Documents |
-| 2 | Click **File** under **Add a document** and choose the sample PDF | 4 | "File chuno." | Choose the file |
-| 3 | Type "FSSAI licence 2027" in **Title** and pick **Licence** in **What is it?** | 4 | "Title likho aur type chuno." | Add a title and type |
+| 0 | Show business Home | 5 | "Licence ka PDF ab phir se dhoondhna padega?" | Hunting for a PDF again |
+| 1 | Click **Documents** in the sidebar | 5.3 | "Documents kholo." | Open Documents |
+| 2 | Click **File** under **Add a document** and choose the sample PDF | 5 | "File chuno." | Choose the file |
+| 3 | Type "FSSAI licence 2027" in **Title** and pick **Licence** in **What is it?** | 9 | "Title likho aur type chuno." | Add a title and type |
 | 4 | Click **Upload** | 4 | "Upload pe click karo." | Click Upload |
-| end | Show "Added." and the document in the list | 4 | "Ho gaya. Licence ab ek jagah safe hai." | Done |
+| end | Show "Added." and the document in the list | 9 | "Ho gaya. Licence ab ek jagah safe hai." | Done |
 
 ### V-5-documents-2 · How to get reminded before a document expires, then open or delete a document · about 45 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Start with the licence from V-5-documents-1.
