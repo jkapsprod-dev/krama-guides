@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/w/[workspaceId]/events/[eventId]/(chrome)/counts/page.tsx, app/w/[workspaceId]/events/counts/page.tsx, components/counts/counts-link.tsx, lib/counts]
 ---
@@ -51,18 +51,18 @@ The numbers are worked out fresh each time you open the page. Nothing is saved, 
 
 ## Video scripts
 
-### V-4-counts-1 · How to see the counts, change the ratios, then print or download the counts · about 45 s · phone first
+### V-4-counts-1 · How to see the counts, change the ratios, then print or download the counts · 44 s · phone first
 Demo login: lane 4, couple (Appendix E). "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Reception function page | 5 | "Halwai poochh raha hai, kitni plates?" | The caterer needs a number |
-| 1 | Scroll to **On the day**, tap **See the counts** | 5 | "On the day mein See the counts dabao." | Tap See the counts |
-| 2 | Show the plates line and how it is worked out | 4 | "Plates, mithai, chairs, sab ginti yahan hai." | Plates, mithai, chairs |
-| 3 | Go back and tap **Counts for the whole wedding** | 5 | "Poori shaadi ki ginti bhi mil jati hai." | Counts for the whole wedding |
-| 4 | Scroll to **Ratios** | 3 | "Ratios tak jao." | Open Ratios |
-| 5 | Change **Mithai a person (grams)** to 150 | 3 | "Mithai ke gram badal do." | Change the number |
-| 6 | Tap **Save ratios** | 3 | "Save ratios dabao." | Tap Save ratios |
-| 7 | Tap **Print** | 3 | "Kagaz chahiye to Print dabao." | Tap Print |
-| 8 | Tap **Download CSV** | 3 | "Spreadsheet chahiye to Download CSV." | Or Download CSV |
-| end | Show the file saved | 4 | "Ab aap bhej sakte ho." | Ready to send |
+| 0 | Show the Reception function page | 5.0 | "Halwai poochh raha hai, kitni plates?" | The caterer needs a number |
+| 1 | Scroll to **On the day**, tap **See the counts** | 5.0 | "On the day mein See the counts dabao." | Tap See the counts |
+| 2 | Show the plates line and how it is worked out | 4.1 | "Plates, mithai, chairs, sab ginti yahan hai." | Plates, mithai, chairs |
+| 3 | Go back and tap **Counts for the whole wedding** | 5.0 | "Poori shaadi ki ginti bhi mil jati hai." | Counts for the whole wedding |
+| 4 | Scroll to **Ratios** | 3.0 | "Ratios tak jao." | Open Ratios |
+| 5 | Change **Mithai a person (grams)** to 150 | 3.0 | "Mithai ke gram badal do." | Change the number |
+| 6 | Tap **Save ratios** | 3.0 | "Save ratios dabao." | Tap Save ratios |
+| 7 | Tap **Print** | 3.0 | "Kagaz chahiye to Print dabao." | Tap Print |
+| 8 | Tap **Download CSV** | 3.1 | "Spreadsheet chahiye to Download CSV." | Or Download CSV |
+| end | Show **Print** and **Download CSV** | 4.0 | "Ab aap bhej sakte ho." | Ready to send |

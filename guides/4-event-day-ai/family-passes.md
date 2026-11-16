@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/w/[workspaceId]/guests/passes/page.tsx, components/checkin/renew-pass-button.tsx, components/checkin/print-button.tsx]
 ---
@@ -38,16 +38,16 @@ code: [app/w/[workspaceId]/guests/passes/page.tsx, components/checkin/renew-pass
 
 ## Video scripts
 
-### V-4-family-passes-1 · How to print family passes, then cancel a lost pass · about 40 s · phone first
+### V-4-family-passes-1 · How to print family passes, then cancel a lost pass · 49 s · phone first
 Demo login: lane 4, couple (Appendix E). "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Guests list | 5 | "Nani ke paas smartphone nahi hai. Unka pass kaise banega?" | Some guests have no smartphone |
-| 1 | Tap **More**, then **Family passes** | 4 | "Guests mein More dabao, phir Family passes." | Open Family passes |
-| 2 | Scroll the list of passes | 4 | "Har parivaar ka ek pass hai." | One pass per family |
-| 3 | Tap **Print passes** | 3 | "Print passes dabao." | Tap Print passes |
-| 4 | Show the print preview | 3 | "Pass print karke de do." | Print and hand it over |
-| 5 | Tap **New pass** next to the Sharma family | 4 | "Parivaar ke aage New pass dabao." | Tap New pass |
-| 6 | Show the confirm question | 5 | "Puchhne par haan kar do. Purana pass band ho jayega." | The old pass stops working |
-| end | Show the new pass | 4 | "Naya pass tayyar hai." | New pass ready |
+| 0 | Show the Guests list | 5.0 | "Nani ke paas smartphone nahi hai. Unka pass kaise banega?" | Some guests have no smartphone |
+| 1 | Tap **More**, then **Family passes** | 4.0 | "Guests mein More dabao, phir Family passes." | Open Family passes |
+| 2 | Scroll the list of passes | 5.0 | "Har parivaar ka ek pass hai." | One pass per family |
+| 3 | Tap **Print passes** | 11.9 | "Print passes dabao." | Tap Print passes |
+| 4 | Show the passes ready to print | 3.3 | "Pass print karke de do." | Print and hand it over |
+| 5 | Tap **New pass** next to the Anil Sharma family | 4.2 | "Parivaar ke aage New pass dabao." | Tap New pass |
+| 6 | Say yes to the question | 5.0 | "Puchhne par haan kar do. Purana pass band ho jayega." | The old pass stops working |
+| end | Show the new pass | 4.0 | "Naya pass tayyar hai." | New pass ready |

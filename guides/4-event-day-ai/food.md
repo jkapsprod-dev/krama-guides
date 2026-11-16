@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/w/[workspaceId]/events/[eventId]/(chrome)/food/page.tsx, components/food/menu-editor.tsx, components/food/count-sheet.tsx, components/food/food-link.tsx]
 ---
@@ -53,28 +53,28 @@ Everyone in the wedding can read it. It shows counts only, never money. Hosts, p
 
 ## Video scripts
 
-### V-4-food-1 · How to write the menu · about 35 s · phone first
+### V-4-food-1 · How to write the menu · 39 s · phone first
 Demo login: lane 4, couple (Appendix E). "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Reception function page | 5 | "Menu kai logon ko bhejna hota hai. Ek jagah likh do." | One place for the menu |
-| 1 | Tap **Menu and counts** | 4 | "Menu and counts kholo." | Open Menu and counts |
-| 2 | Scroll to **Change the menu** | 4 | "Change the menu tak jao." | Find Change the menu |
-| 3 | Type "Paneer tikka", pick **Starters** and **Veg** | 6 | "Dish ka naam likho, course aur diet chuno." | Name, course, diet |
-| 4 | Tap **Add dish** | 4 | "Add dish dabao." | Tap Add dish |
-| end | Show the menu list | 4 | "Menu mein dish aa gayi." | The dish is on the menu |
+| 0 | Show the Reception function page | 5.0 | "Menu kai logon ko bhejna hota hai. Ek jagah likh do." | One place for the menu |
+| 1 | Tap **Menu and counts** | 4.1 | "Menu and counts kholo." | Open Menu and counts |
+| 2 | Scroll to **Change the menu** | 9.3 | "Change the menu tak jao." | Find Change the menu |
+| 3 | Type "Paneer tikka", pick **Starters** and **Veg** | 6.2 | "Dish ka naam likho, course aur diet chuno." | Name, course, diet |
+| 4 | Tap **Add dish** | 4.0 | "Add dish dabao." | Tap Add dish |
+| end | Show the menu list | 4.0 | "Menu mein dish aa gayi." | The dish is on the menu |
 
-### V-4-food-2 · How to set the plates guaranteed, then send it to the caterer · about 35 s · phone first
+### V-4-food-2 · How to set the plates guaranteed, then send it to the caterer · 45 s · phone first
 Demo login: lane 4, couple (Appendix E).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the count sheet | 5 | "Halwai ko pakki ginti dena zaroori hai." | The caterer needs a final number |
-| 1 | Scroll to **Note and guarantee** | 3 | "Note and guarantee kholo." | Open Note and guarantee |
-| 2 | Type 300 under **Plates guaranteed** | 3 | "Plates guaranteed mein number likho." | Type the plates |
-| 3 | Tap **Save** | 3 | "Save dabao." | Tap Save |
-| 4 | Show the guarantee line | 4 | "Upar guarantee ki line aa gayi." | The guarantee is saved |
-| 5 | Tap **Print for the caterer** | 3 | "Print for the caterer dabao." | Tap Print for the caterer |
-| 6 | Tap **Download CSV** | 4 | "Ya Download CSV se spreadsheet lo." | Or Download CSV |
-| end | Show the printed sheet | 4 | "Caterer ko bhej do." | Send it on |
+| 0 | Show the count sheet | 5.0 | "Halwai ko pakki ginti dena zaroori hai." | The caterer needs a final number |
+| 1 | Scroll to **Note and guarantee** | 3.0 | "Note and guarantee kholo." | Open Note and guarantee |
+| 2 | Type 300 under **Plates guaranteed** and pick a **Guarantee by** date | 4.4 | "Plates guaranteed mein number likho, aur Guarantee by ki date chuno." | Type the plates and a date |
+| 3 | Tap **Save** | 3.1 | "Save dabao." | Tap Save |
+| 4 | Show the guarantee line | 11.9 | "Upar guarantee ki line aa gayi." | The guarantee is saved |
+| 5 | Tap **Print for the caterer** | 3.0 | "Print for the caterer dabao." | Tap Print for the caterer |
+| 6 | Tap **Download CSV** | 4.1 | "Ya Download CSV se spreadsheet lo." | Or Download CSV |
+| end | Show the count sheet and the guarantee line | 4.1 | "Caterer ko bhej do." | Send it on |

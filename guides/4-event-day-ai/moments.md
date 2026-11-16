@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [lib/moments/kinds.ts, components/moments/moment-host.tsx, components/moment-card.tsx, components/since-you-last-looked.tsx]
 ---
@@ -32,13 +32,13 @@ You see at most one card a day. It shows on Home, in the family feed and on a fu
 
 ## Video scripts
 
-### V-4-moments-1 · What the moment cards mean · about 35 s · phone first
+### V-4-moments-1 · What the moment cards mean · 33 s · phone first
 Demo login: lane 4, couple (Appendix E). The robot sets the demo wedding so a function has just finished. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show Home with no card | 6 | "Kuch achha ho to Krama khud batata hai." | Krama tells you the good news |
-| 1 | Show the card **That's Mehndi done.** | 7 | "Jaise, function poora ho gaya." | A function is done |
-| 2 | Point at **See how it went** | 5 | "Neeche ek hi agla kadam milta hai." | One next step |
-| 3 | Tap **Got it** | 5 | "Kaam ho gaya to Got it dabao." | Tap Got it |
-| end | Show Home without the card | 4 | "Card hat gaya." | The card is gone |
+| 0 | Show Home | 6.0 | "Kuch achha ho to Krama khud batata hai." | Krama tells you the good news |
+| 1 | Show the card **That's Mehendi done.** | 7.0 | "Jaise, function poora ho gaya." | A function is done |
+| 2 | Point at **See how it went** | 5.0 | "Neeche ek hi agla kadam milta hai." | One next step |
+| 3 | Tap **Got it** | 5.0 | "Kaam ho gaya to Got it dabao." | Tap Got it |
+| end | Show Home without the card | 4.0 | "Card hat gaya." | The card is gone |

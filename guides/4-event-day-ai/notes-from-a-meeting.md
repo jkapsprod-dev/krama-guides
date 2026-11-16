@@ -2,8 +2,8 @@
 tags: [guide]
 lane: 4
 who: [couple, family, planner]
-status: draft
-checked: no
+status: final
+checked: 2026-11-16
 video: script
 internal: false
 code: [app/w/[workspaceId]/tasks/meeting/page.tsx, app/w/[workspaceId]/tasks/meeting/meeting-notes.tsx, lib/voice/minutes.ts]
@@ -35,17 +35,17 @@ code: [app/w/[workspaceId]/tasks/meeting/page.tsx, app/w/[workspaceId]/tasks/mee
 
 ## Video scripts
 
-### V-4-notes-from-a-meeting-1 · How to turn meeting notes into minutes and tasks · about 45 s · phone first
+### V-4-notes-from-a-meeting-1 · How to turn meeting notes into minutes and tasks · 44 s · phone first
 Demo login: lane 4, couple (Appendix E). The robot pastes a short made-up note. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Tasks screen | 4 | "Caterer ke saath meeting hui, par kaam kisko mile, yaad nahi." | Who does what? |
-| 1 | Tap **From a meeting** | 3 | "From a meeting kholo." | Open From a meeting |
-| 2 | Type "Caterer call" under **Meeting** | 4 | "Meeting ka naam likho." | Name the meeting |
-| 3 | Paste the notes under **Notes** | 5 | "Notes yahan paste karo, ya bol kar likhwao." | Paste or speak the notes |
-| 4 | Tap **Make minutes and tasks** | 4 | "Make minutes and tasks dabao." | Tap Make minutes and tasks |
-| 5 | Show **Minutes** and **Tasks** | 6 | "Chhote minutes aur kaam ki list mil jaati hai." | Minutes and tasks |
-| 6 | Untick one task | 4 | "Jo kaam nahi chahiye, hata do." | Untick what you don't need |
-| 7 | Tap **Save minutes and tasks** | 4 | "Save minutes and tasks dabao." | Tap Save |
-| end | Show **Minutes saved with 3 tasks.** | 3 | "Kaam ab Tasks mein hain." | Saved to Tasks |
+| 0 | Show the Tasks screen | 4.5 | "Caterer ke saath meeting hui, par kaam kisko mile, yaad nahi." | Who does what? |
+| 1 | Tap **From a meeting** | 3.0 | "From a meeting kholo." | Open From a meeting |
+| 2 | Type "Caterer call" under **Meeting** | 4.0 | "Meeting ka naam likho." | Name the meeting |
+| 3 | Paste the notes under **Notes** | 5.0 | "Notes yahan paste karo, ya bol kar likhwao." | Paste or speak the notes |
+| 4 | Tap **Make minutes and tasks** | 4.0 | "Make minutes and tasks dabao." | Tap Make minutes and tasks |
+| 5 | Show **Minutes** and **Tasks** | 6.0 | "Chhote minutes aur kaam ki list mil jaati hai." | Minutes and tasks |
+| 6 | Untick one task | 4.0 | "Jo kaam nahi chahiye, hata do." | Untick what you don't need |
+| 7 | Tap **Save minutes and tasks** | 4.0 | "Save minutes and tasks dabao." | Tap Save |
+| end | Show **Minutes saved with 2 tasks.** | 3.0 | "Kaam ab Tasks mein hain." | Saved to Tasks |

@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/w/[workspaceId]/events/[eventId]/(chrome)/emergency/page.tsx, app/w/[workspaceId]/events/[eventId]/emergency/print/page.tsx, components/emergency/card-editor.tsx, components/emergency/card-view.tsx]
 ---
@@ -51,18 +51,18 @@ Everyone in the wedding can read the card. Hosts, planners and family fill it in
 
 ## Video scripts
 
-### V-4-emergency-card-1 · How to fill in the emergency card, then print the card · about 45 s · phone first
+### V-4-emergency-card-1 · How to fill in the emergency card, then print the card · 52 s · phone first
 Demo login: lane 4, couple (Appendix E). "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Sangeet function page | 4 | "Kisi ko achanak chakkar aa jaye to kya karein?" | If someone feels unwell |
-| 1 | Under **On the day**, tap **Open card** | 3 | "Open card dabao." | Tap Open card |
-| 2 | Scroll to **Fill in the card** | 3 | "Fill in the card tak jao." | Find Fill in the card |
-| 3 | Fill in the hospital name and phone | 5 | "Sabse paas ke aspataal ka naam aur number likho." | Add the nearest hospital |
-| 4 | Fill in **Fire exits** and **First aid** | 5 | "Fire exits aur first aid ki jaankari bhi likho." | Add exits and first aid |
-| 5 | Tap **Save card** | 3 | "Save card dabao." | Tap Save card |
-| 6 | Show the filled card | 4 | "Ab yeh card sab ke paas rahega." | The card is ready |
-| 7 | Tap **Print (A5)** | 3 | "Print (A5) dabao." | Tap Print (A5) |
-| 8 | Tap **Print** | 3 | "Phir Print dabao." | Tap Print |
-| end | Show the print preview | 4 | "Ek card gate par, ek first aid ke paas." | One at the door, one at first aid |
+| 0 | Show the Sangeet function page | 4.0 | "Kisi ko achanak chakkar aa jaye to kya karein?" | If someone feels unwell |
+| 1 | Under **On the day**, tap **Open card** | 3.4 | "Open card dabao." | Tap Open card |
+| 2 | Scroll to **Fill in the card** | 3.0 | "Fill in the card tak jao." | Find Fill in the card |
+| 3 | Fill in the hospital name and phone | 7.1 | "Sabse paas ke aspataal ka naam aur number likho." | Add the nearest hospital |
+| 4 | Fill in **Fire exits** and **First aid** | 11.3 | "Fire exits aur first aid ki jaankari bhi likho." | Add exits and first aid |
+| 5 | Tap **Save card** | 3.2 | "Save card dabao." | Tap Save card |
+| 6 | Show the filled card | 4.0 | "Ab yeh card sab ke paas rahega." | The card is ready |
+| 7 | Tap **Print (A5)** | 3.0 | "Print (A5) dabao." | Tap Print (A5) |
+| 8 | Tap **Print** | 3.0 | "Phir Print dabao." | Tap Print |
+| end | Show the print page | 4.0 | "Ek card gate par, ek first aid ke paas." | One at the door, one at first aid |

@@ -3,90 +3,79 @@ tags: [guides, lane-status]
 lane: 4
 folder: 4-event-day-ai
 made: 2026-11-14 (2D)
-app: krama-celeb main, `git -C app pull` said "Already up to date"
+updated: 2026-11-16 (Wave 5, lane 4)
+app: krama-celeb main @ 4fb01ef6 (the copy in `app\`, run in recording mode)
 ---
 # Lane 4 status · Event day, AI & voice
 
-**Where I worked:** The session opened in `C:\Users\jayka\code\Guides`, which is empty. The real project is `C:\Users\jayka\code\krama-guides`, so I read and wrote there. Nothing was committed. I only wrote inside `guides\4-event-day-ai\`.
+**Where I worked:** the session opened in the empty `C:\Users\jayka\code\Guides`. The project is `C:\Users\jayka\code\krama-guides` (3A said so), so I read and wrote there. Nothing is committed.
 
-## Notes written
+## Result
 
-All 14 Lane 4 features have a note, and all are `status: draft`, `checked: no`. None is `planned`: everything in this lane is live. Reading level is grade 3.2 or lower for every note (limit 8). No em dashes, en dashes, exclamation marks, "workspace" or prices.
+- **16 notes** checked on the running app and set to `status: final`, `checked: 2026-11-16`. 13 are `video: made`; the 3 AI notes are `video: script`. Reading level: every note is grade 3.2 or lower. No dashes or exclamation marks in the notes.
+- **22 videos** are final, and **5 wait for a real AI** (see below). Each is made in phone and desktop, with `.srt` files, in `videos\final\4-event-day-ai\` (33 to 63 s). Raw takes and timings are in `videos\raw\4-event-day-ai\`. Specs are in `recorder\specs\4-event-day-ai\`. Each note's script table now has the real step lengths (phone) and the real video length in the heading.
+- **Section intro** made: `V-4-section-intro-phone.mp4` and `-desktop.mp4` (7.0 s). I rewrote `_section-intro.md` as a table, like lane 2's, because the intro command reads that format.
+- I looked at frames of about ten videos (live run sheet, event day offline, voice, seating, wrap-up, emergency card on desktop and others). Highlights and captions were in the right place. I did not look at every frame of every video.
 
-| Note | Video scripts |
-|---|---|
-| [[event-day]] | V-4-event-day-1 to 4 |
-| [[live-run-sheet]] | V-4-live-run-sheet-1 to 3 |
-| [[check-in]] | V-4-check-in-1 to 3 |
-| [[family-passes]] | V-4-family-passes-1 to 2 |
-| [[seating]] | V-4-seating-1 to 4 |
-| [[counts]] | V-4-counts-1 to 3 |
-| [[food]] | V-4-food-1 to 3 |
-| [[emergency-card]] | V-4-emergency-card-1 to 2 |
-| [[function-recap]] | V-4-function-recap-1 |
-| [[wrap-up]] | V-4-wrap-up-1 to 6 |
-| [[assistant]] | V-4-assistant-1 to 3 |
-| [[voice]] | V-4-voice-1 to 3 |
-| [[notes-from-a-meeting]] | V-4-notes-from-a-meeting-1 |
-| [[plan-and-add-ons]] | V-4-plan-and-add-ons-1 |
-| [[referral-code]] | V-4-referral-code-1 to 2 |
-| [[moments]] | V-4-moments-1 |
+## Real lengths (phone)
 
-That is 42 video scripts. Also written: `_section-intro.md` (English and Hinglish).
+| Video | s | Video | s | Video | s |
+|---|---|---|---|---|---|
+| assistant-1 | 43 | event-day-3 | 63 | referral-code-1 | 43 |
+| assistant-2 | 33 | family-passes-1 | 49 | seating-1 | 38 |
+| check-in-1 | 33 | food-1 | 39 | seating-2 | 46 |
+| check-in-2 | 45 | food-2 | 45 | seating-3 | 35 |
+| counts-1 | 44 | function-recap-1 | 33 | voice-1 | 46 |
+| emergency-card-1 | 52 | live-run-sheet-1 | 45 | voice-2 | 46 |
+| event-day-1 | 41 | live-run-sheet-2 | 40 | wrap-up-1 | 42 |
+| event-day-2 | 33 | moments-1 | 33 | wrap-up-2 | 50 |
+| | | notes-from-a-meeting-1 | 44 | wrap-up-3 | 34 |
+| | | plan-and-add-ons-1 | 38 | | |
 
-**Video checks:** Every script has at most 8 steps, captions of 8 words or fewer, and hold times that add up to 27 s or more. With the 3 s title and 3 s end card, each video should run 30 s or more. The final length depends on the voice, so 3B and 4A should time each line.
+I did not touch `guides\_video-list.md` (not in my paths). 3A or 6A can copy these into its **Real length** and **Status** columns.
 
-## Where I deviated from the inventory
+## Things Jay should know
 
-- **Plan & add-ons:** I wrote only "How to see your plan and what is included". I **left out "download an invoice"**. Buying is off sale, so nobody can have an invoice, and the list always says "No invoices yet". Add it when payments open.
-- **Notes from a meeting:** the inventory names a button **Notes from a meeting**. The real label on the Tasks page is **From a meeting**. The note's file name stays `notes-from-a-meeting`, as in the README.
-- **Voice, "speak into a form":** the microphone exists in only two places, the assistant box and the meeting notes. I wrote it that way.
-- **Moments:** it has no task in the inventory, so I wrote "What the moment cards mean" with one video.
+1. **Five videos wait for a real AI (Jay, 16 Nov: "Wait for real AI").** [[assistant]], [[voice]] and [[notes-from-a-meeting]] are `status: final` (the steps are checked) but `video: script`. I moved their 20 test files to `videosinal-event-day-ai_stand-in-ai-not-for-handover` so they are not handed over. Once the recording app has a real AI, record these five again with `npm run make -- --id V-4-assistant-1,V-4-assistant-2,V-4-voice-1,V-4-voice-2,V-4-notes-from-a-meeting-1`, set `video: made`, and delete that folder. The take with the stand-in AI is described next.
 
-## Features and tasks the inventory missed
+   **How the test takes were made.** They were recorded against a stand-in AI, not a real one. The recording app has no AI (`AI_BASE_URL` is empty), so the assistant's typed box, the answer language, the microphone and meeting notes are switched off. For [[assistant]] (both videos), [[voice]] (both) and [[notes-from-a-meeting]] I ran a second copy of the app on port 3410 with a small rule-based stand-in (`recorder\specs\4-event-day-ai\_stand-in-ai.mjs`, `_ai-on.mjs`, `_ai-off.mjs`). It only sorts a typed sentence into one of the 20 fixed questions, turns a short note into a task or arrival, and splits meeting notes into minutes and tasks. The assistant's answers themselves come from the app and the demo wedding, as in the live app. The microphone is a pretend one, and the "spoken" sentences are queued by the spec. No file in `app\` changed. Both helpers are stopped now. If Jay wants real AI answers on camera, record these five again against a real AI.
+2. **`V-4-wrap-up-2` shows "Krama Celebrations"** on the wedding-in-numbers card (known, [[_app-fixes]] item 1). Record it again after that fix.
+3. **A developer's end-to-end test run shares the local database** and wiped lane 4's demo wedding several times, and the machine was at 100% CPU while other lanes rendered. About a dozen takes failed on slow pages or a wiped wedding. I added longer waits to six specs and recorded those takes again. All 27 videos were recorded in both sizes.
+4. **Hinglish words.** The kit spelled many words by rule, so some may sound off. Each `voiceover\V-4-*.md` lists them under **Check these words**. The most worth fixing in `kit\voice\hinglish-words.json` (I did not edit that shared file): event, voice, aaram, chalao, pooch, aspataal, plates, guarantee, deliverables, settle, microphone, recording, undo, referral, seating. Jay's spot-check should start with the section intro (it says "Event day, AI aur voice").
+5. **The wedding date.** The demo wedding is in February 2027, so everything that needs a nearby date is shifted off camera, through the local database only, by `_lib.mjs`: the Mehendi or Sangeet is moved to today (event day, run sheet, offline), the Mehendi to yesterday with ticks and check-ins (recap, moment card), and all functions into the past (Wrap-up). Tables, a run sheet, a made-up friend's referral code (ANJALI-DHRUV27) and the like are also added there.
 
-1. **Wrap-up has five steps, and the inventory lists four tasks.** The **Thank-yous** step (envelopes and gifts not yet thanked, with **See all** in Shagun) was missing. I added it as a task with a video.
-2. **Seating, near the front:** each waiting family has a toggle to sit **Near the front**. Tables can also be locked and renamed. Locks are in the note. "Near the front" is not. 3A may want a task for it.
-3. **Check-in screen extras:** the door screen shows a late banner when the function is running late, a one-tap **Emergency** strip (**Show**, **Open the full card**) and a **Food** line with the expected count. I did not cover these.
-4. **Menu freeze:** the food page can show a freeze banner. Dishes and the note can't change, but the guaranteed plates can. It is one **Stuck?** line in [[food]].
-5. **Counts, "By function":** the whole-wedding page lists each function with a link. Small, but not in the inventory.
-6. **Assistant:** it has about 20 fixed questions, not 3. The note names the three the inventory lists and says "pick a card, like".
-7. **Family feedback for planners** (a business screen) is part of Wrap-up but belongs to Lane 5 (`family-feedback`).
+## What I changed in the notes (the app did not match)
 
-## Things in the app that look wrong (for a 6B app session)
+- [[referral-code]]: on a phone **Codes & planner** is under **More**, not **Settings**. Video code is ANJALI-DHRUV27, and the button says **Copied** after **Copy code**.
+- [[plan-and-add-ons]]: the add-on rows are **Base plan**, **WhatsApp invites and reminders**, **Photo gallery**, **Face search** and **AI assistant** (voice and meeting notes come with it). Not "voice" and "meeting notes" as separate rows.
+- [[wrap-up]]: **See all** in **Shagun** shows only when more than 10 thank-yous wait. Each entry has **Mark thanked** and **Draft a message**. **Prepare export** says Krama tells you in **Notifications** when it is ready. The video shows that message (the export job does not run locally).
+- [[check-in]]: the Mehta family video checks in 3 people (**Check in 3**, **3 of 74 arrived**), not 4.
+- [[family-passes]]: it is the **Anil Sharma family**. **New pass** asks with the browser's own box (see [[_needs-app-changes]]).
+- [[live-run-sheet]]: the key moment is "Bride's mehndi" on the Mehendi, not the pheras. After the move the page shows **2 items moved. Undo** and a **Running 30 min late** banner with **Undo the last 30 min**. The video ends on the new times.
+- [[event-day]]: after **End event-day mode on this phone** the page says "Event-day mode has ended, and its copy has left this phone."
+- [[food]] (**Guarantee by** is a date, set in the video), [[counts]], [[emergency-card]], [[seating]]: the video ends on the print page, not a print preview (the robot's browser has no print window).
+- [[moments]] and [[function-recap]]: the function is called **Mehendi** in the app. Home shows the "That's Mehendi done." card first, so the moments video starts on Home with the card.
+- [[voice]]: the guest in a note must be in the guest list, so the video uses Anil Kapoor.
+- [[notes-from-a-meeting]]: the page says **From a meeting BETA**. The video unticks one task, so it ends on "Minutes saved with 2 tasks."
+- [[assistant]]: in Hindi the cards are in Hindi too, so the language video taps the first card.
 
-- **The recap has no permanent link.** [[function-recap]] opens only from the **See how it went** moment card. A card shows once, within about 7 days of the function ending, and goes away after **Got it**. After that, nobody can reach the recap. A link on the function's page would fix this.
-- **The "wedding in numbers" card says "Krama Celebrations"** at the bottom (`Wrapup.numbers.cardFoot`). The brand is Krama Events. The card is posted to the family feed, so families will see it.
-- **Referral reward text:** the app says the reward starts working "when the assistant launches" (`Codes.referral.reward.unlocked`). The assistant is already live in the pilot. The line is confusing.
-- **Plan & add-ons lists "WhatsApp invites and reminders"** as an add-on, and during the pilot it shows **On**. Krama doesn't send WhatsApp messages by itself, and the WhatsApp API is not built. The guides never mention it. A reader may still ask.
+## Things in the app that look wrong (for an app session)
 
-## Needed before recording (for 3B, Wave 5)
+All earlier items stay in [[_app-fixes]]. New this time:
 
-- **The demo wedding is about 3 months away.** Several things only work close to a function's date:
-  - Run sheet **Start** and **Done** work from 6 hours before a function to 6 hours after.
-  - The **That's {name} done.** card needs a function that ended in the last 7 days.
-  - **Wrap-up** opens the day after the last function.
-  - Check-in and event-day copies expire 12 hours after a function ends.
-  The robot needs a day-shifted copy of the demo data, or a clock shift.
-- **The AI must be online.** Typed questions, voice and meeting minutes all stop when `AI_*` is not set. The cards still work. [[assistant]] videos 1 and 3, [[voice]] and [[notes-from-a-meeting]] need it. Status says typed questions use the free tier, 400 a day.
-- **Fake microphone and camera.** [[voice]] needs a pre-recorded clip. [[check-in]] shows **Scan pass** but the script uses **Find family**, so the camera isn't needed.
-- **Offline.** [[event-day]] video 3 needs the robot to switch the network off and on.
-- **Wrap-up delete:** [[wrap-up]] video 6 stops before **Delete permanently**. The robot must not delete the demo wedding.
-- **Helper view:** all scripts use the couple login. The helper's door view is written in the guide but not recorded.
+- **Family passes, New pass** uses `window.confirm`. An in-app confirm box would show on video and match the rest of the app.
+- **Wedding in numbers card** says "Krama Celebrations" (already listed).
+- The recap and card say "That's Mehendi done." with a straight apostrophe while the app elsewhere uses curly ones. Cosmetic.
 
-## Checked from code only
+## Not done or not checked
 
-Everything was written from the code and `messages\en.json`. Wave 5 should check these on the real app:
-- Where **Ratios** sits on the counts page.
-- That a helper finds check-in through **Event day** on the bottom bar.
-- That **Put on door** needs the helper to be a member first.
-- The exact label next to a moment card's next step (**Got it**).
-- The **Live counter** option on a dish.
+- The helper's door view and the helper and planner roles are in the guides but not recorded (all videos are the host, as agreed in 3A).
+- **Scan pass** on check-in shows in the video but the camera is never used.
+- **Download** on Wrap-up is never on camera (export job does not run locally).
+- The Hinglish lines were recorded as written (Jay spot-checks).
 
 ## Questions for you
 
-1. **Hinglish lines:** Should someone who speaks Hinglish read the "Voice says" lines? I wrote them simply, with all button names in English, but I can't judge the tone.
-2. **Invoices:** OK to leave out "download an invoice" until payments open?
-3. **WhatsApp add-on row** on Plan & add-ons: do you want it hidden in the app, or is it fine?
-4. **App problems:** written up in `_needs-app-changes.md` (owner decisions, not selectors). Tell me which, if any, should go to an app session.
-5. **Seating, "near the front":** do you want it as its own task and video?
+1. (Answered: wait for a real AI.) When will the recording app have one?
+2. May I add the words above to `kit\voice\hinglish-words.json`, or should 4A do it?
+3. Should `_video-list.md` get these real lengths from 3A or 6A?

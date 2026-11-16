@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/w/[workspaceId]/events/[eventId]/recap/page.tsx, lib/moments/recap.ts, lib/moments/kinds.ts]
 ---
@@ -33,13 +33,13 @@ code: [app/w/[workspaceId]/events/[eventId]/recap/page.tsx, lib/moments/recap.ts
 
 ## Video scripts
 
-### V-4-function-recap-1 · How to see how a function went · about 35 s · phone first
+### V-4-function-recap-1 · How to see how a function went · 33 s · phone first
 Demo login: lane 4, couple (Appendix E). The robot uses a function that has finished, with check-in and run sheet ticks. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show Home with the card **That's Mehndi done.** | 6 | "Mehndi ho gayi. Kaisi rahi, jaanna hai?" | How did it go? |
-| 1 | Tap **See how it went** | 5 | "See how it went dabao." | Tap See how it went |
-| 2 | Show **Came** and the replies | 6 | "Kitne aaye aur kitno ne haan kaha, yahan hai." | Who came |
-| 3 | Show the **Run sheet** line and the key moment line | 6 | "Run sheet mein dikhta hai ki din time par chala ya nahi." | Was it on time? |
-| end | Show the next function link | 4 | "Phir agle function par chalo." | On to the next one |
+| 0 | Show Home with the card **That's Mehendi done.** | 6.0 | "Mehndi ho gayi. Kaisi rahi, jaanna hai?" | How did it go? |
+| 1 | Tap **See how it went** | 5.1 | "See how it went dabao." | Tap See how it went |
+| 2 | Show **Came** and the replies | 6.0 | "Kitne aaye aur kitno ne haan kaha, yahan hai." | Who came |
+| 3 | Show the **Run sheet** line and the key moment line | 6.0 | "Run sheet mein dikhta hai ki din time par chala ya nahi." | Was it on time? |
+| end | Show the next function link | 4.0 | "Phir agle function par chalo." | On to the next one |

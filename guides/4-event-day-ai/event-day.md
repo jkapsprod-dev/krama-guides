@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/w/[workspaceId]/event-day/page.tsx, app/w/[workspaceId]/event-day/[eventId]/page.tsx, components/event-day/event-day-screen.tsx, components/event-day/event-day-link.tsx, lib/event-day/pack.ts]
 ---
@@ -61,42 +61,42 @@ code: [app/w/[workspaceId]/event-day/page.tsx, app/w/[workspaceId]/event-day/[ev
 
 ## Video scripts
 
-### V-4-event-day-1 · How to open event-day mode · about 35 s · phone first
+### V-4-event-day-1 · How to open event-day mode · 41 s · phone first
 Demo login: lane 4, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md (Hinglish).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Home screen on a phone | 5 | "Shaadi ke din Wi-Fi ka bharosa nahi hota." | Wi-Fi can fail on the day |
-| 1 | Tap **More**, then **Event day** | 5 | "More mein jao, phir Event day kholo." | Open Event day |
-| 2 | Tap the Sangeet function | 4 | "Jis function ko chalana hai, use chuno." | Pick the function |
-| 3 | Zoom on the strip **Saved on this phone. Works with no network.** | 6 | "Jab yeh line aa jaye, phone mein copy save ho gayi." | Saved on this phone |
-| 4 | Scroll through the tab row | 4 | "Yahan run sheet, check-in, seating, sab ek jagah hai." | Everything in one place |
-| end | Show the Run sheet tab | 3 | "Bas, ab aap taiyaar ho." | Ready for the day |
+| 0 | Show the Home screen on a phone | 5.0 | "Shaadi ke din Wi-Fi ka bharosa nahi hota." | Wi-Fi can fail on the day |
+| 1 | Tap **More**, then **Event day** | 8.2 | "More mein jao, phir Event day kholo." | Open Event day |
+| 2 | Tap the Sangeet function | 4.0 | "Jis function ko chalana hai, use chuno." | Pick the function |
+| 3 | Zoom on the strip **Saved on this phone. Works with no network.** | 9.2 | "Jab yeh line aa jaye, phone mein copy save ho gayi." | Saved on this phone |
+| 4 | Scroll through the tab row | 4.5 | "Yahan run sheet, check-in, seating, sab ek jagah hai." | Everything in one place |
+| end | Show the Run sheet tab | 3.0 | "Bas, ab aap taiyaar ho." | Ready for the day |
 
-### V-4-event-day-2 · How to move between the tabs · about 35 s · phone first
+### V-4-event-day-2 · How to move between the tabs · 33 s · phone first
 Demo login: lane 4, couple (Appendix E).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Run sheet tab | 5 | "Din mein bahut kuch dekhna padta hai." | A lot to watch on the day |
-| 1 | Tap **Emergency** | 4 | "Emergency mein aspataal aur zaroori number hain." | Emergency card |
-| 2 | Tap **Seating**, type "Mehta" in **Find a family** | 6 | "Seating mein parivaar ka naam likho, table mil jayega." | Find a family's table |
-| 3 | Tap **Contacts** | 4 | "Contacts mein number dabao, seedha call lagega." | Tap a number to call |
-| 4 | Tap **Food** | 4 | "Food mein menu aur plates ki ginti hai." | Menu and counts |
-| end | Back to **Run sheet** | 4 | "Sab kuch bas ek tap door hai." | One tap away |
+| 0 | Show the Run sheet tab | 5.0 | "Din mein bahut kuch dekhna padta hai." | A lot to watch on the day |
+| 1 | Tap **Emergency** | 4.0 | "Emergency mein aspataal aur zaroori number hain." | Emergency card |
+| 2 | Tap **Seating**, type "Mehta" in **Find a family** | 6.0 | "Seating mein parivaar ka naam likho, table mil jayega." | Find a family's table |
+| 3 | Tap **Contacts** | 4.0 | "Contacts mein number dabao, seedha call lagega." | Tap a number to call |
+| 4 | Tap **Food** | 4.0 | "Food mein menu aur plates ki ginti hai." | Menu and counts |
+| end | Back to **Run sheet** | 4.0 | "Sab kuch bas ek tap door hai." | One tap away |
 
-### V-4-event-day-3 · How to keep working without signal, then end event-day mode · about 45 s · phone first
+### V-4-event-day-3 · How to keep working without signal, then end event-day mode · 63 s · phone first
 Demo login: lane 4, couple (Appendix E). The robot turns the network off and on.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the saved strip on Event day | 5 | "Pehle signal mein page ek baar khol lo." | Open it once with signal |
-| 1 | Turn the network off | 4 | "Ab maan lo signal chala gaya." | Signal drops |
-| 2 | Show the **Offline** strip | 5 | "Phone batata hai ki aap offline ho, par kaam chalta rahega." | Offline, still working |
-| 3 | Tap **Start** on a run sheet item | 5 | "Run sheet ke tick phone mein ruk jaate hain." | Ticks wait on the phone |
-| 4 | Turn the network on | 3 | "Signal wapas aaya." | Signal is back |
-| 5 | Show the strip say it is saved again | 4 | "Sab apne aap bhej diya gaya." | Sent by itself |
-| 6 | Scroll to the bottom | 3 | "Neeche jao." | Scroll to the bottom |
-| 7 | Zoom on the line about when the copy leaves | 4 | "Yahan likha hai copy kab hategi." | See when it leaves |
-| 8 | Tap **End event-day mode on this phone** | 4 | "End event-day mode on this phone dabao." | End event-day mode |
-| end | Show the function page | 4 | "Copy phone se hat gayi." | Copy removed |
+| 0 | Show the saved strip on Event day | 5.0 | "Pehle signal mein page ek baar khol lo." | Open it once with signal |
+| 1 | Turn the network off | 4.0 | "Ab maan lo signal chala gaya." | Signal drops |
+| 2 | Show the **Offline** strip | 5.0 | "Phone batata hai ki aap offline ho, par kaam chalta rahega." | Offline, still working |
+| 3 | Tap **Start** on a run sheet item | 5.1 | "Run sheet ke tick phone mein ruk jaate hain." | Ticks wait on the phone |
+| 4 | Turn the network on | 3.0 | "Signal wapas aaya." | Signal is back |
+| 5 | Show the strip say it is saved again | 6.5 | "Sab apne aap bhej diya gaya." | Sent by itself |
+| 6 | Scroll to the bottom | 3.0 | "Neeche jao." | Scroll to the bottom |
+| 7 | Zoom on the line about when the copy leaves | 4.0 | "Yahan likha hai copy kab hategi." | See when it leaves |
+| 8 | Tap **End event-day mode on this phone** | 16.5 | "End event-day mode on this phone dabao." | End event-day mode |
+| end | Show the message that event-day mode has ended | 4.1 | "Copy phone se hat gayi." | Copy removed |

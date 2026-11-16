@@ -2,8 +2,8 @@
 tags: [guide]
 lane: 4
 who: [couple, family, helper, planner]
-status: draft
-checked: no
+status: final
+checked: 2026-11-16
 video: script
 internal: false
 code: [components/assistant/assistant-chat.tsx, lib/assistant/questions.ts, lib/assistant/cards.ts, lib/ai/client.ts]
@@ -31,7 +31,7 @@ code: [components/assistant/assistant-chat.tsx, lib/assistant/questions.ts, lib/
 4. Read the answer. To look up a guest, pick **Find a guest** and type the name.
 
 **Tip:** The sheet shows how many typed questions are left today, like "{left} of {limit} typed questions left today".
-**Stuck?** It says **I can't answer that yet**? Try one of the cards. If typing is off, the sheet says **Offline, the cards still work**.
+**Stuck?** It says **I can’t answer that yet**? Try one of the cards. If typing is off, the sheet says the assistant is offline and the cards still work.
 
 ## How to choose the answer language
 1. Tap **Ask the assistant**.
@@ -51,29 +51,29 @@ code: [components/assistant/assistant-chat.tsx, lib/assistant/questions.ts, lib/
 
 ## Video scripts
 
-### V-4-assistant-1 · How to ask a quick question, then type your own question · about 40 s · phone first
+### V-4-assistant-1 · How to ask a quick question, then type your own question · 43 s · phone first
 Demo login: lane 4, couple (Appendix E). "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show Home on a phone | 5 | "Mausi ne poochha, haldi kitne baje hai?" | Mausi asks about haldi |
-| 1 | Tap the round **Ask the assistant** button | 3 | "Neeche gol button dabao." | Tap Ask the assistant |
-| 2 | Show the cards under **Tap to ask** | 4 | "Tap to ask mein kuch cards milenge." | Pick a card |
-| 3 | Tap **Next function** | 3 | "Next function dabao." | Tap Next function |
-| 4 | Show the answer | 3 | "Jawab turant mil gaya." | The answer is here |
-| 5 | Tap the box **Ask about your wedding…** | 3 | "Is box mein sawal likho." | Tap the box |
-| 6 | Type "How many guests said yes?" | 4 | "Jaise, kitne mehmaan aa rahe hain." | Type your question |
-| 7 | Tap **Send** | 3 | "Send dabao." | Tap Send |
-| 8 | Show the answer and the count of questions left | 5 | "Jawab aa gaya. Aaj ke bache sawal bhi dikhte hain." | See questions left today |
-| end | Show the full chat | 3 | "Aasaan hai na?" | Simple |
+| 0 | Show Home on a phone | 5.0 | "Mausi ne poochha, haldi kitne baje hai?" | Mausi asks about haldi |
+| 1 | Tap the round **Ask the assistant** button | 3.0 | "Neeche gol button dabao." | Tap Ask the assistant |
+| 2 | Show the cards under **Tap to ask** | 4.0 | "Tap to ask mein kuch cards milenge." | Pick a card |
+| 3 | Tap **Next function** | 3.0 | "Next function dabao." | Tap Next function |
+| 4 | Show the answer | 3.0 | "Jawab turant mil gaya." | The answer is here |
+| 5 | Tap the box **Ask about your wedding…** | 3.0 | "Is box mein sawal likho." | Tap the box |
+| 6 | Type "How many guests said yes?" | 5.1 | "Jaise, kitne mehmaan aa rahe hain." | Type your question |
+| 7 | Tap **Send** | 3.0 | "Send dabao." | Tap Send |
+| 8 | Show the answer and the count of questions left | 5.0 | "Jawab aa gaya. Aaj ke bache sawal bhi dikhte hain." | See questions left today |
+| end | Show the full chat | 3.0 | "Aasaan hai na?" | Simple |
 
-### V-4-assistant-2 · How to choose the answer language · about 35 s · phone first
+### V-4-assistant-2 · How to choose the answer language · 33 s · phone first
 Demo login: lane 4, couple (Appendix E).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Open the assistant | 6 | "Jawab apni bhasha mein chahiye?" | Want answers in your language? |
-| 1 | Tap **Answer language** | 5 | "Answer language dabao." | Tap Answer language |
-| 2 | Pick Hindi and show the **BETA** badge | 6 | "Bhasha chuno. BETA ka matlab hai abhi jaanch chal rahi hai." | BETA means still being checked |
-| 3 | Tap the **Next function** card | 5 | "Phir koi bhi sawal pooch lo." | Ask again |
-| end | Show the answer in Hindi | 5 | "Jawab ab Hindi mein hai." | Answer in Hindi |
+| 0 | Open the assistant | 6.0 | "Jawab apni bhasha mein chahiye?" | Want answers in your language? |
+| 1 | Tap **Answer language** | 5.0 | "Answer language dabao." | Tap Answer language |
+| 2 | Pick Hindi and show the **BETA** badge | 6.0 | "Bhasha chuno. BETA ka matlab hai abhi jaanch chal rahi hai." | BETA means still being checked |
+| 3 | Tap the first card, now in Hindi | 5.0 | "Phir koi bhi sawal pooch lo." | Ask again |
+| end | Show the answer in Hindi | 5.0 | "Jawab ab Hindi mein hai." | Answer in Hindi |

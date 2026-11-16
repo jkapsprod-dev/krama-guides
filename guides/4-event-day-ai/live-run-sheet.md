@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [components/run-of-show/live-run-sheet.tsx, app/w/[workspaceId]/timeline/live-actions.ts, lib/run-of-show/live.ts]
 ---
@@ -53,31 +53,31 @@ Ticks switch on 6 hours before a function starts and stay on until 6 hours after
 
 ## Video scripts
 
-### V-4-live-run-sheet-1 · How to tick items as they happen, then mark the key moment · about 45 s · phone first
+### V-4-live-run-sheet-1 · How to tick items as they happen, then mark the key moment · 45 s · phone first
 Demo login: lane 4, couple (Appendix E). The robot opens a function that is happening today. "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Run sheet on Event day | 5 | "Kya abhi tak mehndi shuru hui? Yaad rakhna mushkil hai." | Hard to track the day |
-| 1 | Tap **Start** on "Mehndi artists arrive" | 4 | "Kaam shuru hote hi Start dabao." | Tap Start |
-| 2 | Show the started time | 4 | "Asli time apne aap likh jaata hai." | Real time is saved |
-| 3 | Tap **Done** | 3 | "Khatam hone par Done dabao." | Tap Done |
-| 4 | Point at the gold **Now** line | 5 | "Sone ki line batati hai ki aap kahan ho." | The gold line shows now |
-| 5 | Show the ticked list | 3 | "Ab sab ko pata hai din kahan tak pahuncha." | Everyone can see |
-| 6 | Scroll to "Pheras" | 3 | "Jaise pheras." | Find the item |
-| 7 | Tap **Key moment** | 3 | "Us par Key moment dabao." | Tap Key moment |
-| 8 | Zoom on the star | 4 | "Ab us par ek sitara lag gaya." | A star appears |
-| end | Show the star on the list | 4 | "Baad mein recap mein iska asli time dikhega." | Shown again in the recap |
+| 0 | Show the Run sheet on Event day | 5.0 | "Kya abhi tak mehndi shuru hui? Yaad rakhna mushkil hai." | Hard to track the day |
+| 1 | Tap **Start** on "Mehndi artists arrive" | 4.0 | "Kaam shuru hote hi Start dabao." | Tap Start |
+| 2 | Show the started time | 4.0 | "Asli time apne aap likh jaata hai." | Real time is saved |
+| 3 | Tap **Done** | 3.0 | "Khatam hone par Done dabao." | Tap Done |
+| 4 | Point at the gold **Now** line | 5.0 | "Sone ki line batati hai ki aap kahan ho." | The gold line shows now |
+| 5 | Show the ticked list | 3.0 | "Ab sab ko pata hai din kahan tak pahuncha." | Everyone can see |
+| 6 | Scroll to Bride's mehndi | 3.0 | "Jaise dulhan ki mehndi." | Find the item |
+| 7 | Tap **Key moment** | 3.0 | "Us par Key moment dabao." | Tap Key moment |
+| 8 | Zoom on the star | 4.0 | "Ab us par ek sitara lag gaya." | A star appears |
+| end | Show the star on the list | 4.0 | "Baad mein recap mein iska asli time dikhega." | Shown again in the recap |
 
-### V-4-live-run-sheet-2 · How to tell everyone you are running late · about 35 s · phone first
+### V-4-live-run-sheet-2 · How to tell everyone you are running late · 40 s · phone first
 Demo login: lane 4, couple (Appendix E).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Run sheet | 4 | "Baraat der se aayi, ab sabko kaise batayein?" | The baraat is late |
-| 1 | Tap **Running late…** | 3 | "Running late dabao." | Tap Running late |
-| 2 | Choose 30 minutes | 4 | "Kitni der hai, woh chuno." | Choose the minutes |
-| 3 | Show the **Tell members, linked vendors and door staff** box ticked | 5 | "Yeh box tick rakho, taaki sab ko khabar mile." | Everyone is told |
-| 4 | Show the preview line, then tap **Move 30 min later** | 5 | "Phir Move 30 min later dabao." | Move 30 min later |
-| 5 | Show the new times and the **Undo** button | 5 | "Galti ho jaye to Undo se wapas aa sakte ho." | Undo if you need to |
-| end | Show the late banner | 3 | "Sab ke samne naya time aa gaya." | New times are live |
+| 0 | Show the Run sheet | 4.0 | "Baraat der se aayi, ab sabko kaise batayein?" | The baraat is late |
+| 1 | Tap **Running late…** | 3.2 | "Running late dabao." | Tap Running late |
+| 2 | Choose 30 minutes | 4.0 | "Kitni der hai, woh chuno." | Choose the minutes |
+| 3 | Show the **Tell members, linked vendors and door staff** box ticked | 5.0 | "Yeh box tick rakho, taaki sab ko khabar mile." | Everyone is told |
+| 4 | Show the preview line, then tap **Move 30 min later** | 5.0 | "Phir Move 30 min later dabao." | Move 30 min later |
+| 5 | Show the new times and the **Undo** button | 5.0 | "Galti ho jaye to Undo se wapas aa sakte ho." | Undo if you need to |
+| end | Show the new times on the list | 5.4 | "Sab ke samne naya time aa gaya." | New times are live |

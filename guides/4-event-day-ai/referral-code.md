@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/w/[workspaceId]/settings/codes/page.tsx, app/w/[workspaceId]/settings/codes/codes-forms.tsx, lib/db/codes.ts]
 ---
@@ -18,7 +18,7 @@ code: [app/w/[workspaceId]/settings/codes/page.tsx, app/w/[workspaceId]/settings
 Hosts can see and use this part. The page is under **Codes & planner**.
 
 ## How to share your referral code
-1. Open **Settings**, then **Codes & planner**. On a phone, tap **More** first.
+1. On a phone, tap **More**, then **Codes & planner**. On a computer, open **Settings**, then **Codes & planner**.
 2. Find **Referral code**.
 3. Tap **Copy code**.
 4. Send it to your friend on WhatsApp. You press send yourself.
@@ -28,7 +28,7 @@ Hosts can see and use this part. The page is under **Codes & planner**.
 **Stuck?** Can't see the section? Only a host sees **Referral code**. Ask a host.
 
 ## How to use a friend's code
-1. Open **Settings**, then **Codes & planner**.
+1. On a phone, tap **More**, then **Codes & planner**. On a computer, open **Settings**, then **Codes & planner**.
 2. Go to **Referral code**.
 3. Under **Did a friend give you their code?**, type their code.
 4. Tap **Use code**.
@@ -44,18 +44,18 @@ Hosts can see and use this part. The page is under **Codes & planner**.
 
 ## Video scripts
 
-### V-4-referral-code-1 · How to share your referral code, then use a friend's code · about 40 s · phone first
+### V-4-referral-code-1 · How to share your referral code, then use a friend's code · 43 s · phone first
 Demo login: lane 4, couple (Appendix E). "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the More screen | 5 | "Dost ki shaadi aa rahi hai? Apna code share karo." | A friend is getting married |
-| 1 | Tap **Codes & planner** | 3 | "Codes & planner kholo." | Open Codes & planner |
-| 2 | Scroll to **Referral code** | 3 | "Referral code tak jao." | Find Referral code |
-| 3 | Tap **Copy code** | 3 | "Copy code dabao." | Tap Copy code |
-| 4 | Show the weddings-used line | 5 | "Yahan dikhta hai kitno ne code use kiya." | See how many used it |
-| 5 | Show the copied note | 3 | "Ab dost ko bhej do." | Send it to your friend |
-| 6 | Scroll to **Did a friend give you their code?** | 3 | "Yahan neeche aao." | Find the box |
-| 7 | Type a made-up code, RIYA-INVITES | 3 | "Dost ka code likho." | Type their code |
-| 8 | Tap **Use code** | 3 | "Use code dabao." | Tap Use code |
-| end | Show **You used a friend's code.** | 4 | "Code jud gaya." | Code added |
+| 0 | Show the More screen | 5.0 | "Dost ki shaadi aa rahi hai? Apna code share karo." | A friend is getting married |
+| 1 | Tap **Codes & planner** | 3.0 | "Codes & planner kholo." | Open Codes & planner |
+| 2 | Scroll to **Referral code** | 3.0 | "Referral code tak jao." | Find Referral code |
+| 3 | Tap **Copy code** | 3.0 | "Copy code dabao." | Tap Copy code |
+| 4 | Show the weddings-used line | 5.0 | "Yahan dikhta hai kitno ne code use kiya." | See how many used it |
+| 5 | Show **Copied** on the button | 3.0 | "Ab dost ko bhej do." | Send it to your friend |
+| 6 | Scroll to **Did a friend give you their code?** | 3.0 | "Yahan neeche aao." | Find the box |
+| 7 | Type a made-up code, ANJALI-DHRUV27 | 3.4 | "Dost ka code likho." | Type their code |
+| 8 | Tap **Use code** | 3.0 | "Use code dabao." | Tap Use code |
+| end | Show **You used a friend's code.** | 4.0 | "Code jud gaya." | Code added |

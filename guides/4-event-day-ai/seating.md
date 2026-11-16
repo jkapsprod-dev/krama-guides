@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 4
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-16
+video: made
 internal: false
 code: [app/w/[workspaceId]/events/[eventId]/(chrome)/seating/page.tsx, app/w/[workspaceId]/events/[eventId]/seating/print/page.tsx, components/seating/seating-board.tsx, components/seating/suggest-seats.tsx]
 ---
@@ -69,44 +69,44 @@ Hosts, planners and family can change the plan. Viewers can only read it. Helper
 
 ## Video scripts
 
-### V-4-seating-1 · How to add tables, then seat a family · about 40 s · phone first
+### V-4-seating-1 · How to add tables, then seat a family · 38 s · phone first
 Demo login: lane 4, couple (Appendix E). "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the empty Seating tab of the Reception | 5 | "Reception mein kitne table lagenge?" | How many tables? |
-| 1 | Type 12 in **How many** | 4 | "How many mein table ginti likho." | Type how many |
-| 2 | Set **Seats** to 10 and **Shape** to **Round** | 3 | "Seats aur shape chuno." | Pick seats and shape |
-| 3 | Tap **Add** | 3 | "Add dabao." | Tap Add |
-| 4 | Show the 12 tables | 3 | "Table ban gaye." | Tables are ready |
-| 5 | Type "Mehta" in **Find a family** | 4 | "Find a family mein naam likho." | Search by name |
-| 6 | Tap the Mehta family | 3 | "Parivaar par tap karo." | Tap the family |
-| 7 | Tap **Seat Mehta family here** on Table 1 | 3 | "Table par Seat here dabao." | Tap Seat here |
-| end | Show Table 1 filling up | 4 | "Parivaar table par baith gaya." | Family is seated |
+| 0 | Show the empty Seating tab of the Reception | 5.0 | "Reception mein kitne table lagenge?" | How many tables? |
+| 1 | Type 12 in **How many** | 4.0 | "How many mein table ginti likho." | Type how many |
+| 2 | Set **Seats** to 10 and **Shape** to **Round** | 3.0 | "Seats aur shape chuno." | Pick seats and shape |
+| 3 | Tap **Add** | 3.0 | "Add dabao." | Tap Add |
+| 4 | Show the 12 tables | 3.0 | "Table ban gaye." | Tables are ready |
+| 5 | Type "Mehta" in **Find a family** | 4.1 | "Find a family mein naam likho." | Search by name |
+| 6 | Tap the Mehta family | 3.0 | "Parivaar par tap karo." | Tap the family |
+| 7 | Tap **Seat Mehta family here** on Table 1 | 3.0 | "Table par Seat here dabao." | Tap Seat here |
+| end | Show Table 1 filling up | 4.0 | "Parivaar table par baith gaya." | Family is seated |
 
-### V-4-seating-2 · How to seat elders near the front, then let Krama suggest seats · about 45 s · phone first
+### V-4-seating-2 · How to seat elders near the front, then let Krama suggest seats · 46 s · phone first
 Demo login: lane 4, couple (Appendix E). "Voice says" is in Hinglish.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the families waiting on the Reception's **Seating** tab | 5 | "Nani ji ko stage ke paas bithana hai." | Elders near the stage |
-| 1 | Type "Mehta" in **Find a family** | 4 | "Find a family mein naam likho." | Search by name |
-| 2 | Tap the arrow button **Near the front: Mehta family** | 4 | "Naam ke paas wala arrow dabao." | Tap the arrow |
-| 3 | Show the arrow lit up | 3 | "Ab yeh parivaar aage baithega." | Marked for the front |
-| 4 | Hold on the marked family | 4 | "Suggest seats inhe pehle tables par rakhega." | They go to the front |
-| 5 | Tap **Suggest seats** | 3 | "Suggest seats dabao." | Tap Suggest seats |
-| 6 | Show the **Suggested plan** | 6 | "Krama bade aur bachhon ko aage rakhta hai, aur dono taraf alag." | Elders and kids first |
-| 7 | Tap **Use this plan** | 4 | "Pasand aaye to Use this plan dabao." | Tap Use this plan |
-| end | Show the seated tables and **Undo** | 4 | "Pasand na aaye to Undo se wapas jao." | Undo if you change your mind |
+| 0 | Show the families waiting on the Reception's **Seating** tab | 5.0 | "Nani ji ko stage ke paas bithana hai." | Elders near the stage |
+| 1 | Type "Mehta" in **Find a family** | 4.4 | "Find a family mein naam likho." | Search by name |
+| 2 | Tap the arrow button **Near the front: Mehta family** | 4.0 | "Naam ke paas wala arrow dabao." | Tap the arrow |
+| 3 | Show the arrow lit up | 3.0 | "Ab yeh parivaar aage baithega." | Marked for the front |
+| 4 | Hold on the marked family | 4.0 | "Suggest seats inhe pehle tables par rakhega." | They go to the front |
+| 5 | Tap **Suggest seats** | 3.0 | "Suggest seats dabao." | Tap Suggest seats |
+| 6 | Show the **Suggested plan** | 6.0 | "Krama bade aur bachhon ko aage rakhta hai, aur dono taraf alag." | Elders and kids first |
+| 7 | Tap **Use this plan** | 4.0 | "Pasand aaye to Use this plan dabao." | Tap Use this plan |
+| end | Show the seated tables and **Undo** | 5.0 | "Pasand na aaye to Undo se wapas jao." | Undo if you change your mind |
 
-### V-4-seating-3 · How to print seating · about 35 s · phone first
+### V-4-seating-3 · How to print seating · 35 s · phone first
 Demo login: lane 4, couple (Appendix E).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the finished seating | 5 | "Plan tayyar hai. Ab kagaz par chahiye." | Plan is ready |
-| 1 | Tap **Print seating** | 4 | "Print seating dabao." | Tap Print seating |
-| 2 | Scroll past **Table by table** and **Find your table** | 6 | "Table by table aur Find your table dono milte hain." | Lists for the day |
-| 3 | Show **Table cards** | 5 | "Table cards har table par rakho." | Cards for each table |
-| 4 | Tap **Print** | 4 | "Print dabao." | Tap Print |
-| end | Show the print preview | 3 | "Ho gaya." | Done |
+| 0 | Show the finished seating | 5.0 | "Plan tayyar hai. Ab kagaz par chahiye." | Plan is ready |
+| 1 | Tap **Print seating** | 4.0 | "Print seating dabao." | Tap Print seating |
+| 2 | Scroll past **Table by table** and **Find your table** | 6.0 | "Table by table aur Find your table dono milte hain." | Lists for the day |
+| 3 | Show **Table cards** | 5.0 | "Table cards har table par rakho." | Cards for each table |
+| 4 | Tap **Print** | 4.0 | "Print dabao." | Tap Print |
+| end | Show the print page | 3.0 | "Ho gaya." | Done |
