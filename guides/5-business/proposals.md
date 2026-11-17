@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor, couple]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/business/[orgId]/proposals/page.tsx, app/business/[orgId]/proposals/[proposalId]/page.tsx, app/business/[orgId]/proposals/proposals-forms.tsx, app/business/[orgId]/proposals/actions.ts, app/proposal/[token]/page.tsx, app/proposal/[token]/decide-panel.tsx, app/proposal/[token]/actions.ts]
 ---
@@ -58,20 +58,20 @@ Owners and admins only.
 
 ## Video scripts
 
-### V-5-proposals-1 · How to build a proposal · about 45 s · desktop first
+### V-5-proposals-1 · How to build a proposal · 71 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show business Home | 5 | "Quote bhejne mein itna time kyun lagta hai?" | |
-| 1 | Click **Proposals & bookings**, then click **New proposal** | 4 | "**New proposal** pe click karo." | Click New proposal |
-| 2 | Type "Haldi and mehndi planning" in **Proposal title**. Type "Shah family" in **Client (family or company)**. Type "hitesh.shah@example.test" in **Client's email** | 5 | "Title, client ka naam aur email daalo." | Fill the proposal details |
-| 3 | Type "Haldi decor" in **Section** | 4 | "Section ka naam likho." | Name the section |
-| 4 | Type "Stage and flower decor" in **What's included**. Type "85000" in **Price each (₹)** | 5 | "Kya milega aur kitne ka, woh likho." | Add the first line |
-| 5 | Click **Add line** | 4 | "Aur kuch jodna ho to **Add line**." | Click Add line |
-| 6 | Point at the box **What the family will see** | 4 | "Side mein dikhta hai ki family ko kya dikhega." | Check the preview |
-| 7 | Click **Save draft** | 4 | "Phir **Save draft** dabao." | Click Save draft |
-| end | Show the message **Saved.** | 4 | "Ho gaya. Proposal draft mein save hai." | Done |
+| 1 | Click **Proposals & bookings**, then click **New proposal** | 7.1 | "**New proposal** pe click karo." | Click New proposal |
+| 2 | Type "Haldi and mehndi planning" in **Proposal title**. Type "Shah family" in **Client (family or company)**. Type "hitesh.shah@example.test" in **Client's email** | 17.1 | "Title, client ka naam aur email daalo." | Fill the proposal details |
+| 3 | Type "Haldi decor" in **Section** | 5 | "Section ka naam likho." | Name the section |
+| 4 | Type "Stage and flower decor" in **What's included**. Type "85000" in **Price each (₹)** | 11 | "Kya milega aur kitne ka, woh likho." | Add the first line |
+| 5 | Click **Add line** | 5.1 | "Aur kuch jodna ho to **Add line**." | Click Add line |
+| 6 | Point at the box **What the family will see** | 5 | "Side mein dikhta hai ki family ko kya dikhega." | Check the preview |
+| 7 | Click **Save draft** | 5 | "Phir **Save draft** dabao." | Click Save draft |
+| end | Show the message **Saved.** | 5 | "Ho gaya. Proposal draft mein save hai." | Done |
 
 ### V-5-proposals-2 · How to send a proposal to your client · 45 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Uses the draft "Proposal for Meera Shah" that the demo already has.
@@ -86,15 +86,15 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 | 5 | Click **Copy link** | 5 | "**Copy link** karo aur WhatsApp mein paste karo. Send aap dabate ho." | Click Copy link |
 | end | Show the status **Sent** | 5 | "Ho gaya. Proposal bhej diya." | Done |
 
-### V-5-proposals-3 · How your client accepts or declines · about 35 s · desktop first
+### V-5-proposals-3 · How your client accepts or declines · 42 s · desktop first
 Demo login: lane 5, client (Meera Shah, made up), already signed in with the email the proposal was sent to. Uses the link from the previous video. "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Open the proposal link and show the page | 5 | "Client ko proposal aise dikhta hai." | |
-| 1 | Scroll to show the sections and the total | 4 | "Sections, prices aur total, sab ek page pe." | Read the proposal |
-| 2 | Untick the optional part "Extras" under **Optional parts to include** | 4 | "Jo optional part nahi chahiye, uska tick hata do." | Leave out an optional part |
-| 3 | Point at **Your total** | 4 | "**Your total** apne aap badal gaya." | The total updates |
-| 4 | Type "Meera Shah" in **Type your full name to accept** | 4 | "Apna poora naam likho." | Type the full name |
-| 5 | Click **Accept proposal** | 4 | "**Accept proposal** dabao." | Click Accept proposal |
-| end | Show **Thank you** and the button **Open your wedding** | 4 | "Ho gaya. Planner ko booking mil gayi." | Done |
+| 1 | Scroll to show the sections and the total | 5 | "Sections, prices aur total, sab ek page pe." | Read the proposal |
+| 2 | Untick the optional part "Extras" under **Optional parts to include** | 5 | "Jo optional part nahi chahiye, uska tick hata do." | Leave out an optional part |
+| 3 | Point at **Your total** | 5 | "**Your total** apne aap badal gaya." | The total updates |
+| 4 | Type "Meera Shah" in **Type your full name to accept** | 6.1 | "Apna poora naam likho." | Type the full name |
+| 5 | Click **Accept proposal** | 5 | "**Accept proposal** dabao." | Click Accept proposal |
+| end | Show **Thank you** and the button **Open your wedding** | 5 | "Ho gaya. Planner ko booking mil gayi." | Done |

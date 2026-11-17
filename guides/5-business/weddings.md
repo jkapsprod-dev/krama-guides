@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: ["app/business/[orgId]/weddings/page.tsx", "app/business/forms.tsx", "app/business/actions.ts"]
 ---
@@ -56,18 +56,18 @@ Owners and admins only.
 
 ## Video scripts
 
-### V-5-weddings-1 · How to ask to join a wedding, then cancel a request · about 35 s · desktop first
+### V-5-weddings-1 · How to ask to join a wedding, then cancel a request · 41 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Before recording, end Utsav Planners' link to the Sharma-Patel wedding, and read that wedding's ID from the seed output.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show business Home with no wedding linked | 5 | Family ne apni wedding ka ID bheja hai. |  |
-| 1 | Click **Weddings** in the sidebar | 3 | **Weddings** kholo. | Open Weddings |
-| 2 | Paste the ID into **Wedding ID** under **Ask for a wedding** | 3 | Yahan **Wedding ID** paste karo. | Paste the Wedding ID |
-| 3 | Click **Send request** | 3 | **Send request** dabao. | Click Send request |
-| 4 | Show the request under **Waiting for approval** | 4 | Ab family ke yes ka intezaar. | Now wait for the host |
+| 1 | Click **Weddings** in the sidebar | 4 | **Weddings** kholo. | Open Weddings |
+| 2 | Paste the ID into **Wedding ID** under **Ask for a wedding** | 5 | Yahan **Wedding ID** paste karo. | Paste the Wedding ID |
+| 3 | Click **Send request** | 4 | **Send request** dabao. | Click Send request |
+| 4 | Show the request under **Waiting for approval** | 5 | Ab family ke yes ka intezaar. | Now wait for the host |
 | 5 | Click **Cancel request** | 4 | Galat wedding? **Cancel request** pe click karo. | Click Cancel request |
-| 6 | Click the confirm button in the box | 3 | Box mein confirm kar do. | Confirm |
+| 6 | Click the confirm button in the box | 4 | Box mein confirm kar do. | Confirm |
 | end | Show **Waiting for approval** empty | 4 | Ho gaya. Request hat gayi. | Request cancelled |
 
 ### V-5-weddings-2 · How to leave a wedding · 32 s · desktop first

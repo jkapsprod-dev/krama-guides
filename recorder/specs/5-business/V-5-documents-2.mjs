@@ -23,7 +23,8 @@ export default {
   },
 
   async run({ page, step, tap, show }) {
-    const row = (title) => page.getByRole("listitem").filter({ hasText: title }).first();
+    // The reminder box above also lists the title, so pick the row that has the Delete button.
+    const row = (title) => page.getByRole("listitem").filter({ hasText: title }).filter({ has: page.getByRole("button", { name: "Delete" }) }).first();
     const soon = new Date(Date.now() + 20 * 864e5).toISOString().slice(0, 10);
     await step({ n: 0, what: "Show the licence with no expiry date", hold: 5, do: () => show(row("FSSAI licence 2027")) });
     await step({
@@ -66,7 +67,7 @@ export default {
       hold: 4,
       do: async () => {
         const popup = page.context().waitForEvent("page", { timeout: 8000 }).catch(() => null);
-        await tap(row("FSSAI licence 2027").getByRole("link", { name: "Open" }));
+        await tap(row("FSSAI licence 2027").getByText("Open", { exact: true }));
         (await popup)?.close().catch(() => {});
       },
     });

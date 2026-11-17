@@ -31,4 +31,6 @@ Read the **Voice says** lines in order, calmly, with about one second of quiet b
 ## Files
 
 - `videos\final\5-business\V-5-crew-and-shifts-2-phone.srt`
+- `videos\final\5-business\V-5-crew-and-shifts-2-phone.mp4`
 - `videos\final\5-business\V-5-crew-and-shifts-2-desktop.srt`
+- `videos\final\5-business\V-5-crew-and-shifts-2-desktop.mp4`

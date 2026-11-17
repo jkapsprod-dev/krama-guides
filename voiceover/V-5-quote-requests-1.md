@@ -32,4 +32,6 @@ Read the **Voice says** lines in order, calmly, with about one second of quiet b
 ## Files
 
 - `videos\final\5-business\V-5-quote-requests-1-phone.srt`
+- `videos\final\5-business\V-5-quote-requests-1-phone.mp4`
 - `videos\final\5-business\V-5-quote-requests-1-desktop.srt`
+- `videos\final\5-business\V-5-quote-requests-1-desktop.mp4`

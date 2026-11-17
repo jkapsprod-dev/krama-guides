@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: ["app/business/[orgId]/weddings/[assignmentId]/page.tsx", "app/business/[orgId]/weddings/[assignmentId]/vendor-day.tsx", "app/business/[orgId]/weddings/[assignmentId]/tools-section.tsx", "app/business/[orgId]/weddings/[assignmentId]/tool-forms.tsx", "app/business/[orgId]/tools-forms.tsx", "packs/business/content.ts"]
 ---
@@ -79,17 +79,17 @@ Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hin
 | 8 | Click **Finished** | 5 | Kaam khatam ho to **Finished**. | Click Finished |
 | end | Show three lit buttons with times | 5 | Ho gaya. Har button pe time likha hai. | Times are saved |
 
-### V-5-vendor-wedding-page-2 · How to use your tools · about 30 s · desktop first
+### V-5-vendor-wedding-page-2 · How to use your tools · 49 s · desktop first
 Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hinglish (DECISIONS.md). Reset the lane first, so the checklist is empty.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show the wedding page, scrolled to **Your tools** | 5 | Sab kuch dimaag mein rakhna mushkil hai. |  |
 | 1 | Click **Add a starter checklist** under **Checklist** | 5 | **Checklist** mein **Add a starter checklist** dabao. | Add a starter checklist |
-| 2 | Type "Order marigold garlands" in **Add a task** | 4 | Apni line bhi likh sakte ho. | Type your own line |
-| 3 | Click **Add** | 4 | **Add** dabao. | Click Add |
-| 4 | Tick **Done** on the first line | 4 | Kaam hone par **Done** tick karo. | Tick Done |
-| end | Show the checklist with one line done | 4 | Ho gaya. Family ko yeh list nahi dikhti. | Only you see this |
+| 2 | Type "Order marigold garlands" in **Add a task** | 7.1 | Apni line bhi likh sakte ho. | Type your own line |
+| 3 | Click **Add** | 5 | **Add** dabao. | Click Add |
+| 4 | Tick **Done** on the first line | 14.9 | Kaam hone par **Done** tick karo. | Tick Done |
+| end | Show the checklist with one line done | 5.1 | Ho gaya. Family ko yeh list nahi dikhti. | Only you see this |
 
 ### V-5-vendor-wedding-page-3 · How to add crew and deliverables · 43 s · desktop first
 Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hinglish (DECISIONS.md).

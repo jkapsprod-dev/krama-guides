@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: ["app/business/page.tsx", "app/business/forms.tsx", "app/business/actions.ts", "app/business/[orgId]/settings/page.tsx", "lib/business/switcher.ts", "components/app-nav.tsx"]
 ---
@@ -52,18 +52,18 @@ Owners and admins only.
 
 ## Video scripts
 
-### V-5-set-up-your-business-1 · How to set up a planner or vendor business · about 35 s · desktop first
+### V-5-set-up-your-business-1 · How to set up a planner or vendor business · 35 s · desktop first
 Demo login: lane 5, host (Riya Sharma), who has a wedding and no business yet. A planner or vendor who already has a business is taken straight to it, so Neha can't show this form. "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show **Your weddings**, scrolled to the bottom | 5 | Family poochhti hai, aapko wedding mein kaise add karein. |  |
 | 1 | Click **Set up your business** | 4 | **Set up your business** pe click karo. | Click Set up your business |
-| 2 | Choose **Wedding planner** under **What kind of business?** | 4 | Planner ho ya vendor, apna type chuno. | Choose your type |
-| 3 | Type "Desai Weddings" in **Business name** | 4 | **Business name** mein naam likho. | Type the business name |
+| 2 | Choose **Wedding planner** under **What kind of business?** | 4.1 | Planner ho ya vendor, apna type chuno. | Choose your type |
+| 3 | Type "Desai Weddings" in **Business name** | 4.2 | **Business name** mein naam likho. | Type the business name |
 | 4 | Type "Ahmedabad" in **City (optional)** | 4 | City likhna chaho to likh do. | Add your city |
 | 5 | Click **Set up business** | 4 | Phir **Set up business** dabao. | Click Set up business |
-| end | Show the new business Home | 4 | Ho gaya. Aapka business ready hai. | Your business is ready |
+| end | Show the new business Home | 4.1 | Ho gaya. Aapka business ready hai. | Your business is ready |
 
 ### V-5-set-up-your-business-2 · How to find and share your Business ID, then switch between your wedding and your business · 44 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).

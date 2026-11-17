@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/business/[orgId]/money/challans/page.tsx, app/business/[orgId]/money/challans/[challanId]/page.tsx, app/business/[orgId]/money/purchases/page.tsx, app/business/[orgId]/money/purchases/purchase-form.tsx, app/business/[orgId]/money/money-forms.tsx, app/business/[orgId]/money/actions.ts]
 ---
@@ -61,16 +61,16 @@ Demo login: lane 5, vendor (Imran Shaikh, Rangoli Decor). "Voice says" is in Hin
 | 6 | Click **Issue challan** | 5 | "Issue challan pe click karo." | Click Issue challan |
 | end | Show the issued challan with its number | 4.4 | "Ho gaya. Challan ready hai, print karke gaadi mein rakho." | Challan issued |
 
-### V-5-challans-and-purchases-2 · How to add a purchase bill · about 40 s · desktop first
+### V-5-challans-and-purchases-2 · How to add a purchase bill · 61 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show business Home | 5 | "Supplier ke bills idhar-udhar pade hain. Ek jagah rakhne hain." | |
-| 1 | Click **Money** in the sidebar, then the **Purchases** tab | 4 | "Money kholo, phir Purchases tab." | Open Purchases |
-| 2 | Type "Gulab Flower Mart" in **Supplier** | 4 | "Supplier ka naam likho." | Type the supplier |
-| 3 | Type "GF-2217" in **Bill number** | 4 | "Bill number likho." | Type the bill number |
-| 4 | Type "48500" in **Total on the bill (₹)**. Type "2310" in **GST on the bill (₹, optional)** | 4 | "Total aur GST likho." | Type total and GST |
-| 5 | Pick **Materials** in **What for** | 4 | "What for mein Materials chuno." | Pick what for |
-| 6 | Click **Save bill** | 4 | "Save bill pe click karo." | Click Save bill |
-| end | Show the bill in **Purchase bills** | 4 | "Ho gaya. Bill ab list mein hai." | Bill saved |
+| 1 | Click **Money** in the sidebar, then the **Purchases** tab | 9.8 | "Money kholo, phir Purchases tab." | Open Purchases |
+| 2 | Type "Gulab Flower Mart" in **Supplier** | 6.4 | "Supplier ka naam likho." | Type the supplier |
+| 3 | Type "GF-2217" in **Bill number** | 5 | "Bill number likho." | Type the bill number |
+| 4 | Type "48500" in **Total on the bill (₹)**. Type "2310" in **GST on the bill (₹, optional)** | 10.1 | "Total aur GST likho." | Type total and GST |
+| 5 | Pick **Materials** in **What for** | 5 | "What for mein Materials chuno." | Pick what for |
+| 6 | Click **Save bill** | 5.1 | "Save bill pe click karo." | Click Save bill |
+| end | Show the bill in **Purchase bills** | 6.5 | "Ho gaya. Bill ab list mein hai." | Bill saved |

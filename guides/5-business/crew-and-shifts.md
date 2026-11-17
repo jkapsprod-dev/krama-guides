@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: ["app/business/[orgId]/calendar/crew/page.tsx", "app/business/[orgId]/calendar/crew/callsheet/page.tsx", "app/business/[orgId]/calendar/crew/roster-actions.ts", "app/business/[orgId]/calendar/my-shifts/page.tsx", "app/shift/[token]/page.tsx", "components/roster/crew-access.tsx"]
 ---
@@ -98,17 +98,17 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 | 5 | Click **Save** | 4 | "Save pe click karo." | Click Save |
 | end | Show Mahesh Parmar on the crew list | 5.8 | "Ho gaya. Crew list mein naam aa gaya." | Done |
 
-### V-5-crew-and-shifts-2 · How to give someone a shift · about 30 s · desktop first
+### V-5-crew-and-shifts-2 · How to give someone a shift · 62 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Start with Mahesh Parmar on the crew list (end of V-5-crew-and-shifts-1).
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Crew** tab | 5 | "Haldi ke din kaun kahan hoga? Shift de do." | Who is where on Haldi day? |
+| 0 | Show the **Crew** tab | 5.1 | "Haldi ke din kaun kahan hoga? Shift de do." | Who is where on Haldi day? |
 | 1 | Scroll to **Assign to a function** | 5 | "Assign to a function tak scroll karo." | Find Assign to a function |
-| 2 | Pick Mahesh Parmar in **Who** and the Haldi function in **Which function** | 4 | "Kaun aur kaunsa function, woh chuno." | Pick the person and function |
-| 3 | Type "Tent lead" in **Role** and "Report at 6 am" in **Note for them** | 4 | "Role aur unke liye note likho." | Add a role and a note |
-| 4 | Click **Assign** | 4 | "Assign pe click karo." | Click Assign |
-| end | Show "Assigned." and the shift under **Coming up** | 4 | "Ho gaya. Shift list mein hai." | Done |
+| 2 | Pick Mahesh Parmar in **Who** and the Haldi function in **Which function** | 9 | "Kaun aur kaunsa function, woh chuno." | Pick the person and function |
+| 3 | Type "Tent lead" in **Role** and "Report at 6 am" in **Note for them** | 11.5 | "Role aur unke liye note likho." | Add a role and a note |
+| 4 | Click **Assign** | 5 | "Assign pe click karo." | Click Assign |
+| end | Show "Assigned." and the shift under **Coming up** | 19.2 | "Ho gaya. Shift list mein hai." | Done |
 
 ### V-5-crew-and-shifts-3 · How to send the call sheet · 37 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Start with the shift from V-5-crew-and-shifts-2. The robot does not follow the WhatsApp link.

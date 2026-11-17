@@ -46,7 +46,7 @@ export default {
     });
     await step({ n: 5, what: "Click Add to schedule", hold: 5, do: () => tap(page.getByRole("button", { name: "Add to schedule" })) });
     await step({ n: 6, what: "Point at the Not invoiced tag", hold: 5, do: () => show(page.getByText("Not invoiced").first()) });
-    await step({ n: 7, what: "Click Raise invoice", hold: 5, do: () => tap(page.getByRole("button", { name: "Raise invoice" })) });
+    await step({ n: 7, what: "Click Raise invoice", hold: 5, do: () => tap(page.getByRole("button", { name: "Raise invoice" }).first()) });
     await step({ n: 8, what: "Show the draft invoice that opens", hold: 5, do: () => show(page.getByRole("main").getByRole("heading", { level: 1 })) });
     await step({ n: "end", what: "Show the draft invoice page", hold: 5 });
   },

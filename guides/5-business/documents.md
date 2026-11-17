@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: ["app/business/[orgId]/documents/page.tsx", "app/business/[orgId]/documents/documents-forms.tsx", "app/business/[orgId]/documents/actions.ts", "app/business/[orgId]/documents/[docId]/open/route.ts"]
 ---
@@ -67,19 +67,19 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 | 4 | Click **Upload** | 4 | "Upload pe click karo." | Click Upload |
 | end | Show "Added." and the document in the list | 9 | "Ho gaya. Licence ab ek jagah safe hai." | Done |
 
-### V-5-documents-2 · How to get reminded before a document expires, then open or delete a document · about 45 s · desktop first
+### V-5-documents-2 · How to get reminded before a document expires, then open or delete a document · 51 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md). Start with the licence from V-5-documents-1.
 From the part on "How to open or delete a document": Start with a second sample file saved as "Old brochure".
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show the licence with no expiry date | 5 | "Licence kab expire hoga, yaad hai?" | When does it expire? |
-| 1 | Click **Edit** on the licence | 3 | "Edit pe click karo." | Click Edit |
-| 2 | Set **Expires on (optional)** to a date 20 days away | 3 | "Expires on mein date daalo." | Set the expiry date |
-| 3 | Click **Save** | 3 | "Save pe click karo." | Click Save |
-| 4 | Point to the **Needs your attention** box at the top | 4 | "Date paas aayi toh yeh box upar dikhega." | A reminder shows up |
-| 5 | Hold on the box and the document's expiry tag | 4 | "Ho gaya. Ab expiry se pehle yaad aa jayega." | Done |
-| 6 | Click **Open** on the licence | 3 | "Open se file dekho." | Click Open |
-| 7 | Click **Delete** on "Old brochure" | 3 | "Delete pe click karo." | Click Delete |
-| 8 | Click **Delete** in the box that asks | 5 | "Phir se Delete dabao. File hamesha ke liye hat jayegi." | Confirm the delete |
+| 1 | Click **Edit** on the licence | 4.1 | "Edit pe click karo." | Click Edit |
+| 2 | Set **Expires on (optional)** to a date 20 days away | 5 | "Expires on mein date daalo." | Set the expiry date |
+| 3 | Click **Save** | 4 | "Save pe click karo." | Click Save |
+| 4 | Point to the **Needs your attention** box at the top | 5 | "Date paas aayi toh yeh box upar dikhega." | A reminder shows up |
+| 5 | Hold on the box and the document's expiry tag | 5 | "Ho gaya. Ab expiry se pehle yaad aa jayega." | Done |
+| 6 | Click **Open** on the licence | 4 | "Open se file dekho." | Click Open |
+| 7 | Click **Delete** on "Old brochure" | 4 | "Delete pe click karo." | Click Delete |
+| 8 | Click **Delete** in the box that asks | 5.1 | "Phir se Delete dabao. File hamesha ke liye hat jayegi." | Confirm the delete |
 | end | Show one file left | 4 | "Ho gaya. Sirf kaam ki file bachi." | Done |

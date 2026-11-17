@@ -1,5 +1,5 @@
 // V-5-planner-code-2 · How to link a planner (family side) · guides\5-business\planner-code.md
-import { planner, unlinkPlannerOffCamera, withRole } from "./_lib.mjs";
+import { planner, showAny, unlinkPlannerOffCamera, withRole } from "./_lib.mjs";
 
 let CODE = "";
 
@@ -18,7 +18,7 @@ export default {
       const box = p.getByRole("region", { name: "Planner code" });
       await box.getByRole("textbox", { name: "Choose a code" }).fill(CODE);
       await box.getByRole("button", { name: "Save code" }).click();
-      await box.getByText(CODE).first().waitFor();
+      await box.getByText(CODE).first().waitFor({ timeout: 60_000 });
     });
     await unlinkPlannerOffCamera(page, seed);
     await page.goto(seed.weddingPath);
@@ -33,10 +33,13 @@ export default {
       hold: 6,
       do: async () => {
         if (phone) {
+          // On a phone: More, then the Codes & planner card.
           await tap(page.getByRole("navigation", { name: "Main" }).getByRole("link", { name: "More", exact: true }));
+          await tap(page.getByRole("main").getByRole("link", { name: /^Codes & planner/ }));
+        } else {
+          await tap(page.getByRole("link", { name: "Settings", exact: true }).first());
+          await tap(page.getByRole("navigation", { name: "Settings sections" }).getByRole("link", { name: "Codes & planner" }));
         }
-        await tap(page.getByRole("link", { name: "Settings", exact: true }).first());
-        await tap(page.getByRole("navigation", { name: "Settings sections" }).getByRole("link", { name: "Codes & planner" }));
       },
     });
     await step({
@@ -47,6 +50,6 @@ export default {
     });
     await step({ n: 3, what: "Click Find", hold: 4, do: () => tap(box.getByRole("button", { name: "Find" })) });
     await step({ n: 4, what: "Click Link planner", hold: 5, do: () => tap(box.getByRole("button", { name: "Link planner" })) });
-    await step({ n: "end", what: "Show Planner linked.", hold: 4, do: () => show(page.getByText("Planner linked.").first()) });
+    await step({ n: "end", what: "Show Planner linked.", hold: 4, do: () => showAny(show, page.getByText("Planner linked."), box.getByRole("button", { name: "Remove planner" })) });
   },
 };

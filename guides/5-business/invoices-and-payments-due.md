@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 5
 who: [planner, vendor]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/business/[orgId]/money/page.tsx, app/business/[orgId]/money/invoices/page.tsx, app/business/[orgId]/money/invoices/[invoiceId]/page.tsx, app/business/[orgId]/money/money-forms.tsx, app/business/[orgId]/money/actions.ts, app/business/[orgId]/settings/page.tsx]
 ---
@@ -86,33 +86,33 @@ Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hin
 | 6 | Click **Issue invoice** | 5.1 | "Ab Issue invoice pe click karo." | Click Issue invoice |
 | end | Show the issued invoice with its number | 4 | "Ho gaya. Invoice ka number lag gaya." | Invoice issued |
 
-### V-5-invoices-and-payments-due-2 · How to log a payment · about 35 s · desktop first
+### V-5-invoices-and-payments-due-2 · How to log a payment · 41 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 Setup, off camera: one issued invoice to "Sharma family" with a rate of ₹1,25,000 (GST is added, so the total is ₹1,47,500), so the robot has something to log against.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show the **Invoices** list with one issued invoice | 5 | "Client ne advance bhej diya. Ab isse likhna hai." | |
-| 1 | Click the **Invoices** tab under **Money** | 4 | "Money mein Invoices kholo." | Open Invoices |
-| 2 | Click the invoice for "Sharma family" | 4 | "Invoice pe click karo." | Open the invoice |
-| 3 | Scroll to **Payments** | 4 | "Neeche Payments mein jao." | Scroll to Payments |
-| 4 | Type "50000" in **Amount received (₹)** | 4 | "Jitna paisa aaya, Amount received mein likho." | Type the amount |
-| 5 | Click **Log payment** | 4 | "Log payment pe click karo." | Click Log payment |
-| end | Show **Still to pay** with the smaller amount | 4 | "Ho gaya. Baaki rakam neeche dikh rahi hai." | Balance updated |
+| 1 | Click the **Invoices** tab under **Money** | 5 | "Money mein Invoices kholo." | Open Invoices |
+| 2 | Click the invoice for "Sharma family" | 5 | "Invoice pe click karo." | Open the invoice |
+| 3 | Scroll to **Payments** | 5 | "Neeche Payments mein jao." | Scroll to Payments |
+| 4 | Type "50000" in **Amount received (₹)** | 5.1 | "Jitna paisa aaya, Amount received mein likho." | Type the amount |
+| 5 | Click **Log payment** | 5.1 | "Log payment pe click karo." | Click Log payment |
+| end | Show **Still to pay** with the smaller amount | 5 | "Ho gaya. Baaki rakam neeche dikh rahi hai." | Balance updated |
 
-### V-5-invoices-and-payments-due-3 · How to remind a client who owes you · about 35 s · desktop first
+### V-5-invoices-and-payments-due-3 · How to remind a client who owes you · 41 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
 Setup, off camera: one issued invoice to "Sharma family" with a rate of ₹1,25,000 and a due date 10 days ago.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
 | 0 | Show business Home | 5 | "Paisa abhi tak nahi aaya. Yaad kaise dilayein?" | |
-| 1 | Click **Money** in the sidebar. **Due** opens | 4 | "Money kholo. Due tab pehle khulta hai." | Open Money |
-| 2 | Point at the row under **Overdue** | 4 | "Yahan late payment dikhta hai." | See what is late |
-| 3 | Click **Prepare a reminder** | 4 | "Prepare a reminder pe click karo." | Click Prepare a reminder |
-| 4 | Show the message | 4 | "Message ready hai. Naam, amount, date sab hai." | Message is ready |
-| 5 | Point to **Open in WhatsApp** | 4 | "Open in WhatsApp pe click karo." | Click Open in WhatsApp |
-| end | Hold on the message and **Open in WhatsApp** | 4 | "Ab client chuno aur send tum dabao. Krama khud nahi bhejta." | You press send |
+| 1 | Click **Money** in the sidebar. **Due** opens | 5 | "Money kholo. Due tab pehle khulta hai." | Open Money |
+| 2 | Point at the row under **Overdue** | 5 | "Yahan late payment dikhta hai." | See what is late |
+| 3 | Click **Prepare a reminder** | 5 | "Prepare a reminder pe click karo." | Click Prepare a reminder |
+| 4 | Show the message | 5 | "Message ready hai. Naam, amount, date sab hai." | Message is ready |
+| 5 | Point to **Open in WhatsApp** | 5 | "Open in WhatsApp pe click karo." | Click Open in WhatsApp |
+| end | Hold on the message and **Open in WhatsApp** | 5 | "Ab client chuno aur send tum dabao. Krama khud nahi bhejta." | You press send |
 
 ### V-5-invoices-and-payments-due-4 · How to add your GST and bank details · 48 s · desktop first
 Demo login: lane 5, planner (Neha Desai, Utsav Planners). "Voice says" is in Hinglish (DECISIONS.md).
