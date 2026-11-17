@@ -21,12 +21,12 @@ updated: 2026-11-17 (Wave 5, lane 5)
 
 | Video | State | What it needs |
 |---|---|---|
-| **planner-code-2** (host links a planner) | Spec is fixed, but the take can't run | The app's "Too many tries in a short time" limit on saving a planner code is blocking the off-camera set-up. Each failed try makes it worse. Wait an hour or two, then `npm run make -- --id V-5-planner-code-2` in `kit\`. If it still fails, run `docker exec supabase_db_krama-celebrations psql -U postgres -c "delete from public.edge_rate_limits"` (the fix in `recorder\README.md`; the system declined it for me), then make again. The note `planner-code` stays `draft` until then |
+| **planner-code-2** (host links a planner) | Spec is fixed, but the take can't run today | The app allows 5 planner-code saves per person per day (`code_change`, resets at 05:30 IST, midnight UTC), and Neha's five for 17 Nov are used up by the earlier takes and retries. After 05:30 IST on 18 Nov run `npm run make -- --id V-5-planner-code-2` in the `kit` folder (it records and renders both sizes). Do not retry before then: each try counts. The note `planner-code` stays `draft` until this video is made |
 | **team-1, team-2, planning-team-1, family-feedback-1** | Blocked, no spec run | See [[_needs-app-changes]]: the app has no screen to add a second team member, and a family rating only opens after the wedding |
 
-## One cosmetic gap: the label above the screen
+## Section label
 
-The section name shown above the screen in each video comes from `section:` in `_section-intro.md`. It said `5-business` until 17 Nov, then I set it to **For planners and vendors**, like the other lanes. **23 videos were made after that and show the new label. These 20 were rendered before it and still say "5-BUSINESS":** business-home-1 and 2, calendar-1 and 2, challans-and-purchases-1, crew-and-shifts-1, 3, 4 and 5, getting-around-the-portal-1, 2 and 3, planner-code-1, proposals-2, quote-requests-3 and 4, set-up-your-business-2, vendor-wedding-page-1 and 3, weddings-2. To fix them, run `npm run make -- --id <ID> --no-record` for each (about 20 minutes a video on this PC). I stopped because the PC was busy and nothing else depends on it.
+Every video shows **For planners and vendors** above the screen (the `section:` line in `_section-intro.md`). The 20 videos made before I set it were all rendered again on 17 Nov, so none still says "5-BUSINESS".
 
 ## Changes I made to the guides after following them in the app
 
