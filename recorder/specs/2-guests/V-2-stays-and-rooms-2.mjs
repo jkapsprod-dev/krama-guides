@@ -23,13 +23,24 @@ export default {
       } });
     await step({ n: 3, what: "Type 101 in From and 110 in To", hold: 5,
       do: async () => {
-        await type(page.getByLabel("From", { exact: true }), "101");
-        await type(page.getByLabel("To", { exact: true }), "110");
+        // The boxes can start with a value, so select it before typing over it.
+        const from = page.getByLabel("From", { exact: true });
+        await tap(from);
+        await page.keyboard.press("Control+A");
+        await page.keyboard.type("101", { delay: 120 });
+        const to = page.getByLabel("To", { exact: true });
+        await tap(to);
+        await page.keyboard.press("Control+A");
+        await page.keyboard.type("110", { delay: 120 });
       } });
     await step({ n: 4, what: "Fill Floor, Type and Sleeps", hold: 6,
       do: async () => {
         await type(page.getByLabel("Floor", { exact: true }), "1");
-        await type(page.getByLabel("Sleeps", { exact: true }), "3");
+        await type(page.getByLabel("Type", { exact: true }), "Deluxe twin");
+        const sleeps = page.getByLabel("Sleeps", { exact: true });
+        await tap(sleeps);
+        await page.keyboard.press("Control+A");
+        await page.keyboard.type("3", { delay: 120 });
       } });
     await step({ n: 5, what: "Tap Add rooms", hold: 5, do: () => tap(page.getByRole("button", { name: "Add rooms", exact: true })) });
     await step({ n: "end", what: "Show the Room map with rooms 101 to 110 marked Free", hold: 5, do: () => show(page.getByRole("region", { name: "Room map" })) });

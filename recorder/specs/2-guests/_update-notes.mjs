@@ -9,7 +9,7 @@ const ROOT = "C:/Users/jayka/code/krama-guides";
 const DIR = path.join(ROOT, "guides", "2-guests");
 const RAW = path.join(ROOT, "videos", "raw", "2-guests");
 const FINAL = path.join(ROOT, "videos", "final", "2-guests");
-const TODAY = "2026-11-15";
+const TODAY = new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Kolkata" });
 const dry = process.argv.includes("--dry");
 const edits = await import("./_note-edits.mjs");
 

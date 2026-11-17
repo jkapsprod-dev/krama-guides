@@ -2,25 +2,21 @@
 tags: [guides, lane-status]
 lane: 2
 written: 2026-11-14 (2B)
-updated: 2026-11-16
+updated: 2026-11-17
 app: krama-celeb main, local recording copy in app\
 ---
 # Lane 2 status · Guests & invitations
 
-## Where it stands (16 Nov 2026, evening)
+## Where it stands (17 Nov 2026)
 
-**Nearly finished: 58 of 59 videos have a spec; 57 are made in both sizes. Two are left.**
+**Finished, apart from one video that needs an app change.** 58 of 59 videos have a spec, and all 58 are made in both sizes (phone and desktop, with captions), plus the section intro.
 
-- **Made, notes set to `final` / `checked: 2026-11-16` / `video: made`:** 17 of 19 notes (all but `automations-and-to-send` and `pickups`). Real timings are in their script tables.
-- **Still to do:**
-  - `V-2-pickups-5` phone: the take failed on a lane-2 reseed timeout (the shared database was slow). Desktop is made. Run `cd kit; npm run make -- --id V-2-pickups-5`, then `node recorder\specs-guests\_update-notes.mjs`.
-  - `V-2-automations-and-to-send-2`: no spec. It needs queued messages (see `_needs-app-changes.md`).
-  - `V-2-automations-and-to-send-1` and `-3` were made in round 2; the note stays `draft` only because video 2 is missing.
-- **Why so many re-runs:** every failure after the first pass was a page-load or seed timeout from other lanes using the PC, apart from the selector fixes listed below. One real bug (the driver vendor was not saved before it was used) is fixed in `_lib.mjs`.
+- **Notes:** 18 of 19 are `status: final`, `checked: 2026-11-17`, `video: made`, with real timings in their script tables. `automations-and-to-send` stays `draft` / `video: partly made` because video 2 has no spec.
+- **Not made:** `V-2-automations-and-to-send-2` (the "To send" queue). It needs queued messages, and the robot may not use the jobs secret. See `_needs-app-changes.md`.
 - **Reading level:** `node toolseading-level.mjs guides-guests` passes. Highest grade 4.5.
-- **Section intro:** made earlier (`V-2-section-intro-*.mp4`).
-- **Frames checked:** only `V-2-guest-list-1` phone so far. Spot-check a few more with `npx hyperframes@0.8.146 snapshot`.
-- **Note edit not applied:** the add-a-guest text edit "After you save, a card shows Message on WhatsApp..." was not found in the note. Check that sentence by hand.
+- **Frames checked:** `V-2-guest-list-1` phone, `V-2-guest-easier-to-read-1` phone and `V-2-stays-and-rooms-2` desktop. They showed one real bug (typing added to a prefilled value in the Add rooms form: From read "101101" and Sleeps "23"), fixed in the spec and re-made. Other videos were not looked at frame by frame.
+- **Why there were so many re-runs:** after the selector fixes below, every failure was a page-load or reseed timeout from other lanes using the PC. One real helper bug (the driver vendor was used before it was saved) is fixed in `_lib.mjs`.
+- **To re-make anything:** `cd kit; npm run make -- --id <ID>` (add `--no-record` to reuse recordings), then `node recorder\specs-guests\_update-notes.mjs`.
 
 ## What the running app showed (fixes made in the notes)
 

@@ -3,7 +3,7 @@ tags: [guide]
 lane: 2
 who: [couple, family, helper, planner]
 status: final
-checked: 2026-11-15
+checked: 2026-11-17
 video: made
 internal: false
 code: ["app/w/[workspaceId]/stays/travel/page.tsx", "app/w/[workspaceId]/stays/travel/travel-form.tsx", "app/w/[workspaceId]/stays/travel/travel-controls.tsx", "app/w/[workspaceId]/stays/travel/new/page.tsx", "app/w/[workspaceId]/stays/actions.ts"]

@@ -13,11 +13,11 @@ From [[stays-and-rooms]]. Made by `npm run make` in `kit\`; don't edit by hand, 
 |---|---|---|---|---|---|---|---|
 | 0 | 3.3 | 5.8 | 3.3 | 5.8 | Hotel to hai, par abhi koi room nahi hai. | The hotel has no rooms yet | होटल तो है, पर अभी कोई रूम नहीं है। |
 | 1 | 8.3 | 9.7 | 8.3 | 9.7 | Stays and Travel kholo. | Open Stays & Travel | स्टेज़ ऐंड ट्रैवल खोलो। |
-| 2 | 13.4 | 15.7 | 13.3 | 15.6 | Room map ke neeche Add rooms pe tap karo. | Tap Add rooms | रूम मप के नीचे ऐड रूम्स पे टैप करो। |
-| 3 | 19.4 | 21.5 | 19.3 | 21.4 | Pehla aur aakhri room number likho. | First and last room number | पहला और आख्री रूम नंबर लिखो। |
-| 4 | 24.4 | 27.6 | 24.3 | 27.5 | Floor, type aur kitne log sote hain, woh bharo. | Floor, type and beds | फ़्लूर, टाइप और कितने लोग सोते हैं, वो भरो। |
-| 5 | 30.4 | 32.0 | 30.4 | 31.9 | Phir Add rooms pe tap karo. | Tap Add rooms again | फिर ऐड रूम्स पे टैप करो। |
-| end | 35.4 | 38.1 | 35.4 | 38.0 | Ho gaya. Saare room map pe dikh rahe hain. | Ten rooms are ready | हो गया। सारे रूम मप पे दिख रहे हैं। |
+| 2 | 13.3 | 15.6 | 13.3 | 15.7 | Room map ke neeche Add rooms pe tap karo. | Tap Add rooms | रूम मप के नीचे ऐड रूम्स पे टैप करो। |
+| 3 | 19.3 | 21.4 | 19.3 | 21.4 | Pehla aur aakhri room number likho. | First and last room number | पहला और आख्री रूम नंबर लिखो। |
+| 4 | 24.3 | 27.5 | 24.5 | 27.6 | Floor, type aur kitne log sote hain, woh bharo. | Floor, type and beds | फ़्लूर, टाइप और कितने लोग सोते हैं, वो भरो। |
+| 5 | 30.4 | 31.9 | 30.8 | 32.3 | Phir Add rooms pe tap karo. | Tap Add rooms again | फिर ऐड रूम्स पे टैप करो। |
+| end | 35.4 | 38.0 | 35.8 | 38.4 | Ho gaya. Saare room map pe dikh rahe hain. | Ten rooms are ready | हो गया। सारे रूम मप पे दिख रहे हैं। |
 
 Times are seconds from the start of each finished video (the 3 s intro title included).
 

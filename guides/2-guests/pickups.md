@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 2
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: partly made
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: ["app/w/[workspaceId]/stays/pickups/page.tsx", "app/w/[workspaceId]/stays/pickups/run-form.tsx", "app/w/[workspaceId]/stays/pickups/pickup-controls.tsx", "app/w/[workspaceId]/stays/pickups/actions.ts", "app/w/[workspaceId]/stays/pickups/waiting.ts", "lib/pickups/plan.ts", "app/pickup/[token]/page.tsx"]
 ---
@@ -139,7 +139,7 @@ Demo login: lane 2, couple (Appendix E). "Voice says" is in the voiceover langua
 | 5 | Show WhatsApp open with the ready message | 7 | WhatsApp khulega. Message taiyaar hai. Bhejna aapko hai. | You press send |
 | end | Show the driver's link row with Copy link | 6 | Ho gaya. Driver ke paas apna link hai. | The driver has a link |
 
-### V-2-pickups-5 · How to see your pickups · about 35 s · phone first
+### V-2-pickups-5 · How to see your pickups · about 41 s · phone first
 Demo login: lane 2, demo driver link made in V-2-pickups-4 (Appendix E). No sign-in is needed.
 
 | # | Robot does | Hold (s) | Voice says | Caption |

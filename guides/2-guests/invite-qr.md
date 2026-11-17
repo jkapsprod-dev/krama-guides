@@ -3,7 +3,7 @@ tags: [guide]
 lane: 2
 who: [couple, family, planner, guest]
 status: final
-checked: 2026-11-15
+checked: 2026-11-17
 video: made
 internal: false
 code:

@@ -3,7 +3,7 @@ tags: [guide]
 lane: 2
 who: [couple, family, planner]
 status: final
-checked: 2026-11-15
+checked: 2026-11-17
 video: made
 internal: false
 code: ["app/w/[workspaceId]/guests/new/page.tsx", "app/w/[workspaceId]/guests/guest-form.tsx", "app/w/[workspaceId]/guests/guest-done-card.tsx", "app/w/[workspaceId]/guests/household-children.tsx", "app/w/[workspaceId]/guests/[guestId]/edit/page.tsx", "app/w/[workspaceId]/guests/actions.ts", "lib/guests/duplicates.ts"]
