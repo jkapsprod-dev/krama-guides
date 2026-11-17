@@ -1,0 +1,6 @@
+{
+  "about": "Lines for one size only. On a computer there is no More: the robot taps Settings in the sidebar (guides/4-event-day-ai/plan-and-add-ons.md, 'On a phone, tap More first'). Keys are the step numbers from the note's script table.",
+  "desktop": {
+    "1": { "voice": "Sidebar mein Settings kholo.", "caption": "Open Settings" }
+  }
+}
