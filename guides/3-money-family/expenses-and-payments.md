@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/money/expenses/expense-form.tsx, app/w/[workspaceId]/money/expenses/[commitmentId]/page.tsx, app/w/[workspaceId]/money/expenses/[commitmentId]/payment-controls.tsx, app/w/[workspaceId]/money/payment-sheet.tsx, app/w/[workspaceId]/money/actions.ts]
 ---
@@ -68,44 +68,44 @@ code: [app/w/[workspaceId]/money/expenses/expense-form.tsx, app/w/[workspaceId]/
 
 ## Video scripts
 
-### V-3-expenses-and-payments-1 · How to add an expense · about 60 s · phone first
+### V-3-expenses-and-payments-1 · How to add an expense · about 48 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Money page with no expense for the decorator | 4 | "Decor book kar liya, par kahin likha nahi hai." |  |
-| 1 | Tap the (+) button, then **Add an expense** | 3 | "Plus dabao, phir Add an expense." | Tap Add an expense |
-| 2 | Type "Mandap decor" | 3 | "Pehle likho yeh kis cheez ka hai." | Say what it is for |
-| 3 | Type 2,50,000 in **Total agreed** | 3 | "Total agreed mein amount likho." | Type the Total agreed |
-| 4 | Pick **Rangoli Decor** in **Vendor** and **Sangeet** in **Function** | 5 | "Vendor aur Function chuno." | Pick vendor and function |
-| 5 | Choose **Schedule the first instalment** under **Payments** | 4 | "Payments mein Schedule the first instalment chuno." | Choose how it is paid |
-| 6 | Tap **Save expense** | 3 | "Phir Save expense dabao." | Tap Save expense |
-| end | Show the new expense page | 3 | "Expense ban gaya." | Done |
+| 0 | Show the **Money** page | 4.0 | "Decor book kar liya, par kahin likha nahi hai." |  |
+| 1 | Tap the (+) button, then **Add an expense** | 5.2 | "Plus dabao, phir Add an expense." | Tap Add an expense |
+| 2 | Type "Mandap decor" | 6.1 | "Pehle likho yeh kis cheez ka hai." | Say what it is for |
+| 3 | Type 2,50,000 in **Total agreed** | 3.0 | "Total agreed mein amount likho." | Type the Total agreed |
+| 4 | Pick **Rangoli Decor** in **Vendor** and **Sangeet** in **Function** | 5.0 | "Vendor aur Function chuno." | Pick vendor and function |
+| 5 | Choose **Schedule the first instalment** under **Payments** and pick a date under **Due on** | 5.0 | "Payments mein Schedule the first instalment chuno, aur Due on mein date." | Choose how it is paid |
+| 6 | Tap **Save expense** | 3.1 | "Phir Save expense dabao." | Tap Save expense |
+| end | Show the new expense page | 10.1 | "Expense ban gaya." | Done |
 
-### V-3-expenses-and-payments-2 · How to schedule instalments · about 50 s · phone first
+### V-3-expenses-and-payments-2 · How to schedule instalments · about 35 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show an expense with a big balance and no dates | 4 | "Decor ka paisa kisht mein dena hai, par dates kahin nahi hain." |  |
-| 1 | Open **Money**, **Expenses** tab, then tap "Mandap decor" | 4 | "Expenses tab se expense kholo." | Open the expense |
-| 2 | Scroll to **Payments** and tap **Schedule an instalment** | 3 | "Payments mein Schedule an instalment dabao." | Tap Schedule an instalment |
-| 3 | Type 1,00,000 in **Amount** and pick a date under **Due on** | 5 | "Amount likho aur Due on mein date chuno." | Amount and due date |
-| 4 | Tap **Add instalment** | 3 | "Add instalment dabao." | Tap Add instalment |
-| end | Show the instalment in the list | 3 | "Yeh ab Due tab mein bhi dikhega." | It shows on the Due tab |
+| 0 | Show the **Expenses** tab | 4.0 | "Decor ka baaki paisa kisht mein dena hai." |  |
+| 1 | Tap "Mandap and stage decor" | 4.0 | "Expenses tab se expense kholo." | Open the expense |
+| 2 | Scroll to **Payments** and tap **Schedule an instalment** | 6.8 | "Payments mein Schedule an instalment dabao." | Tap Schedule an instalment |
+| 3 | Type 1,00,000 in **Amount** and pick a date under **Due on** | 6.6 | "Amount likho aur Due on mein date chuno." | Amount and due date |
+| 4 | Tap **Add instalment** | 3.4 | "Add instalment dabao." | Tap Add instalment |
+| end | Show the instalment in the list | 4.4 | "Yeh ab Due tab mein bhi dikhega." | It shows on the Due tab |
 
-### V-3-expenses-and-payments-3 · How to record a payment and who paid, then attach a receipt · about 40 s · phone first
+### V-3-expenses-and-payments-3 · How to record a payment and who paid, then attach a receipt · about 60 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show an expense where Nani paid the advance in cash | 4 | "Nani ne advance diya, par kisi ko yaad nahi." |  |
-| 1 | Open the expense and tap **Record a payment** | 3 | "Expense kholo, Record a payment dabao." | Tap Record a payment |
-| 2 | Show **Amount paid** and **Paid on** | 3 | "Amount paid aur Paid on check karo." | Check amount and date |
-| 3 | Pick **Cash** in **How** | 3 | "How mein Cash chuno." | Pick how it was paid |
-| 4 | Pick **Someone else** in **Who paid** and type "Nani" in **Their name** | 5 | "Who paid mein Someone else chuno aur Nani ka naam likho." | Note who paid |
-| 5 | Tap **Save payment** | 3 | "Save payment dabao." | Tap Save payment |
-| 6 | Open the expense and find the payment under **Payments** | 3 | "Expense kholo aur payment dhundho." | Find the payment |
-| 7 | Tap **Attach receipt** | 3 | "Attach receipt dabao." | Tap Attach receipt |
-| 8 | Choose a receipt photo | 4 | "Receipt ki photo ya PDF chuno." | Choose a photo or PDF |
-| end | Show **View receipt** | 3 | "Ab receipt yahin rakhi hai." | Receipt saved |
+| 0 | Show the new expense "Pandit ji and puja", with nothing paid yet | 6.4 | "Nani ne advance diya, par kisi ko yaad nahi." |  |
+| 1 | Open the expense and tap **Record a payment** | 8.3 | "Expense kholo, Record a payment dabao." | Tap Record a payment |
+| 2 | Type 10,000 in **Amount paid** | 4.0 | "Amount paid mein advance likho." | Type the amount |
+| 3 | Pick **Cash** in **How** | 3.4 | "How mein Cash chuno." | Pick how it was paid |
+| 4 | Pick **Someone else** in **Who paid** and type "Nani" in **Their name** | 5.2 | "Who paid mein Someone else chuno aur Nani ka naam likho." | Note who paid |
+| 5 | Tap **Save payment** | 3.2 | "Save payment dabao." | Tap Save payment |
+| 6 | Find the payment under **Payments** | 5.3 | "Payments mein payment dhundo." | Find the payment |
+| 7 | Tap **Attach receipt** | 3.0 | "Attach receipt dabao." | Tap Attach receipt |
+| 8 | Choose a receipt photo | 11.9 | "Receipt ki photo ya PDF chuno." | Choose a photo or PDF |
+| end | Show **View receipt** | 3.0 | "Ab receipt yahin rakhi hai." | Receipt saved |

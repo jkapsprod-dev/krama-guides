@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/app/w/[workspaceId]/files/page.tsx, app/app/w/[workspaceId]/files/file-uploader.tsx, app/app/w/[workspaceId]/files/file-details.tsx, app/app/w/[workspaceId]/files/files-section.tsx, app/app/w/[workspaceId]/files/actions.ts]
 ---
@@ -57,38 +57,38 @@ code: [app/app/w/[workspaceId]/files/page.tsx, app/app/w/[workspaceId]/files/fil
 
 ## Video scripts
 
-### V-3-files-1 · How to upload a contract or list · about 45 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-files-1 · How to upload a contract or list · about 33 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a chat full of forwarded PDFs | 4 | Contract kahin email mein, list kahin phone mein. | |
-| 1 | Open **More**, then **Files** | 3 | **More** mein **Files** kholo. | Open Files |
-| 2 | Tap **Upload files** | 3 | **Upload files** dabao. | Tap Upload files |
-| 3 | Choose "Rangoli Decor quote.pdf" | 4 | Apni file chuno. | Choose your file |
-| 4 | Show "Uploaded." next to the name | 3 | "Uploaded" dikhe to file aa gayi. | Uploaded |
-| end | Tap the file to open its details | 3 | Ab sab ek hi jagah hai. | All in one place |
+| 0 | Show Home, before opening **Files** | 4.0 | Contract kahin email mein, list kahin phone mein. | |
+| 1 | Open **More**, then **Files** | 7.8 | **More** mein **Files** kholo. | Open Files |
+| 2 | Tap **Upload files** | 4.6 | **Upload files** dabao. | Tap Upload files |
+| 3 | Choose "Rangoli Decor quote.pdf" | 4.0 | Apni file chuno. | Choose your file |
+| 4 | Show "Uploaded." next to the name | 3.1 | "Uploaded" dikhe to file aa gayi. | Uploaded |
+| end | Tap the file to open its details | 3.0 | Ab sab ek hi jagah hai. | All in one place |
 
-### V-3-files-2 · How to link a file to a function, task, vendor or guest · about 55 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
-
-| # | Robot does | Hold (s) | Voice says | Caption |
-|---|---|---|---|---|
-| 0 | Show a file with "Not linked" | 4 | File hai, par kis kaam ki hai, ye pata nahi. | |
-| 1 | Tap the file "Haldi seating list.xlsx" | 3 | File pe tap karo. | Tap the file |
-| 2 | Find **Link to** and pick **Function** | 4 | **Link to** mein **Function** chuno. | Pick Function |
-| 3 | Pick "Haldi" in the second box | 3 | Phir Haldi chuno. | Pick the function |
-| 4 | Tap **Save** | 3 | **Save** dabao. | Tap Save |
-| end | Show "Linked to Haldi · Function" | 3 | Ab ye file Haldi se jud gayi. | Linked to Haldi |
-
-### V-3-files-3 · How to hide money files from helpers and viewers · about 50 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-files-2 · How to link a file to a function, task, vendor or guest · about 50 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a caterer quote file in the list | 4 | Is file mein rates likhe hain, helper ko nahi dikhne chahiye. | |
-| 1 | Tap the file "Caterer quote.pdf" | 3 | File pe tap karo. | Tap the file |
-| 2 | Scroll to the box **Has money details — hide from helpers and viewers** | 4 | **Has money details** wala box dhundo. | Find the money box |
-| 3 | Tick the box | 3 | Isko tick karo. | Tick the box |
-| 4 | Tap **Save** | 3 | **Save** dabao. | Tap Save |
-| end | Show the **Money** tag in the list | 3 | List mein **Money** tag dikhega. Helper ko ye file nahi dikhegi. | Hidden from helpers |
+| 0 | Show the file in the list | 4.2 | File hai, par kis kaam ki hai, ye pata nahi. | |
+| 1 | Tap the file "Haldi seating list.xlsx" | 4.1 | File pe tap karo. | Tap the file |
+| 2 | Find **Link to** and pick **Function** | 7.4 | **Link to** mein **Function** chuno. | Pick Function |
+| 3 | Pick "Haldi" in the second box | 3.2 | Phir Haldi chuno. | Pick the function |
+| 4 | Tap **Save** | 3.0 | **Save** dabao. | Tap Save |
+| end | Show "Linked to Haldi · Function" | 21.8 | Ab ye file Haldi se jud gayi. | Linked to Haldi |
+
+### V-3-files-3 · How to hide money files from helpers and viewers · about 28 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+
+| # | Robot does | Hold (s) | Voice says | Caption |
+|---|---|---|---|---|
+| 0 | Show a caterer quote file in the list | 4.2 | Is file mein rates likhe hain, helper ko nahi dikhne chahiye. | |
+| 1 | Tap the file "Caterer quote.pdf" | 3.1 | File pe tap karo. | Tap the file |
+| 2 | Scroll to the box **Has money details — hide from helpers and viewers** | 4.1 | **Has money details** wala box dhundo. | Find the money box |
+| 3 | Tick the box | 3.0 | Isko tick karo. | Tick the box |
+| 4 | Tap **Save** | 3.0 | **Save** dabao. | Tap Save |
+| end | Show the **Money** tag in the list | 4.8 | List mein **Money** tag dikhega. Helper ko ye file nahi dikhegi. | Hidden from helpers |

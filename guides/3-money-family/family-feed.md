@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/feed/page.tsx, app/w/[workspaceId]/feed/composer.tsx, app/w/[workspaceId]/feed/post-card.tsx, app/w/[workspaceId]/feed/actions.ts]
 ---
@@ -53,31 +53,30 @@ code: [app/w/[workspaceId]/feed/page.tsx, app/w/[workspaceId]/feed/composer.tsx,
 
 ## Video scripts
 
-### V-3-family-feed-1 · How to post an update or photos, then react to a post · about 40 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-family-feed-1 · How to post an update or photos, then react to a post · about 61 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a WhatsApp-style crowded chat, then the Family feed | 4 | "Mausi phir haldi ka time puch rahi hain." | Same question again |
-| 1 | Tap **More**, then open **Family feed** | 3 | "More mein se Family feed kholo." | Open Family feed |
-| 2 | Tap the box and type "Haldi 10 baje, Sharma house" | 3 | "Box mein apna update likho." | Write your update |
-| 3 | Tap **Add photos** and pick two photos | 4 | "Add photos pe tap karo aur photos chuno." | Tap Add photos |
-| 4 | Show the small previews | 3 | "Chhoti tasveerein dekh lo." | Check the previews |
-| 5 | Tap **Post** | 3 | "Phir Post pe tap karo." | Tap Post |
-| 6 | Open **Family feed** | 3 | "Family feed kholo." | Open Family feed |
-| 7 | Tap **Heart** under the post | 3 | "Post ke neeche Heart pe tap karo." | Tap Heart |
-| 8 | Tap **Heart** again to take it back | 3 | "Dobara tap karoge to reaction wapas ho jayega." | Tap again to undo |
-| end | Show the Heart count | 3 | "Bas, itna hi." | Done |
+| 0 | Show Home, before opening **Family feed** | 4.0 | "Mausi phir haldi ka time puch rahi hain." |  |
+| 1 | Tap **More**, then open **Family feed** | 6.2 | "More mein se Family feed kholo." | Open Family feed |
+| 2 | Tap the box and type "Haldi 10 baje, Sharma house" | 5.9 | "Box mein apna update likho." | Write your update |
+| 3 | Tap **Add photos** and pick two photos | 4.0 | "Add photos pe tap karo aur photos chuno." | Tap Add photos |
+| 4 | Point at **Post**, under the small previews | 3.0 | "Chhoti tasveerein dekh lo." | Check the previews |
+| 5 | Tap **Post** | 3.0 | "Phir Post pe tap karo." | Tap Post |
+| 6 | Tap **Heart** under the post | 22.0 | "Post ke neeche Heart pe tap karo." | Tap Heart |
+| 7 | Tap **Heart** again to take it back | 3.5 | "Dobara tap karoge to reaction wapas ho jayega." | Tap again to undo |
+| end | Show the **Heart** button | 3.0 | "Bas, itna hi." | Done |
 
-### V-3-family-feed-2 · How to report or remove a post · about 45 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-family-feed-2 · How to report or remove a post · about 37 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a post that should not be there | 4 | "Kabhi koi post yahan nahi honi chahiye." | A wrong post |
-| 1 | Open **Family feed** and find the post | 3 | "Family feed mein post dhundo." | Find the post |
-| 2 | Tap **Report** on the post | 3 | "Dusre ki post ho to Report dabao." | Tap Report |
-| 3 | Show the **1 report** label on the post | 3 | "Host ko report ka count dikhta hai." | Hosts see the count |
-| 4 | Tap **Remove post** | 3 | "Host Remove post pe tap kar sakta hai." | Tap Remove post |
-| 5 | Tap **Remove post** in the question box | 3 | "Phir confirm karo." | Confirm |
-| end | Show the feed without the post | 3 | "Post hat gayi." | Done. Post removed |
+| 0 | Show the **Family feed** | 4.2 | "Kabhi koi post yahan nahi honi chahiye." | A wrong post |
+| 1 | Find the post by Kavya Sharma | 9.1 | "Family feed mein post dhundo." | Find the post |
+| 2 | Tap **Report** on the post | 3.3 | "Dusre ki post ho to Report dabao." | Tap Report |
+| 3 | Show the **1 report** label on the post | 3.0 | "Host ko report ka count dikhta hai." | Hosts see the count |
+| 4 | Tap **Remove post** | 4.4 | "Host Remove post pe tap kar sakta hai." | Tap Remove post |
+| 5 | Tap **Remove post** in the question box | 3.0 | "Phir confirm karo." | Confirm |
+| end | Show the feed without the post | 3.2 | "Post hat gayi." | Done. Post removed |

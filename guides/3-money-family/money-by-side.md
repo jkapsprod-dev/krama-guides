@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/money/sides-card.tsx, app/w/[workspaceId]/money/sides/[side]/page.tsx, app/w/[workspaceId]/money/budget.csv/route.ts, lib/money/sides.ts]
 ---
@@ -42,26 +42,26 @@ code: [app/w/[workspaceId]/money/sides-card.tsx, app/w/[workspaceId]/money/sides
 
 ## Video scripts
 
-### V-3-money-by-side-1 · How to see one family's share · about 45 s · phone first
+### V-3-money-by-side-1 · How to see one family's share · about 34 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Money page with all costs mixed together | 4 | "Dono families ka kharcha mila hua hai, hisaab kaise karein." | |
-| 1 | Tap **More**, then **Money** | 3 | "Money kholo." | Open Money |
-| 2 | Tap the **Sides** tab | 3 | "Sides tab pe tap karo." | Tap the Sides tab |
-| 3 | Show the **Money by side** card | 4 | "Har side ka Planned, Booked, Paid aur Still to pay yahan hai." | Each side, side by side |
-| 4 | Tap **Bride’s side** | 3 | "Kisi family ka naam dabao." | Tap a family |
-| end | Show that side's payments | 3 | "Sirf unka hisaab dikhta hai." | Done |
+| 0 | Show Home, before opening **Money** | 4.0 | "Dono families ka kharcha mila hua hai, hisaab kaise karein." | |
+| 1 | Tap **More**, then **Money** | 6.8 | "Money kholo." | Open Money |
+| 2 | Tap the **Sides** tab | 4.9 | "Sides tab pe tap karo." | Tap the Sides tab |
+| 3 | Show the **Money by side** card | 4.6 | "Har side ka Planned, Booked, Paid aur Still to pay yahan hai." | Each side, side by side |
+| 4 | Tap **Bride’s side** | 3.0 | "Kisi family ka naam dabao." | Tap a family |
+| end | Show that side's payments | 3.1 | "Sirf unka hisaab dikhta hai." | Done |
 
-### V-3-money-by-side-2 · How to print or download it · about 45 s · phone first
+### V-3-money-by-side-2 · How to print or download it · about 51 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Sides tab | 4 | "Dono papa ko hisaab dikhana hai, kaagaz pe." | |
-| 1 | Tap **Print** under **Groom’s side** | 3 | "Family ke neeche Print dabao." | Tap Print |
-| 2 | Show the page with summary and expenses | 4 | "Summary, expenses aur baaki payments ek page pe." | One page for one family |
-| 3 | Tap **Print** at the top | 3 | "Upar Print dabao." | Tap Print again |
-| 4 | Go back and tap **CSV** under **Groom’s side** | 4 | "Spreadsheet chahiye to CSV dabao." | Or tap CSV for a sheet |
-| end | Show the file downloaded | 3 | "Ho gaya." | Done |
+| 0 | Show the Sides tab | 4.0 | "Dono papa ko hisaab dikhana hai, kaagaz pe." | |
+| 1 | Tap **Print** under **Groom’s side** | 3.7 | "Family ke neeche Print dabao." | Tap Print |
+| 2 | Show the page with summary and expenses | 4.1 | "Summary, expenses aur baaki payments ek page pe." | One page for one family |
+| 3 | Tap **Print** at the top | 21.6 | "Upar Print dabao." | Tap Print again |
+| 4 | Go back and tap **CSV** under **Groom’s side** | 7.3 | "Spreadsheet chahiye to CSV dabao." | Or tap CSV for a sheet |
+| end | Show the **Sides** tab | 3.0 | "Ho gaya." | Done |

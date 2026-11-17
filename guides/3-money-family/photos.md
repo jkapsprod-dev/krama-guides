@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/photos/page.tsx, app/w/[workspaceId]/photos/[album]/page.tsx, app/w/[workspaceId]/photos/[album]/photo-tools.tsx, app/w/[workspaceId]/photos/download-all.tsx, app/w/[workspaceId]/photos/actions.ts]
 ---
@@ -56,39 +56,39 @@ code: [app/w/[workspaceId]/photos/page.tsx, app/w/[workspaceId]/photos/[album]/p
 
 ## Video scripts
 
-### V-3-photos-1 · How to add photos to a function's album · about 60 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-photos-1 · How to add photos to a function's album · about 39 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a phone camera roll full of mehndi photos | 4 | "Mehndi ki photos sabke phone mein bikhri hui hain." | Photos everywhere |
-| 1 | Tap **More**, then open **Photos** | 3 | "More mein se Photos kholo." | Open Photos |
-| 2 | Pick **Mehndi** under **Album** | 3 | "Album mein function chuno." | Pick the function |
-| 3 | Tap **Add photos** | 3 | "Add photos pe tap karo." | Tap Add photos |
-| 4 | Choose three photos in the picker | 4 | "Apni photos chuno." | Choose your photos |
-| 5 | Show "Uploading 2 of 3" | 3 | "Upload hone tak page khula rakho." | Keep the page open |
-| end | Show "3 photos added" and the Mehndi album | 3 | "Ho gaya. Sab ek jagah hai." | Done. Photos added |
+| 0 | Show Home, before opening **Photos** | 4.0 | "Mehndi ki photos sabke phone mein bikhri hui hain." | Photos everywhere |
+| 1 | Tap **More**, then open **Photos** | 7.7 | "More mein se Photos kholo." | Open Photos |
+| 2 | Pick **Mehendi** under **Album** | 3.3 | "Album mein function chuno." | Pick the function |
+| 3 | Tap **Add photos** | 3.0 | "Add photos pe tap karo." | Tap Add photos |
+| 4 | Choose three photos in the picker | 4.0 | "Apni photos chuno." | Choose your photos |
+| 5 | Show the upload progress | 3.0 | "Upload hone tak page khula rakho." | Keep the page open |
+| end | Show "3 photos added" and the Mehndi album | 8.2 | "Ho gaya. Sab ek jagah hai." | Done. Photos added |
 
-### V-3-photos-2 · How to move or delete a photo · about 45 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
-
-| # | Robot does | Hold (s) | Voice says | Caption |
-|---|---|---|---|---|
-| 0 | Show a photo in the wrong album | 4 | "Yeh photo galat album mein chali gayi." | Wrong album |
-| 1 | Open **Photos** and tap the **Mehndi** album | 3 | "Album kholo." | Open the album |
-| 2 | Tap the photo | 3 | "Photo pe tap karo." | Tap the photo |
-| 3 | Pick **Haldi** under **Album** | 3 | "Album mein sahi function chuno." | Pick the right album |
-| 4 | Tap **Move** | 3 | "Phir Move pe tap karo." | Tap Move |
-| end | Show the photo in the Haldi album | 3 | "Photo sahi jagah pahunch gayi." | Done. Photo moved |
-
-### V-3-photos-3 · How to download everything · about 45 s · desktop first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-photos-2 · How to move or delete a photo · about 27 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Photos screen with many albums | 4 | "Shaadi ke baad sab photos ek saath chahiye." | All photos, one go |
-| 1 | Open **Photos** | 3 | "Photos kholo." | Open Photos |
-| 2 | Tap **Download all** | 3 | "Download all pe tap karo." | Tap Download all |
-| 3 | Show "Part 1 of 2" in the list | 3 | "Photos kai parts mein aati hain." | Photos come in parts |
-| 4 | Tap **Part 1 of 2** | 4 | "Har part pe tap karo aur page khula rakho." | Tap each part |
-| end | Show the ZIP file saved | 3 | "ZIP file mil gayi." | Done. ZIP saved |
+| 0 | Show the **Mehendi** album, with a sangeet photo in it | 4.0 | "Yeh photo galat album mein chali gayi." | Wrong album |
+| 1 | Tap the **Mehendi** album | 3.0 | "Album kholo." | Open the album |
+| 2 | Tap the photo | 3.0 | "Photo pe tap karo." | Tap the photo |
+| 3 | Pick **Sangeet** under **Album** | 3.1 | "Album mein sahi function chuno." | Pick the right album |
+| 4 | Tap **Move** | 4.0 | "Phir Move pe tap karo." | Tap Move |
+| end | Show the **Mehendi** album after the move | 3.0 | "Photo sahi jagah pahunch gayi." | Done. Photo moved |
+
+### V-3-photos-3 · How to download everything · about 33 s · desktop first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+
+| # | Robot does | Hold (s) | Voice says | Caption |
+|---|---|---|---|---|
+| 0 | Show Home, before opening **Photos** | 4.9 | "Shaadi ke baad sab photos ek saath chahiye." | All photos, one go |
+| 1 | Open **Photos** in the sidebar | 4.9 | "Photos kholo." | Open Photos |
+| 2 | Tap **Download all** | 5.5 | "Download all pe tap karo." | Tap Download all |
+| 3 | Show the **Part 1** button | 3.1 | "Photos kai parts mein aati hain." | Photos come in parts |
+| 4 | Tap **Part 1 of 2** | 4.4 | "Har part pe tap karo aur page khula rakho." | Tap each part |
+| end | Show the **Part 1** button again | 3.0 | "ZIP file mil gayi." | Done. ZIP saved |

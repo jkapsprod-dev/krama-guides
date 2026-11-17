@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/money/budget/page.tsx, app/w/[workspaceId]/money/budget/budget-editor.tsx, app/w/[workspaceId]/money/actions.ts, lib/money/sides.ts, lib/money/suggest.ts]
 ---
@@ -70,53 +70,53 @@ On a new wedding with no expenses, the **Money** page also shows an **Edit budge
 
 ## Video scripts
 
-### V-3-budget-1 · How to set your budget · about 55 s · phone first
+### V-3-budget-1 · How to set your budget · about 70 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Money page with empty budget lines | 4 | "Papa poochte hain kitna kharcha hoga, aur kuch likha hi nahi hai." | |
-| 1 | Tap **More**, then **Money**, then the **Budget** tab | 4 | "Money kholo, phir Budget tab." | Open the Budget tab |
-| 2 | Type 2,50,000 next to the venue line | 4 | "Har category ke saamne amount likho, jaise 2,50,000." | Type an amount for each line |
-| 3 | Type 2.5L next to another line | 3 | "2.5L bhi chalta hai." | 2.5L works too |
-| 4 | Point at **Total** at the bottom | 3 | "Neeche Total apne aap judta jaata hai." | Total adds up as you type |
-| 5 | Tap **Save budget** | 3 | "Phir Save budget dabao." | Tap Save budget |
-| end | Show "Budget saved." | 3 | "Budget saved. Ab plan taiyaar hai." | Budget saved |
+| 0 | Show Home, before opening Money | 4.5 | "Papa poochte hain kitna kharcha hoga, aur kuch likha hi nahi hai." | |
+| 1 | Tap **More**, then **Money**, then the **Budget** tab | 20.4 | "Money kholo, phir Budget tab." | Open the Budget tab |
+| 2 | Type 2,50,000 next to the venue line | 9.1 | "Har category ke saamne amount likho, jaise 2,50,000." | Type an amount for each line |
+| 3 | Type 2.5L next to another line | 3.4 | "2.5L bhi chalta hai." | 2.5L works too |
+| 4 | Point at **Total** at the bottom | 4.5 | "Neeche Total apne aap judta jaata hai." | Total adds up as you type |
+| 5 | Tap **Save budget** | 18.3 | "Phir Save budget dabao." | Tap Save budget |
+| end | Show "Budget saved." | 3.3 | "Budget saved. Ab plan taiyaar hai." | Budget saved |
 
-### V-3-budget-2 · How to start from a typical split · about 45 s · phone first
+### V-3-budget-2 · How to start from a typical split · about 39 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the empty Budget tab | 4 | "Kahan se shuru karein, samajh nahi aa raha." | |
-| 1 | Show the card **Start from a typical split?** | 4 | "Yeh card aapka budget range batata hai." | A card suggests a split |
-| 2 | Tap **Fill in a typical split** | 3 | "Fill in a typical split pe tap karo." | Tap Fill in a typical split |
-| 3 | Show the filled numbers | 4 | "Saare lines mein numbers bhar jaate hain. Jo chaho badal do." | Change any number |
-| 4 | Tap **Save budget** | 3 | "Ab Save budget dabao." | Tap Save budget |
-| end | Show "Budget saved." | 3 | "Ho gaya. Ab kharcha add karna shuru karo." | Done |
+| 0 | Show the empty Budget tab | 4.1 | "Kahan se shuru karein, samajh nahi aa raha." | |
+| 1 | Show the card **Start from a typical split?** | 4.0 | "Yeh card aapka budget range batata hai." | A card suggests a split |
+| 2 | Tap **Fill in a typical split** | 3.1 | "Fill in a typical split pe tap karo." | Tap Fill in a typical split |
+| 3 | Show the filled numbers | 4.7 | "Saare lines mein numbers bhar jaate hain. Jo chaho badal do." | Change any number |
+| 4 | Tap **Save budget** | 13.3 | "Ab Save budget dabao." | Tap Save budget |
+| end | Show "Budget saved." | 3.5 | "Ho gaya. Ab kharcha add karna shuru karo." | Done |
 
-### V-3-budget-3 · How to add or rename a category · about 55 s · phone first
+### V-3-budget-3 · How to add or rename a category · about 32 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Budget tab with no line for the pandit | 4 | "Pandit ji ke liye koi line hi nahi hai." | |
-| 1 | Scroll down to **Add a category** | 3 | "Neeche Add a category dhundho." | Find Add a category |
-| 2 | Type "Pandit and puja" in **Category name** | 4 | "Category name likho." | Type the name |
-| 3 | Leave **Inside** on **Top level** | 3 | "Inside mein Top level rehne do." | Leave Inside on Top level |
-| 4 | Tap **Add** | 3 | "Add dabao." | Tap Add |
-| 5 | Tap the pencil next to the new line, change the name, tap the tick | 5 | "Naam badalna ho to pencil dabao, naya naam likho aur tick karo." | Rename with the pencil |
-| end | Show the new line in the list | 3 | "Nayi category ready hai." | Done |
+| 0 | Show the Budget tab with no line for the pandit | 4.0 | "Pandit ji ke liye koi line hi nahi hai." | |
+| 1 | Scroll down to **Add a category** | 3.2 | "Neeche Add a category dhundho." | Find Add a category |
+| 2 | Type "Pandit and puja" in **Category name** | 4.0 | "Category name likho." | Type the name |
+| 3 | Leave **Inside** on **Top level** | 3.0 | "Inside mein Top level rehne do." | Leave Inside on Top level |
+| 4 | Tap **Add** | 3.0 | "Add dabao." | Tap Add |
+| 5 | Tap the pencil next to the new line, change the name, tap the tick | 5.8 | "Naam badalna ho to pencil dabao, naya naam likho aur tick karo." | Rename with the pencil |
+| end | Show the new line in the list | 3.0 | "Nayi category ready hai." | Done |
 
-### V-3-budget-4 · How to split shared costs between the families · about 60 s · phone first
+### V-3-budget-4 · How to split shared costs between the families · about 46 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Budget tab with every line on **Shared** | 4 | "Venue ka kharcha dono families baantti hain, par yahan sab Shared hai." | |
-| 1 | Open the **Who pays** list on the venue line | 3 | "Who pays se side chuno." | Pick whose cost it is |
-| 2 | Keep **Shared** and type 60 in **Bride %** | 5 | "Shared rakho aur Bride % mein 60 likho." | Type the bride's share |
-| 3 | Point at the groom's share left over | 3 | "Baaki 40 groom ki side ka hai." | The rest goes to the groom's side |
-| 4 | Tap **Save budget** | 3 | "Save budget dabao." | Tap Save budget |
-| 5 | Open the **Sides** tab | 4 | "Sides tab mein har family ka hissa dikhta hai." | Each family's share |
-| end | Show **Bride’s side** and **Groom’s side** totals | 3 | "Ab hisaab saaf hai." | Done |
+| 0 | Show the Budget tab with every line on **Shared** | 4.6 | "Venue ka kharcha dono families baantti hain, par yahan sab Shared hai." | |
+| 1 | Open the **Who pays** list on the venue line | 3.0 | "Who pays se side chuno." | Pick whose cost it is |
+| 2 | Keep **Shared** and type 60 in **Bride %** | 5.0 | "Shared rakho aur Bride % mein 60 likho." | Type the bride's share |
+| 3 | Point at the groom's share left over | 3.0 | "Baaki 40 groom ki side ka hai." | The rest goes to the groom's side |
+| 4 | Tap **Save budget** | 6.8 | "Save budget dabao." | Tap Save budget |
+| 5 | Open the **Sides** tab | 4.4 | "Sides tab mein har family ka hissa dikhta hai." | Each family's share |
+| end | Show **Bride’s side** and **Groom’s side** totals | 12.7 | "Ab hisaab saaf hai." | Done |

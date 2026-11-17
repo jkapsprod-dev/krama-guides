@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/app/w/[workspaceId]/outfits/page.tsx, app/app/w/[workspaceId]/outfits/outfit-form.tsx, app/app/w/[workspaceId]/outfits/load.ts, app/lib/outfits/colours.ts]
 ---
@@ -58,43 +58,43 @@ code: [app/app/w/[workspaceId]/outfits/page.tsx, app/app/w/[workspaceId]/outfits
 
 ## Video scripts
 
-### V-3-outfits-1 · How to add an outfit · about 60 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-outfits-1 · How to add an outfit · about 41 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show an empty Outfits page | 4 | Kaun sangeet mein kya pehenega, ye sab kahan likhein? | |
-| 1 | Open **More**, then **Outfits**, tap **Add an outfit** | 4 | **Outfits** kholo aur **Add an outfit** dabao. | Tap Add an outfit |
-| 2 | Under **Who is it for?** pick "Someone, by name", type "Bride" | 4 | **Who is it for?** mein naam daalo. | Who is it for? |
-| 3 | Pick **Function** "Sangeet" | 3 | **Function** chuno. | Pick the function |
-| 4 | Type "Silk lehenga" in **Outfit** | 3 | **Outfit** mein likho kya pehenna hai. | Type the outfit |
-| 5 | Pick **Main colour** "Maroon" | 3 | **Main colour** chuno. | Pick the colour |
-| 6 | Tap **Save outfit** | 3 | Phir **Save outfit** dabao. | Tap Save outfit |
-| end | Show the outfit page with **Add a photo** | 3 | Ho gaya. Ab chahein to photo bhi jod sakte ho. | Outfit saved |
+| 0 | Show Home, before opening **Outfits** | 4.0 | Kaun sangeet mein kya pehenega, ye sab kahan likhein? | |
+| 1 | Open **More**, then **Outfits**, tap **Add an outfit** | 9.6 | **Outfits** kholo aur **Add an outfit** dabao. | Tap Add an outfit |
+| 2 | Under **Who is it for?** pick "Someone, by name", type "Bride" | 4.0 | **Who is it for?** mein naam daalo. | Who is it for? |
+| 3 | Pick **Function** "Sangeet" | 3.0 | **Function** chuno. | Pick the function |
+| 4 | Type "Silk lehenga" in **Outfit** | 3.7 | **Outfit** mein likho kya pehenna hai. | Type the outfit |
+| 5 | Pick **Main colour** "Maroon" | 3.0 | **Main colour** chuno. | Pick the colour |
+| 6 | Tap **Save outfit** | 3.2 | Phir **Save outfit** dabao. | Tap Save outfit |
+| end | Show the outfit page with **Add a photo** | 4.0 | Ho gaya. Ab chahein to photo bhi jod sakte ho. | Outfit saved |
 
-### V-3-outfits-2 · How to track fittings and pick-ups · about 60 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
-
-| # | Robot does | Hold (s) | Voice says | Caption |
-|---|---|---|---|---|
-| 0 | Show an outfit with no dates | 4 | Fitting ki date bhool gaye to lehenga ready nahi milega. | |
-| 1 | Open the Bride's sangeet outfit | 3 | Outfit kholo. | Open the outfit |
-| 2 | Pick a date in **Fitting date** | 3 | **Fitting date** daalo. | Add the fitting date |
-| 3 | Pick a date in **Alteration or pick-up date** | 3 | Phir **Alteration or pick-up date**. | Add the pick-up date |
-| 4 | Show **Remind us with tasks** ticked, pick a person in **Who looks after the tasks** | 4 | **Remind us with tasks** tick rakho, aur kisi ko zimmedari do. | Tasks are made for you |
-| 5 | Tap **Save outfit** | 3 | **Save outfit** dabao. | Tap Save outfit |
-| 6 | Tap **Fittings and alterations** | 4 | **Fittings and alterations** mein saari dates ek saath dikhti hain. | All dates, soonest first |
-| end | Show the dates list | 3 | Ab har date ka task bhi ban gaya. | Dates are now tasks |
-
-### V-3-outfits-3 · How to spot two people in the same colour · about 50 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-outfits-2 · How to track fittings and pick-ups · about 34 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show two bridesmaids' outfits, both maroon | 4 | Do bridesmaids ek hi rang mein aa gayi to? | |
-| 1 | Open the second bridesmaid's outfit | 3 | Outfit kholo. | Open the outfit |
-| 2 | Tick **In the bridal party** | 3 | **In the bridal party** tick karo. | Tick bridal party |
-| 3 | Pick **Main colour** "Maroon", tap **Save outfit** | 4 | **Main colour** chuno aur **Save outfit** dabao. | Pick colour and save |
-| 4 | Show the **Same colour** note at the top of **By function** | 4 | Upar **Same colour** ka note dikhega, naam ke saath. | Same colour note |
-| 5 | Open one marked row and change **Main colour** to "Pink", save | 4 | Ek ka rang badal do, bas. | Change one colour |
-| end | Show the note gone | 3 | Note hat gaya. Ab sab alag dikhengi. | Clash fixed |
+| 0 | Show an outfit with no dates | 4.0 | Fitting ki date bhool gaye to lehenga ready nahi milega. | |
+| 1 | Open the Bride's sangeet outfit | 3.0 | Outfit kholo. | Open the outfit |
+| 2 | Pick a date in **Fitting date** | 3.0 | **Fitting date** daalo. | Add the fitting date |
+| 3 | Pick a date in **Alteration or pick-up date** | 3.0 | Phir **Alteration or pick-up date**. | Add the pick-up date |
+| 4 | Show **Remind us with tasks** ticked, pick a person in **Who looks after the tasks** | 4.5 | **Remind us with tasks** tick rakho, aur kisi ko zimmedari do. | Tasks are made for you |
+| 5 | Tap **Save outfit** | 3.0 | **Save outfit** dabao. | Tap Save outfit |
+| 6 | Tap **Fittings and alterations** | 4.5 | **Fittings and alterations** mein saari dates ek saath dikhti hain. | All dates, soonest first |
+| end | Show the dates list | 3.0 | Ab har date ka task bhi ban gaya. | Dates are now tasks |
+
+### V-3-outfits-3 · How to spot two people in the same colour · about 33 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+
+| # | Robot does | Hold (s) | Voice says | Caption |
+|---|---|---|---|---|
+| 0 | Show two bridesmaids' outfits, both maroon | 4.0 | Do bridesmaids ek hi rang mein aa gayi to? | |
+| 1 | Open the second bridesmaid's outfit | 3.0 | Outfit kholo. | Open the outfit |
+| 2 | Tick **In the bridal party** | 3.0 | **In the bridal party** tick karo. | Tick bridal party |
+| 3 | Tap **Save outfit** | 3.0 | **Save outfit** dabao. | Tap Save outfit |
+| 4 | Show the **Same colour** note at the top of **By function** | 4.0 | Upar **Same colour** ka note dikhega, naam ke saath. | Same colour note |
+| 5 | Open one marked row and change **Main colour** to "Pink", save | 6.1 | Ek ka rang badal do, bas. | Change one colour |
+| end | Show the note gone | 3.5 | Note hat gaya. Ab sab alag dikhengi. | Clash fixed |

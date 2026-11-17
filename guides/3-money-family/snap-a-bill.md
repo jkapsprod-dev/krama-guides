@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/money/expenses/new/snap-expense.tsx, app/w/[workspaceId]/money/expenses/new/page.tsx, app/w/[workspaceId]/money/snap-actions.ts, components/helpers/snap-bill.tsx, lib/helpers/bill-reader.ts, lib/helpers/flags.ts]
 ---
@@ -46,28 +46,28 @@ code: [app/w/[workspaceId]/money/expenses/new/snap-expense.tsx, app/w/[workspace
 
 ## Video scripts
 
-### V-3-snap-a-bill-1 · How to switch Snap a bill on · about 40 s · phone first
+### V-3-snap-a-bill-1 · How to switch Snap a bill on · about 37 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Add an expense** page with no photo card | 4 | Bill ki photo se expense bharna hai, par yeh option abhi band hai. | The photo option is off |
-| 1 | Open **More**, then **Settings** | 3 | More kholo, phir Settings. | Open More, then Settings |
-| 2 | Tap **Smart helpers** | 3 | Smart helpers pe tap karo. | Tap Smart helpers |
-| 3 | Tick **Snap a bill** | 3 | Snap a bill ko tick karo. | Tick Snap a bill |
-| 4 | Tap **Save**, show **Saved.** | 3 | Save pe tap karo. | Tap Save |
-| end | Show the **Snap a bill** card on the expense page | 3 | Ab expense page par Snap a bill dikhega. | Snap a bill is now on |
+| 0 | Show the **Add an expense** page with no photo card | 4.7 | Bill ki photo se expense bharna hai, par yeh option abhi band hai. | The photo option is off |
+| 1 | Open **More**, then **Settings** | 6.3 | More kholo, phir Settings. | Open More, then Settings |
+| 2 | Tap **Smart helpers** | 3.0 | Smart helpers pe tap karo. | Tap Smart helpers |
+| 3 | Tick **Snap a bill** | 3.0 | Snap a bill ko tick karo. | Tick Snap a bill |
+| 4 | Tap **Save**, show **Saved.** | 8.0 | Save pe tap karo. | Tap Save |
+| end | Show the **Snap a bill** card on the expense page | 4.7 | Ab expense page par Snap a bill dikhega. | Snap a bill is now on |
 
-### V-3-snap-a-bill-2 · How to add an expense from a bill photo · about 60 s · phone first
+### V-3-snap-a-bill-2 · How to add an expense from a bill photo · about 45 s · phone first
 Demo login: lane 3, host (Appendix E). Snap a bill is already switched on. Use a made-up printed bill from Shree Caterers. "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a paper bill on a table | 4 | Bill haath mein hai. Poora type karna lamba kaam hai. | Typing a bill takes long |
-| 1 | Open **Money**, tap **Add expense** | 3 | Money mein Add expense pe tap karo. | Tap Add expense |
-| 2 | Tap **Take or choose a photo** | 3 | Take or choose a photo pe tap karo. | Tap Take or choose a photo |
-| 3 | Choose the bill photo, show **Reading the bill…** | 5 | Bill ki photo lo. Phone khud padhega. | Your phone reads the bill |
-| 4 | Show the filled form and the **Done. Check every detail** note | 5 | Details bhar gayi. Har cheez dhyaan se check karo. | Check every detail |
-| 5 | Fix the **Total agreed** if needed | 4 | Kuch galat ho to theek kar do. | Fix anything wrong |
-| 6 | Tap **Save expense** | 3 | Save expense pe tap karo. | Tap Save expense |
-| end | Show the saved expense with the receipt | 3 | Ho gaya. Photo receipt ban kar saath rakhi hai. | Expense saved with receipt |
+| 0 | Show the **Money** page | 4.2 | Bill haath mein hai. Poora type karna lamba kaam hai. | Typing a bill takes long |
+| 1 | Tap the (+) button, then **Add an expense** | 3.8 | Plus dabao, phir Add an expense. | Tap Add an expense |
+| 2 | Tap **Take or choose a photo** | 3.1 | Take or choose a photo pe tap karo. | Tap Take or choose a photo |
+| 3 | Choose the bill photo, show **Reading the bill…** | 6.3 | Bill ki photo lo. Phone khud padhega. | Your phone reads the bill |
+| 4 | Show the filled form and the **Done. Check every detail** note | 5.0 | Details bhar gayi. Har cheez dhyaan se check karo. | Check every detail |
+| 5 | Fix the **Total agreed** if needed | 4.0 | Kuch galat ho to theek kar do. | Fix anything wrong |
+| 6 | Tap **Save expense** | 3.0 | Save expense pe tap karo. | Tap Save expense |
+| end | Show the saved expense with the receipt | 9.3 | Ho gaya. Photo receipt ban kar saath rakhi hai. | Expense saved with receipt |

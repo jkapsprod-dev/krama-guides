@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, planner, family]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/money/quotes/page.tsx, app/w/[workspaceId]/money/quotes/approve-button.tsx, app/w/[workspaceId]/money/quotes/actions.ts]
 ---
@@ -40,15 +40,15 @@ If you see "Nothing to approve.", your planner has not sent any quotes yet.
 
 ## Video scripts
 
-### V-3-quotes-to-approve-1 · How to approve a quote your planner sent · about 55 s · phone first
+### V-3-quotes-to-approve-1 · How to approve a quote your planner sent · about 38 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Quotes tab with a quote from Rangoli Decor | 4 | "Planner ne quote bheja hai, ab aapko haan kehna hai." | |
-| 1 | Tap **More**, then **Money**, then the **Quotes** tab | 4 | "Money kholo, phir Quotes tab." | Open the Quotes tab |
-| 2 | Point at the price and the **Includes** line | 4 | "Price aur Includes dhyaan se padho." | Read the price and what it includes |
-| 3 | Tap **Approve** next to Rangoli Decor | 3 | "Jo quote pasand aaye, uske saamne Approve dabao." | Tap Approve |
-| 4 | Show the confirm question | 4 | "Ek sawaal puchega. Phir se Approve dabao." | Confirm with Approve |
-| 5 | Tap **Approve** in the question | 3 | "Bas, ho gaya." | Tap Approve again |
-| end | Show **Approved** next to Rangoli Decor | 4 | "Vendor judd gaya aur budget mein amount add ho gaya." | Approved |
+| 0 | Show Home, before opening **Money** | 4.0 | "Planner ne quote bheja hai, ab aapko haan kehna hai." | |
+| 1 | Tap **More**, then **Money**, then the **Quotes** tab | 7.8 | "Money kholo, phir Quotes tab." | Open the Quotes tab |
+| 2 | Point at the price and the **Includes** line | 4.0 | "Price aur Includes dhyaan se padho." | Read the price and what it includes |
+| 3 | Tap **Approve** next to Rangoli Decor | 3.8 | "Jo quote pasand aaye, uske saamne Approve dabao." | Tap Approve |
+| 4 | Show the confirm question | 4.0 | "Ek sawaal puchega. Phir se Approve dabao." | Confirm with Approve |
+| 5 | Tap **Approve** in the question | 3.0 | "Bas, ho gaya." | Tap Approve again |
+| end | Show **Approved** next to Rangoli Decor | 4.0 | "Vendor judd gaya aur budget mein amount add ho gaya." | Approved |

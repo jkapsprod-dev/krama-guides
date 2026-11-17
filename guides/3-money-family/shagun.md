@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/shagun/page.tsx, app/w/[workspaceId]/shagun/entry-form.tsx, app/w/[workspaceId]/shagun/thank-you-controls.tsx, app/w/[workspaceId]/shagun/load.ts, app/w/[workspaceId]/shagun/export.csv/route.ts]
 ---
@@ -66,54 +66,54 @@ code: [app/w/[workspaceId]/shagun/page.tsx, app/w/[workspaceId]/shagun/entry-for
 
 ## Video scripts
 
-### V-3-shagun-1 · How to note an envelope or a gift · about 60 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-shagun-1 · How to note an envelope or a gift · about 45 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Shagun screen with a few entries | 4 | "Kisne kya diya, yeh sab yaad rakhna mushkil hai." | Who gave what? |
-| 1 | Tap **More**, then open **Shagun** | 3 | "More mein jaao, phir Shagun kholo." | Open Shagun |
-| 2 | Tap **Add an entry** | 3 | "Add an entry pe tap karo." | Tap Add an entry |
-| 3 | Choose **We received** under **What happened** and **Cash or envelope** under **Type** | 4 | "Pehle choose karo, We received ya We gave. Phir Cash or envelope." | Received or gave |
-| 4 | Pick the Mehta family under **Family on the guest list** | 3 | "Guest list se family chuno." | Pick the family |
-| 5 | Type 5,100 in **Amount (₹)** | 3 | "Amount likho, jaise 5,100." | Type the amount |
-| 6 | Pick **Haldi** under **Function** | 3 | "Function chuno." | Pick the function |
-| 7 | Tap **Save entry** | 3 | "Phir Save entry pe tap karo." | Tap Save entry |
-| end | Show the new row in the list and the **Received** total | 3 | "Ho gaya. Ab entry list mein hai." | Done. Entry saved |
+| 0 | Show Home, before opening **Shagun** | 4.0 | "Kisne kya diya, yeh sab yaad rakhna mushkil hai." | Who gave what? |
+| 1 | Tap **More**, then open **Shagun** | 6.1 | "More mein jaao, phir Shagun kholo." | Open Shagun |
+| 2 | Tap **Add an entry** | 3.0 | "Add an entry pe tap karo." | Tap Add an entry |
+| 3 | Choose **We received** under **What happened** and **Cash or envelope** under **Type** | 5.3 | "Pehle choose karo, We received ya We gave. Phir Cash or envelope." | Received or gave |
+| 4 | Pick the Mehta family under **Family on the guest list** | 3.0 | "Guest list se family chuno." | Pick the family |
+| 5 | Type 5,100 in **Amount (₹)** | 3.5 | "Amount likho, jaise 5,100." | Type the amount |
+| 6 | Pick **Haldi** under **Function** | 3.0 | "Function chuno." | Pick the function |
+| 7 | Tap **Save entry** | 3.0 | "Phir Save entry pe tap karo." | Tap Save entry |
+| end | Show the new row in the list and the **Received** total | 7.7 | "Ho gaya. Ab entry list mein hai." | Done. Entry saved |
 
-### V-3-shagun-2 · How to see shagun by function or family · about 45 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
-
-| # | Robot does | Hold (s) | Voice says | Caption |
-|---|---|---|---|---|
-| 0 | Show a long mixed Shagun list | 4 | "Poori list dekhna mushkil hai. Family ke hisaab se dekho." | A long list |
-| 1 | Open **Shagun** | 3 | "Shagun kholo." | Open Shagun |
-| 2 | Tap **By function** under **Show** | 3 | "Show mein By function pe tap karo." | Tap By function |
-| 3 | Tap **By family** | 3 | "Ab By family pe tap karo. Har family ka total dikhega." | Tap By family |
-| 4 | Tap **Received** under **Direction** | 3 | "Direction mein Received chuno, sirf mile hue dikhenge." | Only received |
-| end | Show the filtered list | 3 | "Bas, saaf list mil gayi." | Done |
-
-### V-3-shagun-3 · How to thank someone · about 60 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-shagun-2 · How to see shagun by function or family · about 32 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Thank-yous to send** box with a number | 4 | "Kuch logon ko abhi thank-you bhejna baaki hai." | Thank-yous waiting |
-| 1 | Tap **Thank-yous** under **Show** | 3 | "Show mein Thank-yous pe tap karo." | Open Thank-yous |
-| 2 | Tap **Draft a message** on one family | 3 | "Draft a message pe tap karo." | Tap Draft a message |
-| 3 | Show the draft text | 4 | "Message padho aur apne shabd jodo." | Make it yours |
-| 4 | Tap **Copy message** | 3 | "Copy message pe tap karo." | Tap Copy message |
-| 5 | Show WhatsApp opening, paste, and the person pressing send | 4 | "Apne WhatsApp mein paste karo aur khud send karo." | You press send |
-| 6 | Back in Krama, tap **Mark thanked** | 3 | "Wapas aake Mark thanked dabao." | Tap Mark thanked |
-| end | Show the family marked **Thanked** | 3 | "Ho gaya. Ek thank-you kam." | Done. Thanked |
+| 0 | Show Home, before opening **Shagun** | 4.3 | "Poori list dekhna mushkil hai. Family ke hisaab se dekho." | A long list |
+| 1 | Tap **More**, then open **Shagun** | 5.8 | "More mein se Shagun kholo." | Open Shagun |
+| 2 | Tap **By function** under **Show** | 3.3 | "Show mein By function pe tap karo." | Tap By function |
+| 3 | Tap **By family** | 4.5 | "Ab By family pe tap karo. Har family ka total dikhega." | Tap By family |
+| 4 | Tap **Received** under **Direction** | 5.0 | "Direction mein Received chuno, sirf mile hue dikhenge." | Only received |
+| end | Show the filtered list | 3.0 | "Bas, saaf list mil gayi." | Done |
 
-### V-3-shagun-4 · How to export your shagun list · about 30 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-shagun-3 · How to thank someone · about 34 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Shagun screen | 3 | "Poori list spreadsheet mein chahiye?" | Need a spreadsheet? |
-| 1 | Open **Shagun** | 3 | "Shagun kholo." | Open Shagun |
-| 2 | Tap **Export CSV** | 3 | "Export CSV pe tap karo." | Tap Export CSV |
-| 3 | Show the file in downloads | 3 | "File download ho jayegi." | File downloads |
-| end | Show the file open in a spreadsheet app | 3 | "Ab spreadsheet mein khol lo." | Done |
+| 0 | Show the **Thank-yous to send** box with a number | 4.0 | "Kuch logon ko abhi thank-you bhejna baaki hai." | Thank-yous waiting |
+| 1 | Tap **Thank-yous** under **Show** | 3.4 | "Show mein Thank-yous pe tap karo." | Open Thank-yous |
+| 2 | Tap **Draft a message** on one family | 3.2 | "Draft a message pe tap karo." | Tap Draft a message |
+| 3 | Show the draft text | 4.0 | "Message padho aur apne shabd jodo." | Make it yours |
+| 4 | Tap **Copy message** | 3.0 | "Copy message pe tap karo." | Tap Copy message |
+| 5 | Point at **Mark thanked** (you press send in your own WhatsApp) | 4.0 | "Apne WhatsApp mein paste karo aur khud send karo." | You press send |
+| 6 | Back in Krama, tap **Mark thanked** | 3.0 | "Wapas aake Mark thanked dabao." | Tap Mark thanked |
+| end | Show **Thank-yous to send**, one fewer | 3.0 | "Ho gaya. Ek thank-you kam." | Done. Thanked |
+
+### V-3-shagun-4 · How to export your shagun list · about 27 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+
+| # | Robot does | Hold (s) | Voice says | Caption |
+|---|---|---|---|---|
+| 0 | Show Home, before opening **Shagun** | 3.0 | "Poori list spreadsheet mein chahiye?" | Need a spreadsheet? |
+| 1 | Tap **More**, then open **Shagun** | 7.1 | "More mein se Shagun kholo." | Open Shagun |
+| 2 | Tap **Export CSV** | 4.9 | "Export CSV pe tap karo." | Tap Export CSV |
+| 3 | Point at **Export CSV** while the file downloads | 3.0 | "File download ho jayegi." | File downloads |
+| end | Show the **Shagun** screen | 3.0 | "Ab spreadsheet mein khol lo." | Done |

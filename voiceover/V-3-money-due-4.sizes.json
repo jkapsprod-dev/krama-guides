@@ -1,0 +1,9 @@
+{
+  "about": "Lines for one size only. The note is written for a computer (desktop first). A phone has no Export button, so the phone take opens Money with More, then taps CSV on the Sides tab.",
+  "phone": {
+    "1": { "what": "Tap **More**, then **Money**", "voice": "More mein jaake Money kholo.", "caption": "Open Money" },
+    "2": { "what": "Tap the **Sides** tab", "voice": "Phone pe Export nahi hota. Sides tab kholo.", "caption": "Open the Sides tab" },
+    "3": { "what": "Tap **CSV** under a family", "voice": "CSV dabao, file download ho jaati hai.", "caption": "Tap CSV for the file" },
+    "4": { "what": "Show the **Money by side** card", "voice": "Excel mein har kharcha, kitna diya, kitna baaki, sab hai.", "caption": "Every expense in a sheet" }
+  }
+}

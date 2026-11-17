@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, planner, guest]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/photos/qr/page.tsx, app/w/[workspaceId]/photos/qr/qr-buttons.tsx, app/up/[token]/page.tsx, app/up/[token]/my-uploads.tsx, app/up/[token]/actions.ts]
 ---
@@ -54,41 +54,41 @@ code: [app/w/[workspaceId]/photos/qr/page.tsx, app/w/[workspaceId]/photos/qr/qr-
 
 ## Video scripts
 
-### V-3-upload-qr-1 · How to make a photo QR for guests · about 45 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-upload-qr-1 · How to make a photo QR for guests · about 36 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the Photos screen with few guest photos | 4 | "Guests ki photos chahiye? Ek QR kaafi hai." | Want guest photos? |
-| 1 | Open **Photos** | 3 | "Photos kholo." | Open Photos |
-| 2 | Tap **Upload QR** | 3 | "Upload QR pe tap karo." | Tap Upload QR |
-| 3 | Tap **Create the upload QR** | 3 | "Create the upload QR dabao." | Create the QR |
-| 4 | Show the QR, then tap **Print** | 4 | "QR dikhega. Print karke tables pe rakho." | Print it |
-| end | Show the printed page with "Scan to add your photos" | 3 | "Ho gaya. Ab guests photos daal sakte hain." | Done. QR is ready |
+| 0 | Show Home, before opening **Photos** | 4.1 | "Guests ki photos chahiye? Ek QR kaafi hai." | Want guest photos? |
+| 1 | Tap **More**, then open **Photos** | 10.6 | "More mein se Photos kholo." | Open Photos |
+| 2 | Tap **Upload QR** | 4.4 | "Upload QR pe tap karo." | Tap Upload QR |
+| 3 | Tap **Create the upload QR** | 3.0 | "Create the upload QR dabao." | Create the QR |
+| 4 | Show the QR, then tap **Print** | 4.4 | "QR dikhega. Print karke tables pe rakho." | Print it |
+| end | Show the QR on the page (it prints with "Scan to add your photos") | 3.7 | "Ho gaya. Ab guests photos daal sakte hain." | Done. QR is ready |
 
-### V-3-upload-qr-2 · How to switch it off or replace it · about 45 s · phone first
-Demo login: lane 3, couple (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-upload-qr-2 · How to switch it off or replace it · about 30 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the upload QR page | 3 | "QR galat jagah chala gaya? Ya ab band karna hai?" | QR in wrong hands? |
-| 1 | Open **Photos**, then tap **Upload QR** | 3 | "Photos mein Upload QR kholo." | Open Upload QR |
-| 2 | Tap **Switch off** | 3 | "Rokne ke liye Switch off dabao." | Tap Switch off |
-| 3 | Tap **Switch on** | 3 | "Dobara chalane ke liye Switch on." | Tap Switch on |
-| 4 | Tap **New QR** | 3 | "Naya QR banane ke liye New QR dabao." | Tap New QR |
-| 5 | Tap **New QR** in the question box | 3 | "Confirm karo. Purana QR band ho jayega." | Confirm |
-| end | Show the new QR | 3 | "Naya QR taiyaar hai." | Done. New QR ready |
+| 0 | Show the **Photos** screen | 3.8 | "QR galat jagah chala gaya? Ya ab band karna hai?" | QR in wrong hands? |
+| 1 | Tap **Upload QR** | 3.1 | "Photos mein Upload QR kholo." | Open Upload QR |
+| 2 | Tap **Switch off** | 3.0 | "Rokne ke liye Switch off dabao." | Tap Switch off |
+| 3 | Tap **Switch on** | 3.0 | "Dobara chalane ke liye Switch on." | Tap Switch on |
+| 4 | Tap **New QR** | 3.3 | "Naya QR banane ke liye New QR dabao." | Tap New QR |
+| 5 | Tap **New QR** in the question box | 3.9 | "Confirm karo. Purana QR band ho jayega." | Confirm |
+| end | Show the new QR | 3.0 | "Naya QR taiyaar hai." | Done. New QR ready |
 
-### V-3-upload-qr-3 · How a guest adds photos with the QR · about 60 s · phone first
+### V-3-upload-qr-3 · How a guest adds photos with the QR · about 33 s · phone first
 Demo login: lane 3, guest (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show a table card with the QR | 4 | "Aapke paas shaadi ki photos hain? Family ko bhej do." | Share your photos |
-| 1 | Open the upload link from the QR | 3 | "QR scan karo ya link kholo." | Scan the QR |
-| 2 | Type a name in **Your name (optional)** | 3 | "Chaho to apna naam likho." | Add your name |
-| 3 | Pick **Sangeet** under **Album** | 3 | "Album mein function chuno." | Pick the function |
-| 4 | Tap **Add photos** and choose three photos | 4 | "Add photos pe tap karo aur photos chuno." | Tap Add photos |
-| 5 | Show "3 photos added" | 3 | "Photos upload ho gayi." | Photos added |
-| 6 | Show the thumbnails under **Your photos** | 3 | "Aapki photos yahan dikhti hain." | Your photos |
-| end | Show the full page | 3 | "Bas, family ke paas photos pahunch gayi." | Done. Thank you |
+| 0 | Show the upload page the QR opens | 4.3 | "Aapke paas shaadi ki photos hain? Family ko bhej do." | Share your photos |
+| 1 | Point at the page title | 3.0 | "QR scan karo ya link kholo." | Scan the QR |
+| 2 | Type a name in **Your name (optional)** | 3.0 | "Chaho to apna naam likho." | Add your name |
+| 3 | Pick **Sangeet** under **Album** | 3.0 | "Album mein function chuno." | Pick the function |
+| 4 | Tap **Add photos** and choose three photos | 4.0 | "Add photos pe tap karo aur photos chuno." | Tap Add photos |
+| 5 | Show "3 photos added" | 3.0 | "Photos upload ho gayi." | Photos added |
+| 6 | Show the thumbnails under **Your photos** | 3.0 | "Aapki photos yahan dikhti hain." | Your photos |
+| end | Show the full page | 3.5 | "Bas, family ke paas photos pahunch gayi." | Done. Thank you |

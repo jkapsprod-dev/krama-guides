@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/w/[workspaceId]/settings/helpers/page.tsx, app/w/[workspaceId]/settings/helpers/helper-form.tsx, app/w/[workspaceId]/settings/helpers/actions.ts, lib/helpers/flags.ts, lib/helpers/availability.ts]
 ---
@@ -41,15 +41,15 @@ code: [app/w/[workspaceId]/settings/helpers/page.tsx, app/w/[workspaceId]/settin
 
 ## Video scripts
 
-### V-3-smart-helpers-1 · How to switch a smart helper on or off · about 45 s · phone first
+### V-3-smart-helpers-1 · How to switch a smart helper on or off · about 39 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the **Add an expense** page | 4 | Kuch helpers apne aap on hain, aur kuch band. Aap chun sakte ho. | Some helpers are on, some off |
-| 1 | Open **More**, then **Settings** | 3 | More kholo, phir Settings. | Open More, then Settings |
-| 2 | Tap **Smart helpers** | 3 | Smart helpers pe tap karo. | Tap Smart helpers |
-| 3 | Point at the hint lines under each helper | 5 | Har helper ke neeche likha hai ki woh kya bhejta hai. | Each helper says what it sends |
-| 4 | Tick **Snap a bill**, untick **Gold price on the jewellery budget line** | 5 | Jo chahiye use tick karo, jo nahi chahiye use hata do. | Tick what you want |
-| 5 | Tap **Save**, show **Saved.** | 4 | Save pe tap karo. | Tap Save |
-| end | Show the saved list | 3 | Bas. Aapki pasand save ho gayi. | Your choices are saved |
+| 0 | Show the **Add an expense** page | 5.1 | Kuch helpers apne aap on hain, aur kuch band. Aap chun sakte ho. | Some helpers are on, some off |
+| 1 | Open **More**, then **Settings** | 6.1 | More kholo, phir Settings. | Open More, then Settings |
+| 2 | Tap **Smart helpers** | 3.0 | Smart helpers pe tap karo. | Tap Smart helpers |
+| 3 | Point at the hint lines under each helper | 5.0 | Har helper ke neeche likha hai ki woh kya bhejta hai. | Each helper says what it sends |
+| 4 | Tick **Snap a bill**, untick **Gold price on the jewellery budget line** | 5.0 | Jo chahiye use tick karo, jo nahi chahiye use hata do. | Tick what you want |
+| 5 | Tap **Save**, show **Saved.** | 4.5 | Save pe tap karo. | Tap Save |
+| end | Show the saved list | 3.0 | Bas. Aapki pasand save ho gayi. | Your choices are saved |

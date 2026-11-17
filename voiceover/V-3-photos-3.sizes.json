@@ -1,0 +1,10 @@
+{
+  "about": "The note is written for a computer (desktop first). On a phone, Photos sits under More.",
+  "phone": {
+    "1": {
+      "what": "Tap **More**, then open **Photos**",
+      "voice": "More mein se Photos kholo.",
+      "caption": "Open Photos"
+    }
+  }
+}

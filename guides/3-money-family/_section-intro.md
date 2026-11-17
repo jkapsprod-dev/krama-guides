@@ -2,23 +2,18 @@
 tags: [guide, section-intro]
 lane: 3
 folder: 3-money-family
-video: script
+section: Money & family
+video: made
 ---
 # Section intro · Money & family
 
-For the 6-second animated intro that opens this section's videos. Phone first. The line is on screen as a title and a subtitle, and the voice says the Hinglish line once.
+Used for the 6-second animated intro that opens each video in this section. Section name follows [[README]] and `app\design\NAVIGATION.md`. The voiceover language is Hinglish ([[DECISIONS]]).
 
-| | English | Voiceover language (Hinglish) |
+| | English | Hinglish (voiceover) |
 |---|---|---|
-| Section name | Money & family | Money aur family |
-| One short line | Every rupee, gift and photo, in one place. | Har kharcha, har shagun aur har photo, ek hi jagah. |
+| **Section name (on screen)** | Money & family | Money & family |
+| **One short line (on screen)** | Every rupee, gift and photo, in one place. | Har kharcha, har shagun aur har photo, ek hi jagah. |
+| **Voice says** | | Money aur family. Har kharcha, har shagun aur har photo, ek hi jagah. |
 
-## Timing
-
-| Seconds | On screen | Voice says (Hinglish) |
-|---|---|---|
-| 0 to 2 | Gold thread draws in. Title appears: **Money & family** | "Money aur family." |
-| 2 to 5 | Subtitle fades in: Every rupee, gift and photo, in one place. | "Har kharcha, har shagun aur har photo, ek hi jagah." |
-| 5 to 6 | Title fades out, ready for the first video | |
-
-Note for the video maker: use the Krama look from the launch film. Do not show prices. Do not show any real names or amounts.
+**Timing:** name appears at 0.5 s, the line at 2 s, both hold to 6 s (a little longer if the voice needs it).
+**Notes:** the section name stays in English in both languages, because it is the name on the screen. No prices, no real names or amounts, no dashes and no exclamation marks. Phone first.

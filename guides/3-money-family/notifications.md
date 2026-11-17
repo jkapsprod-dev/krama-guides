@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [app/app/w/[workspaceId]/notifications/page.tsx, app/app/w/[workspaceId]/notifications/inbox-actions.tsx, app/app/w/[workspaceId]/notifications/reminders/reminder-form.tsx, app/app/w/[workspaceId]/notifications/settings/preferences-form.tsx, app/app/w/[workspaceId]/notifications/settings/brief-form.tsx, app/email/stop/[token]/page.tsx, components/notification-sheet.tsx]
 ---
@@ -74,56 +74,56 @@ code: [app/app/w/[workspaceId]/notifications/page.tsx, app/app/w/[workspaceId]/n
 
 ## Video scripts
 
-### V-3-notifications-1 · How to read and clear your notices · about 40 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-notifications-1 · How to read and clear your notices · about 36 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show Home with a number on the bell | 4 | Bahut saari updates aati hain, aur sab kuch dhundhna mushkil lagta hai. |  |
-| 1 | Tap the bell at the top | 3 | Upar bell pe tap karo. | Tap the bell |
-| 2 | Tap the first notice, "Haldi now starts..." | 4 | Kisi bhi notice pe tap karo, wo seedha sahi page khol dega. | Tap a notice |
-| 3 | Go back, open the bell again, tap **Mark all read** | 4 | Ab **Mark all read** pe tap karo. | Tap Mark all read |
-| 4 | Tap **See all notifications** | 3 | Poori list ke liye **See all notifications** dabao. | See all notifications |
-| 5 | In **Inbox**, tap **Clear read**, then **Clear** | 4 | **Clear read** aur phir **Clear**, purane notice hat jayenge. | Clear read notices |
-| end | Show the empty Inbox "You're all caught up." | 3 | Bas, sab saaf hai. | All caught up |
+| 0 | Show Home with a number on the bell | 4.7 | Bahut saari updates aati hain, aur sab kuch dhundhna mushkil lagta hai. |  |
+| 1 | Tap the bell at the top | 3.0 | Upar bell pe tap karo. | Tap the bell |
+| 2 | Tap the first notice | 4.5 | Kisi bhi notice pe tap karo, wo seedha sahi page khol dega. | Tap a notice |
+| 3 | Go back, open the bell again, tap **Mark all read** | 6.8 | Ab **Mark all read** pe tap karo. | Tap Mark all read |
+| 4 | Tap **See all notifications** | 3.3 | Poori list ke liye **See all notifications** dabao. | See all notifications |
+| 5 | In **Inbox**, tap **Clear read**, then **Clear** | 4.0 | **Clear read** aur phir **Clear**, purane notice hat jayenge. | Clear read notices |
+| end | Show the empty Inbox "You're all caught up." | 3.0 | Bas, sab saaf hai. | All caught up |
 
-### V-3-notifications-2 · How to set a reminder for yourself · about 50 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
-
-| # | Robot does | Hold (s) | Voice says | Caption |
-|---|---|---|---|---|
-| 0 | Show Tasks with the caterer call not noted anywhere | 4 | Caterer ko call karna hai, par yaad kaun rakhega? |  |
-| 1 | Tap the (+) button, then **Remind me** | 3 | Plus button dabao, phir **Remind me**. | Tap Remind me |
-| 2 | Type "Call the caterer about the menu" in **What should we remind you about?** | 4 | Yahan likho, kis baat ki yaad dilani hai. | Type your note |
-| 3 | Pick tomorrow in **Date** | 3 | **Date** chuno. | Pick the date |
-| 4 | Set **Time** to 10:00 | 3 | Aur **Time** chuno. | Pick the time |
-| 5 | Tap **Add reminder** | 3 | Phir **Add reminder** dabao. | Tap Add reminder |
-| end | Show the reminder under **Coming up** | 3 | Reminder **Coming up** mein dikh raha hai. Sirf aapko dikhega. | Only you see it |
-
-### V-3-notifications-3 · How to choose what you're told about · about 45 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-notifications-2 · How to set a reminder for yourself · about 33 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show an Inbox full of notices | 4 | Itne saare notice aate hain, kuch kam bhi ho sakte hain. |  |
-| 1 | Open **More**, tap **Notifications** | 3 | **More** mein **Notifications** kholo. | Open Notifications |
-| 2 | Tap the **Settings** tab | 3 | **Settings** tab pe tap karo. | Tap Settings |
-| 3 | Untick "Replies to functions I'm in charge of" | 4 | Jo notice nahi chahiye, uska tick hata do. | Untick what you skip |
-| 4 | Tap **Save** | 3 | Phir **Save** dabao. | Tap Save |
-| end | Show "Saved." | 3 | Ho gaya. Ab sirf kaam ki baatein aayengi. | Saved |
+| 0 | Show **Tasks** | 4.0 | Caterer ko call karna hai, par yaad kaun rakhega? |  |
+| 1 | Tap the (+) button, then **Remind me** | 4.4 | Plus button dabao, phir **Remind me**. | Tap Remind me |
+| 2 | Type "Call the caterer about the menu" in **What should we remind you about?** | 5.4 | Yahan likho, kis baat ki yaad dilani hai. | Type your note |
+| 3 | Pick tomorrow in **Date** | 3.0 | **Date** chuno. | Pick the date |
+| 4 | Set **Time** to 10:00 | 3.0 | Aur **Time** chuno. | Pick the time |
+| 5 | Tap **Add reminder** | 3.0 | Phir **Add reminder** dabao. | Tap Add reminder |
+| end | Show the reminder under **Coming up** | 4.4 | Reminder **Coming up** mein dikh raha hai. Sirf aapko dikhega. | Only you see it |
 
-### V-3-notifications-4 · How to get the morning email, then stop the morning email · about 40 s · phone first
-Demo login: lane 3, family (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
+### V-3-notifications-3 · How to choose what you're told about · about 38 s · phone first
+Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show Home with several tasks due | 4 | Roz subah app kholna bhool jaate ho? Email mein sab mil sakta hai. |  |
-| 1 | Open **More**, tap **Notifications**, tap **Settings** | 3 | **Notifications** mein **Settings** kholo. | Open Settings |
-| 2 | Scroll to the card **Email** | 3 | **Email** wale card tak scroll karo. | Find the Email card |
-| 3 | Pick **Every morning at 8:00** | 3 | **Every morning at 8:00** chuno. | Every morning at 8:00 |
-| 4 | Tap **Save** | 3 | Aur **Save** dabao. | Tap Save |
-| 5 | Show "Saved." | 3 | Ab subah 8 baje email aayega. | Saved |
-| 6 | Scroll to the bottom of the email | 3 | Email ke neeche jao. | Go to the bottom |
-| 7 | Tap the stop link | 3 | Stop link pe tap karo. | Tap the stop link |
-| 8 | Tap **Stop the morning brief** | 4 | Phir **Stop the morning brief** dabao. | Tap Stop the morning brief |
-| end | Show "Stopped" | 3 | Bas, email band ho gaya. | Stopped |
+| 0 | Show Home, before opening **Notifications** | 4.1 | Itne saare notice aate hain, kuch kam bhi ho sakte hain. |  |
+| 1 | Tap **More**, then **Notifications** | 10.6 | **More** mein **Notifications** kholo. | Open Notifications |
+| 2 | Tap the **Settings** tab | 3.0 | **Settings** tab pe tap karo. | Tap Settings |
+| 3 | Untick "Replies to functions I'm in charge of" | 4.0 | Jo notice nahi chahiye, uska tick hata do. | Untick what you skip |
+| 4 | Tap **Save** | 3.0 | Phir **Save** dabao. | Tap Save |
+| end | Show "Saved." | 6.2 | Ho gaya. Ab sirf kaam ki baatein aayengi. | Saved |
+
+### V-3-notifications-4 · How to get the morning email, then stop the morning email · about 45 s · phone first
+Demo login: lane 3, host (Appendix E). The demo app sends no email, so this video stops the email with **Off** on the same card. The written guide also covers the stop link inside the email. "Voice says" is in the voiceover language from DECISIONS.md.
+
+| # | Robot does | Hold (s) | Voice says | Caption |
+|---|---|---|---|---|
+| 0 | Show Home, before opening **Notifications** | 4.8 | "Roz subah app kholna bhool jaate ho? Email mein sab mil sakta hai." |  |
+| 1 | Tap **More**, then **Notifications**, then the **Settings** tab | 8.6 | "**Notifications** mein **Settings** kholo." | Open Settings |
+| 2 | Point at the **Every morning at 8:00** choice in the **Email** card | 3.0 | "**Email** wale card tak scroll karo." | Find the Email card |
+| 3 | Pick **Every morning at 8:00** | 3.6 | "**Every morning at 8:00** chuno." | Every morning at 8:00 |
+| 4 | Tap **Save** in the **Email** card | 3.0 | "Aur **Save** dabao." | Tap Save |
+| 5 | Show **Saved.** | 3.0 | "Ab subah 8 baje email aayega." | Saved |
+| 6 | Point at the **Off** choice | 3.0 | "Band karna ho to **Off** chuno." | To stop it, pick Off |
+| 7 | Pick **Off** | 3.0 | "**Off** pe tap karo." | Pick Off |
+| 8 | Tap **Save** in the **Email** card | 3.0 | "Phir **Save** dabao." | Tap Save |
+| end | Show **Saved.** | 3.0 | "Bas, email band ho gaya." | Stopped |

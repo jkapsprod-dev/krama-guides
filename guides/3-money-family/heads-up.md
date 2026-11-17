@@ -2,9 +2,9 @@
 tags: [guide]
 lane: 3
 who: [couple, family, helper, planner]
-status: draft
-checked: no
-video: script
+status: final
+checked: 2026-11-17
+video: made
 internal: false
 code: [components/helpers/heads-up.tsx, lib/helpers/heads-up.ts, lib/helpers/weather.ts, lib/helpers/festivals.ts, lib/helpers/data/holidays-in.ts, app/w/[workspaceId]/events/event-form.tsx]
 ---
@@ -49,27 +49,27 @@ code: [components/helpers/heads-up.tsx, lib/helpers/heads-up.ts, lib/helpers/wea
 
 ## Video scripts
 
-### V-3-heads-up-1 · How to get weather alerts for an open-air function · about 50 s · phone first
+### V-3-heads-up-1 · How to get weather alerts for an open-air function · about 53 s · phone first
 Demo login: lane 3, host (Appendix E). "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show the mehndi function page | 4 | Mehndi lawn mein hai. Baarish ho gayi to? | Mehndi is on an open lawn |
-| 1 | Open **Functions**, tap the mehndi | 3 | Functions kholo, phir mehndi pe tap karo. | Open the function |
-| 2 | Tap **Edit details** | 3 | Edit details pe tap karo. | Tap Edit details |
-| 3 | Tick **Open-air function** | 3 | Open-air function ko tick karo. | Tick Open-air function |
-| 4 | Choose Ahmedabad under **City for the forecast** | 4 | City for the forecast mein Ahmedabad chuno. | Choose the city |
-| 5 | Tap **Save** | 3 | Save pe tap karo. | Tap Save |
-| end | Show the function page | 3 | Ab mausam ka khatra ho to Krama pehle bata dega. | Krama warns you early |
+| 0 | Show the **Functions** list | 4.0 | Mehndi lawn mein hai. Baarish ho gayi to? | Mehndi is on an open lawn |
+| 1 | Tap **Open Mehendi** | 3.0 | Mehndi pe tap karo. | Open the function |
+| 2 | Tap **Edit details** | 8.4 | Edit details pe tap karo. | Tap Edit details |
+| 3 | Tick **Open-air function** | 11.3 | Open-air function ko tick karo. | Tick Open-air function |
+| 4 | Choose Ahmedabad under **City for the forecast** | 4.0 | City for the forecast mein Ahmedabad chuno. | Choose the city |
+| 5 | Tap **Save** | 12.9 | Save pe tap karo. | Tap Save |
+| end | Show the function page | 3.5 | Ab mausam ka khatra ho to Krama pehle bata dega. | Krama warns you early |
 
-### V-3-heads-up-2 · How to read a festival or long-weekend warning · about 45 s · phone first
+### V-3-heads-up-2 · How to read a festival or long-weekend warning · about 32 s · phone first
 Demo login: lane 3, host (Appendix E). A demo function date is set next to a 2026 holiday so the card shows. "Voice says" is in the voiceover language from DECISIONS.md.
 
 | # | Robot does | Hold (s) | Voice says | Caption |
 |---|---|---|---|---|
-| 0 | Show Home | 4 | Shaadi ki date ke paas koi tyohaar to nahi? | Any festival near your date? |
-| 1 | Open **Home**, scroll to the **Heads-up** card | 4 | Home par Heads-up card dekho. | Find the Heads-up card |
-| 2 | Zoom on one festival line | 5 | Yahan likha hai kaunsa function, kaunsi date, aur kaunsa tyohaar. | Function, date and festival |
-| 3 | Tap **Open function** | 3 | Open function pe tap karo. | Tap Open function |
-| 4 | Show the same card on the function page | 4 | Function ke page par bhi yahi card milta hai. | The card is here too |
-| end | Show the function page | 3 | Ab family se date par baat kar lo. | Now talk to your family |
+| 0 | Show Home | 4.0 | Shaadi ki date ke paas koi tyohaar to nahi? | Any festival near your date? |
+| 1 | Scroll to the **Heads-up** card | 4.0 | Home par Heads-up card dekho. | Find the Heads-up card |
+| 2 | Point at one festival line | 5.1 | Yahan likha hai kaunsa function, kaunsi date, aur kaunsa tyohaar. | Function, date and festival |
+| 3 | Tap **Open function** | 3.0 | Open function pe tap karo. | Tap Open function |
+| 4 | Show the same card on the function page | 5.2 | Function ke page par bhi yahi card milta hai. | The card is here too |
+| end | Show the function page | 3.8 | Ab family se date par baat kar lo. | Now talk to your family |
